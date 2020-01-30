@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { IconFace } from "@happeokit/icons";
 import TetherComponent from "react-tether";
 import styled from "styled-components";
+import { Picker } from "emoji-mart";
+
 import {
   lighten,
   active,
@@ -14,15 +16,14 @@ import {
 } from "@happeokit/colors";
 import { trackEvent, events } from "@universe/analytics";
 import { shadow500 } from "@happeokit/theme";
-import { Picker } from "emoji-mart";
-import "emoji-mart/css/emoji-mart.css";
-import messages from "./messages";
-import { injectIntl } from "react-intl";
-import categoryIcons from "./categoryIcons";
 import { IconButton } from "@happeokit/buttons";
 import { sansFamily } from "@happeokit/typography";
 
-const EmojiPicker = ({ onSelected, intl, customEmojis = [] }) => {
+import categoryIcons from "./categoryIcons";
+
+import "emoji-mart/css/emoji-mart.css";
+
+const EmojiPicker = ({ onSelected, pickerTitle, customEmojis = [] }) => {
   const [isOpen, setIsOpen] = useState(false);
   const wrapperRef = useRef(null);
 
@@ -80,7 +81,7 @@ const EmojiPicker = ({ onSelected, intl, customEmojis = [] }) => {
               perLine={8}
               onSelect={selectEmoji}
               emoji="point_up_2"
-              title={intl.formatMessage(messages.pickYourEmoji)}
+              title={pickerTitle || "Pick your emoji..."}
               icons={categoryIcons}
               color={active}
               style={{ width: "324px" }}
@@ -175,4 +176,4 @@ EmojiPicker.propTypes = {
   onSelected: PropTypes.func.isRequired
 };
 
-export default injectIntl(EmojiPicker);
+export default EmojiPicker;

@@ -6,11 +6,9 @@ import {
   shortnameConversionMap,
   convertEmojioneBugMap
 } from "./rawList";
-import { sortBy } from "lodash";
+import sortBy from "lodash.sortby";
 
 let allEmojis = [];
-
-
 
 function _replaceAll(string, find) {
   var escapedFind = _escapeRegExp(find); //sorted largest output to smallest output
@@ -22,7 +20,6 @@ function _replaceAll(string, find) {
   );
 
   // callback prevents replacing anything inside of these common html tags as well as between an <object></object> tag
-
   const replace = (entire, m1) => {
     return typeof m1 === "undefined" || m1 === ""
       ? entire
@@ -53,7 +50,7 @@ const removeEmojis = string => {
   var allEmojis = _escapeRegExp(unicodeCharRegex);
   var regex = new RegExp(allEmojis, "gi");
   return string.replace(regex, "");
-}
+};
 
 /**
  * @name emojisToShort
@@ -87,7 +84,7 @@ const shortToUnicode = str => {
     return convert(unicode);
   });
   return str;
-}
+};
 
 /**
  * @name fixEmojioneBug
@@ -102,7 +99,7 @@ const fixEmojioneBug = content => {
     content = content.replace(regex, fix[1]);
   });
   return content;
-}
+};
 
 /**
  * @name listAllEmojis
@@ -127,7 +124,7 @@ const listAllEmojis = () => {
   }
   allEmojis = sortBy(allEmojis, "name");
   return allEmojis;
-}
+};
 
 export {
   shortToUnicode,

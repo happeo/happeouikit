@@ -1,8 +1,5 @@
 import React from "react";
-import { 
-  shortToUnicode,
-  emojisToShort,
-  removeEmojis } from "./Emojis";
+import { shortToUnicode, emojisToShort, removeEmojis } from "./Emojis";
 
 const EmojiExample = () => {
   const text = "This is emoji with short hand :smile: converted to unicode";
@@ -14,7 +11,7 @@ const EmojiExample = () => {
   const text3 = "This is 😄 has emojis 😄 and they will be removed 😄";
   const renderText3 = removeEmojis(text3);
   return (
-    <div>      
+    <div>
       <p>{renderText}</p>
       <p>{renderText2}</p>
       <p>{renderText3}</p>

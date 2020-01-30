@@ -1,13439 +1,13440 @@
 const emojiList = {
-":kiss_mm:": {
+  ":kiss_mm:": {
     uc_output: "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468",
     shortnames: [":couplekiss_mm:"],
     category: "people"
-},
-":kiss_woman_man:": {
+  },
+  ":kiss_woman_man:": {
     uc_output: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468",
     shortnames: [],
     category: "people"
-},
-":kiss_ww:": {
+  },
+  ":kiss_ww:": {
     uc_output: "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469",
     shortnames: [":couplekiss_ww:"],
     category: "people"
-},
-":england:": {
+  },
+  ":england:": {
     uc_output: "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
     shortnames: [],
     category: "flags"
-},
-":scotland:": {
+  },
+  ":scotland:": {
     uc_output: "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
     shortnames: [],
     category: "flags"
-},
-":wales:": {
+  },
+  ":wales:": {
     uc_output: "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
     shortnames: [],
     category: "flags"
-},
-":family_mmbb:": {
+  },
+  ":family_mmbb:": {
     uc_output: "1f468-200d-1f468-200d-1f466-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mmgb:": {
+  },
+  ":family_mmgb:": {
     uc_output: "1f468-200d-1f468-200d-1f467-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mmgg:": {
+  },
+  ":family_mmgg:": {
     uc_output: "1f468-200d-1f468-200d-1f467-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_mwbb:": {
+  },
+  ":family_mwbb:": {
     uc_output: "1f468-200d-1f469-200d-1f466-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mwgb:": {
+  },
+  ":family_mwgb:": {
     uc_output: "1f468-200d-1f469-200d-1f467-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mwgg:": {
+  },
+  ":family_mwgg:": {
     uc_output: "1f468-200d-1f469-200d-1f467-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_wwbb:": {
+  },
+  ":family_wwbb:": {
     uc_output: "1f469-200d-1f469-200d-1f466-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_wwgb:": {
+  },
+  ":family_wwgb:": {
     uc_output: "1f469-200d-1f469-200d-1f467-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_wwgg:": {
+  },
+  ":family_wwgg:": {
     uc_output: "1f469-200d-1f469-200d-1f467-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":couple_mm:": {
+  },
+  ":couple_mm:": {
     uc_output: "1f468-200d-2764-fe0f-200d-1f468",
     shortnames: [":couple_with_heart_mm:"],
     category: "people"
-},
-":couple_with_heart_woman_man:": {
+  },
+  ":couple_with_heart_woman_man:": {
     uc_output: "1f469-200d-2764-fe0f-200d-1f468",
     shortnames: [],
     category: "people"
-},
-":couple_ww:": {
+  },
+  ":couple_ww:": {
     uc_output: "1f469-200d-2764-fe0f-200d-1f469",
     shortnames: [":couple_with_heart_ww:"],
     category: "people"
-},
-":family_man_boy_boy:": {
+  },
+  ":family_man_boy_boy:": {
     uc_output: "1f468-200d-1f466-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_man_girl_boy:": {
+  },
+  ":family_man_girl_boy:": {
     uc_output: "1f468-200d-1f467-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_man_girl_girl:": {
+  },
+  ":family_man_girl_girl:": {
     uc_output: "1f468-200d-1f467-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_man_woman_boy:": {
+  },
+  ":family_man_woman_boy:": {
     uc_output: "1f468-200d-1f469-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mmb:": {
+  },
+  ":family_mmb:": {
     uc_output: "1f468-200d-1f468-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_mmg:": {
+  },
+  ":family_mmg:": {
     uc_output: "1f468-200d-1f468-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_mwg:": {
+  },
+  ":family_mwg:": {
     uc_output: "1f468-200d-1f469-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_woman_boy_boy:": {
+  },
+  ":family_woman_boy_boy:": {
     uc_output: "1f469-200d-1f466-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_woman_girl_boy:": {
+  },
+  ":family_woman_girl_boy:": {
     uc_output: "1f469-200d-1f467-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_woman_girl_girl:": {
+  },
+  ":family_woman_girl_girl:": {
     uc_output: "1f469-200d-1f467-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_wwb:": {
+  },
+  ":family_wwb:": {
     uc_output: "1f469-200d-1f469-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_wwg:": {
+  },
+  ":family_wwg:": {
     uc_output: "1f469-200d-1f469-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":blond-haired_man_tone1:": {
+  },
+  ":blond-haired_man_tone1:": {
     uc_output: "1f471-1f3fb-200d-2642-fe0f",
     shortnames: [":blond-haired_man_light_skin_tone:"],
     category: "people"
-},
-":blond-haired_man_tone2:": {
+  },
+  ":blond-haired_man_tone2:": {
     uc_output: "1f471-1f3fc-200d-2642-fe0f",
     shortnames: [":blond-haired_man_medium_light_skin_tone:"],
     category: "people"
-},
-":blond-haired_man_tone3:": {
+  },
+  ":blond-haired_man_tone3:": {
     uc_output: "1f471-1f3fd-200d-2642-fe0f",
     shortnames: [":blond-haired_man_medium_skin_tone:"],
     category: "people"
-},
-":blond-haired_man_tone4:": {
+  },
+  ":blond-haired_man_tone4:": {
     uc_output: "1f471-1f3fe-200d-2642-fe0f",
     shortnames: [":blond-haired_man_medium_dark_skin_tone:"],
     category: "people"
-},
-":blond-haired_man_tone5:": {
+  },
+  ":blond-haired_man_tone5:": {
     uc_output: "1f471-1f3ff-200d-2642-fe0f",
     shortnames: [":blond-haired_man_dark_skin_tone:"],
     category: "people"
-},
-":blond-haired_woman_tone1:": {
+  },
+  ":blond-haired_woman_tone1:": {
     uc_output: "1f471-1f3fb-200d-2640-fe0f",
     shortnames: [":blond-haired_woman_light_skin_tone:"],
     category: "people"
-},
-":blond-haired_woman_tone2:": {
+  },
+  ":blond-haired_woman_tone2:": {
     uc_output: "1f471-1f3fc-200d-2640-fe0f",
     shortnames: [":blond-haired_woman_medium_light_skin_tone:"],
     category: "people"
-},
-":blond-haired_woman_tone3:": {
+  },
+  ":blond-haired_woman_tone3:": {
     uc_output: "1f471-1f3fd-200d-2640-fe0f",
     shortnames: [":blond-haired_woman_medium_skin_tone:"],
     category: "people"
-},
-":blond-haired_woman_tone4:": {
+  },
+  ":blond-haired_woman_tone4:": {
     uc_output: "1f471-1f3fe-200d-2640-fe0f",
     shortnames: [":blond-haired_woman_medium_dark_skin_tone:"],
     category: "people"
-},
-":blond-haired_woman_tone5:": {
+  },
+  ":blond-haired_woman_tone5:": {
     uc_output: "1f471-1f3ff-200d-2640-fe0f",
     shortnames: [":blond-haired_woman_dark_skin_tone:"],
     category: "people"
-},
-":eye_in_speech_bubble:": {
+  },
+  ":eye_in_speech_bubble:": {
     uc_output: "1f441-fe0f-200d-1f5e8-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":man_biking_tone1:": {
+  },
+  ":man_biking_tone1:": {
     uc_output: "1f6b4-1f3fb-200d-2642-fe0f",
     shortnames: [":man_biking_light_skin_tone:"],
     category: "activity"
-},
-":man_biking_tone2:": {
+  },
+  ":man_biking_tone2:": {
     uc_output: "1f6b4-1f3fc-200d-2642-fe0f",
     shortnames: [":man_biking_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_biking_tone3:": {
+  },
+  ":man_biking_tone3:": {
     uc_output: "1f6b4-1f3fd-200d-2642-fe0f",
     shortnames: [":man_biking_medium_skin_tone:"],
     category: "activity"
-},
-":man_biking_tone4:": {
+  },
+  ":man_biking_tone4:": {
     uc_output: "1f6b4-1f3fe-200d-2642-fe0f",
     shortnames: [":man_biking_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_biking_tone5:": {
+  },
+  ":man_biking_tone5:": {
     uc_output: "1f6b4-1f3ff-200d-2642-fe0f",
     shortnames: [":man_biking_dark_skin_tone:"],
     category: "activity"
-},
-":man_bowing_tone1:": {
+  },
+  ":man_bowing_tone1:": {
     uc_output: "1f647-1f3fb-200d-2642-fe0f",
     shortnames: [":man_bowing_light_skin_tone:"],
     category: "people"
-},
-":man_bowing_tone2:": {
+  },
+  ":man_bowing_tone2:": {
     uc_output: "1f647-1f3fc-200d-2642-fe0f",
     shortnames: [":man_bowing_medium_light_skin_tone:"],
     category: "people"
-},
-":man_bowing_tone3:": {
+  },
+  ":man_bowing_tone3:": {
     uc_output: "1f647-1f3fd-200d-2642-fe0f",
     shortnames: [":man_bowing_medium_skin_tone:"],
     category: "people"
-},
-":man_bowing_tone4:": {
+  },
+  ":man_bowing_tone4:": {
     uc_output: "1f647-1f3fe-200d-2642-fe0f",
     shortnames: [":man_bowing_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_bowing_tone5:": {
+  },
+  ":man_bowing_tone5:": {
     uc_output: "1f647-1f3ff-200d-2642-fe0f",
     shortnames: [":man_bowing_dark_skin_tone:"],
     category: "people"
-},
-":man_cartwheeling_tone1:": {
+  },
+  ":man_cartwheeling_tone1:": {
     uc_output: "1f938-1f3fb-200d-2642-fe0f",
     shortnames: [":man_cartwheeling_light_skin_tone:"],
     category: "activity"
-},
-":man_cartwheeling_tone2:": {
+  },
+  ":man_cartwheeling_tone2:": {
     uc_output: "1f938-1f3fc-200d-2642-fe0f",
     shortnames: [":man_cartwheeling_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_cartwheeling_tone3:": {
+  },
+  ":man_cartwheeling_tone3:": {
     uc_output: "1f938-1f3fd-200d-2642-fe0f",
     shortnames: [":man_cartwheeling_medium_skin_tone:"],
     category: "activity"
-},
-":man_cartwheeling_tone4:": {
+  },
+  ":man_cartwheeling_tone4:": {
     uc_output: "1f938-1f3fe-200d-2642-fe0f",
     shortnames: [":man_cartwheeling_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_cartwheeling_tone5:": {
+  },
+  ":man_cartwheeling_tone5:": {
     uc_output: "1f938-1f3ff-200d-2642-fe0f",
     shortnames: [":man_cartwheeling_dark_skin_tone:"],
     category: "activity"
-},
-":man_climbing_tone1:": {
+  },
+  ":man_climbing_tone1:": {
     uc_output: "1f9d7-1f3fb-200d-2642-fe0f",
     shortnames: [":man_climbing_light_skin_tone:"],
     category: "activity"
-},
-":man_climbing_tone2:": {
+  },
+  ":man_climbing_tone2:": {
     uc_output: "1f9d7-1f3fc-200d-2642-fe0f",
     shortnames: [":man_climbing_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_climbing_tone3:": {
+  },
+  ":man_climbing_tone3:": {
     uc_output: "1f9d7-1f3fd-200d-2642-fe0f",
     shortnames: [":man_climbing_medium_skin_tone:"],
     category: "activity"
-},
-":man_climbing_tone4:": {
+  },
+  ":man_climbing_tone4:": {
     uc_output: "1f9d7-1f3fe-200d-2642-fe0f",
     shortnames: [":man_climbing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_climbing_tone5:": {
+  },
+  ":man_climbing_tone5:": {
     uc_output: "1f9d7-1f3ff-200d-2642-fe0f",
     shortnames: [":man_climbing_dark_skin_tone:"],
     category: "activity"
-},
-":man_construction_worker_tone1:": {
+  },
+  ":man_construction_worker_tone1:": {
     uc_output: "1f477-1f3fb-200d-2642-fe0f",
     shortnames: [":man_construction_worker_light_skin_tone:"],
     category: "people"
-},
-":man_construction_worker_tone2:": {
+  },
+  ":man_construction_worker_tone2:": {
     uc_output: "1f477-1f3fc-200d-2642-fe0f",
     shortnames: [":man_construction_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":man_construction_worker_tone3:": {
+  },
+  ":man_construction_worker_tone3:": {
     uc_output: "1f477-1f3fd-200d-2642-fe0f",
     shortnames: [":man_construction_worker_medium_skin_tone:"],
     category: "people"
-},
-":man_construction_worker_tone4:": {
+  },
+  ":man_construction_worker_tone4:": {
     uc_output: "1f477-1f3fe-200d-2642-fe0f",
     shortnames: [":man_construction_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_construction_worker_tone5:": {
+  },
+  ":man_construction_worker_tone5:": {
     uc_output: "1f477-1f3ff-200d-2642-fe0f",
     shortnames: [":man_construction_worker_dark_skin_tone:"],
     category: "people"
-},
-":man_detective_tone1:": {
+  },
+  ":man_detective_tone1:": {
     uc_output: "1f575-1f3fb-200d-2642-fe0f",
     shortnames: [":man_detective_light_skin_tone:"],
     category: "people"
-},
-":man_detective_tone2:": {
+  },
+  ":man_detective_tone2:": {
     uc_output: "1f575-1f3fc-200d-2642-fe0f",
     shortnames: [":man_detective_medium_light_skin_tone:"],
     category: "people"
-},
-":man_detective_tone3:": {
+  },
+  ":man_detective_tone3:": {
     uc_output: "1f575-1f3fd-200d-2642-fe0f",
     shortnames: [":man_detective_medium_skin_tone:"],
     category: "people"
-},
-":man_detective_tone4:": {
+  },
+  ":man_detective_tone4:": {
     uc_output: "1f575-1f3fe-200d-2642-fe0f",
     shortnames: [":man_detective_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_detective_tone5:": {
+  },
+  ":man_detective_tone5:": {
     uc_output: "1f575-1f3ff-200d-2642-fe0f",
     shortnames: [":man_detective_dark_skin_tone:"],
     category: "people"
-},
-":man_elf_tone1:": {
+  },
+  ":man_elf_tone1:": {
     uc_output: "1f9dd-1f3fb-200d-2642-fe0f",
     shortnames: [":man_elf_light_skin_tone:"],
     category: "people"
-},
-":man_elf_tone2:": {
+  },
+  ":man_elf_tone2:": {
     uc_output: "1f9dd-1f3fc-200d-2642-fe0f",
     shortnames: [":man_elf_medium_light_skin_tone:"],
     category: "people"
-},
-":man_elf_tone3:": {
+  },
+  ":man_elf_tone3:": {
     uc_output: "1f9dd-1f3fd-200d-2642-fe0f",
     shortnames: [":man_elf_medium_skin_tone:"],
     category: "people"
-},
-":man_elf_tone4:": {
+  },
+  ":man_elf_tone4:": {
     uc_output: "1f9dd-1f3fe-200d-2642-fe0f",
     shortnames: [":man_elf_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_elf_tone5:": {
+  },
+  ":man_elf_tone5:": {
     uc_output: "1f9dd-1f3ff-200d-2642-fe0f",
     shortnames: [":man_elf_dark_skin_tone:"],
     category: "people"
-},
-":man_facepalming_tone1:": {
+  },
+  ":man_facepalming_tone1:": {
     uc_output: "1f926-1f3fb-200d-2642-fe0f",
     shortnames: [":man_facepalming_light_skin_tone:"],
     category: "people"
-},
-":man_facepalming_tone2:": {
+  },
+  ":man_facepalming_tone2:": {
     uc_output: "1f926-1f3fc-200d-2642-fe0f",
     shortnames: [":man_facepalming_medium_light_skin_tone:"],
     category: "people"
-},
-":man_facepalming_tone3:": {
+  },
+  ":man_facepalming_tone3:": {
     uc_output: "1f926-1f3fd-200d-2642-fe0f",
     shortnames: [":man_facepalming_medium_skin_tone:"],
     category: "people"
-},
-":man_facepalming_tone4:": {
+  },
+  ":man_facepalming_tone4:": {
     uc_output: "1f926-1f3fe-200d-2642-fe0f",
     shortnames: [":man_facepalming_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_facepalming_tone5:": {
+  },
+  ":man_facepalming_tone5:": {
     uc_output: "1f926-1f3ff-200d-2642-fe0f",
     shortnames: [":man_facepalming_dark_skin_tone:"],
     category: "people"
-},
-":man_fairy_tone1:": {
+  },
+  ":man_fairy_tone1:": {
     uc_output: "1f9da-1f3fb-200d-2642-fe0f",
     shortnames: [":man_fairy_light_skin_tone:"],
     category: "people"
-},
-":man_fairy_tone2:": {
+  },
+  ":man_fairy_tone2:": {
     uc_output: "1f9da-1f3fc-200d-2642-fe0f",
     shortnames: [":man_fairy_medium_light_skin_tone:"],
     category: "people"
-},
-":man_fairy_tone3:": {
+  },
+  ":man_fairy_tone3:": {
     uc_output: "1f9da-1f3fd-200d-2642-fe0f",
     shortnames: [":man_fairy_medium_skin_tone:"],
     category: "people"
-},
-":man_fairy_tone4:": {
+  },
+  ":man_fairy_tone4:": {
     uc_output: "1f9da-1f3fe-200d-2642-fe0f",
     shortnames: [":man_fairy_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_fairy_tone5:": {
+  },
+  ":man_fairy_tone5:": {
     uc_output: "1f9da-1f3ff-200d-2642-fe0f",
     shortnames: [":man_fairy_dark_skin_tone:"],
     category: "people"
-},
-":man_frowning_tone1:": {
+  },
+  ":man_frowning_tone1:": {
     uc_output: "1f64d-1f3fb-200d-2642-fe0f",
     shortnames: [":man_frowning_light_skin_tone:"],
     category: "people"
-},
-":man_frowning_tone2:": {
+  },
+  ":man_frowning_tone2:": {
     uc_output: "1f64d-1f3fc-200d-2642-fe0f",
     shortnames: [":man_frowning_medium_light_skin_tone:"],
     category: "people"
-},
-":man_frowning_tone3:": {
+  },
+  ":man_frowning_tone3:": {
     uc_output: "1f64d-1f3fd-200d-2642-fe0f",
     shortnames: [":man_frowning_medium_skin_tone:"],
     category: "people"
-},
-":man_frowning_tone4:": {
+  },
+  ":man_frowning_tone4:": {
     uc_output: "1f64d-1f3fe-200d-2642-fe0f",
     shortnames: [":man_frowning_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_frowning_tone5:": {
+  },
+  ":man_frowning_tone5:": {
     uc_output: "1f64d-1f3ff-200d-2642-fe0f",
     shortnames: [":man_frowning_dark_skin_tone:"],
     category: "people"
-},
-":man_gesturing_no_tone1:": {
+  },
+  ":man_gesturing_no_tone1:": {
     uc_output: "1f645-1f3fb-200d-2642-fe0f",
     shortnames: [":man_gesturing_no_light_skin_tone:"],
     category: "people"
-},
-":man_gesturing_no_tone2:": {
+  },
+  ":man_gesturing_no_tone2:": {
     uc_output: "1f645-1f3fc-200d-2642-fe0f",
     shortnames: [":man_gesturing_no_medium_light_skin_tone:"],
     category: "people"
-},
-":man_gesturing_no_tone3:": {
+  },
+  ":man_gesturing_no_tone3:": {
     uc_output: "1f645-1f3fd-200d-2642-fe0f",
     shortnames: [":man_gesturing_no_medium_skin_tone:"],
     category: "people"
-},
-":man_gesturing_no_tone4:": {
+  },
+  ":man_gesturing_no_tone4:": {
     uc_output: "1f645-1f3fe-200d-2642-fe0f",
     shortnames: [":man_gesturing_no_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_gesturing_no_tone5:": {
+  },
+  ":man_gesturing_no_tone5:": {
     uc_output: "1f645-1f3ff-200d-2642-fe0f",
     shortnames: [":man_gesturing_no_dark_skin_tone:"],
     category: "people"
-},
-":man_gesturing_ok_tone1:": {
+  },
+  ":man_gesturing_ok_tone1:": {
     uc_output: "1f646-1f3fb-200d-2642-fe0f",
     shortnames: [":man_gesturing_ok_light_skin_tone:"],
     category: "people"
-},
-":man_gesturing_ok_tone2:": {
+  },
+  ":man_gesturing_ok_tone2:": {
     uc_output: "1f646-1f3fc-200d-2642-fe0f",
     shortnames: [":man_gesturing_ok_medium_light_skin_tone:"],
     category: "people"
-},
-":man_gesturing_ok_tone3:": {
+  },
+  ":man_gesturing_ok_tone3:": {
     uc_output: "1f646-1f3fd-200d-2642-fe0f",
     shortnames: [":man_gesturing_ok_medium_skin_tone:"],
     category: "people"
-},
-":man_gesturing_ok_tone4:": {
+  },
+  ":man_gesturing_ok_tone4:": {
     uc_output: "1f646-1f3fe-200d-2642-fe0f",
     shortnames: [":man_gesturing_ok_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_gesturing_ok_tone5:": {
+  },
+  ":man_gesturing_ok_tone5:": {
     uc_output: "1f646-1f3ff-200d-2642-fe0f",
     shortnames: [":man_gesturing_ok_dark_skin_tone:"],
     category: "people"
-},
-":man_getting_face_massage_tone1:": {
+  },
+  ":man_getting_face_massage_tone1:": {
     uc_output: "1f486-1f3fb-200d-2642-fe0f",
     shortnames: [":man_getting_face_massage_light_skin_tone:"],
     category: "people"
-},
-":man_getting_face_massage_tone2:": {
+  },
+  ":man_getting_face_massage_tone2:": {
     uc_output: "1f486-1f3fc-200d-2642-fe0f",
     shortnames: [":man_getting_face_massage_medium_light_skin_tone:"],
     category: "people"
-},
-":man_getting_face_massage_tone3:": {
+  },
+  ":man_getting_face_massage_tone3:": {
     uc_output: "1f486-1f3fd-200d-2642-fe0f",
     shortnames: [":man_getting_face_massage_medium_skin_tone:"],
     category: "people"
-},
-":man_getting_face_massage_tone4:": {
+  },
+  ":man_getting_face_massage_tone4:": {
     uc_output: "1f486-1f3fe-200d-2642-fe0f",
     shortnames: [":man_getting_face_massage_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_getting_face_massage_tone5:": {
+  },
+  ":man_getting_face_massage_tone5:": {
     uc_output: "1f486-1f3ff-200d-2642-fe0f",
     shortnames: [":man_getting_face_massage_dark_skin_tone:"],
     category: "people"
-},
-":man_getting_haircut_tone1:": {
+  },
+  ":man_getting_haircut_tone1:": {
     uc_output: "1f487-1f3fb-200d-2642-fe0f",
     shortnames: [":man_getting_haircut_light_skin_tone:"],
     category: "people"
-},
-":man_getting_haircut_tone2:": {
+  },
+  ":man_getting_haircut_tone2:": {
     uc_output: "1f487-1f3fc-200d-2642-fe0f",
     shortnames: [":man_getting_haircut_medium_light_skin_tone:"],
     category: "people"
-},
-":man_getting_haircut_tone3:": {
+  },
+  ":man_getting_haircut_tone3:": {
     uc_output: "1f487-1f3fd-200d-2642-fe0f",
     shortnames: [":man_getting_haircut_medium_skin_tone:"],
     category: "people"
-},
-":man_getting_haircut_tone4:": {
+  },
+  ":man_getting_haircut_tone4:": {
     uc_output: "1f487-1f3fe-200d-2642-fe0f",
     shortnames: [":man_getting_haircut_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_getting_haircut_tone5:": {
+  },
+  ":man_getting_haircut_tone5:": {
     uc_output: "1f487-1f3ff-200d-2642-fe0f",
     shortnames: [":man_getting_haircut_dark_skin_tone:"],
     category: "people"
-},
-":man_golfing_tone1:": {
+  },
+  ":man_golfing_tone1:": {
     uc_output: "1f3cc-1f3fb-200d-2642-fe0f",
     shortnames: [":man_golfing_light_skin_tone:"],
     category: "activity"
-},
-":man_golfing_tone2:": {
+  },
+  ":man_golfing_tone2:": {
     uc_output: "1f3cc-1f3fc-200d-2642-fe0f",
     shortnames: [":man_golfing_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_golfing_tone3:": {
+  },
+  ":man_golfing_tone3:": {
     uc_output: "1f3cc-1f3fd-200d-2642-fe0f",
     shortnames: [":man_golfing_medium_skin_tone:"],
     category: "activity"
-},
-":man_golfing_tone4:": {
+  },
+  ":man_golfing_tone4:": {
     uc_output: "1f3cc-1f3fe-200d-2642-fe0f",
     shortnames: [":man_golfing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_golfing_tone5:": {
+  },
+  ":man_golfing_tone5:": {
     uc_output: "1f3cc-1f3ff-200d-2642-fe0f",
     shortnames: [":man_golfing_dark_skin_tone:"],
     category: "activity"
-},
-":man_guard_tone1:": {
+  },
+  ":man_guard_tone1:": {
     uc_output: "1f482-1f3fb-200d-2642-fe0f",
     shortnames: [":man_guard_light_skin_tone:"],
     category: "people"
-},
-":man_guard_tone2:": {
+  },
+  ":man_guard_tone2:": {
     uc_output: "1f482-1f3fc-200d-2642-fe0f",
     shortnames: [":man_guard_medium_light_skin_tone:"],
     category: "people"
-},
-":man_guard_tone3:": {
+  },
+  ":man_guard_tone3:": {
     uc_output: "1f482-1f3fd-200d-2642-fe0f",
     shortnames: [":man_guard_medium_skin_tone:"],
     category: "people"
-},
-":man_guard_tone4:": {
+  },
+  ":man_guard_tone4:": {
     uc_output: "1f482-1f3fe-200d-2642-fe0f",
     shortnames: [":man_guard_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_guard_tone5:": {
+  },
+  ":man_guard_tone5:": {
     uc_output: "1f482-1f3ff-200d-2642-fe0f",
     shortnames: [":man_guard_dark_skin_tone:"],
     category: "people"
-},
-":man_health_worker_tone1:": {
+  },
+  ":man_health_worker_tone1:": {
     uc_output: "1f468-1f3fb-200d-2695-fe0f",
     shortnames: [":man_health_worker_light_skin_tone:"],
     category: "people"
-},
-":man_health_worker_tone2:": {
+  },
+  ":man_health_worker_tone2:": {
     uc_output: "1f468-1f3fc-200d-2695-fe0f",
     shortnames: [":man_health_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":man_health_worker_tone3:": {
+  },
+  ":man_health_worker_tone3:": {
     uc_output: "1f468-1f3fd-200d-2695-fe0f",
     shortnames: [":man_health_worker_medium_skin_tone:"],
     category: "people"
-},
-":man_health_worker_tone4:": {
+  },
+  ":man_health_worker_tone4:": {
     uc_output: "1f468-1f3fe-200d-2695-fe0f",
     shortnames: [":man_health_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_health_worker_tone5:": {
+  },
+  ":man_health_worker_tone5:": {
     uc_output: "1f468-1f3ff-200d-2695-fe0f",
     shortnames: [":man_health_worker_dark_skin_tone:"],
     category: "people"
-},
-":man_in_lotus_position_tone1:": {
+  },
+  ":man_in_lotus_position_tone1:": {
     uc_output: "1f9d8-1f3fb-200d-2642-fe0f",
     shortnames: [":man_in_lotus_position_light_skin_tone:"],
     category: "activity"
-},
-":man_in_lotus_position_tone2:": {
+  },
+  ":man_in_lotus_position_tone2:": {
     uc_output: "1f9d8-1f3fc-200d-2642-fe0f",
     shortnames: [":man_in_lotus_position_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_in_lotus_position_tone3:": {
+  },
+  ":man_in_lotus_position_tone3:": {
     uc_output: "1f9d8-1f3fd-200d-2642-fe0f",
     shortnames: [":man_in_lotus_position_medium_skin_tone:"],
     category: "activity"
-},
-":man_in_lotus_position_tone4:": {
+  },
+  ":man_in_lotus_position_tone4:": {
     uc_output: "1f9d8-1f3fe-200d-2642-fe0f",
     shortnames: [":man_in_lotus_position_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_in_lotus_position_tone5:": {
+  },
+  ":man_in_lotus_position_tone5:": {
     uc_output: "1f9d8-1f3ff-200d-2642-fe0f",
     shortnames: [":man_in_lotus_position_dark_skin_tone:"],
     category: "activity"
-},
-":man_in_steamy_room_tone1:": {
+  },
+  ":man_in_steamy_room_tone1:": {
     uc_output: "1f9d6-1f3fb-200d-2642-fe0f",
     shortnames: [":man_in_steamy_room_light_skin_tone:"],
     category: "activity"
-},
-":man_in_steamy_room_tone2:": {
+  },
+  ":man_in_steamy_room_tone2:": {
     uc_output: "1f9d6-1f3fc-200d-2642-fe0f",
     shortnames: [":man_in_steamy_room_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_in_steamy_room_tone3:": {
+  },
+  ":man_in_steamy_room_tone3:": {
     uc_output: "1f9d6-1f3fd-200d-2642-fe0f",
     shortnames: [":man_in_steamy_room_medium_skin_tone:"],
     category: "activity"
-},
-":man_in_steamy_room_tone4:": {
+  },
+  ":man_in_steamy_room_tone4:": {
     uc_output: "1f9d6-1f3fe-200d-2642-fe0f",
     shortnames: [":man_in_steamy_room_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_in_steamy_room_tone5:": {
+  },
+  ":man_in_steamy_room_tone5:": {
     uc_output: "1f9d6-1f3ff-200d-2642-fe0f",
     shortnames: [":man_in_steamy_room_dark_skin_tone:"],
     category: "activity"
-},
-":man_judge_tone1:": {
+  },
+  ":man_judge_tone1:": {
     uc_output: "1f468-1f3fb-200d-2696-fe0f",
     shortnames: [":man_judge_light_skin_tone:"],
     category: "people"
-},
-":man_judge_tone2:": {
+  },
+  ":man_judge_tone2:": {
     uc_output: "1f468-1f3fc-200d-2696-fe0f",
     shortnames: [":man_judge_medium_light_skin_tone:"],
     category: "people"
-},
-":man_judge_tone3:": {
+  },
+  ":man_judge_tone3:": {
     uc_output: "1f468-1f3fd-200d-2696-fe0f",
     shortnames: [":man_judge_medium_skin_tone:"],
     category: "people"
-},
-":man_judge_tone4:": {
+  },
+  ":man_judge_tone4:": {
     uc_output: "1f468-1f3fe-200d-2696-fe0f",
     shortnames: [":man_judge_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_judge_tone5:": {
+  },
+  ":man_judge_tone5:": {
     uc_output: "1f468-1f3ff-200d-2696-fe0f",
     shortnames: [":man_judge_dark_skin_tone:"],
     category: "people"
-},
-":man_juggling_tone1:": {
+  },
+  ":man_juggling_tone1:": {
     uc_output: "1f939-1f3fb-200d-2642-fe0f",
     shortnames: [":man_juggling_light_skin_tone:"],
     category: "activity"
-},
-":man_juggling_tone2:": {
+  },
+  ":man_juggling_tone2:": {
     uc_output: "1f939-1f3fc-200d-2642-fe0f",
     shortnames: [":man_juggling_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_juggling_tone3:": {
+  },
+  ":man_juggling_tone3:": {
     uc_output: "1f939-1f3fd-200d-2642-fe0f",
     shortnames: [":man_juggling_medium_skin_tone:"],
     category: "activity"
-},
-":man_juggling_tone4:": {
+  },
+  ":man_juggling_tone4:": {
     uc_output: "1f939-1f3fe-200d-2642-fe0f",
     shortnames: [":man_juggling_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_juggling_tone5:": {
+  },
+  ":man_juggling_tone5:": {
     uc_output: "1f939-1f3ff-200d-2642-fe0f",
     shortnames: [":man_juggling_dark_skin_tone:"],
     category: "activity"
-},
-":man_lifting_weights_tone1:": {
+  },
+  ":man_lifting_weights_tone1:": {
     uc_output: "1f3cb-1f3fb-200d-2642-fe0f",
     shortnames: [":man_lifting_weights_light_skin_tone:"],
     category: "activity"
-},
-":man_lifting_weights_tone2:": {
+  },
+  ":man_lifting_weights_tone2:": {
     uc_output: "1f3cb-1f3fc-200d-2642-fe0f",
     shortnames: [":man_lifting_weights_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_lifting_weights_tone3:": {
+  },
+  ":man_lifting_weights_tone3:": {
     uc_output: "1f3cb-1f3fd-200d-2642-fe0f",
     shortnames: [":man_lifting_weights_medium_skin_tone:"],
     category: "activity"
-},
-":man_lifting_weights_tone4:": {
+  },
+  ":man_lifting_weights_tone4:": {
     uc_output: "1f3cb-1f3fe-200d-2642-fe0f",
     shortnames: [":man_lifting_weights_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_lifting_weights_tone5:": {
+  },
+  ":man_lifting_weights_tone5:": {
     uc_output: "1f3cb-1f3ff-200d-2642-fe0f",
     shortnames: [":man_lifting_weights_dark_skin_tone:"],
     category: "activity"
-},
-":man_mage_tone1:": {
+  },
+  ":man_mage_tone1:": {
     uc_output: "1f9d9-1f3fb-200d-2642-fe0f",
     shortnames: [":man_mage_light_skin_tone:"],
     category: "people"
-},
-":man_mage_tone2:": {
+  },
+  ":man_mage_tone2:": {
     uc_output: "1f9d9-1f3fc-200d-2642-fe0f",
     shortnames: [":man_mage_medium_light_skin_tone:"],
     category: "people"
-},
-":man_mage_tone3:": {
+  },
+  ":man_mage_tone3:": {
     uc_output: "1f9d9-1f3fd-200d-2642-fe0f",
     shortnames: [":man_mage_medium_skin_tone:"],
     category: "people"
-},
-":man_mage_tone4:": {
+  },
+  ":man_mage_tone4:": {
     uc_output: "1f9d9-1f3fe-200d-2642-fe0f",
     shortnames: [":man_mage_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_mage_tone5:": {
+  },
+  ":man_mage_tone5:": {
     uc_output: "1f9d9-1f3ff-200d-2642-fe0f",
     shortnames: [":man_mage_dark_skin_tone:"],
     category: "people"
-},
-":man_mountain_biking_tone1:": {
+  },
+  ":man_mountain_biking_tone1:": {
     uc_output: "1f6b5-1f3fb-200d-2642-fe0f",
     shortnames: [":man_mountain_biking_light_skin_tone:"],
     category: "activity"
-},
-":man_mountain_biking_tone2:": {
+  },
+  ":man_mountain_biking_tone2:": {
     uc_output: "1f6b5-1f3fc-200d-2642-fe0f",
     shortnames: [":man_mountain_biking_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_mountain_biking_tone3:": {
+  },
+  ":man_mountain_biking_tone3:": {
     uc_output: "1f6b5-1f3fd-200d-2642-fe0f",
     shortnames: [":man_mountain_biking_medium_skin_tone:"],
     category: "activity"
-},
-":man_mountain_biking_tone4:": {
+  },
+  ":man_mountain_biking_tone4:": {
     uc_output: "1f6b5-1f3fe-200d-2642-fe0f",
     shortnames: [":man_mountain_biking_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_mountain_biking_tone5:": {
+  },
+  ":man_mountain_biking_tone5:": {
     uc_output: "1f6b5-1f3ff-200d-2642-fe0f",
     shortnames: [":man_mountain_biking_dark_skin_tone:"],
     category: "activity"
-},
-":man_pilot_tone1:": {
+  },
+  ":man_pilot_tone1:": {
     uc_output: "1f468-1f3fb-200d-2708-fe0f",
     shortnames: [":man_pilot_light_skin_tone:"],
     category: "people"
-},
-":man_pilot_tone2:": {
+  },
+  ":man_pilot_tone2:": {
     uc_output: "1f468-1f3fc-200d-2708-fe0f",
     shortnames: [":man_pilot_medium_light_skin_tone:"],
     category: "people"
-},
-":man_pilot_tone3:": {
+  },
+  ":man_pilot_tone3:": {
     uc_output: "1f468-1f3fd-200d-2708-fe0f",
     shortnames: [":man_pilot_medium_skin_tone:"],
     category: "people"
-},
-":man_pilot_tone4:": {
+  },
+  ":man_pilot_tone4:": {
     uc_output: "1f468-1f3fe-200d-2708-fe0f",
     shortnames: [":man_pilot_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_pilot_tone5:": {
+  },
+  ":man_pilot_tone5:": {
     uc_output: "1f468-1f3ff-200d-2708-fe0f",
     shortnames: [":man_pilot_dark_skin_tone:"],
     category: "people"
-},
-":man_playing_handball_tone1:": {
+  },
+  ":man_playing_handball_tone1:": {
     uc_output: "1f93e-1f3fb-200d-2642-fe0f",
     shortnames: [":man_playing_handball_light_skin_tone:"],
     category: "activity"
-},
-":man_playing_handball_tone2:": {
+  },
+  ":man_playing_handball_tone2:": {
     uc_output: "1f93e-1f3fc-200d-2642-fe0f",
     shortnames: [":man_playing_handball_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_playing_handball_tone3:": {
+  },
+  ":man_playing_handball_tone3:": {
     uc_output: "1f93e-1f3fd-200d-2642-fe0f",
     shortnames: [":man_playing_handball_medium_skin_tone:"],
     category: "activity"
-},
-":man_playing_handball_tone4:": {
+  },
+  ":man_playing_handball_tone4:": {
     uc_output: "1f93e-1f3fe-200d-2642-fe0f",
     shortnames: [":man_playing_handball_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_playing_handball_tone5:": {
+  },
+  ":man_playing_handball_tone5:": {
     uc_output: "1f93e-1f3ff-200d-2642-fe0f",
     shortnames: [":man_playing_handball_dark_skin_tone:"],
     category: "activity"
-},
-":man_playing_water_polo_tone1:": {
+  },
+  ":man_playing_water_polo_tone1:": {
     uc_output: "1f93d-1f3fb-200d-2642-fe0f",
     shortnames: [":man_playing_water_polo_light_skin_tone:"],
     category: "activity"
-},
-":man_playing_water_polo_tone2:": {
+  },
+  ":man_playing_water_polo_tone2:": {
     uc_output: "1f93d-1f3fc-200d-2642-fe0f",
     shortnames: [":man_playing_water_polo_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_playing_water_polo_tone3:": {
+  },
+  ":man_playing_water_polo_tone3:": {
     uc_output: "1f93d-1f3fd-200d-2642-fe0f",
     shortnames: [":man_playing_water_polo_medium_skin_tone:"],
     category: "activity"
-},
-":man_playing_water_polo_tone4:": {
+  },
+  ":man_playing_water_polo_tone4:": {
     uc_output: "1f93d-1f3fe-200d-2642-fe0f",
     shortnames: [":man_playing_water_polo_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_playing_water_polo_tone5:": {
+  },
+  ":man_playing_water_polo_tone5:": {
     uc_output: "1f93d-1f3ff-200d-2642-fe0f",
     shortnames: [":man_playing_water_polo_dark_skin_tone:"],
     category: "activity"
-},
-":man_police_officer_tone1:": {
+  },
+  ":man_police_officer_tone1:": {
     uc_output: "1f46e-1f3fb-200d-2642-fe0f",
     shortnames: [":man_police_officer_light_skin_tone:"],
     category: "people"
-},
-":man_police_officer_tone2:": {
+  },
+  ":man_police_officer_tone2:": {
     uc_output: "1f46e-1f3fc-200d-2642-fe0f",
     shortnames: [":man_police_officer_medium_light_skin_tone:"],
     category: "people"
-},
-":man_police_officer_tone3:": {
+  },
+  ":man_police_officer_tone3:": {
     uc_output: "1f46e-1f3fd-200d-2642-fe0f",
     shortnames: [":man_police_officer_medium_skin_tone:"],
     category: "people"
-},
-":man_police_officer_tone4:": {
+  },
+  ":man_police_officer_tone4:": {
     uc_output: "1f46e-1f3fe-200d-2642-fe0f",
     shortnames: [":man_police_officer_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_police_officer_tone5:": {
+  },
+  ":man_police_officer_tone5:": {
     uc_output: "1f46e-1f3ff-200d-2642-fe0f",
     shortnames: [":man_police_officer_dark_skin_tone:"],
     category: "people"
-},
-":man_pouting_tone1:": {
+  },
+  ":man_pouting_tone1:": {
     uc_output: "1f64e-1f3fb-200d-2642-fe0f",
     shortnames: [":man_pouting_light_skin_tone:"],
     category: "people"
-},
-":man_pouting_tone2:": {
+  },
+  ":man_pouting_tone2:": {
     uc_output: "1f64e-1f3fc-200d-2642-fe0f",
     shortnames: [":man_pouting_medium_light_skin_tone:"],
     category: "people"
-},
-":man_pouting_tone3:": {
+  },
+  ":man_pouting_tone3:": {
     uc_output: "1f64e-1f3fd-200d-2642-fe0f",
     shortnames: [":man_pouting_medium_skin_tone:"],
     category: "people"
-},
-":man_pouting_tone4:": {
+  },
+  ":man_pouting_tone4:": {
     uc_output: "1f64e-1f3fe-200d-2642-fe0f",
     shortnames: [":man_pouting_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_pouting_tone5:": {
+  },
+  ":man_pouting_tone5:": {
     uc_output: "1f64e-1f3ff-200d-2642-fe0f",
     shortnames: [":man_pouting_dark_skin_tone:"],
     category: "people"
-},
-":man_raising_hand_tone1:": {
+  },
+  ":man_raising_hand_tone1:": {
     uc_output: "1f64b-1f3fb-200d-2642-fe0f",
     shortnames: [":man_raising_hand_light_skin_tone:"],
     category: "people"
-},
-":man_raising_hand_tone2:": {
+  },
+  ":man_raising_hand_tone2:": {
     uc_output: "1f64b-1f3fc-200d-2642-fe0f",
     shortnames: [":man_raising_hand_medium_light_skin_tone:"],
     category: "people"
-},
-":man_raising_hand_tone3:": {
+  },
+  ":man_raising_hand_tone3:": {
     uc_output: "1f64b-1f3fd-200d-2642-fe0f",
     shortnames: [":man_raising_hand_medium_skin_tone:"],
     category: "people"
-},
-":man_raising_hand_tone4:": {
+  },
+  ":man_raising_hand_tone4:": {
     uc_output: "1f64b-1f3fe-200d-2642-fe0f",
     shortnames: [":man_raising_hand_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_raising_hand_tone5:": {
+  },
+  ":man_raising_hand_tone5:": {
     uc_output: "1f64b-1f3ff-200d-2642-fe0f",
     shortnames: [":man_raising_hand_dark_skin_tone:"],
     category: "people"
-},
-":man_rowing_boat_tone1:": {
+  },
+  ":man_rowing_boat_tone1:": {
     uc_output: "1f6a3-1f3fb-200d-2642-fe0f",
     shortnames: [":man_rowing_boat_light_skin_tone:"],
     category: "activity"
-},
-":man_rowing_boat_tone2:": {
+  },
+  ":man_rowing_boat_tone2:": {
     uc_output: "1f6a3-1f3fc-200d-2642-fe0f",
     shortnames: [":man_rowing_boat_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_rowing_boat_tone3:": {
+  },
+  ":man_rowing_boat_tone3:": {
     uc_output: "1f6a3-1f3fd-200d-2642-fe0f",
     shortnames: [":man_rowing_boat_medium_skin_tone:"],
     category: "activity"
-},
-":man_rowing_boat_tone4:": {
+  },
+  ":man_rowing_boat_tone4:": {
     uc_output: "1f6a3-1f3fe-200d-2642-fe0f",
     shortnames: [":man_rowing_boat_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_rowing_boat_tone5:": {
+  },
+  ":man_rowing_boat_tone5:": {
     uc_output: "1f6a3-1f3ff-200d-2642-fe0f",
     shortnames: [":man_rowing_boat_dark_skin_tone:"],
     category: "activity"
-},
-":man_running_tone1:": {
+  },
+  ":man_running_tone1:": {
     uc_output: "1f3c3-1f3fb-200d-2642-fe0f",
     shortnames: [":man_running_light_skin_tone:"],
     category: "people"
-},
-":man_running_tone2:": {
+  },
+  ":man_running_tone2:": {
     uc_output: "1f3c3-1f3fc-200d-2642-fe0f",
     shortnames: [":man_running_medium_light_skin_tone:"],
     category: "people"
-},
-":man_running_tone3:": {
+  },
+  ":man_running_tone3:": {
     uc_output: "1f3c3-1f3fd-200d-2642-fe0f",
     shortnames: [":man_running_medium_skin_tone:"],
     category: "people"
-},
-":man_running_tone4:": {
+  },
+  ":man_running_tone4:": {
     uc_output: "1f3c3-1f3fe-200d-2642-fe0f",
     shortnames: [":man_running_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_running_tone5:": {
+  },
+  ":man_running_tone5:": {
     uc_output: "1f3c3-1f3ff-200d-2642-fe0f",
     shortnames: [":man_running_dark_skin_tone:"],
     category: "people"
-},
-":man_shrugging_tone1:": {
+  },
+  ":man_shrugging_tone1:": {
     uc_output: "1f937-1f3fb-200d-2642-fe0f",
     shortnames: [":man_shrugging_light_skin_tone:"],
     category: "people"
-},
-":man_shrugging_tone2:": {
+  },
+  ":man_shrugging_tone2:": {
     uc_output: "1f937-1f3fc-200d-2642-fe0f",
     shortnames: [":man_shrugging_medium_light_skin_tone:"],
     category: "people"
-},
-":man_shrugging_tone3:": {
+  },
+  ":man_shrugging_tone3:": {
     uc_output: "1f937-1f3fd-200d-2642-fe0f",
     shortnames: [":man_shrugging_medium_skin_tone:"],
     category: "people"
-},
-":man_shrugging_tone4:": {
+  },
+  ":man_shrugging_tone4:": {
     uc_output: "1f937-1f3fe-200d-2642-fe0f",
     shortnames: [":man_shrugging_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_shrugging_tone5:": {
+  },
+  ":man_shrugging_tone5:": {
     uc_output: "1f937-1f3ff-200d-2642-fe0f",
     shortnames: [":man_shrugging_dark_skin_tone:"],
     category: "people"
-},
-":man_surfing_tone1:": {
+  },
+  ":man_surfing_tone1:": {
     uc_output: "1f3c4-1f3fb-200d-2642-fe0f",
     shortnames: [":man_surfing_light_skin_tone:"],
     category: "activity"
-},
-":man_surfing_tone2:": {
+  },
+  ":man_surfing_tone2:": {
     uc_output: "1f3c4-1f3fc-200d-2642-fe0f",
     shortnames: [":man_surfing_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_surfing_tone3:": {
+  },
+  ":man_surfing_tone3:": {
     uc_output: "1f3c4-1f3fd-200d-2642-fe0f",
     shortnames: [":man_surfing_medium_skin_tone:"],
     category: "activity"
-},
-":man_surfing_tone4:": {
+  },
+  ":man_surfing_tone4:": {
     uc_output: "1f3c4-1f3fe-200d-2642-fe0f",
     shortnames: [":man_surfing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_surfing_tone5:": {
+  },
+  ":man_surfing_tone5:": {
     uc_output: "1f3c4-1f3ff-200d-2642-fe0f",
     shortnames: [":man_surfing_dark_skin_tone:"],
     category: "activity"
-},
-":man_swimming_tone1:": {
+  },
+  ":man_swimming_tone1:": {
     uc_output: "1f3ca-1f3fb-200d-2642-fe0f",
     shortnames: [":man_swimming_light_skin_tone:"],
     category: "activity"
-},
-":man_swimming_tone2:": {
+  },
+  ":man_swimming_tone2:": {
     uc_output: "1f3ca-1f3fc-200d-2642-fe0f",
     shortnames: [":man_swimming_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_swimming_tone3:": {
+  },
+  ":man_swimming_tone3:": {
     uc_output: "1f3ca-1f3fd-200d-2642-fe0f",
     shortnames: [":man_swimming_medium_skin_tone:"],
     category: "activity"
-},
-":man_swimming_tone4:": {
+  },
+  ":man_swimming_tone4:": {
     uc_output: "1f3ca-1f3fe-200d-2642-fe0f",
     shortnames: [":man_swimming_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_swimming_tone5:": {
+  },
+  ":man_swimming_tone5:": {
     uc_output: "1f3ca-1f3ff-200d-2642-fe0f",
     shortnames: [":man_swimming_dark_skin_tone:"],
     category: "activity"
-},
-":man_tipping_hand_tone1:": {
+  },
+  ":man_tipping_hand_tone1:": {
     uc_output: "1f481-1f3fb-200d-2642-fe0f",
     shortnames: [":man_tipping_hand_light_skin_tone:"],
     category: "people"
-},
-":man_tipping_hand_tone2:": {
+  },
+  ":man_tipping_hand_tone2:": {
     uc_output: "1f481-1f3fc-200d-2642-fe0f",
     shortnames: [":man_tipping_hand_medium_light_skin_tone:"],
     category: "people"
-},
-":man_tipping_hand_tone3:": {
+  },
+  ":man_tipping_hand_tone3:": {
     uc_output: "1f481-1f3fd-200d-2642-fe0f",
     shortnames: [":man_tipping_hand_medium_skin_tone:"],
     category: "people"
-},
-":man_tipping_hand_tone4:": {
+  },
+  ":man_tipping_hand_tone4:": {
     uc_output: "1f481-1f3fe-200d-2642-fe0f",
     shortnames: [":man_tipping_hand_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_tipping_hand_tone5:": {
+  },
+  ":man_tipping_hand_tone5:": {
     uc_output: "1f481-1f3ff-200d-2642-fe0f",
     shortnames: [":man_tipping_hand_dark_skin_tone:"],
     category: "people"
-},
-":man_vampire_tone1:": {
+  },
+  ":man_vampire_tone1:": {
     uc_output: "1f9db-1f3fb-200d-2642-fe0f",
     shortnames: [":man_vampire_light_skin_tone:"],
     category: "people"
-},
-":man_vampire_tone2:": {
+  },
+  ":man_vampire_tone2:": {
     uc_output: "1f9db-1f3fc-200d-2642-fe0f",
     shortnames: [":man_vampire_medium_light_skin_tone:"],
     category: "people"
-},
-":man_vampire_tone3:": {
+  },
+  ":man_vampire_tone3:": {
     uc_output: "1f9db-1f3fd-200d-2642-fe0f",
     shortnames: [":man_vampire_medium_skin_tone:"],
     category: "people"
-},
-":man_vampire_tone4:": {
+  },
+  ":man_vampire_tone4:": {
     uc_output: "1f9db-1f3fe-200d-2642-fe0f",
     shortnames: [":man_vampire_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_vampire_tone5:": {
+  },
+  ":man_vampire_tone5:": {
     uc_output: "1f9db-1f3ff-200d-2642-fe0f",
     shortnames: [":man_vampire_dark_skin_tone:"],
     category: "people"
-},
-":man_walking_tone1:": {
+  },
+  ":man_walking_tone1:": {
     uc_output: "1f6b6-1f3fb-200d-2642-fe0f",
     shortnames: [":man_walking_light_skin_tone:"],
     category: "people"
-},
-":man_walking_tone2:": {
+  },
+  ":man_walking_tone2:": {
     uc_output: "1f6b6-1f3fc-200d-2642-fe0f",
     shortnames: [":man_walking_medium_light_skin_tone:"],
     category: "people"
-},
-":man_walking_tone3:": {
+  },
+  ":man_walking_tone3:": {
     uc_output: "1f6b6-1f3fd-200d-2642-fe0f",
     shortnames: [":man_walking_medium_skin_tone:"],
     category: "people"
-},
-":man_walking_tone4:": {
+  },
+  ":man_walking_tone4:": {
     uc_output: "1f6b6-1f3fe-200d-2642-fe0f",
     shortnames: [":man_walking_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_walking_tone5:": {
+  },
+  ":man_walking_tone5:": {
     uc_output: "1f6b6-1f3ff-200d-2642-fe0f",
     shortnames: [":man_walking_dark_skin_tone:"],
     category: "people"
-},
-":man_wearing_turban_tone1:": {
+  },
+  ":man_wearing_turban_tone1:": {
     uc_output: "1f473-1f3fb-200d-2642-fe0f",
     shortnames: [":man_wearing_turban_light_skin_tone:"],
     category: "people"
-},
-":man_wearing_turban_tone2:": {
+  },
+  ":man_wearing_turban_tone2:": {
     uc_output: "1f473-1f3fc-200d-2642-fe0f",
     shortnames: [":man_wearing_turban_medium_light_skin_tone:"],
     category: "people"
-},
-":man_wearing_turban_tone3:": {
+  },
+  ":man_wearing_turban_tone3:": {
     uc_output: "1f473-1f3fd-200d-2642-fe0f",
     shortnames: [":man_wearing_turban_medium_skin_tone:"],
     category: "people"
-},
-":man_wearing_turban_tone4:": {
+  },
+  ":man_wearing_turban_tone4:": {
     uc_output: "1f473-1f3fe-200d-2642-fe0f",
     shortnames: [":man_wearing_turban_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_wearing_turban_tone5:": {
+  },
+  ":man_wearing_turban_tone5:": {
     uc_output: "1f473-1f3ff-200d-2642-fe0f",
     shortnames: [":man_wearing_turban_dark_skin_tone:"],
     category: "people"
-},
-":mermaid_tone1:": {
+  },
+  ":mermaid_tone1:": {
     uc_output: "1f9dc-1f3fb-200d-2640-fe0f",
     shortnames: [":mermaid_light_skin_tone:"],
     category: "people"
-},
-":mermaid_tone2:": {
+  },
+  ":mermaid_tone2:": {
     uc_output: "1f9dc-1f3fc-200d-2640-fe0f",
     shortnames: [":mermaid_medium_light_skin_tone:"],
     category: "people"
-},
-":mermaid_tone3:": {
+  },
+  ":mermaid_tone3:": {
     uc_output: "1f9dc-1f3fd-200d-2640-fe0f",
     shortnames: [":mermaid_medium_skin_tone:"],
     category: "people"
-},
-":mermaid_tone4:": {
+  },
+  ":mermaid_tone4:": {
     uc_output: "1f9dc-1f3fe-200d-2640-fe0f",
     shortnames: [":mermaid_medium_dark_skin_tone:"],
     category: "people"
-},
-":mermaid_tone5:": {
+  },
+  ":mermaid_tone5:": {
     uc_output: "1f9dc-1f3ff-200d-2640-fe0f",
     shortnames: [":mermaid_dark_skin_tone:"],
     category: "people"
-},
-":merman_tone1:": {
+  },
+  ":merman_tone1:": {
     uc_output: "1f9dc-1f3fb-200d-2642-fe0f",
     shortnames: [":merman_light_skin_tone:"],
     category: "people"
-},
-":merman_tone2:": {
+  },
+  ":merman_tone2:": {
     uc_output: "1f9dc-1f3fc-200d-2642-fe0f",
     shortnames: [":merman_medium_light_skin_tone:"],
     category: "people"
-},
-":merman_tone3:": {
+  },
+  ":merman_tone3:": {
     uc_output: "1f9dc-1f3fd-200d-2642-fe0f",
     shortnames: [":merman_medium_skin_tone:"],
     category: "people"
-},
-":merman_tone4:": {
+  },
+  ":merman_tone4:": {
     uc_output: "1f9dc-1f3fe-200d-2642-fe0f",
     shortnames: [":merman_medium_dark_skin_tone:"],
     category: "people"
-},
-":merman_tone5:": {
+  },
+  ":merman_tone5:": {
     uc_output: "1f9dc-1f3ff-200d-2642-fe0f",
     shortnames: [":merman_dark_skin_tone:"],
     category: "people"
-},
-":woman_biking_tone1:": {
+  },
+  ":woman_biking_tone1:": {
     uc_output: "1f6b4-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_biking_light_skin_tone:"],
     category: "activity"
-},
-":woman_biking_tone2:": {
+  },
+  ":woman_biking_tone2:": {
     uc_output: "1f6b4-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_biking_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_biking_tone3:": {
+  },
+  ":woman_biking_tone3:": {
     uc_output: "1f6b4-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_biking_medium_skin_tone:"],
     category: "activity"
-},
-":woman_biking_tone4:": {
+  },
+  ":woman_biking_tone4:": {
     uc_output: "1f6b4-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_biking_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_biking_tone5:": {
+  },
+  ":woman_biking_tone5:": {
     uc_output: "1f6b4-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_biking_dark_skin_tone:"],
     category: "activity"
-},
-":woman_bowing_tone1:": {
+  },
+  ":woman_bowing_tone1:": {
     uc_output: "1f647-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_bowing_light_skin_tone:"],
     category: "people"
-},
-":woman_bowing_tone2:": {
+  },
+  ":woman_bowing_tone2:": {
     uc_output: "1f647-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_bowing_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_bowing_tone3:": {
+  },
+  ":woman_bowing_tone3:": {
     uc_output: "1f647-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_bowing_medium_skin_tone:"],
     category: "people"
-},
-":woman_bowing_tone4:": {
+  },
+  ":woman_bowing_tone4:": {
     uc_output: "1f647-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_bowing_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_bowing_tone5:": {
+  },
+  ":woman_bowing_tone5:": {
     uc_output: "1f647-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_bowing_dark_skin_tone:"],
     category: "people"
-},
-":woman_cartwheeling_tone1:": {
+  },
+  ":woman_cartwheeling_tone1:": {
     uc_output: "1f938-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_cartwheeling_light_skin_tone:"],
     category: "activity"
-},
-":woman_cartwheeling_tone2:": {
+  },
+  ":woman_cartwheeling_tone2:": {
     uc_output: "1f938-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_cartwheeling_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_cartwheeling_tone3:": {
+  },
+  ":woman_cartwheeling_tone3:": {
     uc_output: "1f938-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_cartwheeling_medium_skin_tone:"],
     category: "activity"
-},
-":woman_cartwheeling_tone4:": {
+  },
+  ":woman_cartwheeling_tone4:": {
     uc_output: "1f938-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_cartwheeling_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_cartwheeling_tone5:": {
+  },
+  ":woman_cartwheeling_tone5:": {
     uc_output: "1f938-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_cartwheeling_dark_skin_tone:"],
     category: "activity"
-},
-":woman_climbing_tone1:": {
+  },
+  ":woman_climbing_tone1:": {
     uc_output: "1f9d7-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_climbing_light_skin_tone:"],
     category: "activity"
-},
-":woman_climbing_tone2:": {
+  },
+  ":woman_climbing_tone2:": {
     uc_output: "1f9d7-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_climbing_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_climbing_tone3:": {
+  },
+  ":woman_climbing_tone3:": {
     uc_output: "1f9d7-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_climbing_medium_skin_tone:"],
     category: "activity"
-},
-":woman_climbing_tone4:": {
+  },
+  ":woman_climbing_tone4:": {
     uc_output: "1f9d7-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_climbing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_climbing_tone5:": {
+  },
+  ":woman_climbing_tone5:": {
     uc_output: "1f9d7-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_climbing_dark_skin_tone:"],
     category: "activity"
-},
-":woman_construction_worker_tone1:": {
+  },
+  ":woman_construction_worker_tone1:": {
     uc_output: "1f477-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_construction_worker_light_skin_tone:"],
     category: "people"
-},
-":woman_construction_worker_tone2:": {
+  },
+  ":woman_construction_worker_tone2:": {
     uc_output: "1f477-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_construction_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_construction_worker_tone3:": {
+  },
+  ":woman_construction_worker_tone3:": {
     uc_output: "1f477-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_construction_worker_medium_skin_tone:"],
     category: "people"
-},
-":woman_construction_worker_tone4:": {
+  },
+  ":woman_construction_worker_tone4:": {
     uc_output: "1f477-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_construction_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_construction_worker_tone5:": {
+  },
+  ":woman_construction_worker_tone5:": {
     uc_output: "1f477-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_construction_worker_dark_skin_tone:"],
     category: "people"
-},
-":woman_detective_tone1:": {
+  },
+  ":woman_detective_tone1:": {
     uc_output: "1f575-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_detective_light_skin_tone:"],
     category: "people"
-},
-":woman_detective_tone2:": {
+  },
+  ":woman_detective_tone2:": {
     uc_output: "1f575-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_detective_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_detective_tone3:": {
+  },
+  ":woman_detective_tone3:": {
     uc_output: "1f575-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_detective_medium_skin_tone:"],
     category: "people"
-},
-":woman_detective_tone4:": {
+  },
+  ":woman_detective_tone4:": {
     uc_output: "1f575-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_detective_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_detective_tone5:": {
+  },
+  ":woman_detective_tone5:": {
     uc_output: "1f575-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_detective_dark_skin_tone:"],
     category: "people"
-},
-":woman_elf_tone1:": {
+  },
+  ":woman_elf_tone1:": {
     uc_output: "1f9dd-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_elf_light_skin_tone:"],
     category: "people"
-},
-":woman_elf_tone2:": {
+  },
+  ":woman_elf_tone2:": {
     uc_output: "1f9dd-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_elf_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_elf_tone3:": {
+  },
+  ":woman_elf_tone3:": {
     uc_output: "1f9dd-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_elf_medium_skin_tone:"],
     category: "people"
-},
-":woman_elf_tone4:": {
+  },
+  ":woman_elf_tone4:": {
     uc_output: "1f9dd-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_elf_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_elf_tone5:": {
+  },
+  ":woman_elf_tone5:": {
     uc_output: "1f9dd-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_elf_dark_skin_tone:"],
     category: "people"
-},
-":woman_facepalming_tone1:": {
+  },
+  ":woman_facepalming_tone1:": {
     uc_output: "1f926-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_facepalming_light_skin_tone:"],
     category: "people"
-},
-":woman_facepalming_tone2:": {
+  },
+  ":woman_facepalming_tone2:": {
     uc_output: "1f926-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_facepalming_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_facepalming_tone3:": {
+  },
+  ":woman_facepalming_tone3:": {
     uc_output: "1f926-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_facepalming_medium_skin_tone:"],
     category: "people"
-},
-":woman_facepalming_tone4:": {
+  },
+  ":woman_facepalming_tone4:": {
     uc_output: "1f926-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_facepalming_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_facepalming_tone5:": {
+  },
+  ":woman_facepalming_tone5:": {
     uc_output: "1f926-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_facepalming_dark_skin_tone:"],
     category: "people"
-},
-":woman_fairy_tone1:": {
+  },
+  ":woman_fairy_tone1:": {
     uc_output: "1f9da-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_fairy_light_skin_tone:"],
     category: "people"
-},
-":woman_fairy_tone2:": {
+  },
+  ":woman_fairy_tone2:": {
     uc_output: "1f9da-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_fairy_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_fairy_tone3:": {
+  },
+  ":woman_fairy_tone3:": {
     uc_output: "1f9da-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_fairy_medium_skin_tone:"],
     category: "people"
-},
-":woman_fairy_tone4:": {
+  },
+  ":woman_fairy_tone4:": {
     uc_output: "1f9da-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_fairy_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_fairy_tone5:": {
+  },
+  ":woman_fairy_tone5:": {
     uc_output: "1f9da-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_fairy_dark_skin_tone:"],
     category: "people"
-},
-":woman_frowning_tone1:": {
+  },
+  ":woman_frowning_tone1:": {
     uc_output: "1f64d-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_frowning_light_skin_tone:"],
     category: "people"
-},
-":woman_frowning_tone2:": {
+  },
+  ":woman_frowning_tone2:": {
     uc_output: "1f64d-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_frowning_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_frowning_tone3:": {
+  },
+  ":woman_frowning_tone3:": {
     uc_output: "1f64d-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_frowning_medium_skin_tone:"],
     category: "people"
-},
-":woman_frowning_tone4:": {
+  },
+  ":woman_frowning_tone4:": {
     uc_output: "1f64d-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_frowning_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_frowning_tone5:": {
+  },
+  ":woman_frowning_tone5:": {
     uc_output: "1f64d-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_frowning_dark_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_no_tone1:": {
+  },
+  ":woman_gesturing_no_tone1:": {
     uc_output: "1f645-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_gesturing_no_light_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_no_tone2:": {
+  },
+  ":woman_gesturing_no_tone2:": {
     uc_output: "1f645-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_gesturing_no_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_no_tone3:": {
+  },
+  ":woman_gesturing_no_tone3:": {
     uc_output: "1f645-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_gesturing_no_medium_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_no_tone4:": {
+  },
+  ":woman_gesturing_no_tone4:": {
     uc_output: "1f645-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_gesturing_no_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_no_tone5:": {
+  },
+  ":woman_gesturing_no_tone5:": {
     uc_output: "1f645-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_gesturing_no_dark_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_ok_tone1:": {
+  },
+  ":woman_gesturing_ok_tone1:": {
     uc_output: "1f646-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_gesturing_ok_light_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_ok_tone2:": {
+  },
+  ":woman_gesturing_ok_tone2:": {
     uc_output: "1f646-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_gesturing_ok_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_ok_tone3:": {
+  },
+  ":woman_gesturing_ok_tone3:": {
     uc_output: "1f646-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_gesturing_ok_medium_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_ok_tone4:": {
+  },
+  ":woman_gesturing_ok_tone4:": {
     uc_output: "1f646-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_gesturing_ok_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_gesturing_ok_tone5:": {
+  },
+  ":woman_gesturing_ok_tone5:": {
     uc_output: "1f646-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_gesturing_ok_dark_skin_tone:"],
     category: "people"
-},
-":woman_getting_face_massage_tone1:": {
+  },
+  ":woman_getting_face_massage_tone1:": {
     uc_output: "1f486-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_getting_face_massage_light_skin_tone:"],
     category: "people"
-},
-":woman_getting_face_massage_tone2:": {
+  },
+  ":woman_getting_face_massage_tone2:": {
     uc_output: "1f486-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_getting_face_massage_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_getting_face_massage_tone3:": {
+  },
+  ":woman_getting_face_massage_tone3:": {
     uc_output: "1f486-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_getting_face_massage_medium_skin_tone:"],
     category: "people"
-},
-":woman_getting_face_massage_tone4:": {
+  },
+  ":woman_getting_face_massage_tone4:": {
     uc_output: "1f486-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_getting_face_massage_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_getting_face_massage_tone5:": {
+  },
+  ":woman_getting_face_massage_tone5:": {
     uc_output: "1f486-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_getting_face_massage_dark_skin_tone:"],
     category: "people"
-},
-":woman_getting_haircut_tone1:": {
+  },
+  ":woman_getting_haircut_tone1:": {
     uc_output: "1f487-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_getting_haircut_light_skin_tone:"],
     category: "people"
-},
-":woman_getting_haircut_tone2:": {
+  },
+  ":woman_getting_haircut_tone2:": {
     uc_output: "1f487-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_getting_haircut_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_getting_haircut_tone3:": {
+  },
+  ":woman_getting_haircut_tone3:": {
     uc_output: "1f487-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_getting_haircut_medium_skin_tone:"],
     category: "people"
-},
-":woman_getting_haircut_tone4:": {
+  },
+  ":woman_getting_haircut_tone4:": {
     uc_output: "1f487-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_getting_haircut_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_getting_haircut_tone5:": {
+  },
+  ":woman_getting_haircut_tone5:": {
     uc_output: "1f487-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_getting_haircut_dark_skin_tone:"],
     category: "people"
-},
-":woman_golfing_tone1:": {
+  },
+  ":woman_golfing_tone1:": {
     uc_output: "1f3cc-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_golfing_light_skin_tone:"],
     category: "activity"
-},
-":woman_golfing_tone2:": {
+  },
+  ":woman_golfing_tone2:": {
     uc_output: "1f3cc-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_golfing_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_golfing_tone3:": {
+  },
+  ":woman_golfing_tone3:": {
     uc_output: "1f3cc-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_golfing_medium_skin_tone:"],
     category: "activity"
-},
-":woman_golfing_tone4:": {
+  },
+  ":woman_golfing_tone4:": {
     uc_output: "1f3cc-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_golfing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_golfing_tone5:": {
+  },
+  ":woman_golfing_tone5:": {
     uc_output: "1f3cc-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_golfing_dark_skin_tone:"],
     category: "activity"
-},
-":woman_guard_tone1:": {
+  },
+  ":woman_guard_tone1:": {
     uc_output: "1f482-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_guard_light_skin_tone:"],
     category: "people"
-},
-":woman_guard_tone2:": {
+  },
+  ":woman_guard_tone2:": {
     uc_output: "1f482-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_guard_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_guard_tone3:": {
+  },
+  ":woman_guard_tone3:": {
     uc_output: "1f482-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_guard_medium_skin_tone:"],
     category: "people"
-},
-":woman_guard_tone4:": {
+  },
+  ":woman_guard_tone4:": {
     uc_output: "1f482-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_guard_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_guard_tone5:": {
+  },
+  ":woman_guard_tone5:": {
     uc_output: "1f482-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_guard_dark_skin_tone:"],
     category: "people"
-},
-":woman_health_worker_tone1:": {
+  },
+  ":woman_health_worker_tone1:": {
     uc_output: "1f469-1f3fb-200d-2695-fe0f",
     shortnames: [":woman_health_worker_light_skin_tone:"],
     category: "people"
-},
-":woman_health_worker_tone2:": {
+  },
+  ":woman_health_worker_tone2:": {
     uc_output: "1f469-1f3fc-200d-2695-fe0f",
     shortnames: [":woman_health_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_health_worker_tone3:": {
+  },
+  ":woman_health_worker_tone3:": {
     uc_output: "1f469-1f3fd-200d-2695-fe0f",
     shortnames: [":woman_health_worker_medium_skin_tone:"],
     category: "people"
-},
-":woman_health_worker_tone4:": {
+  },
+  ":woman_health_worker_tone4:": {
     uc_output: "1f469-1f3fe-200d-2695-fe0f",
     shortnames: [":woman_health_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_health_worker_tone5:": {
+  },
+  ":woman_health_worker_tone5:": {
     uc_output: "1f469-1f3ff-200d-2695-fe0f",
     shortnames: [":woman_health_worker_dark_skin_tone:"],
     category: "people"
-},
-":woman_in_lotus_position_tone1:": {
+  },
+  ":woman_in_lotus_position_tone1:": {
     uc_output: "1f9d8-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_in_lotus_position_light_skin_tone:"],
     category: "activity"
-},
-":woman_in_lotus_position_tone2:": {
+  },
+  ":woman_in_lotus_position_tone2:": {
     uc_output: "1f9d8-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_in_lotus_position_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_in_lotus_position_tone3:": {
+  },
+  ":woman_in_lotus_position_tone3:": {
     uc_output: "1f9d8-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_in_lotus_position_medium_skin_tone:"],
     category: "activity"
-},
-":woman_in_lotus_position_tone4:": {
+  },
+  ":woman_in_lotus_position_tone4:": {
     uc_output: "1f9d8-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_in_lotus_position_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_in_lotus_position_tone5:": {
+  },
+  ":woman_in_lotus_position_tone5:": {
     uc_output: "1f9d8-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_in_lotus_position_dark_skin_tone:"],
     category: "activity"
-},
-":woman_in_steamy_room_tone1:": {
+  },
+  ":woman_in_steamy_room_tone1:": {
     uc_output: "1f9d6-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_in_steamy_room_light_skin_tone:"],
     category: "activity"
-},
-":woman_in_steamy_room_tone2:": {
+  },
+  ":woman_in_steamy_room_tone2:": {
     uc_output: "1f9d6-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_in_steamy_room_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_in_steamy_room_tone3:": {
+  },
+  ":woman_in_steamy_room_tone3:": {
     uc_output: "1f9d6-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_in_steamy_room_medium_skin_tone:"],
     category: "activity"
-},
-":woman_in_steamy_room_tone4:": {
+  },
+  ":woman_in_steamy_room_tone4:": {
     uc_output: "1f9d6-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_in_steamy_room_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_in_steamy_room_tone5:": {
+  },
+  ":woman_in_steamy_room_tone5:": {
     uc_output: "1f9d6-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_in_steamy_room_dark_skin_tone:"],
     category: "activity"
-},
-":woman_judge_tone1:": {
+  },
+  ":woman_judge_tone1:": {
     uc_output: "1f469-1f3fb-200d-2696-fe0f",
     shortnames: [":woman_judge_light_skin_tone:"],
     category: "people"
-},
-":woman_judge_tone2:": {
+  },
+  ":woman_judge_tone2:": {
     uc_output: "1f469-1f3fc-200d-2696-fe0f",
     shortnames: [":woman_judge_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_judge_tone3:": {
+  },
+  ":woman_judge_tone3:": {
     uc_output: "1f469-1f3fd-200d-2696-fe0f",
     shortnames: [":woman_judge_medium_skin_tone:"],
     category: "people"
-},
-":woman_judge_tone4:": {
+  },
+  ":woman_judge_tone4:": {
     uc_output: "1f469-1f3fe-200d-2696-fe0f",
     shortnames: [":woman_judge_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_judge_tone5:": {
+  },
+  ":woman_judge_tone5:": {
     uc_output: "1f469-1f3ff-200d-2696-fe0f",
     shortnames: [":woman_judge_dark_skin_tone:"],
     category: "people"
-},
-":woman_juggling_tone1:": {
+  },
+  ":woman_juggling_tone1:": {
     uc_output: "1f939-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_juggling_light_skin_tone:"],
     category: "activity"
-},
-":woman_juggling_tone2:": {
+  },
+  ":woman_juggling_tone2:": {
     uc_output: "1f939-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_juggling_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_juggling_tone3:": {
+  },
+  ":woman_juggling_tone3:": {
     uc_output: "1f939-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_juggling_medium_skin_tone:"],
     category: "activity"
-},
-":woman_juggling_tone4:": {
+  },
+  ":woman_juggling_tone4:": {
     uc_output: "1f939-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_juggling_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_juggling_tone5:": {
+  },
+  ":woman_juggling_tone5:": {
     uc_output: "1f939-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_juggling_dark_skin_tone:"],
     category: "activity"
-},
-":woman_lifting_weights_tone1:": {
+  },
+  ":woman_lifting_weights_tone1:": {
     uc_output: "1f3cb-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_lifting_weights_light_skin_tone:"],
     category: "activity"
-},
-":woman_lifting_weights_tone2:": {
+  },
+  ":woman_lifting_weights_tone2:": {
     uc_output: "1f3cb-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_lifting_weights_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_lifting_weights_tone3:": {
+  },
+  ":woman_lifting_weights_tone3:": {
     uc_output: "1f3cb-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_lifting_weights_medium_skin_tone:"],
     category: "activity"
-},
-":woman_lifting_weights_tone4:": {
+  },
+  ":woman_lifting_weights_tone4:": {
     uc_output: "1f3cb-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_lifting_weights_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_lifting_weights_tone5:": {
+  },
+  ":woman_lifting_weights_tone5:": {
     uc_output: "1f3cb-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_lifting_weights_dark_skin_tone:"],
     category: "activity"
-},
-":woman_mage_tone1:": {
+  },
+  ":woman_mage_tone1:": {
     uc_output: "1f9d9-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_mage_light_skin_tone:"],
     category: "people"
-},
-":woman_mage_tone2:": {
+  },
+  ":woman_mage_tone2:": {
     uc_output: "1f9d9-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_mage_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_mage_tone3:": {
+  },
+  ":woman_mage_tone3:": {
     uc_output: "1f9d9-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_mage_medium_skin_tone:"],
     category: "people"
-},
-":woman_mage_tone4:": {
+  },
+  ":woman_mage_tone4:": {
     uc_output: "1f9d9-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_mage_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_mage_tone5:": {
+  },
+  ":woman_mage_tone5:": {
     uc_output: "1f9d9-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_mage_dark_skin_tone:"],
     category: "people"
-},
-":woman_mountain_biking_tone1:": {
+  },
+  ":woman_mountain_biking_tone1:": {
     uc_output: "1f6b5-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_mountain_biking_light_skin_tone:"],
     category: "activity"
-},
-":woman_mountain_biking_tone2:": {
+  },
+  ":woman_mountain_biking_tone2:": {
     uc_output: "1f6b5-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_mountain_biking_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_mountain_biking_tone3:": {
+  },
+  ":woman_mountain_biking_tone3:": {
     uc_output: "1f6b5-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_mountain_biking_medium_skin_tone:"],
     category: "activity"
-},
-":woman_mountain_biking_tone4:": {
+  },
+  ":woman_mountain_biking_tone4:": {
     uc_output: "1f6b5-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_mountain_biking_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_mountain_biking_tone5:": {
+  },
+  ":woman_mountain_biking_tone5:": {
     uc_output: "1f6b5-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_mountain_biking_dark_skin_tone:"],
     category: "activity"
-},
-":woman_pilot_tone1:": {
+  },
+  ":woman_pilot_tone1:": {
     uc_output: "1f469-1f3fb-200d-2708-fe0f",
     shortnames: [":woman_pilot_light_skin_tone:"],
     category: "people"
-},
-":woman_pilot_tone2:": {
+  },
+  ":woman_pilot_tone2:": {
     uc_output: "1f469-1f3fc-200d-2708-fe0f",
     shortnames: [":woman_pilot_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_pilot_tone3:": {
+  },
+  ":woman_pilot_tone3:": {
     uc_output: "1f469-1f3fd-200d-2708-fe0f",
     shortnames: [":woman_pilot_medium_skin_tone:"],
     category: "people"
-},
-":woman_pilot_tone4:": {
+  },
+  ":woman_pilot_tone4:": {
     uc_output: "1f469-1f3fe-200d-2708-fe0f",
     shortnames: [":woman_pilot_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_pilot_tone5:": {
+  },
+  ":woman_pilot_tone5:": {
     uc_output: "1f469-1f3ff-200d-2708-fe0f",
     shortnames: [":woman_pilot_dark_skin_tone:"],
     category: "people"
-},
-":woman_playing_handball_tone1:": {
+  },
+  ":woman_playing_handball_tone1:": {
     uc_output: "1f93e-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_playing_handball_light_skin_tone:"],
     category: "activity"
-},
-":woman_playing_handball_tone2:": {
+  },
+  ":woman_playing_handball_tone2:": {
     uc_output: "1f93e-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_playing_handball_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_playing_handball_tone3:": {
+  },
+  ":woman_playing_handball_tone3:": {
     uc_output: "1f93e-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_playing_handball_medium_skin_tone:"],
     category: "activity"
-},
-":woman_playing_handball_tone4:": {
+  },
+  ":woman_playing_handball_tone4:": {
     uc_output: "1f93e-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_playing_handball_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_playing_handball_tone5:": {
+  },
+  ":woman_playing_handball_tone5:": {
     uc_output: "1f93e-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_playing_handball_dark_skin_tone:"],
     category: "activity"
-},
-":woman_playing_water_polo_tone1:": {
+  },
+  ":woman_playing_water_polo_tone1:": {
     uc_output: "1f93d-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_playing_water_polo_light_skin_tone:"],
     category: "activity"
-},
-":woman_playing_water_polo_tone2:": {
+  },
+  ":woman_playing_water_polo_tone2:": {
     uc_output: "1f93d-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_playing_water_polo_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_playing_water_polo_tone3:": {
+  },
+  ":woman_playing_water_polo_tone3:": {
     uc_output: "1f93d-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_playing_water_polo_medium_skin_tone:"],
     category: "activity"
-},
-":woman_playing_water_polo_tone4:": {
+  },
+  ":woman_playing_water_polo_tone4:": {
     uc_output: "1f93d-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_playing_water_polo_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_playing_water_polo_tone5:": {
+  },
+  ":woman_playing_water_polo_tone5:": {
     uc_output: "1f93d-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_playing_water_polo_dark_skin_tone:"],
     category: "activity"
-},
-":woman_police_officer_tone1:": {
+  },
+  ":woman_police_officer_tone1:": {
     uc_output: "1f46e-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_police_officer_light_skin_tone:"],
     category: "people"
-},
-":woman_police_officer_tone2:": {
+  },
+  ":woman_police_officer_tone2:": {
     uc_output: "1f46e-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_police_officer_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_police_officer_tone3:": {
+  },
+  ":woman_police_officer_tone3:": {
     uc_output: "1f46e-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_police_officer_medium_skin_tone:"],
     category: "people"
-},
-":woman_police_officer_tone4:": {
+  },
+  ":woman_police_officer_tone4:": {
     uc_output: "1f46e-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_police_officer_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_police_officer_tone5:": {
+  },
+  ":woman_police_officer_tone5:": {
     uc_output: "1f46e-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_police_officer_dark_skin_tone:"],
     category: "people"
-},
-":woman_pouting_tone1:": {
+  },
+  ":woman_pouting_tone1:": {
     uc_output: "1f64e-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_pouting_light_skin_tone:"],
     category: "people"
-},
-":woman_pouting_tone2:": {
+  },
+  ":woman_pouting_tone2:": {
     uc_output: "1f64e-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_pouting_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_pouting_tone3:": {
+  },
+  ":woman_pouting_tone3:": {
     uc_output: "1f64e-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_pouting_medium_skin_tone:"],
     category: "people"
-},
-":woman_pouting_tone4:": {
+  },
+  ":woman_pouting_tone4:": {
     uc_output: "1f64e-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_pouting_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_pouting_tone5:": {
+  },
+  ":woman_pouting_tone5:": {
     uc_output: "1f64e-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_pouting_dark_skin_tone:"],
     category: "people"
-},
-":woman_raising_hand_tone1:": {
+  },
+  ":woman_raising_hand_tone1:": {
     uc_output: "1f64b-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_raising_hand_light_skin_tone:"],
     category: "people"
-},
-":woman_raising_hand_tone2:": {
+  },
+  ":woman_raising_hand_tone2:": {
     uc_output: "1f64b-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_raising_hand_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_raising_hand_tone3:": {
+  },
+  ":woman_raising_hand_tone3:": {
     uc_output: "1f64b-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_raising_hand_medium_skin_tone:"],
     category: "people"
-},
-":woman_raising_hand_tone4:": {
+  },
+  ":woman_raising_hand_tone4:": {
     uc_output: "1f64b-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_raising_hand_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_raising_hand_tone5:": {
+  },
+  ":woman_raising_hand_tone5:": {
     uc_output: "1f64b-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_raising_hand_dark_skin_tone:"],
     category: "people"
-},
-":woman_rowing_boat_tone1:": {
+  },
+  ":woman_rowing_boat_tone1:": {
     uc_output: "1f6a3-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_rowing_boat_light_skin_tone:"],
     category: "activity"
-},
-":woman_rowing_boat_tone2:": {
+  },
+  ":woman_rowing_boat_tone2:": {
     uc_output: "1f6a3-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_rowing_boat_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_rowing_boat_tone3:": {
+  },
+  ":woman_rowing_boat_tone3:": {
     uc_output: "1f6a3-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_rowing_boat_medium_skin_tone:"],
     category: "activity"
-},
-":woman_rowing_boat_tone4:": {
+  },
+  ":woman_rowing_boat_tone4:": {
     uc_output: "1f6a3-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_rowing_boat_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_rowing_boat_tone5:": {
+  },
+  ":woman_rowing_boat_tone5:": {
     uc_output: "1f6a3-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_rowing_boat_dark_skin_tone:"],
     category: "activity"
-},
-":woman_running_tone1:": {
+  },
+  ":woman_running_tone1:": {
     uc_output: "1f3c3-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_running_light_skin_tone:"],
     category: "people"
-},
-":woman_running_tone2:": {
+  },
+  ":woman_running_tone2:": {
     uc_output: "1f3c3-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_running_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_running_tone3:": {
+  },
+  ":woman_running_tone3:": {
     uc_output: "1f3c3-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_running_medium_skin_tone:"],
     category: "people"
-},
-":woman_running_tone4:": {
+  },
+  ":woman_running_tone4:": {
     uc_output: "1f3c3-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_running_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_running_tone5:": {
+  },
+  ":woman_running_tone5:": {
     uc_output: "1f3c3-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_running_dark_skin_tone:"],
     category: "people"
-},
-":woman_shrugging_tone1:": {
+  },
+  ":woman_shrugging_tone1:": {
     uc_output: "1f937-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_shrugging_light_skin_tone:"],
     category: "people"
-},
-":woman_shrugging_tone2:": {
+  },
+  ":woman_shrugging_tone2:": {
     uc_output: "1f937-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_shrugging_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_shrugging_tone3:": {
+  },
+  ":woman_shrugging_tone3:": {
     uc_output: "1f937-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_shrugging_medium_skin_tone:"],
     category: "people"
-},
-":woman_shrugging_tone4:": {
+  },
+  ":woman_shrugging_tone4:": {
     uc_output: "1f937-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_shrugging_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_shrugging_tone5:": {
+  },
+  ":woman_shrugging_tone5:": {
     uc_output: "1f937-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_shrugging_dark_skin_tone:"],
     category: "people"
-},
-":woman_surfing_tone1:": {
+  },
+  ":woman_surfing_tone1:": {
     uc_output: "1f3c4-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_surfing_light_skin_tone:"],
     category: "activity"
-},
-":woman_surfing_tone2:": {
+  },
+  ":woman_surfing_tone2:": {
     uc_output: "1f3c4-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_surfing_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_surfing_tone3:": {
+  },
+  ":woman_surfing_tone3:": {
     uc_output: "1f3c4-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_surfing_medium_skin_tone:"],
     category: "activity"
-},
-":woman_surfing_tone4:": {
+  },
+  ":woman_surfing_tone4:": {
     uc_output: "1f3c4-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_surfing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_surfing_tone5:": {
+  },
+  ":woman_surfing_tone5:": {
     uc_output: "1f3c4-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_surfing_dark_skin_tone:"],
     category: "activity"
-},
-":woman_swimming_tone1:": {
+  },
+  ":woman_swimming_tone1:": {
     uc_output: "1f3ca-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_swimming_light_skin_tone:"],
     category: "activity"
-},
-":woman_swimming_tone2:": {
+  },
+  ":woman_swimming_tone2:": {
     uc_output: "1f3ca-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_swimming_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_swimming_tone3:": {
+  },
+  ":woman_swimming_tone3:": {
     uc_output: "1f3ca-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_swimming_medium_skin_tone:"],
     category: "activity"
-},
-":woman_swimming_tone4:": {
+  },
+  ":woman_swimming_tone4:": {
     uc_output: "1f3ca-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_swimming_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_swimming_tone5:": {
+  },
+  ":woman_swimming_tone5:": {
     uc_output: "1f3ca-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_swimming_dark_skin_tone:"],
     category: "activity"
-},
-":woman_tipping_hand_tone1:": {
+  },
+  ":woman_tipping_hand_tone1:": {
     uc_output: "1f481-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_tipping_hand_light_skin_tone:"],
     category: "people"
-},
-":woman_tipping_hand_tone2:": {
+  },
+  ":woman_tipping_hand_tone2:": {
     uc_output: "1f481-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_tipping_hand_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_tipping_hand_tone3:": {
+  },
+  ":woman_tipping_hand_tone3:": {
     uc_output: "1f481-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_tipping_hand_medium_skin_tone:"],
     category: "people"
-},
-":woman_tipping_hand_tone4:": {
+  },
+  ":woman_tipping_hand_tone4:": {
     uc_output: "1f481-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_tipping_hand_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_tipping_hand_tone5:": {
+  },
+  ":woman_tipping_hand_tone5:": {
     uc_output: "1f481-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_tipping_hand_dark_skin_tone:"],
     category: "people"
-},
-":woman_vampire_tone1:": {
+  },
+  ":woman_vampire_tone1:": {
     uc_output: "1f9db-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_vampire_light_skin_tone:"],
     category: "people"
-},
-":woman_vampire_tone2:": {
+  },
+  ":woman_vampire_tone2:": {
     uc_output: "1f9db-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_vampire_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_vampire_tone3:": {
+  },
+  ":woman_vampire_tone3:": {
     uc_output: "1f9db-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_vampire_medium_skin_tone:"],
     category: "people"
-},
-":woman_vampire_tone4:": {
+  },
+  ":woman_vampire_tone4:": {
     uc_output: "1f9db-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_vampire_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_vampire_tone5:": {
+  },
+  ":woman_vampire_tone5:": {
     uc_output: "1f9db-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_vampire_dark_skin_tone:"],
     category: "people"
-},
-":woman_walking_tone1:": {
+  },
+  ":woman_walking_tone1:": {
     uc_output: "1f6b6-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_walking_light_skin_tone:"],
     category: "people"
-},
-":woman_walking_tone2:": {
+  },
+  ":woman_walking_tone2:": {
     uc_output: "1f6b6-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_walking_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_walking_tone3:": {
+  },
+  ":woman_walking_tone3:": {
     uc_output: "1f6b6-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_walking_medium_skin_tone:"],
     category: "people"
-},
-":woman_walking_tone4:": {
+  },
+  ":woman_walking_tone4:": {
     uc_output: "1f6b6-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_walking_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_walking_tone5:": {
+  },
+  ":woman_walking_tone5:": {
     uc_output: "1f6b6-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_walking_dark_skin_tone:"],
     category: "people"
-},
-":woman_wearing_turban_tone1:": {
+  },
+  ":woman_wearing_turban_tone1:": {
     uc_output: "1f473-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_wearing_turban_light_skin_tone:"],
     category: "people"
-},
-":woman_wearing_turban_tone2:": {
+  },
+  ":woman_wearing_turban_tone2:": {
     uc_output: "1f473-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_wearing_turban_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_wearing_turban_tone3:": {
+  },
+  ":woman_wearing_turban_tone3:": {
     uc_output: "1f473-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_wearing_turban_medium_skin_tone:"],
     category: "people"
-},
-":woman_wearing_turban_tone4:": {
+  },
+  ":woman_wearing_turban_tone4:": {
     uc_output: "1f473-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_wearing_turban_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_wearing_turban_tone5:": {
+  },
+  ":woman_wearing_turban_tone5:": {
     uc_output: "1f473-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_wearing_turban_dark_skin_tone:"],
     category: "people"
-},
-":man_bouncing_ball_tone1:": {
+  },
+  ":man_bouncing_ball_tone1:": {
     uc_output: "26f9-1f3fb-200d-2642-fe0f",
     shortnames: [":man_bouncing_ball_light_skin_tone:"],
     category: "activity"
-},
-":man_bouncing_ball_tone2:": {
+  },
+  ":man_bouncing_ball_tone2:": {
     uc_output: "26f9-1f3fc-200d-2642-fe0f",
     shortnames: [":man_bouncing_ball_medium_light_skin_tone:"],
     category: "activity"
-},
-":man_bouncing_ball_tone3:": {
+  },
+  ":man_bouncing_ball_tone3:": {
     uc_output: "26f9-1f3fd-200d-2642-fe0f",
     shortnames: [":man_bouncing_ball_medium_skin_tone:"],
     category: "activity"
-},
-":man_bouncing_ball_tone4:": {
+  },
+  ":man_bouncing_ball_tone4:": {
     uc_output: "26f9-1f3fe-200d-2642-fe0f",
     shortnames: [":man_bouncing_ball_medium_dark_skin_tone:"],
     category: "activity"
-},
-":man_bouncing_ball_tone5:": {
+  },
+  ":man_bouncing_ball_tone5:": {
     uc_output: "26f9-1f3ff-200d-2642-fe0f",
     shortnames: [":man_bouncing_ball_dark_skin_tone:"],
     category: "activity"
-},
-":man_detective:": {
+  },
+  ":man_detective:": {
     uc_output: "1f575-fe0f-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_golfing:": {
+  },
+  ":man_golfing:": {
     uc_output: "1f3cc-fe0f-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_lifting_weights:": {
+  },
+  ":man_lifting_weights:": {
     uc_output: "1f3cb-fe0f-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_bouncing_ball_tone1:": {
+  },
+  ":woman_bouncing_ball_tone1:": {
     uc_output: "26f9-1f3fb-200d-2640-fe0f",
     shortnames: [":woman_bouncing_ball_light_skin_tone:"],
     category: "activity"
-},
-":woman_bouncing_ball_tone2:": {
+  },
+  ":woman_bouncing_ball_tone2:": {
     uc_output: "26f9-1f3fc-200d-2640-fe0f",
     shortnames: [":woman_bouncing_ball_medium_light_skin_tone:"],
     category: "activity"
-},
-":woman_bouncing_ball_tone3:": {
+  },
+  ":woman_bouncing_ball_tone3:": {
     uc_output: "26f9-1f3fd-200d-2640-fe0f",
     shortnames: [":woman_bouncing_ball_medium_skin_tone:"],
     category: "activity"
-},
-":woman_bouncing_ball_tone4:": {
+  },
+  ":woman_bouncing_ball_tone4:": {
     uc_output: "26f9-1f3fe-200d-2640-fe0f",
     shortnames: [":woman_bouncing_ball_medium_dark_skin_tone:"],
     category: "activity"
-},
-":woman_bouncing_ball_tone5:": {
+  },
+  ":woman_bouncing_ball_tone5:": {
     uc_output: "26f9-1f3ff-200d-2640-fe0f",
     shortnames: [":woman_bouncing_ball_dark_skin_tone:"],
     category: "activity"
-},
-":woman_detective:": {
+  },
+  ":woman_detective:": {
     uc_output: "1f575-fe0f-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_golfing:": {
+  },
+  ":woman_golfing:": {
     uc_output: "1f3cc-fe0f-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_lifting_weights:": {
+  },
+  ":woman_lifting_weights:": {
     uc_output: "1f3cb-fe0f-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_bouncing_ball:": {
+  },
+  ":man_bouncing_ball:": {
     uc_output: "26f9-fe0f-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_bouncing_ball:": {
+  },
+  ":woman_bouncing_ball:": {
     uc_output: "26f9-fe0f-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_artist_tone1:": {
+  },
+  ":man_artist_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f3a8",
     shortnames: [":man_artist_light_skin_tone:"],
     category: "people"
-},
-":man_artist_tone2:": {
+  },
+  ":man_artist_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f3a8",
     shortnames: [":man_artist_medium_light_skin_tone:"],
     category: "people"
-},
-":man_artist_tone3:": {
+  },
+  ":man_artist_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f3a8",
     shortnames: [":man_artist_medium_skin_tone:"],
     category: "people"
-},
-":man_artist_tone4:": {
+  },
+  ":man_artist_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f3a8",
     shortnames: [":man_artist_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_artist_tone5:": {
+  },
+  ":man_artist_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f3a8",
     shortnames: [":man_artist_dark_skin_tone:"],
     category: "people"
-},
-":man_astronaut_tone1:": {
+  },
+  ":man_astronaut_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f680",
     shortnames: [":man_astronaut_light_skin_tone:"],
     category: "people"
-},
-":man_astronaut_tone2:": {
+  },
+  ":man_astronaut_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f680",
     shortnames: [":man_astronaut_medium_light_skin_tone:"],
     category: "people"
-},
-":man_astronaut_tone3:": {
+  },
+  ":man_astronaut_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f680",
     shortnames: [":man_astronaut_medium_skin_tone:"],
     category: "people"
-},
-":man_astronaut_tone4:": {
+  },
+  ":man_astronaut_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f680",
     shortnames: [":man_astronaut_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_astronaut_tone5:": {
+  },
+  ":man_astronaut_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f680",
     shortnames: [":man_astronaut_dark_skin_tone:"],
     category: "people"
-},
-":man_cook_tone1:": {
+  },
+  ":man_cook_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f373",
     shortnames: [":man_cook_light_skin_tone:"],
     category: "people"
-},
-":man_cook_tone2:": {
+  },
+  ":man_cook_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f373",
     shortnames: [":man_cook_medium_light_skin_tone:"],
     category: "people"
-},
-":man_cook_tone3:": {
+  },
+  ":man_cook_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f373",
     shortnames: [":man_cook_medium_skin_tone:"],
     category: "people"
-},
-":man_cook_tone4:": {
+  },
+  ":man_cook_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f373",
     shortnames: [":man_cook_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_cook_tone5:": {
+  },
+  ":man_cook_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f373",
     shortnames: [":man_cook_dark_skin_tone:"],
     category: "people"
-},
-":man_factory_worker_tone1:": {
+  },
+  ":man_factory_worker_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f3ed",
     shortnames: [":man_factory_worker_light_skin_tone:"],
     category: "people"
-},
-":man_factory_worker_tone2:": {
+  },
+  ":man_factory_worker_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f3ed",
     shortnames: [":man_factory_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":man_factory_worker_tone3:": {
+  },
+  ":man_factory_worker_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f3ed",
     shortnames: [":man_factory_worker_medium_skin_tone:"],
     category: "people"
-},
-":man_factory_worker_tone4:": {
+  },
+  ":man_factory_worker_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f3ed",
     shortnames: [":man_factory_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_factory_worker_tone5:": {
+  },
+  ":man_factory_worker_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f3ed",
     shortnames: [":man_factory_worker_dark_skin_tone:"],
     category: "people"
-},
-":man_farmer_tone1:": {
+  },
+  ":man_farmer_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f33e",
     shortnames: [":man_farmer_light_skin_tone:"],
     category: "people"
-},
-":man_farmer_tone2:": {
+  },
+  ":man_farmer_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f33e",
     shortnames: [":man_farmer_medium_light_skin_tone:"],
     category: "people"
-},
-":man_farmer_tone3:": {
+  },
+  ":man_farmer_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f33e",
     shortnames: [":man_farmer_medium_skin_tone:"],
     category: "people"
-},
-":man_farmer_tone4:": {
+  },
+  ":man_farmer_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f33e",
     shortnames: [":man_farmer_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_farmer_tone5:": {
+  },
+  ":man_farmer_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f33e",
     shortnames: [":man_farmer_dark_skin_tone:"],
     category: "people"
-},
-":man_firefighter_tone1:": {
+  },
+  ":man_firefighter_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f692",
     shortnames: [":man_firefighter_light_skin_tone:"],
     category: "people"
-},
-":man_firefighter_tone2:": {
+  },
+  ":man_firefighter_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f692",
     shortnames: [":man_firefighter_medium_light_skin_tone:"],
     category: "people"
-},
-":man_firefighter_tone3:": {
+  },
+  ":man_firefighter_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f692",
     shortnames: [":man_firefighter_medium_skin_tone:"],
     category: "people"
-},
-":man_firefighter_tone4:": {
+  },
+  ":man_firefighter_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f692",
     shortnames: [":man_firefighter_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_firefighter_tone5:": {
+  },
+  ":man_firefighter_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f692",
     shortnames: [":man_firefighter_dark_skin_tone:"],
     category: "people"
-},
-":man_mechanic_tone1:": {
+  },
+  ":man_mechanic_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f527",
     shortnames: [":man_mechanic_light_skin_tone:"],
     category: "people"
-},
-":man_mechanic_tone2:": {
+  },
+  ":man_mechanic_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f527",
     shortnames: [":man_mechanic_medium_light_skin_tone:"],
     category: "people"
-},
-":man_mechanic_tone3:": {
+  },
+  ":man_mechanic_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f527",
     shortnames: [":man_mechanic_medium_skin_tone:"],
     category: "people"
-},
-":man_mechanic_tone4:": {
+  },
+  ":man_mechanic_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f527",
     shortnames: [":man_mechanic_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_mechanic_tone5:": {
+  },
+  ":man_mechanic_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f527",
     shortnames: [":man_mechanic_dark_skin_tone:"],
     category: "people"
-},
-":man_office_worker_tone1:": {
+  },
+  ":man_office_worker_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f4bc",
     shortnames: [":man_office_worker_light_skin_tone:"],
     category: "people"
-},
-":man_office_worker_tone2:": {
+  },
+  ":man_office_worker_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f4bc",
     shortnames: [":man_office_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":man_office_worker_tone3:": {
+  },
+  ":man_office_worker_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f4bc",
     shortnames: [":man_office_worker_medium_skin_tone:"],
     category: "people"
-},
-":man_office_worker_tone4:": {
+  },
+  ":man_office_worker_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f4bc",
     shortnames: [":man_office_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_office_worker_tone5:": {
+  },
+  ":man_office_worker_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f4bc",
     shortnames: [":man_office_worker_dark_skin_tone:"],
     category: "people"
-},
-":man_scientist_tone1:": {
+  },
+  ":man_scientist_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f52c",
     shortnames: [":man_scientist_light_skin_tone:"],
     category: "people"
-},
-":man_scientist_tone2:": {
+  },
+  ":man_scientist_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f52c",
     shortnames: [":man_scientist_medium_light_skin_tone:"],
     category: "people"
-},
-":man_scientist_tone3:": {
+  },
+  ":man_scientist_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f52c",
     shortnames: [":man_scientist_medium_skin_tone:"],
     category: "people"
-},
-":man_scientist_tone4:": {
+  },
+  ":man_scientist_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f52c",
     shortnames: [":man_scientist_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_scientist_tone5:": {
+  },
+  ":man_scientist_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f52c",
     shortnames: [":man_scientist_dark_skin_tone:"],
     category: "people"
-},
-":man_singer_tone1:": {
+  },
+  ":man_singer_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f3a4",
     shortnames: [":man_singer_light_skin_tone:"],
     category: "people"
-},
-":man_singer_tone2:": {
+  },
+  ":man_singer_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f3a4",
     shortnames: [":man_singer_medium_light_skin_tone:"],
     category: "people"
-},
-":man_singer_tone3:": {
+  },
+  ":man_singer_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f3a4",
     shortnames: [":man_singer_medium_skin_tone:"],
     category: "people"
-},
-":man_singer_tone4:": {
+  },
+  ":man_singer_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f3a4",
     shortnames: [":man_singer_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_singer_tone5:": {
+  },
+  ":man_singer_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f3a4",
     shortnames: [":man_singer_dark_skin_tone:"],
     category: "people"
-},
-":man_student_tone1:": {
+  },
+  ":man_student_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f393",
     shortnames: [":man_student_light_skin_tone:"],
     category: "people"
-},
-":man_student_tone2:": {
+  },
+  ":man_student_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f393",
     shortnames: [":man_student_medium_light_skin_tone:"],
     category: "people"
-},
-":man_student_tone3:": {
+  },
+  ":man_student_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f393",
     shortnames: [":man_student_medium_skin_tone:"],
     category: "people"
-},
-":man_student_tone4:": {
+  },
+  ":man_student_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f393",
     shortnames: [":man_student_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_student_tone5:": {
+  },
+  ":man_student_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f393",
     shortnames: [":man_student_dark_skin_tone:"],
     category: "people"
-},
-":man_teacher_tone1:": {
+  },
+  ":man_teacher_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f3eb",
     shortnames: [":man_teacher_light_skin_tone:"],
     category: "people"
-},
-":man_teacher_tone2:": {
+  },
+  ":man_teacher_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f3eb",
     shortnames: [":man_teacher_medium_light_skin_tone:"],
     category: "people"
-},
-":man_teacher_tone3:": {
+  },
+  ":man_teacher_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f3eb",
     shortnames: [":man_teacher_medium_skin_tone:"],
     category: "people"
-},
-":man_teacher_tone4:": {
+  },
+  ":man_teacher_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f3eb",
     shortnames: [":man_teacher_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_teacher_tone5:": {
+  },
+  ":man_teacher_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f3eb",
     shortnames: [":man_teacher_dark_skin_tone:"],
     category: "people"
-},
-":man_technologist_tone1:": {
+  },
+  ":man_technologist_tone1:": {
     uc_output: "1f468-1f3fb-200d-1f4bb",
     shortnames: [":man_technologist_light_skin_tone:"],
     category: "people"
-},
-":man_technologist_tone2:": {
+  },
+  ":man_technologist_tone2:": {
     uc_output: "1f468-1f3fc-200d-1f4bb",
     shortnames: [":man_technologist_medium_light_skin_tone:"],
     category: "people"
-},
-":man_technologist_tone3:": {
+  },
+  ":man_technologist_tone3:": {
     uc_output: "1f468-1f3fd-200d-1f4bb",
     shortnames: [":man_technologist_medium_skin_tone:"],
     category: "people"
-},
-":man_technologist_tone4:": {
+  },
+  ":man_technologist_tone4:": {
     uc_output: "1f468-1f3fe-200d-1f4bb",
     shortnames: [":man_technologist_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_technologist_tone5:": {
+  },
+  ":man_technologist_tone5:": {
     uc_output: "1f468-1f3ff-200d-1f4bb",
     shortnames: [":man_technologist_dark_skin_tone:"],
     category: "people"
-},
-":woman_artist_tone1:": {
+  },
+  ":woman_artist_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f3a8",
     shortnames: [":woman_artist_light_skin_tone:"],
     category: "people"
-},
-":woman_artist_tone2:": {
+  },
+  ":woman_artist_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f3a8",
     shortnames: [":woman_artist_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_artist_tone3:": {
+  },
+  ":woman_artist_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f3a8",
     shortnames: [":woman_artist_medium_skin_tone:"],
     category: "people"
-},
-":woman_artist_tone4:": {
+  },
+  ":woman_artist_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f3a8",
     shortnames: [":woman_artist_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_artist_tone5:": {
+  },
+  ":woman_artist_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f3a8",
     shortnames: [":woman_artist_dark_skin_tone:"],
     category: "people"
-},
-":woman_astronaut_tone1:": {
+  },
+  ":woman_astronaut_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f680",
     shortnames: [":woman_astronaut_light_skin_tone:"],
     category: "people"
-},
-":woman_astronaut_tone2:": {
+  },
+  ":woman_astronaut_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f680",
     shortnames: [":woman_astronaut_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_astronaut_tone3:": {
+  },
+  ":woman_astronaut_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f680",
     shortnames: [":woman_astronaut_medium_skin_tone:"],
     category: "people"
-},
-":woman_astronaut_tone4:": {
+  },
+  ":woman_astronaut_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f680",
     shortnames: [":woman_astronaut_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_astronaut_tone5:": {
+  },
+  ":woman_astronaut_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f680",
     shortnames: [":woman_astronaut_dark_skin_tone:"],
     category: "people"
-},
-":woman_cook_tone1:": {
+  },
+  ":woman_cook_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f373",
     shortnames: [":woman_cook_light_skin_tone:"],
     category: "people"
-},
-":woman_cook_tone2:": {
+  },
+  ":woman_cook_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f373",
     shortnames: [":woman_cook_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_cook_tone3:": {
+  },
+  ":woman_cook_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f373",
     shortnames: [":woman_cook_medium_skin_tone:"],
     category: "people"
-},
-":woman_cook_tone4:": {
+  },
+  ":woman_cook_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f373",
     shortnames: [":woman_cook_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_cook_tone5:": {
+  },
+  ":woman_cook_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f373",
     shortnames: [":woman_cook_dark_skin_tone:"],
     category: "people"
-},
-":woman_factory_worker_tone1:": {
+  },
+  ":woman_factory_worker_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f3ed",
     shortnames: [":woman_factory_worker_light_skin_tone:"],
     category: "people"
-},
-":woman_factory_worker_tone2:": {
+  },
+  ":woman_factory_worker_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f3ed",
     shortnames: [":woman_factory_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_factory_worker_tone3:": {
+  },
+  ":woman_factory_worker_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f3ed",
     shortnames: [":woman_factory_worker_medium_skin_tone:"],
     category: "people"
-},
-":woman_factory_worker_tone4:": {
+  },
+  ":woman_factory_worker_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f3ed",
     shortnames: [":woman_factory_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_factory_worker_tone5:": {
+  },
+  ":woman_factory_worker_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f3ed",
     shortnames: [":woman_factory_worker_dark_skin_tone:"],
     category: "people"
-},
-":woman_farmer_tone1:": {
+  },
+  ":woman_farmer_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f33e",
     shortnames: [":woman_farmer_light_skin_tone:"],
     category: "people"
-},
-":woman_farmer_tone2:": {
+  },
+  ":woman_farmer_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f33e",
     shortnames: [":woman_farmer_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_farmer_tone3:": {
+  },
+  ":woman_farmer_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f33e",
     shortnames: [":woman_farmer_medium_skin_tone:"],
     category: "people"
-},
-":woman_farmer_tone4:": {
+  },
+  ":woman_farmer_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f33e",
     shortnames: [":woman_farmer_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_farmer_tone5:": {
+  },
+  ":woman_farmer_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f33e",
     shortnames: [":woman_farmer_dark_skin_tone:"],
     category: "people"
-},
-":woman_firefighter_tone1:": {
+  },
+  ":woman_firefighter_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f692",
     shortnames: [":woman_firefighter_light_skin_tone:"],
     category: "people"
-},
-":woman_firefighter_tone2:": {
+  },
+  ":woman_firefighter_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f692",
     shortnames: [":woman_firefighter_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_firefighter_tone3:": {
+  },
+  ":woman_firefighter_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f692",
     shortnames: [":woman_firefighter_medium_skin_tone:"],
     category: "people"
-},
-":woman_firefighter_tone4:": {
+  },
+  ":woman_firefighter_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f692",
     shortnames: [":woman_firefighter_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_firefighter_tone5:": {
+  },
+  ":woman_firefighter_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f692",
     shortnames: [":woman_firefighter_dark_skin_tone:"],
     category: "people"
-},
-":woman_mechanic_tone1:": {
+  },
+  ":woman_mechanic_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f527",
     shortnames: [":woman_mechanic_light_skin_tone:"],
     category: "people"
-},
-":woman_mechanic_tone2:": {
+  },
+  ":woman_mechanic_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f527",
     shortnames: [":woman_mechanic_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_mechanic_tone3:": {
+  },
+  ":woman_mechanic_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f527",
     shortnames: [":woman_mechanic_medium_skin_tone:"],
     category: "people"
-},
-":woman_mechanic_tone4:": {
+  },
+  ":woman_mechanic_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f527",
     shortnames: [":woman_mechanic_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_mechanic_tone5:": {
+  },
+  ":woman_mechanic_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f527",
     shortnames: [":woman_mechanic_dark_skin_tone:"],
     category: "people"
-},
-":woman_office_worker_tone1:": {
+  },
+  ":woman_office_worker_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f4bc",
     shortnames: [":woman_office_worker_light_skin_tone:"],
     category: "people"
-},
-":woman_office_worker_tone2:": {
+  },
+  ":woman_office_worker_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f4bc",
     shortnames: [":woman_office_worker_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_office_worker_tone3:": {
+  },
+  ":woman_office_worker_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f4bc",
     shortnames: [":woman_office_worker_medium_skin_tone:"],
     category: "people"
-},
-":woman_office_worker_tone4:": {
+  },
+  ":woman_office_worker_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f4bc",
     shortnames: [":woman_office_worker_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_office_worker_tone5:": {
+  },
+  ":woman_office_worker_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f4bc",
     shortnames: [":woman_office_worker_dark_skin_tone:"],
     category: "people"
-},
-":woman_scientist_tone1:": {
+  },
+  ":woman_scientist_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f52c",
     shortnames: [":woman_scientist_light_skin_tone:"],
     category: "people"
-},
-":woman_scientist_tone2:": {
+  },
+  ":woman_scientist_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f52c",
     shortnames: [":woman_scientist_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_scientist_tone3:": {
+  },
+  ":woman_scientist_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f52c",
     shortnames: [":woman_scientist_medium_skin_tone:"],
     category: "people"
-},
-":woman_scientist_tone4:": {
+  },
+  ":woman_scientist_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f52c",
     shortnames: [":woman_scientist_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_scientist_tone5:": {
+  },
+  ":woman_scientist_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f52c",
     shortnames: [":woman_scientist_dark_skin_tone:"],
     category: "people"
-},
-":woman_singer_tone1:": {
+  },
+  ":woman_singer_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f3a4",
     shortnames: [":woman_singer_light_skin_tone:"],
     category: "people"
-},
-":woman_singer_tone2:": {
+  },
+  ":woman_singer_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f3a4",
     shortnames: [":woman_singer_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_singer_tone3:": {
+  },
+  ":woman_singer_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f3a4",
     shortnames: [":woman_singer_medium_skin_tone:"],
     category: "people"
-},
-":woman_singer_tone4:": {
+  },
+  ":woman_singer_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f3a4",
     shortnames: [":woman_singer_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_singer_tone5:": {
+  },
+  ":woman_singer_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f3a4",
     shortnames: [":woman_singer_dark_skin_tone:"],
     category: "people"
-},
-":woman_student_tone1:": {
+  },
+  ":woman_student_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f393",
     shortnames: [":woman_student_light_skin_tone:"],
     category: "people"
-},
-":woman_student_tone2:": {
+  },
+  ":woman_student_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f393",
     shortnames: [":woman_student_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_student_tone3:": {
+  },
+  ":woman_student_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f393",
     shortnames: [":woman_student_medium_skin_tone:"],
     category: "people"
-},
-":woman_student_tone4:": {
+  },
+  ":woman_student_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f393",
     shortnames: [":woman_student_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_student_tone5:": {
+  },
+  ":woman_student_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f393",
     shortnames: [":woman_student_dark_skin_tone:"],
     category: "people"
-},
-":woman_teacher_tone1:": {
+  },
+  ":woman_teacher_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f3eb",
     shortnames: [":woman_teacher_light_skin_tone:"],
     category: "people"
-},
-":woman_teacher_tone2:": {
+  },
+  ":woman_teacher_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f3eb",
     shortnames: [":woman_teacher_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_teacher_tone3:": {
+  },
+  ":woman_teacher_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f3eb",
     shortnames: [":woman_teacher_medium_skin_tone:"],
     category: "people"
-},
-":woman_teacher_tone4:": {
+  },
+  ":woman_teacher_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f3eb",
     shortnames: [":woman_teacher_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_teacher_tone5:": {
+  },
+  ":woman_teacher_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f3eb",
     shortnames: [":woman_teacher_dark_skin_tone:"],
     category: "people"
-},
-":woman_technologist_tone1:": {
+  },
+  ":woman_technologist_tone1:": {
     uc_output: "1f469-1f3fb-200d-1f4bb",
     shortnames: [":woman_technologist_light_skin_tone:"],
     category: "people"
-},
-":woman_technologist_tone2:": {
+  },
+  ":woman_technologist_tone2:": {
     uc_output: "1f469-1f3fc-200d-1f4bb",
     shortnames: [":woman_technologist_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_technologist_tone3:": {
+  },
+  ":woman_technologist_tone3:": {
     uc_output: "1f469-1f3fd-200d-1f4bb",
     shortnames: [":woman_technologist_medium_skin_tone:"],
     category: "people"
-},
-":woman_technologist_tone4:": {
+  },
+  ":woman_technologist_tone4:": {
     uc_output: "1f469-1f3fe-200d-1f4bb",
     shortnames: [":woman_technologist_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_technologist_tone5:": {
+  },
+  ":woman_technologist_tone5:": {
     uc_output: "1f469-1f3ff-200d-1f4bb",
     shortnames: [":woman_technologist_dark_skin_tone:"],
     category: "people"
-},
-":rainbow_flag:": {
+  },
+  ":rainbow_flag:": {
     uc_output: "1f3f3-fe0f-200d-1f308",
     shortnames: [":gay_pride_flag:"],
     category: "flags"
-},
-":blond-haired_man:": {
+  },
+  ":blond-haired_man:": {
     uc_output: "1f471-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":blond-haired_woman:": {
+  },
+  ":blond-haired_woman:": {
     uc_output: "1f471-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_biking:": {
+  },
+  ":man_biking:": {
     uc_output: "1f6b4-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_bowing:": {
+  },
+  ":man_bowing:": {
     uc_output: "1f647-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_cartwheeling:": {
+  },
+  ":man_cartwheeling:": {
     uc_output: "1f938-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_climbing:": {
+  },
+  ":man_climbing:": {
     uc_output: "1f9d7-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_construction_worker:": {
+  },
+  ":man_construction_worker:": {
     uc_output: "1f477-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_elf:": {
+  },
+  ":man_elf:": {
     uc_output: "1f9dd-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_facepalming:": {
+  },
+  ":man_facepalming:": {
     uc_output: "1f926-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_fairy:": {
+  },
+  ":man_fairy:": {
     uc_output: "1f9da-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_frowning:": {
+  },
+  ":man_frowning:": {
     uc_output: "1f64d-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_genie:": {
+  },
+  ":man_genie:": {
     uc_output: "1f9de-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_gesturing_no:": {
+  },
+  ":man_gesturing_no:": {
     uc_output: "1f645-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_gesturing_ok:": {
+  },
+  ":man_gesturing_ok:": {
     uc_output: "1f646-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_getting_face_massage:": {
+  },
+  ":man_getting_face_massage:": {
     uc_output: "1f486-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_getting_haircut:": {
+  },
+  ":man_getting_haircut:": {
     uc_output: "1f487-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_guard:": {
+  },
+  ":man_guard:": {
     uc_output: "1f482-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_health_worker:": {
+  },
+  ":man_health_worker:": {
     uc_output: "1f468-200d-2695-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_in_lotus_position:": {
+  },
+  ":man_in_lotus_position:": {
     uc_output: "1f9d8-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_in_steamy_room:": {
+  },
+  ":man_in_steamy_room:": {
     uc_output: "1f9d6-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_judge:": {
+  },
+  ":man_judge:": {
     uc_output: "1f468-200d-2696-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_juggling:": {
+  },
+  ":man_juggling:": {
     uc_output: "1f939-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_mage:": {
+  },
+  ":man_mage:": {
     uc_output: "1f9d9-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_mountain_biking:": {
+  },
+  ":man_mountain_biking:": {
     uc_output: "1f6b5-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_pilot:": {
+  },
+  ":man_pilot:": {
     uc_output: "1f468-200d-2708-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_playing_handball:": {
+  },
+  ":man_playing_handball:": {
     uc_output: "1f93e-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_playing_water_polo:": {
+  },
+  ":man_playing_water_polo:": {
     uc_output: "1f93d-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_police_officer:": {
+  },
+  ":man_police_officer:": {
     uc_output: "1f46e-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_pouting:": {
+  },
+  ":man_pouting:": {
     uc_output: "1f64e-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_raising_hand:": {
+  },
+  ":man_raising_hand:": {
     uc_output: "1f64b-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_rowing_boat:": {
+  },
+  ":man_rowing_boat:": {
     uc_output: "1f6a3-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_running:": {
+  },
+  ":man_running:": {
     uc_output: "1f3c3-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_shrugging:": {
+  },
+  ":man_shrugging:": {
     uc_output: "1f937-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_surfing:": {
+  },
+  ":man_surfing:": {
     uc_output: "1f3c4-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_swimming:": {
+  },
+  ":man_swimming:": {
     uc_output: "1f3ca-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":man_tipping_hand:": {
+  },
+  ":man_tipping_hand:": {
     uc_output: "1f481-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_vampire:": {
+  },
+  ":man_vampire:": {
     uc_output: "1f9db-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_walking:": {
+  },
+  ":man_walking:": {
     uc_output: "1f6b6-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_wearing_turban:": {
+  },
+  ":man_wearing_turban:": {
     uc_output: "1f473-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":man_zombie:": {
+  },
+  ":man_zombie:": {
     uc_output: "1f9df-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":men_with_bunny_ears_partying:": {
+  },
+  ":men_with_bunny_ears_partying:": {
     uc_output: "1f46f-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":men_wrestling:": {
+  },
+  ":men_wrestling:": {
     uc_output: "1f93c-200d-2642-fe0f",
     shortnames: [],
     category: "activity"
-},
-":mermaid:": {
+  },
+  ":mermaid:": {
     uc_output: "1f9dc-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":merman:": {
+  },
+  ":merman:": {
     uc_output: "1f9dc-200d-2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_biking:": {
+  },
+  ":woman_biking:": {
     uc_output: "1f6b4-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_bowing:": {
+  },
+  ":woman_bowing:": {
     uc_output: "1f647-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_cartwheeling:": {
+  },
+  ":woman_cartwheeling:": {
     uc_output: "1f938-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_climbing:": {
+  },
+  ":woman_climbing:": {
     uc_output: "1f9d7-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_construction_worker:": {
+  },
+  ":woman_construction_worker:": {
     uc_output: "1f477-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_elf:": {
+  },
+  ":woman_elf:": {
     uc_output: "1f9dd-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_facepalming:": {
+  },
+  ":woman_facepalming:": {
     uc_output: "1f926-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_fairy:": {
+  },
+  ":woman_fairy:": {
     uc_output: "1f9da-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_frowning:": {
+  },
+  ":woman_frowning:": {
     uc_output: "1f64d-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_genie:": {
+  },
+  ":woman_genie:": {
     uc_output: "1f9de-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_gesturing_no:": {
+  },
+  ":woman_gesturing_no:": {
     uc_output: "1f645-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_gesturing_ok:": {
+  },
+  ":woman_gesturing_ok:": {
     uc_output: "1f646-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_getting_face_massage:": {
+  },
+  ":woman_getting_face_massage:": {
     uc_output: "1f486-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_getting_haircut:": {
+  },
+  ":woman_getting_haircut:": {
     uc_output: "1f487-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_guard:": {
+  },
+  ":woman_guard:": {
     uc_output: "1f482-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_health_worker:": {
+  },
+  ":woman_health_worker:": {
     uc_output: "1f469-200d-2695-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_in_lotus_position:": {
+  },
+  ":woman_in_lotus_position:": {
     uc_output: "1f9d8-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_in_steamy_room:": {
+  },
+  ":woman_in_steamy_room:": {
     uc_output: "1f9d6-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_judge:": {
+  },
+  ":woman_judge:": {
     uc_output: "1f469-200d-2696-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_juggling:": {
+  },
+  ":woman_juggling:": {
     uc_output: "1f939-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_mage:": {
+  },
+  ":woman_mage:": {
     uc_output: "1f9d9-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_mountain_biking:": {
+  },
+  ":woman_mountain_biking:": {
     uc_output: "1f6b5-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_pilot:": {
+  },
+  ":woman_pilot:": {
     uc_output: "1f469-200d-2708-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_playing_handball:": {
+  },
+  ":woman_playing_handball:": {
     uc_output: "1f93e-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_playing_water_polo:": {
+  },
+  ":woman_playing_water_polo:": {
     uc_output: "1f93d-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_police_officer:": {
+  },
+  ":woman_police_officer:": {
     uc_output: "1f46e-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_pouting:": {
+  },
+  ":woman_pouting:": {
     uc_output: "1f64e-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_raising_hand:": {
+  },
+  ":woman_raising_hand:": {
     uc_output: "1f64b-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_rowing_boat:": {
+  },
+  ":woman_rowing_boat:": {
     uc_output: "1f6a3-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_running:": {
+  },
+  ":woman_running:": {
     uc_output: "1f3c3-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_shrugging:": {
+  },
+  ":woman_shrugging:": {
     uc_output: "1f937-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_surfing:": {
+  },
+  ":woman_surfing:": {
     uc_output: "1f3c4-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_swimming:": {
+  },
+  ":woman_swimming:": {
     uc_output: "1f3ca-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":woman_tipping_hand:": {
+  },
+  ":woman_tipping_hand:": {
     uc_output: "1f481-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_vampire:": {
+  },
+  ":woman_vampire:": {
     uc_output: "1f9db-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_walking:": {
+  },
+  ":woman_walking:": {
     uc_output: "1f6b6-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_wearing_turban:": {
+  },
+  ":woman_wearing_turban:": {
     uc_output: "1f473-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":woman_zombie:": {
+  },
+  ":woman_zombie:": {
     uc_output: "1f9df-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":women_with_bunny_ears_partying:": {
+  },
+  ":women_with_bunny_ears_partying:": {
     uc_output: "1f46f-200d-2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":women_wrestling:": {
+  },
+  ":women_wrestling:": {
     uc_output: "1f93c-200d-2640-fe0f",
     shortnames: [],
     category: "activity"
-},
-":family_man_boy:": {
+  },
+  ":family_man_boy:": {
     uc_output: "1f468-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_man_girl:": {
+  },
+  ":family_man_girl:": {
     uc_output: "1f468-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":family_woman_boy:": {
+  },
+  ":family_woman_boy:": {
     uc_output: "1f469-200d-1f466",
     shortnames: [],
     category: "people"
-},
-":family_woman_girl:": {
+  },
+  ":family_woman_girl:": {
     uc_output: "1f469-200d-1f467",
     shortnames: [],
     category: "people"
-},
-":man_artist:": {
+  },
+  ":man_artist:": {
     uc_output: "1f468-200d-1f3a8",
     shortnames: [],
     category: "people"
-},
-":man_astronaut:": {
+  },
+  ":man_astronaut:": {
     uc_output: "1f468-200d-1f680",
     shortnames: [],
     category: "people"
-},
-":man_cook:": {
+  },
+  ":man_cook:": {
     uc_output: "1f468-200d-1f373",
     shortnames: [],
     category: "people"
-},
-":man_factory_worker:": {
+  },
+  ":man_factory_worker:": {
     uc_output: "1f468-200d-1f3ed",
     shortnames: [],
     category: "people"
-},
-":man_farmer:": {
+  },
+  ":man_farmer:": {
     uc_output: "1f468-200d-1f33e",
     shortnames: [],
     category: "people"
-},
-":man_firefighter:": {
+  },
+  ":man_firefighter:": {
     uc_output: "1f468-200d-1f692",
     shortnames: [],
     category: "people"
-},
-":man_mechanic:": {
+  },
+  ":man_mechanic:": {
     uc_output: "1f468-200d-1f527",
     shortnames: [],
     category: "people"
-},
-":man_office_worker:": {
+  },
+  ":man_office_worker:": {
     uc_output: "1f468-200d-1f4bc",
     shortnames: [],
     category: "people"
-},
-":man_scientist:": {
+  },
+  ":man_scientist:": {
     uc_output: "1f468-200d-1f52c",
     shortnames: [],
     category: "people"
-},
-":man_singer:": {
+  },
+  ":man_singer:": {
     uc_output: "1f468-200d-1f3a4",
     shortnames: [],
     category: "people"
-},
-":man_student:": {
+  },
+  ":man_student:": {
     uc_output: "1f468-200d-1f393",
     shortnames: [],
     category: "people"
-},
-":man_teacher:": {
+  },
+  ":man_teacher:": {
     uc_output: "1f468-200d-1f3eb",
     shortnames: [],
     category: "people"
-},
-":man_technologist:": {
+  },
+  ":man_technologist:": {
     uc_output: "1f468-200d-1f4bb",
     shortnames: [],
     category: "people"
-},
-":woman_artist:": {
+  },
+  ":woman_artist:": {
     uc_output: "1f469-200d-1f3a8",
     shortnames: [],
     category: "people"
-},
-":woman_astronaut:": {
+  },
+  ":woman_astronaut:": {
     uc_output: "1f469-200d-1f680",
     shortnames: [],
     category: "people"
-},
-":woman_cook:": {
+  },
+  ":woman_cook:": {
     uc_output: "1f469-200d-1f373",
     shortnames: [],
     category: "people"
-},
-":woman_factory_worker:": {
+  },
+  ":woman_factory_worker:": {
     uc_output: "1f469-200d-1f3ed",
     shortnames: [],
     category: "people"
-},
-":woman_farmer:": {
+  },
+  ":woman_farmer:": {
     uc_output: "1f469-200d-1f33e",
     shortnames: [],
     category: "people"
-},
-":woman_firefighter:": {
+  },
+  ":woman_firefighter:": {
     uc_output: "1f469-200d-1f692",
     shortnames: [],
     category: "people"
-},
-":woman_mechanic:": {
+  },
+  ":woman_mechanic:": {
     uc_output: "1f469-200d-1f527",
     shortnames: [],
     category: "people"
-},
-":woman_office_worker:": {
+  },
+  ":woman_office_worker:": {
     uc_output: "1f469-200d-1f4bc",
     shortnames: [],
     category: "people"
-},
-":woman_scientist:": {
+  },
+  ":woman_scientist:": {
     uc_output: "1f469-200d-1f52c",
     shortnames: [],
     category: "people"
-},
-":woman_singer:": {
+  },
+  ":woman_singer:": {
     uc_output: "1f469-200d-1f3a4",
     shortnames: [],
     category: "people"
-},
-":woman_student:": {
+  },
+  ":woman_student:": {
     uc_output: "1f469-200d-1f393",
     shortnames: [],
     category: "people"
-},
-":woman_teacher:": {
+  },
+  ":woman_teacher:": {
     uc_output: "1f469-200d-1f3eb",
     shortnames: [],
     category: "people"
-},
-":woman_technologist:": {
+  },
+  ":woman_technologist:": {
     uc_output: "1f469-200d-1f4bb",
     shortnames: [],
     category: "people"
-},
-":asterisk:": {
+  },
+  ":asterisk:": {
     uc_output: "002a-fe0f-20e3",
     shortnames: [":keycap_asterisk:"],
     category: "symbols"
-},
-":eight:": {
+  },
+  ":eight:": {
     uc_output: "0038-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":five:": {
+  },
+  ":five:": {
     uc_output: "0035-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":four:": {
+  },
+  ":four:": {
     uc_output: "0034-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":hash:": {
+  },
+  ":hash:": {
     uc_output: "0023-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":nine:": {
+  },
+  ":nine:": {
     uc_output: "0039-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":one:": {
+  },
+  ":one:": {
     uc_output: "0031-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":seven:": {
+  },
+  ":seven:": {
     uc_output: "0037-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":six:": {
+  },
+  ":six:": {
     uc_output: "0036-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":three:": {
+  },
+  ":three:": {
     uc_output: "0033-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":two:": {
+  },
+  ":two:": {
     uc_output: "0032-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":zero:": {
+  },
+  ":zero:": {
     uc_output: "0030-fe0f-20e3",
     shortnames: [],
     category: "symbols"
-},
-":adult_tone1:": {
+  },
+  ":adult_tone1:": {
     uc_output: "1f9d1-1f3fb",
     shortnames: [":adult_light_skin_tone:"],
     category: "people"
-},
-":adult_tone2:": {
+  },
+  ":adult_tone2:": {
     uc_output: "1f9d1-1f3fc",
     shortnames: [":adult_medium_light_skin_tone:"],
     category: "people"
-},
-":adult_tone3:": {
+  },
+  ":adult_tone3:": {
     uc_output: "1f9d1-1f3fd",
     shortnames: [":adult_medium_skin_tone:"],
     category: "people"
-},
-":adult_tone4:": {
+  },
+  ":adult_tone4:": {
     uc_output: "1f9d1-1f3fe",
     shortnames: [":adult_medium_dark_skin_tone:"],
     category: "people"
-},
-":adult_tone5:": {
+  },
+  ":adult_tone5:": {
     uc_output: "1f9d1-1f3ff",
     shortnames: [":adult_dark_skin_tone:"],
     category: "people"
-},
-":angel_tone1:": {
+  },
+  ":angel_tone1:": {
     uc_output: "1f47c-1f3fb",
     shortnames: [],
     category: "people"
-},
-":angel_tone2:": {
+  },
+  ":angel_tone2:": {
     uc_output: "1f47c-1f3fc",
     shortnames: [],
     category: "people"
-},
-":angel_tone3:": {
+  },
+  ":angel_tone3:": {
     uc_output: "1f47c-1f3fd",
     shortnames: [],
     category: "people"
-},
-":angel_tone4:": {
+  },
+  ":angel_tone4:": {
     uc_output: "1f47c-1f3fe",
     shortnames: [],
     category: "people"
-},
-":angel_tone5:": {
+  },
+  ":angel_tone5:": {
     uc_output: "1f47c-1f3ff",
     shortnames: [],
     category: "people"
-},
-":baby_tone1:": {
+  },
+  ":baby_tone1:": {
     uc_output: "1f476-1f3fb",
     shortnames: [],
     category: "people"
-},
-":baby_tone2:": {
+  },
+  ":baby_tone2:": {
     uc_output: "1f476-1f3fc",
     shortnames: [],
     category: "people"
-},
-":baby_tone3:": {
+  },
+  ":baby_tone3:": {
     uc_output: "1f476-1f3fd",
     shortnames: [],
     category: "people"
-},
-":baby_tone4:": {
+  },
+  ":baby_tone4:": {
     uc_output: "1f476-1f3fe",
     shortnames: [],
     category: "people"
-},
-":baby_tone5:": {
+  },
+  ":baby_tone5:": {
     uc_output: "1f476-1f3ff",
     shortnames: [],
     category: "people"
-},
-":bath_tone1:": {
+  },
+  ":bath_tone1:": {
     uc_output: "1f6c0-1f3fb",
     shortnames: [],
     category: "objects"
-},
-":bath_tone2:": {
+  },
+  ":bath_tone2:": {
     uc_output: "1f6c0-1f3fc",
     shortnames: [],
     category: "objects"
-},
-":bath_tone3:": {
+  },
+  ":bath_tone3:": {
     uc_output: "1f6c0-1f3fd",
     shortnames: [],
     category: "objects"
-},
-":bath_tone4:": {
+  },
+  ":bath_tone4:": {
     uc_output: "1f6c0-1f3fe",
     shortnames: [],
     category: "objects"
-},
-":bath_tone5:": {
+  },
+  ":bath_tone5:": {
     uc_output: "1f6c0-1f3ff",
     shortnames: [],
     category: "objects"
-},
-":bearded_person_tone1:": {
+  },
+  ":bearded_person_tone1:": {
     uc_output: "1f9d4-1f3fb",
     shortnames: [":bearded_person_light_skin_tone:"],
     category: "people"
-},
-":bearded_person_tone2:": {
+  },
+  ":bearded_person_tone2:": {
     uc_output: "1f9d4-1f3fc",
     shortnames: [":bearded_person_medium_light_skin_tone:"],
     category: "people"
-},
-":bearded_person_tone3:": {
+  },
+  ":bearded_person_tone3:": {
     uc_output: "1f9d4-1f3fd",
     shortnames: [":bearded_person_medium_skin_tone:"],
     category: "people"
-},
-":bearded_person_tone4:": {
+  },
+  ":bearded_person_tone4:": {
     uc_output: "1f9d4-1f3fe",
     shortnames: [":bearded_person_medium_dark_skin_tone:"],
     category: "people"
-},
-":bearded_person_tone5:": {
+  },
+  ":bearded_person_tone5:": {
     uc_output: "1f9d4-1f3ff",
     shortnames: [":bearded_person_dark_skin_tone:"],
     category: "people"
-},
-":blond_haired_person_tone1:": {
+  },
+  ":blond_haired_person_tone1:": {
     uc_output: "1f471-1f3fb",
     shortnames: [":person_with_blond_hair_tone1:"],
     category: "people"
-},
-":blond_haired_person_tone2:": {
+  },
+  ":blond_haired_person_tone2:": {
     uc_output: "1f471-1f3fc",
     shortnames: [":person_with_blond_hair_tone2:"],
     category: "people"
-},
-":blond_haired_person_tone3:": {
+  },
+  ":blond_haired_person_tone3:": {
     uc_output: "1f471-1f3fd",
     shortnames: [":person_with_blond_hair_tone3:"],
     category: "people"
-},
-":blond_haired_person_tone4:": {
+  },
+  ":blond_haired_person_tone4:": {
     uc_output: "1f471-1f3fe",
     shortnames: [":person_with_blond_hair_tone4:"],
     category: "people"
-},
-":blond_haired_person_tone5:": {
+  },
+  ":blond_haired_person_tone5:": {
     uc_output: "1f471-1f3ff",
     shortnames: [":person_with_blond_hair_tone5:"],
     category: "people"
-},
-":boy_tone1:": {
+  },
+  ":boy_tone1:": {
     uc_output: "1f466-1f3fb",
     shortnames: [],
     category: "people"
-},
-":boy_tone2:": {
+  },
+  ":boy_tone2:": {
     uc_output: "1f466-1f3fc",
     shortnames: [],
     category: "people"
-},
-":boy_tone3:": {
+  },
+  ":boy_tone3:": {
     uc_output: "1f466-1f3fd",
     shortnames: [],
     category: "people"
-},
-":boy_tone4:": {
+  },
+  ":boy_tone4:": {
     uc_output: "1f466-1f3fe",
     shortnames: [],
     category: "people"
-},
-":boy_tone5:": {
+  },
+  ":boy_tone5:": {
     uc_output: "1f466-1f3ff",
     shortnames: [],
     category: "people"
-},
-":breast_feeding_tone1:": {
+  },
+  ":breast_feeding_tone1:": {
     uc_output: "1f931-1f3fb",
     shortnames: [":breast_feeding_light_skin_tone:"],
     category: "activity"
-},
-":breast_feeding_tone2:": {
+  },
+  ":breast_feeding_tone2:": {
     uc_output: "1f931-1f3fc",
     shortnames: [":breast_feeding_medium_light_skin_tone:"],
     category: "activity"
-},
-":breast_feeding_tone3:": {
+  },
+  ":breast_feeding_tone3:": {
     uc_output: "1f931-1f3fd",
     shortnames: [":breast_feeding_medium_skin_tone:"],
     category: "activity"
-},
-":breast_feeding_tone4:": {
+  },
+  ":breast_feeding_tone4:": {
     uc_output: "1f931-1f3fe",
     shortnames: [":breast_feeding_medium_dark_skin_tone:"],
     category: "activity"
-},
-":breast_feeding_tone5:": {
+  },
+  ":breast_feeding_tone5:": {
     uc_output: "1f931-1f3ff",
     shortnames: [":breast_feeding_dark_skin_tone:"],
     category: "activity"
-},
-":bride_with_veil_tone1:": {
+  },
+  ":bride_with_veil_tone1:": {
     uc_output: "1f470-1f3fb",
     shortnames: [],
     category: "people"
-},
-":bride_with_veil_tone2:": {
+  },
+  ":bride_with_veil_tone2:": {
     uc_output: "1f470-1f3fc",
     shortnames: [],
     category: "people"
-},
-":bride_with_veil_tone3:": {
+  },
+  ":bride_with_veil_tone3:": {
     uc_output: "1f470-1f3fd",
     shortnames: [],
     category: "people"
-},
-":bride_with_veil_tone4:": {
+  },
+  ":bride_with_veil_tone4:": {
     uc_output: "1f470-1f3fe",
     shortnames: [],
     category: "people"
-},
-":bride_with_veil_tone5:": {
+  },
+  ":bride_with_veil_tone5:": {
     uc_output: "1f470-1f3ff",
     shortnames: [],
     category: "people"
-},
-":call_me_tone1:": {
+  },
+  ":call_me_tone1:": {
     uc_output: "1f919-1f3fb",
     shortnames: [":call_me_hand_tone1:"],
     category: "people"
-},
-":call_me_tone2:": {
+  },
+  ":call_me_tone2:": {
     uc_output: "1f919-1f3fc",
     shortnames: [":call_me_hand_tone2:"],
     category: "people"
-},
-":call_me_tone3:": {
+  },
+  ":call_me_tone3:": {
     uc_output: "1f919-1f3fd",
     shortnames: [":call_me_hand_tone3:"],
     category: "people"
-},
-":call_me_tone4:": {
+  },
+  ":call_me_tone4:": {
     uc_output: "1f919-1f3fe",
     shortnames: [":call_me_hand_tone4:"],
     category: "people"
-},
-":call_me_tone5:": {
+  },
+  ":call_me_tone5:": {
     uc_output: "1f919-1f3ff",
     shortnames: [":call_me_hand_tone5:"],
     category: "people"
-},
-":child_tone1:": {
+  },
+  ":child_tone1:": {
     uc_output: "1f9d2-1f3fb",
     shortnames: [":child_light_skin_tone:"],
     category: "people"
-},
-":child_tone2:": {
+  },
+  ":child_tone2:": {
     uc_output: "1f9d2-1f3fc",
     shortnames: [":child_medium_light_skin_tone:"],
     category: "people"
-},
-":child_tone3:": {
+  },
+  ":child_tone3:": {
     uc_output: "1f9d2-1f3fd",
     shortnames: [":child_medium_skin_tone:"],
     category: "people"
-},
-":child_tone4:": {
+  },
+  ":child_tone4:": {
     uc_output: "1f9d2-1f3fe",
     shortnames: [":child_medium_dark_skin_tone:"],
     category: "people"
-},
-":child_tone5:": {
+  },
+  ":child_tone5:": {
     uc_output: "1f9d2-1f3ff",
     shortnames: [":child_dark_skin_tone:"],
     category: "people"
-},
-":clap_tone1:": {
+  },
+  ":clap_tone1:": {
     uc_output: "1f44f-1f3fb",
     shortnames: [],
     category: "people"
-},
-":clap_tone2:": {
+  },
+  ":clap_tone2:": {
     uc_output: "1f44f-1f3fc",
     shortnames: [],
     category: "people"
-},
-":clap_tone3:": {
+  },
+  ":clap_tone3:": {
     uc_output: "1f44f-1f3fd",
     shortnames: [],
     category: "people"
-},
-":clap_tone4:": {
+  },
+  ":clap_tone4:": {
     uc_output: "1f44f-1f3fe",
     shortnames: [],
     category: "people"
-},
-":clap_tone5:": {
+  },
+  ":clap_tone5:": {
     uc_output: "1f44f-1f3ff",
     shortnames: [],
     category: "people"
-},
-":construction_worker_tone1:": {
+  },
+  ":construction_worker_tone1:": {
     uc_output: "1f477-1f3fb",
     shortnames: [],
     category: "people"
-},
-":construction_worker_tone2:": {
+  },
+  ":construction_worker_tone2:": {
     uc_output: "1f477-1f3fc",
     shortnames: [],
     category: "people"
-},
-":construction_worker_tone3:": {
+  },
+  ":construction_worker_tone3:": {
     uc_output: "1f477-1f3fd",
     shortnames: [],
     category: "people"
-},
-":construction_worker_tone4:": {
+  },
+  ":construction_worker_tone4:": {
     uc_output: "1f477-1f3fe",
     shortnames: [],
     category: "people"
-},
-":construction_worker_tone5:": {
+  },
+  ":construction_worker_tone5:": {
     uc_output: "1f477-1f3ff",
     shortnames: [],
     category: "people"
-},
-":dancer_tone1:": {
+  },
+  ":dancer_tone1:": {
     uc_output: "1f483-1f3fb",
     shortnames: [],
     category: "people"
-},
-":dancer_tone2:": {
+  },
+  ":dancer_tone2:": {
     uc_output: "1f483-1f3fc",
     shortnames: [],
     category: "people"
-},
-":dancer_tone3:": {
+  },
+  ":dancer_tone3:": {
     uc_output: "1f483-1f3fd",
     shortnames: [],
     category: "people"
-},
-":dancer_tone4:": {
+  },
+  ":dancer_tone4:": {
     uc_output: "1f483-1f3fe",
     shortnames: [],
     category: "people"
-},
-":dancer_tone5:": {
+  },
+  ":dancer_tone5:": {
     uc_output: "1f483-1f3ff",
     shortnames: [],
     category: "people"
-},
-":detective_tone1:": {
+  },
+  ":detective_tone1:": {
     uc_output: "1f575-1f3fb",
     shortnames: [":spy_tone1:", ":sleuth_or_spy_tone1:"],
     category: "people"
-},
-":detective_tone2:": {
+  },
+  ":detective_tone2:": {
     uc_output: "1f575-1f3fc",
     shortnames: [":spy_tone2:", ":sleuth_or_spy_tone2:"],
     category: "people"
-},
-":detective_tone3:": {
+  },
+  ":detective_tone3:": {
     uc_output: "1f575-1f3fd",
     shortnames: [":spy_tone3:", ":sleuth_or_spy_tone3:"],
     category: "people"
-},
-":detective_tone4:": {
+  },
+  ":detective_tone4:": {
     uc_output: "1f575-1f3fe",
     shortnames: [":spy_tone4:", ":sleuth_or_spy_tone4:"],
     category: "people"
-},
-":detective_tone5:": {
+  },
+  ":detective_tone5:": {
     uc_output: "1f575-1f3ff",
     shortnames: [":spy_tone5:", ":sleuth_or_spy_tone5:"],
     category: "people"
-},
-":ear_tone1:": {
+  },
+  ":ear_tone1:": {
     uc_output: "1f442-1f3fb",
     shortnames: [],
     category: "people"
-},
-":ear_tone2:": {
+  },
+  ":ear_tone2:": {
     uc_output: "1f442-1f3fc",
     shortnames: [],
     category: "people"
-},
-":ear_tone3:": {
+  },
+  ":ear_tone3:": {
     uc_output: "1f442-1f3fd",
     shortnames: [],
     category: "people"
-},
-":ear_tone4:": {
+  },
+  ":ear_tone4:": {
     uc_output: "1f442-1f3fe",
     shortnames: [],
     category: "people"
-},
-":ear_tone5:": {
+  },
+  ":ear_tone5:": {
     uc_output: "1f442-1f3ff",
     shortnames: [],
     category: "people"
-},
-":elf_tone1:": {
+  },
+  ":elf_tone1:": {
     uc_output: "1f9dd-1f3fb",
     shortnames: [":elf_light_skin_tone:"],
     category: "people"
-},
-":elf_tone2:": {
+  },
+  ":elf_tone2:": {
     uc_output: "1f9dd-1f3fc",
     shortnames: [":elf_medium_light_skin_tone:"],
     category: "people"
-},
-":elf_tone3:": {
+  },
+  ":elf_tone3:": {
     uc_output: "1f9dd-1f3fd",
     shortnames: [":elf_medium_skin_tone:"],
     category: "people"
-},
-":elf_tone4:": {
+  },
+  ":elf_tone4:": {
     uc_output: "1f9dd-1f3fe",
     shortnames: [":elf_medium_dark_skin_tone:"],
     category: "people"
-},
-":elf_tone5:": {
+  },
+  ":elf_tone5:": {
     uc_output: "1f9dd-1f3ff",
     shortnames: [":elf_dark_skin_tone:"],
     category: "people"
-},
-":fairy_tone1:": {
+  },
+  ":fairy_tone1:": {
     uc_output: "1f9da-1f3fb",
     shortnames: [":fairy_light_skin_tone:"],
     category: "people"
-},
-":fairy_tone2:": {
+  },
+  ":fairy_tone2:": {
     uc_output: "1f9da-1f3fc",
     shortnames: [":fairy_medium_light_skin_tone:"],
     category: "people"
-},
-":fairy_tone3:": {
+  },
+  ":fairy_tone3:": {
     uc_output: "1f9da-1f3fd",
     shortnames: [":fairy_medium_skin_tone:"],
     category: "people"
-},
-":fairy_tone4:": {
+  },
+  ":fairy_tone4:": {
     uc_output: "1f9da-1f3fe",
     shortnames: [":fairy_medium_dark_skin_tone:"],
     category: "people"
-},
-":fairy_tone5:": {
+  },
+  ":fairy_tone5:": {
     uc_output: "1f9da-1f3ff",
     shortnames: [":fairy_dark_skin_tone:"],
     category: "people"
-},
-":fingers_crossed_tone1:": {
+  },
+  ":fingers_crossed_tone1:": {
     uc_output: "1f91e-1f3fb",
     shortnames: [":hand_with_index_and_middle_fingers_crossed_tone1:"],
     category: "people"
-},
-":fingers_crossed_tone2:": {
+  },
+  ":fingers_crossed_tone2:": {
     uc_output: "1f91e-1f3fc",
     shortnames: [":hand_with_index_and_middle_fingers_crossed_tone2:"],
     category: "people"
-},
-":fingers_crossed_tone3:": {
+  },
+  ":fingers_crossed_tone3:": {
     uc_output: "1f91e-1f3fd",
     shortnames: [":hand_with_index_and_middle_fingers_crossed_tone3:"],
     category: "people"
-},
-":fingers_crossed_tone4:": {
+  },
+  ":fingers_crossed_tone4:": {
     uc_output: "1f91e-1f3fe",
     shortnames: [":hand_with_index_and_middle_fingers_crossed_tone4:"],
     category: "people"
-},
-":fingers_crossed_tone5:": {
+  },
+  ":fingers_crossed_tone5:": {
     uc_output: "1f91e-1f3ff",
     shortnames: [":hand_with_index_and_middle_fingers_crossed_tone5:"],
     category: "people"
-},
-":flag_ac:": {
+  },
+  ":flag_ac:": {
     uc_output: "1f1e6-1f1e8",
     shortnames: [":ac:"],
     category: "flags"
-},
-":flag_ad:": {
+  },
+  ":flag_ad:": {
     uc_output: "1f1e6-1f1e9",
     shortnames: [":ad:"],
     category: "flags"
-},
-":flag_ae:": {
+  },
+  ":flag_ae:": {
     uc_output: "1f1e6-1f1ea",
     shortnames: [":ae:"],
     category: "flags"
-},
-":flag_af:": {
+  },
+  ":flag_af:": {
     uc_output: "1f1e6-1f1eb",
     shortnames: [":af:"],
     category: "flags"
-},
-":flag_ag:": {
+  },
+  ":flag_ag:": {
     uc_output: "1f1e6-1f1ec",
     shortnames: [":ag:"],
     category: "flags"
-},
-":flag_ai:": {
+  },
+  ":flag_ai:": {
     uc_output: "1f1e6-1f1ee",
     shortnames: [":ai:"],
     category: "flags"
-},
-":flag_al:": {
+  },
+  ":flag_al:": {
     uc_output: "1f1e6-1f1f1",
     shortnames: [":al:"],
     category: "flags"
-},
-":flag_am:": {
+  },
+  ":flag_am:": {
     uc_output: "1f1e6-1f1f2",
     shortnames: [":am:"],
     category: "flags"
-},
-":flag_ao:": {
+  },
+  ":flag_ao:": {
     uc_output: "1f1e6-1f1f4",
     shortnames: [":ao:"],
     category: "flags"
-},
-":flag_aq:": {
+  },
+  ":flag_aq:": {
     uc_output: "1f1e6-1f1f6",
     shortnames: [":aq:"],
     category: "flags"
-},
-":flag_ar:": {
+  },
+  ":flag_ar:": {
     uc_output: "1f1e6-1f1f7",
     shortnames: [":ar:"],
     category: "flags"
-},
-":flag_as:": {
+  },
+  ":flag_as:": {
     uc_output: "1f1e6-1f1f8",
     shortnames: [":as:"],
     category: "flags"
-},
-":flag_at:": {
+  },
+  ":flag_at:": {
     uc_output: "1f1e6-1f1f9",
     shortnames: [":at:"],
     category: "flags"
-},
-":flag_au:": {
+  },
+  ":flag_au:": {
     uc_output: "1f1e6-1f1fa",
     shortnames: [":au:"],
     category: "flags"
-},
-":flag_aw:": {
+  },
+  ":flag_aw:": {
     uc_output: "1f1e6-1f1fc",
     shortnames: [":aw:"],
     category: "flags"
-},
-":flag_ax:": {
+  },
+  ":flag_ax:": {
     uc_output: "1f1e6-1f1fd",
     shortnames: [":ax:"],
     category: "flags"
-},
-":flag_az:": {
+  },
+  ":flag_az:": {
     uc_output: "1f1e6-1f1ff",
     shortnames: [":az:"],
     category: "flags"
-},
-":flag_ba:": {
+  },
+  ":flag_ba:": {
     uc_output: "1f1e7-1f1e6",
     shortnames: [":ba:"],
     category: "flags"
-},
-":flag_bb:": {
+  },
+  ":flag_bb:": {
     uc_output: "1f1e7-1f1e7",
     shortnames: [":bb:"],
     category: "flags"
-},
-":flag_bd:": {
+  },
+  ":flag_bd:": {
     uc_output: "1f1e7-1f1e9",
     shortnames: [":bd:"],
     category: "flags"
-},
-":flag_be:": {
+  },
+  ":flag_be:": {
     uc_output: "1f1e7-1f1ea",
     shortnames: [":be:"],
     category: "flags"
-},
-":flag_bf:": {
+  },
+  ":flag_bf:": {
     uc_output: "1f1e7-1f1eb",
     shortnames: [":bf:"],
     category: "flags"
-},
-":flag_bg:": {
+  },
+  ":flag_bg:": {
     uc_output: "1f1e7-1f1ec",
     shortnames: [":bg:"],
     category: "flags"
-},
-":flag_bh:": {
+  },
+  ":flag_bh:": {
     uc_output: "1f1e7-1f1ed",
     shortnames: [":bh:"],
     category: "flags"
-},
-":flag_bi:": {
+  },
+  ":flag_bi:": {
     uc_output: "1f1e7-1f1ee",
     shortnames: [":bi:"],
     category: "flags"
-},
-":flag_bj:": {
+  },
+  ":flag_bj:": {
     uc_output: "1f1e7-1f1ef",
     shortnames: [":bj:"],
     category: "flags"
-},
-":flag_bl:": {
+  },
+  ":flag_bl:": {
     uc_output: "1f1e7-1f1f1",
     shortnames: [":bl:"],
     category: "flags"
-},
-":flag_bm:": {
+  },
+  ":flag_bm:": {
     uc_output: "1f1e7-1f1f2",
     shortnames: [":bm:"],
     category: "flags"
-},
-":flag_bn:": {
+  },
+  ":flag_bn:": {
     uc_output: "1f1e7-1f1f3",
     shortnames: [":bn:"],
     category: "flags"
-},
-":flag_bo:": {
+  },
+  ":flag_bo:": {
     uc_output: "1f1e7-1f1f4",
     shortnames: [":bo:"],
     category: "flags"
-},
-":flag_bq:": {
+  },
+  ":flag_bq:": {
     uc_output: "1f1e7-1f1f6",
     shortnames: [":bq:"],
     category: "flags"
-},
-":flag_br:": {
+  },
+  ":flag_br:": {
     uc_output: "1f1e7-1f1f7",
     shortnames: [":br:"],
     category: "flags"
-},
-":flag_bs:": {
+  },
+  ":flag_bs:": {
     uc_output: "1f1e7-1f1f8",
     shortnames: [":bs:"],
     category: "flags"
-},
-":flag_bt:": {
+  },
+  ":flag_bt:": {
     uc_output: "1f1e7-1f1f9",
     shortnames: [":bt:"],
     category: "flags"
-},
-":flag_bv:": {
+  },
+  ":flag_bv:": {
     uc_output: "1f1e7-1f1fb",
     shortnames: [":bv:"],
     category: "flags"
-},
-":flag_bw:": {
+  },
+  ":flag_bw:": {
     uc_output: "1f1e7-1f1fc",
     shortnames: [":bw:"],
     category: "flags"
-},
-":flag_by:": {
+  },
+  ":flag_by:": {
     uc_output: "1f1e7-1f1fe",
     shortnames: [":by:"],
     category: "flags"
-},
-":flag_bz:": {
+  },
+  ":flag_bz:": {
     uc_output: "1f1e7-1f1ff",
     shortnames: [":bz:"],
     category: "flags"
-},
-":flag_ca:": {
+  },
+  ":flag_ca:": {
     uc_output: "1f1e8-1f1e6",
     shortnames: [":ca:"],
     category: "flags"
-},
-":flag_cc:": {
+  },
+  ":flag_cc:": {
     uc_output: "1f1e8-1f1e8",
     shortnames: [":cc:"],
     category: "flags"
-},
-":flag_cd:": {
+  },
+  ":flag_cd:": {
     uc_output: "1f1e8-1f1e9",
     shortnames: [":congo:"],
     category: "flags"
-},
-":flag_cf:": {
+  },
+  ":flag_cf:": {
     uc_output: "1f1e8-1f1eb",
     shortnames: [":cf:"],
     category: "flags"
-},
-":flag_cg:": {
+  },
+  ":flag_cg:": {
     uc_output: "1f1e8-1f1ec",
     shortnames: [":cg:"],
     category: "flags"
-},
-":flag_ch:": {
+  },
+  ":flag_ch:": {
     uc_output: "1f1e8-1f1ed",
     shortnames: [":ch:"],
     category: "flags"
-},
-":flag_ci:": {
+  },
+  ":flag_ci:": {
     uc_output: "1f1e8-1f1ee",
     shortnames: [":ci:"],
     category: "flags"
-},
-":flag_ck:": {
+  },
+  ":flag_ck:": {
     uc_output: "1f1e8-1f1f0",
     shortnames: [":ck:"],
     category: "flags"
-},
-":flag_cl:": {
+  },
+  ":flag_cl:": {
     uc_output: "1f1e8-1f1f1",
     shortnames: [":chile:"],
     category: "flags"
-},
-":flag_cm:": {
+  },
+  ":flag_cm:": {
     uc_output: "1f1e8-1f1f2",
     shortnames: [":cm:"],
     category: "flags"
-},
-":flag_cn:": {
+  },
+  ":flag_cn:": {
     uc_output: "1f1e8-1f1f3",
     shortnames: [":cn:"],
     category: "flags"
-},
-":flag_co:": {
+  },
+  ":flag_co:": {
     uc_output: "1f1e8-1f1f4",
     shortnames: [":co:"],
     category: "flags"
-},
-":flag_cp:": {
+  },
+  ":flag_cp:": {
     uc_output: "1f1e8-1f1f5",
     shortnames: [":cp:"],
     category: "flags"
-},
-":flag_cr:": {
+  },
+  ":flag_cr:": {
     uc_output: "1f1e8-1f1f7",
     shortnames: [":cr:"],
     category: "flags"
-},
-":flag_cu:": {
+  },
+  ":flag_cu:": {
     uc_output: "1f1e8-1f1fa",
     shortnames: [":cu:"],
     category: "flags"
-},
-":flag_cv:": {
+  },
+  ":flag_cv:": {
     uc_output: "1f1e8-1f1fb",
     shortnames: [":cv:"],
     category: "flags"
-},
-":flag_cw:": {
+  },
+  ":flag_cw:": {
     uc_output: "1f1e8-1f1fc",
     shortnames: [":cw:"],
     category: "flags"
-},
-":flag_cx:": {
+  },
+  ":flag_cx:": {
     uc_output: "1f1e8-1f1fd",
     shortnames: [":cx:"],
     category: "flags"
-},
-":flag_cy:": {
+  },
+  ":flag_cy:": {
     uc_output: "1f1e8-1f1fe",
     shortnames: [":cy:"],
     category: "flags"
-},
-":flag_cz:": {
+  },
+  ":flag_cz:": {
     uc_output: "1f1e8-1f1ff",
     shortnames: [":cz:"],
     category: "flags"
-},
-":flag_de:": {
+  },
+  ":flag_de:": {
     uc_output: "1f1e9-1f1ea",
     shortnames: [":de:"],
     category: "flags"
-},
-":flag_dg:": {
+  },
+  ":flag_dg:": {
     uc_output: "1f1e9-1f1ec",
     shortnames: [":dg:"],
     category: "flags"
-},
-":flag_dj:": {
+  },
+  ":flag_dj:": {
     uc_output: "1f1e9-1f1ef",
     shortnames: [":dj:"],
     category: "flags"
-},
-":flag_dk:": {
+  },
+  ":flag_dk:": {
     uc_output: "1f1e9-1f1f0",
     shortnames: [":dk:"],
     category: "flags"
-},
-":flag_dm:": {
+  },
+  ":flag_dm:": {
     uc_output: "1f1e9-1f1f2",
     shortnames: [":dm:"],
     category: "flags"
-},
-":flag_do:": {
+  },
+  ":flag_do:": {
     uc_output: "1f1e9-1f1f4",
     shortnames: [":do:"],
     category: "flags"
-},
-":flag_dz:": {
+  },
+  ":flag_dz:": {
     uc_output: "1f1e9-1f1ff",
     shortnames: [":dz:"],
     category: "flags"
-},
-":flag_ea:": {
+  },
+  ":flag_ea:": {
     uc_output: "1f1ea-1f1e6",
     shortnames: [":ea:"],
     category: "flags"
-},
-":flag_ec:": {
+  },
+  ":flag_ec:": {
     uc_output: "1f1ea-1f1e8",
     shortnames: [":ec:"],
     category: "flags"
-},
-":flag_ee:": {
+  },
+  ":flag_ee:": {
     uc_output: "1f1ea-1f1ea",
     shortnames: [":ee:"],
     category: "flags"
-},
-":flag_eg:": {
+  },
+  ":flag_eg:": {
     uc_output: "1f1ea-1f1ec",
     shortnames: [":eg:"],
     category: "flags"
-},
-":flag_eh:": {
+  },
+  ":flag_eh:": {
     uc_output: "1f1ea-1f1ed",
     shortnames: [":eh:"],
     category: "flags"
-},
-":flag_er:": {
+  },
+  ":flag_er:": {
     uc_output: "1f1ea-1f1f7",
     shortnames: [":er:"],
     category: "flags"
-},
-":flag_es:": {
+  },
+  ":flag_es:": {
     uc_output: "1f1ea-1f1f8",
     shortnames: [":es:"],
     category: "flags"
-},
-":flag_et:": {
+  },
+  ":flag_et:": {
     uc_output: "1f1ea-1f1f9",
     shortnames: [":et:"],
     category: "flags"
-},
-":flag_eu:": {
+  },
+  ":flag_eu:": {
     uc_output: "1f1ea-1f1fa",
     shortnames: [":eu:"],
     category: "flags"
-},
-":flag_fi:": {
+  },
+  ":flag_fi:": {
     uc_output: "1f1eb-1f1ee",
     shortnames: [":fi:"],
     category: "flags"
-},
-":flag_fj:": {
+  },
+  ":flag_fj:": {
     uc_output: "1f1eb-1f1ef",
     shortnames: [":fj:"],
     category: "flags"
-},
-":flag_fk:": {
+  },
+  ":flag_fk:": {
     uc_output: "1f1eb-1f1f0",
     shortnames: [":fk:"],
     category: "flags"
-},
-":flag_fm:": {
+  },
+  ":flag_fm:": {
     uc_output: "1f1eb-1f1f2",
     shortnames: [":fm:"],
     category: "flags"
-},
-":flag_fo:": {
+  },
+  ":flag_fo:": {
     uc_output: "1f1eb-1f1f4",
     shortnames: [":fo:"],
     category: "flags"
-},
-":flag_fr:": {
+  },
+  ":flag_fr:": {
     uc_output: "1f1eb-1f1f7",
     shortnames: [":fr:"],
     category: "flags"
-},
-":flag_ga:": {
+  },
+  ":flag_ga:": {
     uc_output: "1f1ec-1f1e6",
     shortnames: [":ga:"],
     category: "flags"
-},
-":flag_gb:": {
+  },
+  ":flag_gb:": {
     uc_output: "1f1ec-1f1e7",
     shortnames: [":gb:"],
     category: "flags"
-},
-":flag_gd:": {
+  },
+  ":flag_gd:": {
     uc_output: "1f1ec-1f1e9",
     shortnames: [":gd:"],
     category: "flags"
-},
-":flag_ge:": {
+  },
+  ":flag_ge:": {
     uc_output: "1f1ec-1f1ea",
     shortnames: [":ge:"],
     category: "flags"
-},
-":flag_gf:": {
+  },
+  ":flag_gf:": {
     uc_output: "1f1ec-1f1eb",
     shortnames: [":gf:"],
     category: "flags"
-},
-":flag_gg:": {
+  },
+  ":flag_gg:": {
     uc_output: "1f1ec-1f1ec",
     shortnames: [":gg:"],
     category: "flags"
-},
-":flag_gh:": {
+  },
+  ":flag_gh:": {
     uc_output: "1f1ec-1f1ed",
     shortnames: [":gh:"],
     category: "flags"
-},
-":flag_gi:": {
+  },
+  ":flag_gi:": {
     uc_output: "1f1ec-1f1ee",
     shortnames: [":gi:"],
     category: "flags"
-},
-":flag_gl:": {
+  },
+  ":flag_gl:": {
     uc_output: "1f1ec-1f1f1",
     shortnames: [":gl:"],
     category: "flags"
-},
-":flag_gm:": {
+  },
+  ":flag_gm:": {
     uc_output: "1f1ec-1f1f2",
     shortnames: [":gm:"],
     category: "flags"
-},
-":flag_gn:": {
+  },
+  ":flag_gn:": {
     uc_output: "1f1ec-1f1f3",
     shortnames: [":gn:"],
     category: "flags"
-},
-":flag_gp:": {
+  },
+  ":flag_gp:": {
     uc_output: "1f1ec-1f1f5",
     shortnames: [":gp:"],
     category: "flags"
-},
-":flag_gq:": {
+  },
+  ":flag_gq:": {
     uc_output: "1f1ec-1f1f6",
     shortnames: [":gq:"],
     category: "flags"
-},
-":flag_gr:": {
+  },
+  ":flag_gr:": {
     uc_output: "1f1ec-1f1f7",
     shortnames: [":gr:"],
     category: "flags"
-},
-":flag_gs:": {
+  },
+  ":flag_gs:": {
     uc_output: "1f1ec-1f1f8",
     shortnames: [":gs:"],
     category: "flags"
-},
-":flag_gt:": {
+  },
+  ":flag_gt:": {
     uc_output: "1f1ec-1f1f9",
     shortnames: [":gt:"],
     category: "flags"
-},
-":flag_gu:": {
+  },
+  ":flag_gu:": {
     uc_output: "1f1ec-1f1fa",
     shortnames: [":gu:"],
     category: "flags"
-},
-":flag_gw:": {
+  },
+  ":flag_gw:": {
     uc_output: "1f1ec-1f1fc",
     shortnames: [":gw:"],
     category: "flags"
-},
-":flag_gy:": {
+  },
+  ":flag_gy:": {
     uc_output: "1f1ec-1f1fe",
     shortnames: [":gy:"],
     category: "flags"
-},
-":flag_hk:": {
+  },
+  ":flag_hk:": {
     uc_output: "1f1ed-1f1f0",
     shortnames: [":hk:"],
     category: "flags"
-},
-":flag_hm:": {
+  },
+  ":flag_hm:": {
     uc_output: "1f1ed-1f1f2",
     shortnames: [":hm:"],
     category: "flags"
-},
-":flag_hn:": {
+  },
+  ":flag_hn:": {
     uc_output: "1f1ed-1f1f3",
     shortnames: [":hn:"],
     category: "flags"
-},
-":flag_hr:": {
+  },
+  ":flag_hr:": {
     uc_output: "1f1ed-1f1f7",
     shortnames: [":hr:"],
     category: "flags"
-},
-":flag_ht:": {
+  },
+  ":flag_ht:": {
     uc_output: "1f1ed-1f1f9",
     shortnames: [":ht:"],
     category: "flags"
-},
-":flag_hu:": {
+  },
+  ":flag_hu:": {
     uc_output: "1f1ed-1f1fa",
     shortnames: [":hu:"],
     category: "flags"
-},
-":flag_ic:": {
+  },
+  ":flag_ic:": {
     uc_output: "1f1ee-1f1e8",
     shortnames: [":ic:"],
     category: "flags"
-},
-":flag_id:": {
+  },
+  ":flag_id:": {
     uc_output: "1f1ee-1f1e9",
     shortnames: [":indonesia:"],
     category: "flags"
-},
-":flag_ie:": {
+  },
+  ":flag_ie:": {
     uc_output: "1f1ee-1f1ea",
     shortnames: [":ie:"],
     category: "flags"
-},
-":flag_il:": {
+  },
+  ":flag_il:": {
     uc_output: "1f1ee-1f1f1",
     shortnames: [":il:"],
     category: "flags"
-},
-":flag_im:": {
+  },
+  ":flag_im:": {
     uc_output: "1f1ee-1f1f2",
     shortnames: [":im:"],
     category: "flags"
-},
-":flag_in:": {
+  },
+  ":flag_in:": {
     uc_output: "1f1ee-1f1f3",
     shortnames: [":in:"],
     category: "flags"
-},
-":flag_io:": {
+  },
+  ":flag_io:": {
     uc_output: "1f1ee-1f1f4",
     shortnames: [":io:"],
     category: "flags"
-},
-":flag_iq:": {
+  },
+  ":flag_iq:": {
     uc_output: "1f1ee-1f1f6",
     shortnames: [":iq:"],
     category: "flags"
-},
-":flag_ir:": {
+  },
+  ":flag_ir:": {
     uc_output: "1f1ee-1f1f7",
     shortnames: [":ir:"],
     category: "flags"
-},
-":flag_is:": {
+  },
+  ":flag_is:": {
     uc_output: "1f1ee-1f1f8",
     shortnames: [":is:"],
     category: "flags"
-},
-":flag_it:": {
+  },
+  ":flag_it:": {
     uc_output: "1f1ee-1f1f9",
     shortnames: [":it:"],
     category: "flags"
-},
-":flag_je:": {
+  },
+  ":flag_je:": {
     uc_output: "1f1ef-1f1ea",
     shortnames: [":je:"],
     category: "flags"
-},
-":flag_jm:": {
+  },
+  ":flag_jm:": {
     uc_output: "1f1ef-1f1f2",
     shortnames: [":jm:"],
     category: "flags"
-},
-":flag_jo:": {
+  },
+  ":flag_jo:": {
     uc_output: "1f1ef-1f1f4",
     shortnames: [":jo:"],
     category: "flags"
-},
-":flag_jp:": {
+  },
+  ":flag_jp:": {
     uc_output: "1f1ef-1f1f5",
     shortnames: [":jp:"],
     category: "flags"
-},
-":flag_ke:": {
+  },
+  ":flag_ke:": {
     uc_output: "1f1f0-1f1ea",
     shortnames: [":ke:"],
     category: "flags"
-},
-":flag_kg:": {
+  },
+  ":flag_kg:": {
     uc_output: "1f1f0-1f1ec",
     shortnames: [":kg:"],
     category: "flags"
-},
-":flag_kh:": {
+  },
+  ":flag_kh:": {
     uc_output: "1f1f0-1f1ed",
     shortnames: [":kh:"],
     category: "flags"
-},
-":flag_ki:": {
+  },
+  ":flag_ki:": {
     uc_output: "1f1f0-1f1ee",
     shortnames: [":ki:"],
     category: "flags"
-},
-":flag_km:": {
+  },
+  ":flag_km:": {
     uc_output: "1f1f0-1f1f2",
     shortnames: [":km:"],
     category: "flags"
-},
-":flag_kn:": {
+  },
+  ":flag_kn:": {
     uc_output: "1f1f0-1f1f3",
     shortnames: [":kn:"],
     category: "flags"
-},
-":flag_kp:": {
+  },
+  ":flag_kp:": {
     uc_output: "1f1f0-1f1f5",
     shortnames: [":kp:"],
     category: "flags"
-},
-":flag_kr:": {
+  },
+  ":flag_kr:": {
     uc_output: "1f1f0-1f1f7",
     shortnames: [":kr:"],
     category: "flags"
-},
-":flag_kw:": {
+  },
+  ":flag_kw:": {
     uc_output: "1f1f0-1f1fc",
     shortnames: [":kw:"],
     category: "flags"
-},
-":flag_ky:": {
+  },
+  ":flag_ky:": {
     uc_output: "1f1f0-1f1fe",
     shortnames: [":ky:"],
     category: "flags"
-},
-":flag_kz:": {
+  },
+  ":flag_kz:": {
     uc_output: "1f1f0-1f1ff",
     shortnames: [":kz:"],
     category: "flags"
-},
-":flag_la:": {
+  },
+  ":flag_la:": {
     uc_output: "1f1f1-1f1e6",
     shortnames: [":la:"],
     category: "flags"
-},
-":flag_lb:": {
+  },
+  ":flag_lb:": {
     uc_output: "1f1f1-1f1e7",
     shortnames: [":lb:"],
     category: "flags"
-},
-":flag_lc:": {
+  },
+  ":flag_lc:": {
     uc_output: "1f1f1-1f1e8",
     shortnames: [":lc:"],
     category: "flags"
-},
-":flag_li:": {
+  },
+  ":flag_li:": {
     uc_output: "1f1f1-1f1ee",
     shortnames: [":li:"],
     category: "flags"
-},
-":flag_lk:": {
+  },
+  ":flag_lk:": {
     uc_output: "1f1f1-1f1f0",
     shortnames: [":lk:"],
     category: "flags"
-},
-":flag_lr:": {
+  },
+  ":flag_lr:": {
     uc_output: "1f1f1-1f1f7",
     shortnames: [":lr:"],
     category: "flags"
-},
-":flag_ls:": {
+  },
+  ":flag_ls:": {
     uc_output: "1f1f1-1f1f8",
     shortnames: [":ls:"],
     category: "flags"
-},
-":flag_lt:": {
+  },
+  ":flag_lt:": {
     uc_output: "1f1f1-1f1f9",
     shortnames: [":lt:"],
     category: "flags"
-},
-":flag_lu:": {
+  },
+  ":flag_lu:": {
     uc_output: "1f1f1-1f1fa",
     shortnames: [":lu:"],
     category: "flags"
-},
-":flag_lv:": {
+  },
+  ":flag_lv:": {
     uc_output: "1f1f1-1f1fb",
     shortnames: [":lv:"],
     category: "flags"
-},
-":flag_ly:": {
+  },
+  ":flag_ly:": {
     uc_output: "1f1f1-1f1fe",
     shortnames: [":ly:"],
     category: "flags"
-},
-":flag_ma:": {
+  },
+  ":flag_ma:": {
     uc_output: "1f1f2-1f1e6",
     shortnames: [":ma:"],
     category: "flags"
-},
-":flag_mc:": {
+  },
+  ":flag_mc:": {
     uc_output: "1f1f2-1f1e8",
     shortnames: [":mc:"],
     category: "flags"
-},
-":flag_md:": {
+  },
+  ":flag_md:": {
     uc_output: "1f1f2-1f1e9",
     shortnames: [":md:"],
     category: "flags"
-},
-":flag_me:": {
+  },
+  ":flag_me:": {
     uc_output: "1f1f2-1f1ea",
     shortnames: [":me:"],
     category: "flags"
-},
-":flag_mf:": {
+  },
+  ":flag_mf:": {
     uc_output: "1f1f2-1f1eb",
     shortnames: [":mf:"],
     category: "flags"
-},
-":flag_mg:": {
+  },
+  ":flag_mg:": {
     uc_output: "1f1f2-1f1ec",
     shortnames: [":mg:"],
     category: "flags"
-},
-":flag_mh:": {
+  },
+  ":flag_mh:": {
     uc_output: "1f1f2-1f1ed",
     shortnames: [":mh:"],
     category: "flags"
-},
-":flag_mk:": {
+  },
+  ":flag_mk:": {
     uc_output: "1f1f2-1f1f0",
     shortnames: [":mk:"],
     category: "flags"
-},
-":flag_ml:": {
+  },
+  ":flag_ml:": {
     uc_output: "1f1f2-1f1f1",
     shortnames: [":ml:"],
     category: "flags"
-},
-":flag_mm:": {
+  },
+  ":flag_mm:": {
     uc_output: "1f1f2-1f1f2",
     shortnames: [":mm:"],
     category: "flags"
-},
-":flag_mn:": {
+  },
+  ":flag_mn:": {
     uc_output: "1f1f2-1f1f3",
     shortnames: [":mn:"],
     category: "flags"
-},
-":flag_mo:": {
+  },
+  ":flag_mo:": {
     uc_output: "1f1f2-1f1f4",
     shortnames: [":mo:"],
     category: "flags"
-},
-":flag_mp:": {
+  },
+  ":flag_mp:": {
     uc_output: "1f1f2-1f1f5",
     shortnames: [":mp:"],
     category: "flags"
-},
-":flag_mq:": {
+  },
+  ":flag_mq:": {
     uc_output: "1f1f2-1f1f6",
     shortnames: [":mq:"],
     category: "flags"
-},
-":flag_mr:": {
+  },
+  ":flag_mr:": {
     uc_output: "1f1f2-1f1f7",
     shortnames: [":mr:"],
     category: "flags"
-},
-":flag_ms:": {
+  },
+  ":flag_ms:": {
     uc_output: "1f1f2-1f1f8",
     shortnames: [":ms:"],
     category: "flags"
-},
-":flag_mt:": {
+  },
+  ":flag_mt:": {
     uc_output: "1f1f2-1f1f9",
     shortnames: [":mt:"],
     category: "flags"
-},
-":flag_mu:": {
+  },
+  ":flag_mu:": {
     uc_output: "1f1f2-1f1fa",
     shortnames: [":mu:"],
     category: "flags"
-},
-":flag_mv:": {
+  },
+  ":flag_mv:": {
     uc_output: "1f1f2-1f1fb",
     shortnames: [":mv:"],
     category: "flags"
-},
-":flag_mw:": {
+  },
+  ":flag_mw:": {
     uc_output: "1f1f2-1f1fc",
     shortnames: [":mw:"],
     category: "flags"
-},
-":flag_mx:": {
+  },
+  ":flag_mx:": {
     uc_output: "1f1f2-1f1fd",
     shortnames: [":mx:"],
     category: "flags"
-},
-":flag_my:": {
+  },
+  ":flag_my:": {
     uc_output: "1f1f2-1f1fe",
     shortnames: [":my:"],
     category: "flags"
-},
-":flag_mz:": {
+  },
+  ":flag_mz:": {
     uc_output: "1f1f2-1f1ff",
     shortnames: [":mz:"],
     category: "flags"
-},
-":flag_na:": {
+  },
+  ":flag_na:": {
     uc_output: "1f1f3-1f1e6",
     shortnames: [":na:"],
     category: "flags"
-},
-":flag_nc:": {
+  },
+  ":flag_nc:": {
     uc_output: "1f1f3-1f1e8",
     shortnames: [":nc:"],
     category: "flags"
-},
-":flag_ne:": {
+  },
+  ":flag_ne:": {
     uc_output: "1f1f3-1f1ea",
     shortnames: [":ne:"],
     category: "flags"
-},
-":flag_nf:": {
+  },
+  ":flag_nf:": {
     uc_output: "1f1f3-1f1eb",
     shortnames: [":nf:"],
     category: "flags"
-},
-":flag_ng:": {
+  },
+  ":flag_ng:": {
     uc_output: "1f1f3-1f1ec",
     shortnames: [":nigeria:"],
     category: "flags"
-},
-":flag_ni:": {
+  },
+  ":flag_ni:": {
     uc_output: "1f1f3-1f1ee",
     shortnames: [":ni:"],
     category: "flags"
-},
-":flag_nl:": {
+  },
+  ":flag_nl:": {
     uc_output: "1f1f3-1f1f1",
     shortnames: [":nl:"],
     category: "flags"
-},
-":flag_no:": {
+  },
+  ":flag_no:": {
     uc_output: "1f1f3-1f1f4",
     shortnames: [":no:"],
     category: "flags"
-},
-":flag_np:": {
+  },
+  ":flag_np:": {
     uc_output: "1f1f3-1f1f5",
     shortnames: [":np:"],
     category: "flags"
-},
-":flag_nr:": {
+  },
+  ":flag_nr:": {
     uc_output: "1f1f3-1f1f7",
     shortnames: [":nr:"],
     category: "flags"
-},
-":flag_nu:": {
+  },
+  ":flag_nu:": {
     uc_output: "1f1f3-1f1fa",
     shortnames: [":nu:"],
     category: "flags"
-},
-":flag_nz:": {
+  },
+  ":flag_nz:": {
     uc_output: "1f1f3-1f1ff",
     shortnames: [":nz:"],
     category: "flags"
-},
-":flag_om:": {
+  },
+  ":flag_om:": {
     uc_output: "1f1f4-1f1f2",
     shortnames: [":om:"],
     category: "flags"
-},
-":flag_pa:": {
+  },
+  ":flag_pa:": {
     uc_output: "1f1f5-1f1e6",
     shortnames: [":pa:"],
     category: "flags"
-},
-":flag_pe:": {
+  },
+  ":flag_pe:": {
     uc_output: "1f1f5-1f1ea",
     shortnames: [":pe:"],
     category: "flags"
-},
-":flag_pf:": {
+  },
+  ":flag_pf:": {
     uc_output: "1f1f5-1f1eb",
     shortnames: [":pf:"],
     category: "flags"
-},
-":flag_pg:": {
+  },
+  ":flag_pg:": {
     uc_output: "1f1f5-1f1ec",
     shortnames: [":pg:"],
     category: "flags"
-},
-":flag_ph:": {
+  },
+  ":flag_ph:": {
     uc_output: "1f1f5-1f1ed",
     shortnames: [":ph:"],
     category: "flags"
-},
-":flag_pk:": {
+  },
+  ":flag_pk:": {
     uc_output: "1f1f5-1f1f0",
     shortnames: [":pk:"],
     category: "flags"
-},
-":flag_pl:": {
+  },
+  ":flag_pl:": {
     uc_output: "1f1f5-1f1f1",
     shortnames: [":pl:"],
     category: "flags"
-},
-":flag_pm:": {
+  },
+  ":flag_pm:": {
     uc_output: "1f1f5-1f1f2",
     shortnames: [":pm:"],
     category: "flags"
-},
-":flag_pn:": {
+  },
+  ":flag_pn:": {
     uc_output: "1f1f5-1f1f3",
     shortnames: [":pn:"],
     category: "flags"
-},
-":flag_pr:": {
+  },
+  ":flag_pr:": {
     uc_output: "1f1f5-1f1f7",
     shortnames: [":pr:"],
     category: "flags"
-},
-":flag_ps:": {
+  },
+  ":flag_ps:": {
     uc_output: "1f1f5-1f1f8",
     shortnames: [":ps:"],
     category: "flags"
-},
-":flag_pt:": {
+  },
+  ":flag_pt:": {
     uc_output: "1f1f5-1f1f9",
     shortnames: [":pt:"],
     category: "flags"
-},
-":flag_pw:": {
+  },
+  ":flag_pw:": {
     uc_output: "1f1f5-1f1fc",
     shortnames: [":pw:"],
     category: "flags"
-},
-":flag_py:": {
+  },
+  ":flag_py:": {
     uc_output: "1f1f5-1f1fe",
     shortnames: [":py:"],
     category: "flags"
-},
-":flag_qa:": {
+  },
+  ":flag_qa:": {
     uc_output: "1f1f6-1f1e6",
     shortnames: [":qa:"],
     category: "flags"
-},
-":flag_re:": {
+  },
+  ":flag_re:": {
     uc_output: "1f1f7-1f1ea",
     shortnames: [":re:"],
     category: "flags"
-},
-":flag_ro:": {
+  },
+  ":flag_ro:": {
     uc_output: "1f1f7-1f1f4",
     shortnames: [":ro:"],
     category: "flags"
-},
-":flag_rs:": {
+  },
+  ":flag_rs:": {
     uc_output: "1f1f7-1f1f8",
     shortnames: [":rs:"],
     category: "flags"
-},
-":flag_ru:": {
+  },
+  ":flag_ru:": {
     uc_output: "1f1f7-1f1fa",
     shortnames: [":ru:"],
     category: "flags"
-},
-":flag_rw:": {
+  },
+  ":flag_rw:": {
     uc_output: "1f1f7-1f1fc",
     shortnames: [":rw:"],
     category: "flags"
-},
-":flag_sa:": {
+  },
+  ":flag_sa:": {
     uc_output: "1f1f8-1f1e6",
     shortnames: [":saudiarabia:", ":saudi:"],
     category: "flags"
-},
-":flag_sb:": {
+  },
+  ":flag_sb:": {
     uc_output: "1f1f8-1f1e7",
     shortnames: [":sb:"],
     category: "flags"
-},
-":flag_sc:": {
+  },
+  ":flag_sc:": {
     uc_output: "1f1f8-1f1e8",
     shortnames: [":sc:"],
     category: "flags"
-},
-":flag_sd:": {
+  },
+  ":flag_sd:": {
     uc_output: "1f1f8-1f1e9",
     shortnames: [":sd:"],
     category: "flags"
-},
-":flag_se:": {
+  },
+  ":flag_se:": {
     uc_output: "1f1f8-1f1ea",
     shortnames: [":se:"],
     category: "flags"
-},
-":flag_sg:": {
+  },
+  ":flag_sg:": {
     uc_output: "1f1f8-1f1ec",
     shortnames: [":sg:"],
     category: "flags"
-},
-":flag_sh:": {
+  },
+  ":flag_sh:": {
     uc_output: "1f1f8-1f1ed",
     shortnames: [":sh:"],
     category: "flags"
-},
-":flag_si:": {
+  },
+  ":flag_si:": {
     uc_output: "1f1f8-1f1ee",
     shortnames: [":si:"],
     category: "flags"
-},
-":flag_sj:": {
+  },
+  ":flag_sj:": {
     uc_output: "1f1f8-1f1ef",
     shortnames: [":sj:"],
     category: "flags"
-},
-":flag_sk:": {
+  },
+  ":flag_sk:": {
     uc_output: "1f1f8-1f1f0",
     shortnames: [":sk:"],
     category: "flags"
-},
-":flag_sl:": {
+  },
+  ":flag_sl:": {
     uc_output: "1f1f8-1f1f1",
     shortnames: [":sl:"],
     category: "flags"
-},
-":flag_sm:": {
+  },
+  ":flag_sm:": {
     uc_output: "1f1f8-1f1f2",
     shortnames: [":sm:"],
     category: "flags"
-},
-":flag_sn:": {
+  },
+  ":flag_sn:": {
     uc_output: "1f1f8-1f1f3",
     shortnames: [":sn:"],
     category: "flags"
-},
-":flag_so:": {
+  },
+  ":flag_so:": {
     uc_output: "1f1f8-1f1f4",
     shortnames: [":so:"],
     category: "flags"
-},
-":flag_sr:": {
+  },
+  ":flag_sr:": {
     uc_output: "1f1f8-1f1f7",
     shortnames: [":sr:"],
     category: "flags"
-},
-":flag_ss:": {
+  },
+  ":flag_ss:": {
     uc_output: "1f1f8-1f1f8",
     shortnames: [":ss:"],
     category: "flags"
-},
-":flag_st:": {
+  },
+  ":flag_st:": {
     uc_output: "1f1f8-1f1f9",
     shortnames: [":st:"],
     category: "flags"
-},
-":flag_sv:": {
+  },
+  ":flag_sv:": {
     uc_output: "1f1f8-1f1fb",
     shortnames: [":sv:"],
     category: "flags"
-},
-":flag_sx:": {
+  },
+  ":flag_sx:": {
     uc_output: "1f1f8-1f1fd",
     shortnames: [":sx:"],
     category: "flags"
-},
-":flag_sy:": {
+  },
+  ":flag_sy:": {
     uc_output: "1f1f8-1f1fe",
     shortnames: [":sy:"],
     category: "flags"
-},
-":flag_sz:": {
+  },
+  ":flag_sz:": {
     uc_output: "1f1f8-1f1ff",
     shortnames: [":sz:"],
     category: "flags"
-},
-":flag_ta:": {
+  },
+  ":flag_ta:": {
     uc_output: "1f1f9-1f1e6",
     shortnames: [":ta:"],
     category: "flags"
-},
-":flag_tc:": {
+  },
+  ":flag_tc:": {
     uc_output: "1f1f9-1f1e8",
     shortnames: [":tc:"],
     category: "flags"
-},
-":flag_td:": {
+  },
+  ":flag_td:": {
     uc_output: "1f1f9-1f1e9",
     shortnames: [":td:"],
     category: "flags"
-},
-":flag_tf:": {
+  },
+  ":flag_tf:": {
     uc_output: "1f1f9-1f1eb",
     shortnames: [":tf:"],
     category: "flags"
-},
-":flag_tg:": {
+  },
+  ":flag_tg:": {
     uc_output: "1f1f9-1f1ec",
     shortnames: [":tg:"],
     category: "flags"
-},
-":flag_th:": {
+  },
+  ":flag_th:": {
     uc_output: "1f1f9-1f1ed",
     shortnames: [":th:"],
     category: "flags"
-},
-":flag_tj:": {
+  },
+  ":flag_tj:": {
     uc_output: "1f1f9-1f1ef",
     shortnames: [":tj:"],
     category: "flags"
-},
-":flag_tk:": {
+  },
+  ":flag_tk:": {
     uc_output: "1f1f9-1f1f0",
     shortnames: [":tk:"],
     category: "flags"
-},
-":flag_tl:": {
+  },
+  ":flag_tl:": {
     uc_output: "1f1f9-1f1f1",
     shortnames: [":tl:"],
     category: "flags"
-},
-":flag_tm:": {
+  },
+  ":flag_tm:": {
     uc_output: "1f1f9-1f1f2",
     shortnames: [":turkmenistan:"],
     category: "flags"
-},
-":flag_tn:": {
+  },
+  ":flag_tn:": {
     uc_output: "1f1f9-1f1f3",
     shortnames: [":tn:"],
     category: "flags"
-},
-":flag_to:": {
+  },
+  ":flag_to:": {
     uc_output: "1f1f9-1f1f4",
     shortnames: [":to:"],
     category: "flags"
-},
-":flag_tr:": {
+  },
+  ":flag_tr:": {
     uc_output: "1f1f9-1f1f7",
     shortnames: [":tr:"],
     category: "flags"
-},
-":flag_tt:": {
+  },
+  ":flag_tt:": {
     uc_output: "1f1f9-1f1f9",
     shortnames: [":tt:"],
     category: "flags"
-},
-":flag_tv:": {
+  },
+  ":flag_tv:": {
     uc_output: "1f1f9-1f1fb",
     shortnames: [":tuvalu:"],
     category: "flags"
-},
-":flag_tw:": {
+  },
+  ":flag_tw:": {
     uc_output: "1f1f9-1f1fc",
     shortnames: [":tw:"],
     category: "flags"
-},
-":flag_tz:": {
+  },
+  ":flag_tz:": {
     uc_output: "1f1f9-1f1ff",
     shortnames: [":tz:"],
     category: "flags"
-},
-":flag_ua:": {
+  },
+  ":flag_ua:": {
     uc_output: "1f1fa-1f1e6",
     shortnames: [":ua:"],
     category: "flags"
-},
-":flag_ug:": {
+  },
+  ":flag_ug:": {
     uc_output: "1f1fa-1f1ec",
     shortnames: [":ug:"],
     category: "flags"
-},
-":flag_um:": {
+  },
+  ":flag_um:": {
     uc_output: "1f1fa-1f1f2",
     shortnames: [":um:"],
     category: "flags"
-},
-":flag_us:": {
+  },
+  ":flag_us:": {
     uc_output: "1f1fa-1f1f8",
     shortnames: [":us:"],
     category: "flags"
-},
-":flag_uy:": {
+  },
+  ":flag_uy:": {
     uc_output: "1f1fa-1f1fe",
     shortnames: [":uy:"],
     category: "flags"
-},
-":flag_uz:": {
+  },
+  ":flag_uz:": {
     uc_output: "1f1fa-1f1ff",
     shortnames: [":uz:"],
     category: "flags"
-},
-":flag_va:": {
+  },
+  ":flag_va:": {
     uc_output: "1f1fb-1f1e6",
     shortnames: [":va:"],
     category: "flags"
-},
-":flag_vc:": {
+  },
+  ":flag_vc:": {
     uc_output: "1f1fb-1f1e8",
     shortnames: [":vc:"],
     category: "flags"
-},
-":flag_ve:": {
+  },
+  ":flag_ve:": {
     uc_output: "1f1fb-1f1ea",
     shortnames: [":ve:"],
     category: "flags"
-},
-":flag_vg:": {
+  },
+  ":flag_vg:": {
     uc_output: "1f1fb-1f1ec",
     shortnames: [":vg:"],
     category: "flags"
-},
-":flag_vi:": {
+  },
+  ":flag_vi:": {
     uc_output: "1f1fb-1f1ee",
     shortnames: [":vi:"],
     category: "flags"
-},
-":flag_vn:": {
+  },
+  ":flag_vn:": {
     uc_output: "1f1fb-1f1f3",
     shortnames: [":vn:"],
     category: "flags"
-},
-":flag_vu:": {
+  },
+  ":flag_vu:": {
     uc_output: "1f1fb-1f1fa",
     shortnames: [":vu:"],
     category: "flags"
-},
-":flag_wf:": {
+  },
+  ":flag_wf:": {
     uc_output: "1f1fc-1f1eb",
     shortnames: [":wf:"],
     category: "flags"
-},
-":flag_ws:": {
+  },
+  ":flag_ws:": {
     uc_output: "1f1fc-1f1f8",
     shortnames: [":ws:"],
     category: "flags"
-},
-":flag_xk:": {
+  },
+  ":flag_xk:": {
     uc_output: "1f1fd-1f1f0",
     shortnames: [":xk:"],
     category: "flags"
-},
-":flag_ye:": {
+  },
+  ":flag_ye:": {
     uc_output: "1f1fe-1f1ea",
     shortnames: [":ye:"],
     category: "flags"
-},
-":flag_yt:": {
+  },
+  ":flag_yt:": {
     uc_output: "1f1fe-1f1f9",
     shortnames: [":yt:"],
     category: "flags"
-},
-":flag_za:": {
+  },
+  ":flag_za:": {
     uc_output: "1f1ff-1f1e6",
     shortnames: [":za:"],
     category: "flags"
-},
-":flag_zm:": {
+  },
+  ":flag_zm:": {
     uc_output: "1f1ff-1f1f2",
     shortnames: [":zm:"],
     category: "flags"
-},
-":flag_zw:": {
+  },
+  ":flag_zw:": {
     uc_output: "1f1ff-1f1fc",
     shortnames: [":zw:"],
     category: "flags"
-},
-":girl_tone1:": {
+  },
+  ":girl_tone1:": {
     uc_output: "1f467-1f3fb",
     shortnames: [],
     category: "people"
-},
-":girl_tone2:": {
+  },
+  ":girl_tone2:": {
     uc_output: "1f467-1f3fc",
     shortnames: [],
     category: "people"
-},
-":girl_tone3:": {
+  },
+  ":girl_tone3:": {
     uc_output: "1f467-1f3fd",
     shortnames: [],
     category: "people"
-},
-":girl_tone4:": {
+  },
+  ":girl_tone4:": {
     uc_output: "1f467-1f3fe",
     shortnames: [],
     category: "people"
-},
-":girl_tone5:": {
+  },
+  ":girl_tone5:": {
     uc_output: "1f467-1f3ff",
     shortnames: [],
     category: "people"
-},
-":guard_tone1:": {
+  },
+  ":guard_tone1:": {
     uc_output: "1f482-1f3fb",
     shortnames: [":guardsman_tone1:"],
     category: "people"
-},
-":guard_tone2:": {
+  },
+  ":guard_tone2:": {
     uc_output: "1f482-1f3fc",
     shortnames: [":guardsman_tone2:"],
     category: "people"
-},
-":guard_tone3:": {
+  },
+  ":guard_tone3:": {
     uc_output: "1f482-1f3fd",
     shortnames: [":guardsman_tone3:"],
     category: "people"
-},
-":guard_tone4:": {
+  },
+  ":guard_tone4:": {
     uc_output: "1f482-1f3fe",
     shortnames: [":guardsman_tone4:"],
     category: "people"
-},
-":guard_tone5:": {
+  },
+  ":guard_tone5:": {
     uc_output: "1f482-1f3ff",
     shortnames: [":guardsman_tone5:"],
     category: "people"
-},
-":hand_splayed_tone1:": {
+  },
+  ":hand_splayed_tone1:": {
     uc_output: "1f590-1f3fb",
     shortnames: [":raised_hand_with_fingers_splayed_tone1:"],
     category: "people"
-},
-":hand_splayed_tone2:": {
+  },
+  ":hand_splayed_tone2:": {
     uc_output: "1f590-1f3fc",
     shortnames: [":raised_hand_with_fingers_splayed_tone2:"],
     category: "people"
-},
-":hand_splayed_tone3:": {
+  },
+  ":hand_splayed_tone3:": {
     uc_output: "1f590-1f3fd",
     shortnames: [":raised_hand_with_fingers_splayed_tone3:"],
     category: "people"
-},
-":hand_splayed_tone4:": {
+  },
+  ":hand_splayed_tone4:": {
     uc_output: "1f590-1f3fe",
     shortnames: [":raised_hand_with_fingers_splayed_tone4:"],
     category: "people"
-},
-":hand_splayed_tone5:": {
+  },
+  ":hand_splayed_tone5:": {
     uc_output: "1f590-1f3ff",
     shortnames: [":raised_hand_with_fingers_splayed_tone5:"],
     category: "people"
-},
-":horse_racing_tone1:": {
+  },
+  ":horse_racing_tone1:": {
     uc_output: "1f3c7-1f3fb",
     shortnames: [],
     category: "activity"
-},
-":horse_racing_tone2:": {
+  },
+  ":horse_racing_tone2:": {
     uc_output: "1f3c7-1f3fc",
     shortnames: [],
     category: "activity"
-},
-":horse_racing_tone3:": {
+  },
+  ":horse_racing_tone3:": {
     uc_output: "1f3c7-1f3fd",
     shortnames: [],
     category: "activity"
-},
-":horse_racing_tone4:": {
+  },
+  ":horse_racing_tone4:": {
     uc_output: "1f3c7-1f3fe",
     shortnames: [],
     category: "activity"
-},
-":horse_racing_tone5:": {
+  },
+  ":horse_racing_tone5:": {
     uc_output: "1f3c7-1f3ff",
     shortnames: [],
     category: "activity"
-},
-":left_facing_fist_tone1:": {
+  },
+  ":left_facing_fist_tone1:": {
     uc_output: "1f91b-1f3fb",
     shortnames: [":left_fist_tone1:"],
     category: "people"
-},
-":left_facing_fist_tone2:": {
+  },
+  ":left_facing_fist_tone2:": {
     uc_output: "1f91b-1f3fc",
     shortnames: [":left_fist_tone2:"],
     category: "people"
-},
-":left_facing_fist_tone3:": {
+  },
+  ":left_facing_fist_tone3:": {
     uc_output: "1f91b-1f3fd",
     shortnames: [":left_fist_tone3:"],
     category: "people"
-},
-":left_facing_fist_tone4:": {
+  },
+  ":left_facing_fist_tone4:": {
     uc_output: "1f91b-1f3fe",
     shortnames: [":left_fist_tone4:"],
     category: "people"
-},
-":left_facing_fist_tone5:": {
+  },
+  ":left_facing_fist_tone5:": {
     uc_output: "1f91b-1f3ff",
     shortnames: [":left_fist_tone5:"],
     category: "people"
-},
-":love_you_gesture_tone1:": {
+  },
+  ":love_you_gesture_tone1:": {
     uc_output: "1f91f-1f3fb",
     shortnames: [":love_you_gesture_light_skin_tone:"],
     category: "people"
-},
-":love_you_gesture_tone2:": {
+  },
+  ":love_you_gesture_tone2:": {
     uc_output: "1f91f-1f3fc",
     shortnames: [":love_you_gesture_medium_light_skin_tone:"],
     category: "people"
-},
-":love_you_gesture_tone3:": {
+  },
+  ":love_you_gesture_tone3:": {
     uc_output: "1f91f-1f3fd",
     shortnames: [":love_you_gesture_medium_skin_tone:"],
     category: "people"
-},
-":love_you_gesture_tone4:": {
+  },
+  ":love_you_gesture_tone4:": {
     uc_output: "1f91f-1f3fe",
     shortnames: [":love_you_gesture_medium_dark_skin_tone:"],
     category: "people"
-},
-":love_you_gesture_tone5:": {
+  },
+  ":love_you_gesture_tone5:": {
     uc_output: "1f91f-1f3ff",
     shortnames: [":love_you_gesture_dark_skin_tone:"],
     category: "people"
-},
-":mage_tone1:": {
+  },
+  ":mage_tone1:": {
     uc_output: "1f9d9-1f3fb",
     shortnames: [":mage_light_skin_tone:"],
     category: "people"
-},
-":mage_tone2:": {
+  },
+  ":mage_tone2:": {
     uc_output: "1f9d9-1f3fc",
     shortnames: [":mage_medium_light_skin_tone:"],
     category: "people"
-},
-":mage_tone3:": {
+  },
+  ":mage_tone3:": {
     uc_output: "1f9d9-1f3fd",
     shortnames: [":mage_medium_skin_tone:"],
     category: "people"
-},
-":mage_tone4:": {
+  },
+  ":mage_tone4:": {
     uc_output: "1f9d9-1f3fe",
     shortnames: [":mage_medium_dark_skin_tone:"],
     category: "people"
-},
-":mage_tone5:": {
+  },
+  ":mage_tone5:": {
     uc_output: "1f9d9-1f3ff",
     shortnames: [":mage_dark_skin_tone:"],
     category: "people"
-},
-":man_dancing_tone1:": {
+  },
+  ":man_dancing_tone1:": {
     uc_output: "1f57a-1f3fb",
     shortnames: [":male_dancer_tone1:"],
     category: "people"
-},
-":man_dancing_tone2:": {
+  },
+  ":man_dancing_tone2:": {
     uc_output: "1f57a-1f3fc",
     shortnames: [":male_dancer_tone2:"],
     category: "people"
-},
-":man_dancing_tone3:": {
+  },
+  ":man_dancing_tone3:": {
     uc_output: "1f57a-1f3fd",
     shortnames: [":male_dancer_tone3:"],
     category: "people"
-},
-":man_dancing_tone4:": {
+  },
+  ":man_dancing_tone4:": {
     uc_output: "1f57a-1f3fe",
     shortnames: [":male_dancer_tone4:"],
     category: "people"
-},
-":man_dancing_tone5:": {
+  },
+  ":man_dancing_tone5:": {
     uc_output: "1f57a-1f3ff",
     shortnames: [":male_dancer_tone5:"],
     category: "people"
-},
-":man_in_business_suit_levitating_tone1:": {
+  },
+  ":man_in_business_suit_levitating_tone1:": {
     uc_output: "1f574-1f3fb",
     shortnames: [":man_in_business_suit_levitating_light_skin_tone:"],
     category: "people"
-},
-":man_in_business_suit_levitating_tone2:": {
+  },
+  ":man_in_business_suit_levitating_tone2:": {
     uc_output: "1f574-1f3fc",
     shortnames: [":man_in_business_suit_levitating_medium_light_skin_tone:"],
     category: "people"
-},
-":man_in_business_suit_levitating_tone3:": {
+  },
+  ":man_in_business_suit_levitating_tone3:": {
     uc_output: "1f574-1f3fd",
     shortnames: [":man_in_business_suit_levitating_medium_skin_tone:"],
     category: "people"
-},
-":man_in_business_suit_levitating_tone4:": {
+  },
+  ":man_in_business_suit_levitating_tone4:": {
     uc_output: "1f574-1f3fe",
     shortnames: [":man_in_business_suit_levitating_medium_dark_skin_tone:"],
     category: "people"
-},
-":man_in_business_suit_levitating_tone5:": {
+  },
+  ":man_in_business_suit_levitating_tone5:": {
     uc_output: "1f574-1f3ff",
     shortnames: [":man_in_business_suit_levitating_dark_skin_tone:"],
     category: "people"
-},
-":man_in_tuxedo_tone1:": {
+  },
+  ":man_in_tuxedo_tone1:": {
     uc_output: "1f935-1f3fb",
     shortnames: [":tuxedo_tone1:"],
     category: "people"
-},
-":man_in_tuxedo_tone2:": {
+  },
+  ":man_in_tuxedo_tone2:": {
     uc_output: "1f935-1f3fc",
     shortnames: [":tuxedo_tone2:"],
     category: "people"
-},
-":man_in_tuxedo_tone3:": {
+  },
+  ":man_in_tuxedo_tone3:": {
     uc_output: "1f935-1f3fd",
     shortnames: [":tuxedo_tone3:"],
     category: "people"
-},
-":man_in_tuxedo_tone4:": {
+  },
+  ":man_in_tuxedo_tone4:": {
     uc_output: "1f935-1f3fe",
     shortnames: [":tuxedo_tone4:"],
     category: "people"
-},
-":man_in_tuxedo_tone5:": {
+  },
+  ":man_in_tuxedo_tone5:": {
     uc_output: "1f935-1f3ff",
     shortnames: [":tuxedo_tone5:"],
     category: "people"
-},
-":man_tone1:": {
+  },
+  ":man_tone1:": {
     uc_output: "1f468-1f3fb",
     shortnames: [],
     category: "people"
-},
-":man_tone2:": {
+  },
+  ":man_tone2:": {
     uc_output: "1f468-1f3fc",
     shortnames: [],
     category: "people"
-},
-":man_tone3:": {
+  },
+  ":man_tone3:": {
     uc_output: "1f468-1f3fd",
     shortnames: [],
     category: "people"
-},
-":man_tone4:": {
+  },
+  ":man_tone4:": {
     uc_output: "1f468-1f3fe",
     shortnames: [],
     category: "people"
-},
-":man_tone5:": {
+  },
+  ":man_tone5:": {
     uc_output: "1f468-1f3ff",
     shortnames: [],
     category: "people"
-},
-":man_with_chinese_cap_tone1:": {
+  },
+  ":man_with_chinese_cap_tone1:": {
     uc_output: "1f472-1f3fb",
     shortnames: [":man_with_gua_pi_mao_tone1:"],
     category: "people"
-},
-":man_with_chinese_cap_tone2:": {
+  },
+  ":man_with_chinese_cap_tone2:": {
     uc_output: "1f472-1f3fc",
     shortnames: [":man_with_gua_pi_mao_tone2:"],
     category: "people"
-},
-":man_with_chinese_cap_tone3:": {
+  },
+  ":man_with_chinese_cap_tone3:": {
     uc_output: "1f472-1f3fd",
     shortnames: [":man_with_gua_pi_mao_tone3:"],
     category: "people"
-},
-":man_with_chinese_cap_tone4:": {
+  },
+  ":man_with_chinese_cap_tone4:": {
     uc_output: "1f472-1f3fe",
     shortnames: [":man_with_gua_pi_mao_tone4:"],
     category: "people"
-},
-":man_with_chinese_cap_tone5:": {
+  },
+  ":man_with_chinese_cap_tone5:": {
     uc_output: "1f472-1f3ff",
     shortnames: [":man_with_gua_pi_mao_tone5:"],
     category: "people"
-},
-":merperson_tone1:": {
+  },
+  ":merperson_tone1:": {
     uc_output: "1f9dc-1f3fb",
     shortnames: [":merperson_light_skin_tone:"],
     category: "people"
-},
-":merperson_tone2:": {
+  },
+  ":merperson_tone2:": {
     uc_output: "1f9dc-1f3fc",
     shortnames: [":merperson_medium_light_skin_tone:"],
     category: "people"
-},
-":merperson_tone3:": {
+  },
+  ":merperson_tone3:": {
     uc_output: "1f9dc-1f3fd",
     shortnames: [":merperson_medium_skin_tone:"],
     category: "people"
-},
-":merperson_tone4:": {
+  },
+  ":merperson_tone4:": {
     uc_output: "1f9dc-1f3fe",
     shortnames: [":merperson_medium_dark_skin_tone:"],
     category: "people"
-},
-":merperson_tone5:": {
+  },
+  ":merperson_tone5:": {
     uc_output: "1f9dc-1f3ff",
     shortnames: [":merperson_dark_skin_tone:"],
     category: "people"
-},
-":metal_tone1:": {
+  },
+  ":metal_tone1:": {
     uc_output: "1f918-1f3fb",
     shortnames: [":sign_of_the_horns_tone1:"],
     category: "people"
-},
-":metal_tone2:": {
+  },
+  ":metal_tone2:": {
     uc_output: "1f918-1f3fc",
     shortnames: [":sign_of_the_horns_tone2:"],
     category: "people"
-},
-":metal_tone3:": {
+  },
+  ":metal_tone3:": {
     uc_output: "1f918-1f3fd",
     shortnames: [":sign_of_the_horns_tone3:"],
     category: "people"
-},
-":metal_tone4:": {
+  },
+  ":metal_tone4:": {
     uc_output: "1f918-1f3fe",
     shortnames: [":sign_of_the_horns_tone4:"],
     category: "people"
-},
-":metal_tone5:": {
+  },
+  ":metal_tone5:": {
     uc_output: "1f918-1f3ff",
     shortnames: [":sign_of_the_horns_tone5:"],
     category: "people"
-},
-":middle_finger_tone1:": {
+  },
+  ":middle_finger_tone1:": {
     uc_output: "1f595-1f3fb",
     shortnames: [":reversed_hand_with_middle_finger_extended_tone1:"],
     category: "people"
-},
-":middle_finger_tone2:": {
+  },
+  ":middle_finger_tone2:": {
     uc_output: "1f595-1f3fc",
     shortnames: [":reversed_hand_with_middle_finger_extended_tone2:"],
     category: "people"
-},
-":middle_finger_tone3:": {
+  },
+  ":middle_finger_tone3:": {
     uc_output: "1f595-1f3fd",
     shortnames: [":reversed_hand_with_middle_finger_extended_tone3:"],
     category: "people"
-},
-":middle_finger_tone4:": {
+  },
+  ":middle_finger_tone4:": {
     uc_output: "1f595-1f3fe",
     shortnames: [":reversed_hand_with_middle_finger_extended_tone4:"],
     category: "people"
-},
-":middle_finger_tone5:": {
+  },
+  ":middle_finger_tone5:": {
     uc_output: "1f595-1f3ff",
     shortnames: [":reversed_hand_with_middle_finger_extended_tone5:"],
     category: "people"
-},
-":mrs_claus_tone1:": {
+  },
+  ":mrs_claus_tone1:": {
     uc_output: "1f936-1f3fb",
     shortnames: [":mother_christmas_tone1:"],
     category: "people"
-},
-":mrs_claus_tone2:": {
+  },
+  ":mrs_claus_tone2:": {
     uc_output: "1f936-1f3fc",
     shortnames: [":mother_christmas_tone2:"],
     category: "people"
-},
-":mrs_claus_tone3:": {
+  },
+  ":mrs_claus_tone3:": {
     uc_output: "1f936-1f3fd",
     shortnames: [":mother_christmas_tone3:"],
     category: "people"
-},
-":mrs_claus_tone4:": {
+  },
+  ":mrs_claus_tone4:": {
     uc_output: "1f936-1f3fe",
     shortnames: [":mother_christmas_tone4:"],
     category: "people"
-},
-":mrs_claus_tone5:": {
+  },
+  ":mrs_claus_tone5:": {
     uc_output: "1f936-1f3ff",
     shortnames: [":mother_christmas_tone5:"],
     category: "people"
-},
-":muscle_tone1:": {
+  },
+  ":muscle_tone1:": {
     uc_output: "1f4aa-1f3fb",
     shortnames: [],
     category: "people"
-},
-":muscle_tone2:": {
+  },
+  ":muscle_tone2:": {
     uc_output: "1f4aa-1f3fc",
     shortnames: [],
     category: "people"
-},
-":muscle_tone3:": {
+  },
+  ":muscle_tone3:": {
     uc_output: "1f4aa-1f3fd",
     shortnames: [],
     category: "people"
-},
-":muscle_tone4:": {
+  },
+  ":muscle_tone4:": {
     uc_output: "1f4aa-1f3fe",
     shortnames: [],
     category: "people"
-},
-":muscle_tone5:": {
+  },
+  ":muscle_tone5:": {
     uc_output: "1f4aa-1f3ff",
     shortnames: [],
     category: "people"
-},
-":nail_care_tone1:": {
+  },
+  ":nail_care_tone1:": {
     uc_output: "1f485-1f3fb",
     shortnames: [],
     category: "people"
-},
-":nail_care_tone2:": {
+  },
+  ":nail_care_tone2:": {
     uc_output: "1f485-1f3fc",
     shortnames: [],
     category: "people"
-},
-":nail_care_tone3:": {
+  },
+  ":nail_care_tone3:": {
     uc_output: "1f485-1f3fd",
     shortnames: [],
     category: "people"
-},
-":nail_care_tone4:": {
+  },
+  ":nail_care_tone4:": {
     uc_output: "1f485-1f3fe",
     shortnames: [],
     category: "people"
-},
-":nail_care_tone5:": {
+  },
+  ":nail_care_tone5:": {
     uc_output: "1f485-1f3ff",
     shortnames: [],
     category: "people"
-},
-":nose_tone1:": {
+  },
+  ":nose_tone1:": {
     uc_output: "1f443-1f3fb",
     shortnames: [],
     category: "people"
-},
-":nose_tone2:": {
+  },
+  ":nose_tone2:": {
     uc_output: "1f443-1f3fc",
     shortnames: [],
     category: "people"
-},
-":nose_tone3:": {
+  },
+  ":nose_tone3:": {
     uc_output: "1f443-1f3fd",
     shortnames: [],
     category: "people"
-},
-":nose_tone4:": {
+  },
+  ":nose_tone4:": {
     uc_output: "1f443-1f3fe",
     shortnames: [],
     category: "people"
-},
-":nose_tone5:": {
+  },
+  ":nose_tone5:": {
     uc_output: "1f443-1f3ff",
     shortnames: [],
     category: "people"
-},
-":ok_hand_tone1:": {
+  },
+  ":ok_hand_tone1:": {
     uc_output: "1f44c-1f3fb",
     shortnames: [],
     category: "people"
-},
-":ok_hand_tone2:": {
+  },
+  ":ok_hand_tone2:": {
     uc_output: "1f44c-1f3fc",
     shortnames: [],
     category: "people"
-},
-":ok_hand_tone3:": {
+  },
+  ":ok_hand_tone3:": {
     uc_output: "1f44c-1f3fd",
     shortnames: [],
     category: "people"
-},
-":ok_hand_tone4:": {
+  },
+  ":ok_hand_tone4:": {
     uc_output: "1f44c-1f3fe",
     shortnames: [],
     category: "people"
-},
-":ok_hand_tone5:": {
+  },
+  ":ok_hand_tone5:": {
     uc_output: "1f44c-1f3ff",
     shortnames: [],
     category: "people"
-},
-":older_adult_tone1:": {
+  },
+  ":older_adult_tone1:": {
     uc_output: "1f9d3-1f3fb",
     shortnames: [":older_adult_light_skin_tone:"],
     category: "people"
-},
-":older_adult_tone2:": {
+  },
+  ":older_adult_tone2:": {
     uc_output: "1f9d3-1f3fc",
     shortnames: [":older_adult_medium_light_skin_tone:"],
     category: "people"
-},
-":older_adult_tone3:": {
+  },
+  ":older_adult_tone3:": {
     uc_output: "1f9d3-1f3fd",
     shortnames: [":older_adult_medium_skin_tone:"],
     category: "people"
-},
-":older_adult_tone4:": {
+  },
+  ":older_adult_tone4:": {
     uc_output: "1f9d3-1f3fe",
     shortnames: [":older_adult_medium_dark_skin_tone:"],
     category: "people"
-},
-":older_adult_tone5:": {
+  },
+  ":older_adult_tone5:": {
     uc_output: "1f9d3-1f3ff",
     shortnames: [":older_adult_dark_skin_tone:"],
     category: "people"
-},
-":older_man_tone1:": {
+  },
+  ":older_man_tone1:": {
     uc_output: "1f474-1f3fb",
     shortnames: [],
     category: "people"
-},
-":older_man_tone2:": {
+  },
+  ":older_man_tone2:": {
     uc_output: "1f474-1f3fc",
     shortnames: [],
     category: "people"
-},
-":older_man_tone3:": {
+  },
+  ":older_man_tone3:": {
     uc_output: "1f474-1f3fd",
     shortnames: [],
     category: "people"
-},
-":older_man_tone4:": {
+  },
+  ":older_man_tone4:": {
     uc_output: "1f474-1f3fe",
     shortnames: [],
     category: "people"
-},
-":older_man_tone5:": {
+  },
+  ":older_man_tone5:": {
     uc_output: "1f474-1f3ff",
     shortnames: [],
     category: "people"
-},
-":older_woman_tone1:": {
+  },
+  ":older_woman_tone1:": {
     uc_output: "1f475-1f3fb",
     shortnames: [":grandma_tone1:"],
     category: "people"
-},
-":older_woman_tone2:": {
+  },
+  ":older_woman_tone2:": {
     uc_output: "1f475-1f3fc",
     shortnames: [":grandma_tone2:"],
     category: "people"
-},
-":older_woman_tone3:": {
+  },
+  ":older_woman_tone3:": {
     uc_output: "1f475-1f3fd",
     shortnames: [":grandma_tone3:"],
     category: "people"
-},
-":older_woman_tone4:": {
+  },
+  ":older_woman_tone4:": {
     uc_output: "1f475-1f3fe",
     shortnames: [":grandma_tone4:"],
     category: "people"
-},
-":older_woman_tone5:": {
+  },
+  ":older_woman_tone5:": {
     uc_output: "1f475-1f3ff",
     shortnames: [":grandma_tone5:"],
     category: "people"
-},
-":open_hands_tone1:": {
+  },
+  ":open_hands_tone1:": {
     uc_output: "1f450-1f3fb",
     shortnames: [],
     category: "people"
-},
-":open_hands_tone2:": {
+  },
+  ":open_hands_tone2:": {
     uc_output: "1f450-1f3fc",
     shortnames: [],
     category: "people"
-},
-":open_hands_tone3:": {
+  },
+  ":open_hands_tone3:": {
     uc_output: "1f450-1f3fd",
     shortnames: [],
     category: "people"
-},
-":open_hands_tone4:": {
+  },
+  ":open_hands_tone4:": {
     uc_output: "1f450-1f3fe",
     shortnames: [],
     category: "people"
-},
-":open_hands_tone5:": {
+  },
+  ":open_hands_tone5:": {
     uc_output: "1f450-1f3ff",
     shortnames: [],
     category: "people"
-},
-":palms_up_together_tone1:": {
+  },
+  ":palms_up_together_tone1:": {
     uc_output: "1f932-1f3fb",
     shortnames: [":palms_up_together_light_skin_tone:"],
     category: "people"
-},
-":palms_up_together_tone2:": {
+  },
+  ":palms_up_together_tone2:": {
     uc_output: "1f932-1f3fc",
     shortnames: [":palms_up_together_medium_light_skin_tone:"],
     category: "people"
-},
-":palms_up_together_tone3:": {
+  },
+  ":palms_up_together_tone3:": {
     uc_output: "1f932-1f3fd",
     shortnames: [":palms_up_together_medium_skin_tone:"],
     category: "people"
-},
-":palms_up_together_tone4:": {
+  },
+  ":palms_up_together_tone4:": {
     uc_output: "1f932-1f3fe",
     shortnames: [":palms_up_together_medium_dark_skin_tone:"],
     category: "people"
-},
-":palms_up_together_tone5:": {
+  },
+  ":palms_up_together_tone5:": {
     uc_output: "1f932-1f3ff",
     shortnames: [":palms_up_together_dark_skin_tone:"],
     category: "people"
-},
-":person_biking_tone1:": {
+  },
+  ":person_biking_tone1:": {
     uc_output: "1f6b4-1f3fb",
     shortnames: [":bicyclist_tone1:"],
     category: "activity"
-},
-":person_biking_tone2:": {
+  },
+  ":person_biking_tone2:": {
     uc_output: "1f6b4-1f3fc",
     shortnames: [":bicyclist_tone2:"],
     category: "activity"
-},
-":person_biking_tone3:": {
+  },
+  ":person_biking_tone3:": {
     uc_output: "1f6b4-1f3fd",
     shortnames: [":bicyclist_tone3:"],
     category: "activity"
-},
-":person_biking_tone4:": {
+  },
+  ":person_biking_tone4:": {
     uc_output: "1f6b4-1f3fe",
     shortnames: [":bicyclist_tone4:"],
     category: "activity"
-},
-":person_biking_tone5:": {
+  },
+  ":person_biking_tone5:": {
     uc_output: "1f6b4-1f3ff",
     shortnames: [":bicyclist_tone5:"],
     category: "activity"
-},
-":person_bowing_tone1:": {
+  },
+  ":person_bowing_tone1:": {
     uc_output: "1f647-1f3fb",
     shortnames: [":bow_tone1:"],
     category: "people"
-},
-":person_bowing_tone2:": {
+  },
+  ":person_bowing_tone2:": {
     uc_output: "1f647-1f3fc",
     shortnames: [":bow_tone2:"],
     category: "people"
-},
-":person_bowing_tone3:": {
+  },
+  ":person_bowing_tone3:": {
     uc_output: "1f647-1f3fd",
     shortnames: [":bow_tone3:"],
     category: "people"
-},
-":person_bowing_tone4:": {
+  },
+  ":person_bowing_tone4:": {
     uc_output: "1f647-1f3fe",
     shortnames: [":bow_tone4:"],
     category: "people"
-},
-":person_bowing_tone5:": {
+  },
+  ":person_bowing_tone5:": {
     uc_output: "1f647-1f3ff",
     shortnames: [":bow_tone5:"],
     category: "people"
-},
-":person_climbing_tone1:": {
+  },
+  ":person_climbing_tone1:": {
     uc_output: "1f9d7-1f3fb",
     shortnames: [":person_climbing_light_skin_tone:"],
     category: "activity"
-},
-":person_climbing_tone2:": {
+  },
+  ":person_climbing_tone2:": {
     uc_output: "1f9d7-1f3fc",
     shortnames: [":person_climbing_medium_light_skin_tone:"],
     category: "activity"
-},
-":person_climbing_tone3:": {
+  },
+  ":person_climbing_tone3:": {
     uc_output: "1f9d7-1f3fd",
     shortnames: [":person_climbing_medium_skin_tone:"],
     category: "activity"
-},
-":person_climbing_tone4:": {
+  },
+  ":person_climbing_tone4:": {
     uc_output: "1f9d7-1f3fe",
     shortnames: [":person_climbing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":person_climbing_tone5:": {
+  },
+  ":person_climbing_tone5:": {
     uc_output: "1f9d7-1f3ff",
     shortnames: [":person_climbing_dark_skin_tone:"],
     category: "activity"
-},
-":person_doing_cartwheel_tone1:": {
+  },
+  ":person_doing_cartwheel_tone1:": {
     uc_output: "1f938-1f3fb",
     shortnames: [":cartwheel_tone1:"],
     category: "activity"
-},
-":person_doing_cartwheel_tone2:": {
+  },
+  ":person_doing_cartwheel_tone2:": {
     uc_output: "1f938-1f3fc",
     shortnames: [":cartwheel_tone2:"],
     category: "activity"
-},
-":person_doing_cartwheel_tone3:": {
+  },
+  ":person_doing_cartwheel_tone3:": {
     uc_output: "1f938-1f3fd",
     shortnames: [":cartwheel_tone3:"],
     category: "activity"
-},
-":person_doing_cartwheel_tone4:": {
+  },
+  ":person_doing_cartwheel_tone4:": {
     uc_output: "1f938-1f3fe",
     shortnames: [":cartwheel_tone4:"],
     category: "activity"
-},
-":person_doing_cartwheel_tone5:": {
+  },
+  ":person_doing_cartwheel_tone5:": {
     uc_output: "1f938-1f3ff",
     shortnames: [":cartwheel_tone5:"],
     category: "activity"
-},
-":person_facepalming_tone1:": {
+  },
+  ":person_facepalming_tone1:": {
     uc_output: "1f926-1f3fb",
     shortnames: [":face_palm_tone1:", ":facepalm_tone1:"],
     category: "people"
-},
-":person_facepalming_tone2:": {
+  },
+  ":person_facepalming_tone2:": {
     uc_output: "1f926-1f3fc",
     shortnames: [":face_palm_tone2:", ":facepalm_tone2:"],
     category: "people"
-},
-":person_facepalming_tone3:": {
+  },
+  ":person_facepalming_tone3:": {
     uc_output: "1f926-1f3fd",
     shortnames: [":face_palm_tone3:", ":facepalm_tone3:"],
     category: "people"
-},
-":person_facepalming_tone4:": {
+  },
+  ":person_facepalming_tone4:": {
     uc_output: "1f926-1f3fe",
     shortnames: [":face_palm_tone4:", ":facepalm_tone4:"],
     category: "people"
-},
-":person_facepalming_tone5:": {
+  },
+  ":person_facepalming_tone5:": {
     uc_output: "1f926-1f3ff",
     shortnames: [":face_palm_tone5:", ":facepalm_tone5:"],
     category: "people"
-},
-":person_frowning_tone1:": {
+  },
+  ":person_frowning_tone1:": {
     uc_output: "1f64d-1f3fb",
     shortnames: [],
     category: "people"
-},
-":person_frowning_tone2:": {
+  },
+  ":person_frowning_tone2:": {
     uc_output: "1f64d-1f3fc",
     shortnames: [],
     category: "people"
-},
-":person_frowning_tone3:": {
+  },
+  ":person_frowning_tone3:": {
     uc_output: "1f64d-1f3fd",
     shortnames: [],
     category: "people"
-},
-":person_frowning_tone4:": {
+  },
+  ":person_frowning_tone4:": {
     uc_output: "1f64d-1f3fe",
     shortnames: [],
     category: "people"
-},
-":person_frowning_tone5:": {
+  },
+  ":person_frowning_tone5:": {
     uc_output: "1f64d-1f3ff",
     shortnames: [],
     category: "people"
-},
-":person_gesturing_no_tone1:": {
+  },
+  ":person_gesturing_no_tone1:": {
     uc_output: "1f645-1f3fb",
     shortnames: [":no_good_tone1:"],
     category: "people"
-},
-":person_gesturing_no_tone2:": {
+  },
+  ":person_gesturing_no_tone2:": {
     uc_output: "1f645-1f3fc",
     shortnames: [":no_good_tone2:"],
     category: "people"
-},
-":person_gesturing_no_tone3:": {
+  },
+  ":person_gesturing_no_tone3:": {
     uc_output: "1f645-1f3fd",
     shortnames: [":no_good_tone3:"],
     category: "people"
-},
-":person_gesturing_no_tone4:": {
+  },
+  ":person_gesturing_no_tone4:": {
     uc_output: "1f645-1f3fe",
     shortnames: [":no_good_tone4:"],
     category: "people"
-},
-":person_gesturing_no_tone5:": {
+  },
+  ":person_gesturing_no_tone5:": {
     uc_output: "1f645-1f3ff",
     shortnames: [":no_good_tone5:"],
     category: "people"
-},
-":person_gesturing_ok_tone1:": {
+  },
+  ":person_gesturing_ok_tone1:": {
     uc_output: "1f646-1f3fb",
     shortnames: [":ok_woman_tone1:"],
     category: "people"
-},
-":person_gesturing_ok_tone2:": {
+  },
+  ":person_gesturing_ok_tone2:": {
     uc_output: "1f646-1f3fc",
     shortnames: [":ok_woman_tone2:"],
     category: "people"
-},
-":person_gesturing_ok_tone3:": {
+  },
+  ":person_gesturing_ok_tone3:": {
     uc_output: "1f646-1f3fd",
     shortnames: [":ok_woman_tone3:"],
     category: "people"
-},
-":person_gesturing_ok_tone4:": {
+  },
+  ":person_gesturing_ok_tone4:": {
     uc_output: "1f646-1f3fe",
     shortnames: [":ok_woman_tone4:"],
     category: "people"
-},
-":person_gesturing_ok_tone5:": {
+  },
+  ":person_gesturing_ok_tone5:": {
     uc_output: "1f646-1f3ff",
     shortnames: [":ok_woman_tone5:"],
     category: "people"
-},
-":person_getting_haircut_tone1:": {
+  },
+  ":person_getting_haircut_tone1:": {
     uc_output: "1f487-1f3fb",
     shortnames: [":haircut_tone1:"],
     category: "people"
-},
-":person_getting_haircut_tone2:": {
+  },
+  ":person_getting_haircut_tone2:": {
     uc_output: "1f487-1f3fc",
     shortnames: [":haircut_tone2:"],
     category: "people"
-},
-":person_getting_haircut_tone3:": {
+  },
+  ":person_getting_haircut_tone3:": {
     uc_output: "1f487-1f3fd",
     shortnames: [":haircut_tone3:"],
     category: "people"
-},
-":person_getting_haircut_tone4:": {
+  },
+  ":person_getting_haircut_tone4:": {
     uc_output: "1f487-1f3fe",
     shortnames: [":haircut_tone4:"],
     category: "people"
-},
-":person_getting_haircut_tone5:": {
+  },
+  ":person_getting_haircut_tone5:": {
     uc_output: "1f487-1f3ff",
     shortnames: [":haircut_tone5:"],
     category: "people"
-},
-":person_getting_massage_tone1:": {
+  },
+  ":person_getting_massage_tone1:": {
     uc_output: "1f486-1f3fb",
     shortnames: [":massage_tone1:"],
     category: "people"
-},
-":person_getting_massage_tone2:": {
+  },
+  ":person_getting_massage_tone2:": {
     uc_output: "1f486-1f3fc",
     shortnames: [":massage_tone2:"],
     category: "people"
-},
-":person_getting_massage_tone3:": {
+  },
+  ":person_getting_massage_tone3:": {
     uc_output: "1f486-1f3fd",
     shortnames: [":massage_tone3:"],
     category: "people"
-},
-":person_getting_massage_tone4:": {
+  },
+  ":person_getting_massage_tone4:": {
     uc_output: "1f486-1f3fe",
     shortnames: [":massage_tone4:"],
     category: "people"
-},
-":person_getting_massage_tone5:": {
+  },
+  ":person_getting_massage_tone5:": {
     uc_output: "1f486-1f3ff",
     shortnames: [":massage_tone5:"],
     category: "people"
-},
-":person_golfing_tone1:": {
+  },
+  ":person_golfing_tone1:": {
     uc_output: "1f3cc-1f3fb",
     shortnames: [":person_golfing_light_skin_tone:"],
     category: "activity"
-},
-":person_golfing_tone2:": {
+  },
+  ":person_golfing_tone2:": {
     uc_output: "1f3cc-1f3fc",
     shortnames: [":person_golfing_medium_light_skin_tone:"],
     category: "activity"
-},
-":person_golfing_tone3:": {
+  },
+  ":person_golfing_tone3:": {
     uc_output: "1f3cc-1f3fd",
     shortnames: [":person_golfing_medium_skin_tone:"],
     category: "activity"
-},
-":person_golfing_tone4:": {
+  },
+  ":person_golfing_tone4:": {
     uc_output: "1f3cc-1f3fe",
     shortnames: [":person_golfing_medium_dark_skin_tone:"],
     category: "activity"
-},
-":person_golfing_tone5:": {
+  },
+  ":person_golfing_tone5:": {
     uc_output: "1f3cc-1f3ff",
     shortnames: [":person_golfing_dark_skin_tone:"],
     category: "activity"
-},
-":person_in_bed_tone1:": {
+  },
+  ":person_in_bed_tone1:": {
     uc_output: "1f6cc-1f3fb",
     shortnames: [":person_in_bed_light_skin_tone:"],
     category: "objects"
-},
-":person_in_bed_tone2:": {
+  },
+  ":person_in_bed_tone2:": {
     uc_output: "1f6cc-1f3fc",
     shortnames: [":person_in_bed_medium_light_skin_tone:"],
     category: "objects"
-},
-":person_in_bed_tone3:": {
+  },
+  ":person_in_bed_tone3:": {
     uc_output: "1f6cc-1f3fd",
     shortnames: [":person_in_bed_medium_skin_tone:"],
     category: "objects"
-},
-":person_in_bed_tone4:": {
+  },
+  ":person_in_bed_tone4:": {
     uc_output: "1f6cc-1f3fe",
     shortnames: [":person_in_bed_medium_dark_skin_tone:"],
     category: "objects"
-},
-":person_in_bed_tone5:": {
+  },
+  ":person_in_bed_tone5:": {
     uc_output: "1f6cc-1f3ff",
     shortnames: [":person_in_bed_dark_skin_tone:"],
     category: "objects"
-},
-":person_in_lotus_position_tone1:": {
+  },
+  ":person_in_lotus_position_tone1:": {
     uc_output: "1f9d8-1f3fb",
     shortnames: [":person_in_lotus_position_light_skin_tone:"],
     category: "activity"
-},
-":person_in_lotus_position_tone2:": {
+  },
+  ":person_in_lotus_position_tone2:": {
     uc_output: "1f9d8-1f3fc",
     shortnames: [":person_in_lotus_position_medium_light_skin_tone:"],
     category: "activity"
-},
-":person_in_lotus_position_tone3:": {
+  },
+  ":person_in_lotus_position_tone3:": {
     uc_output: "1f9d8-1f3fd",
     shortnames: [":person_in_lotus_position_medium_skin_tone:"],
     category: "activity"
-},
-":person_in_lotus_position_tone4:": {
+  },
+  ":person_in_lotus_position_tone4:": {
     uc_output: "1f9d8-1f3fe",
     shortnames: [":person_in_lotus_position_medium_dark_skin_tone:"],
     category: "activity"
-},
-":person_in_lotus_position_tone5:": {
+  },
+  ":person_in_lotus_position_tone5:": {
     uc_output: "1f9d8-1f3ff",
     shortnames: [":person_in_lotus_position_dark_skin_tone:"],
     category: "activity"
-},
-":person_in_steamy_room_tone1:": {
+  },
+  ":person_in_steamy_room_tone1:": {
     uc_output: "1f9d6-1f3fb",
     shortnames: [":person_in_steamy_room_light_skin_tone:"],
     category: "activity"
-},
-":person_in_steamy_room_tone2:": {
+  },
+  ":person_in_steamy_room_tone2:": {
     uc_output: "1f9d6-1f3fc",
     shortnames: [":person_in_steamy_room_medium_light_skin_tone:"],
     category: "activity"
-},
-":person_in_steamy_room_tone3:": {
+  },
+  ":person_in_steamy_room_tone3:": {
     uc_output: "1f9d6-1f3fd",
     shortnames: [":person_in_steamy_room_medium_skin_tone:"],
     category: "activity"
-},
-":person_in_steamy_room_tone4:": {
+  },
+  ":person_in_steamy_room_tone4:": {
     uc_output: "1f9d6-1f3fe",
     shortnames: [":person_in_steamy_room_medium_dark_skin_tone:"],
     category: "activity"
-},
-":person_in_steamy_room_tone5:": {
+  },
+  ":person_in_steamy_room_tone5:": {
     uc_output: "1f9d6-1f3ff",
     shortnames: [":person_in_steamy_room_dark_skin_tone:"],
     category: "activity"
-},
-":person_juggling_tone1:": {
+  },
+  ":person_juggling_tone1:": {
     uc_output: "1f939-1f3fb",
     shortnames: [":juggling_tone1:", ":juggler_tone1:"],
     category: "activity"
-},
-":person_juggling_tone2:": {
+  },
+  ":person_juggling_tone2:": {
     uc_output: "1f939-1f3fc",
     shortnames: [":juggling_tone2:", ":juggler_tone2:"],
     category: "activity"
-},
-":person_juggling_tone3:": {
+  },
+  ":person_juggling_tone3:": {
     uc_output: "1f939-1f3fd",
     shortnames: [":juggling_tone3:", ":juggler_tone3:"],
     category: "activity"
-},
-":person_juggling_tone4:": {
+  },
+  ":person_juggling_tone4:": {
     uc_output: "1f939-1f3fe",
     shortnames: [":juggling_tone4:", ":juggler_tone4:"],
     category: "activity"
-},
-":person_juggling_tone5:": {
+  },
+  ":person_juggling_tone5:": {
     uc_output: "1f939-1f3ff",
     shortnames: [":juggling_tone5:", ":juggler_tone5:"],
     category: "activity"
-},
-":person_lifting_weights_tone1:": {
+  },
+  ":person_lifting_weights_tone1:": {
     uc_output: "1f3cb-1f3fb",
     shortnames: [":lifter_tone1:", ":weight_lifter_tone1:"],
     category: "activity"
-},
-":person_lifting_weights_tone2:": {
+  },
+  ":person_lifting_weights_tone2:": {
     uc_output: "1f3cb-1f3fc",
     shortnames: [":lifter_tone2:", ":weight_lifter_tone2:"],
     category: "activity"
-},
-":person_lifting_weights_tone3:": {
+  },
+  ":person_lifting_weights_tone3:": {
     uc_output: "1f3cb-1f3fd",
     shortnames: [":lifter_tone3:", ":weight_lifter_tone3:"],
     category: "activity"
-},
-":person_lifting_weights_tone4:": {
+  },
+  ":person_lifting_weights_tone4:": {
     uc_output: "1f3cb-1f3fe",
     shortnames: [":lifter_tone4:", ":weight_lifter_tone4:"],
     category: "activity"
-},
-":person_lifting_weights_tone5:": {
+  },
+  ":person_lifting_weights_tone5:": {
     uc_output: "1f3cb-1f3ff",
     shortnames: [":lifter_tone5:", ":weight_lifter_tone5:"],
     category: "activity"
-},
-":person_mountain_biking_tone1:": {
+  },
+  ":person_mountain_biking_tone1:": {
     uc_output: "1f6b5-1f3fb",
     shortnames: [":mountain_bicyclist_tone1:"],
     category: "activity"
-},
-":person_mountain_biking_tone2:": {
+  },
+  ":person_mountain_biking_tone2:": {
     uc_output: "1f6b5-1f3fc",
     shortnames: [":mountain_bicyclist_tone2:"],
     category: "activity"
-},
-":person_mountain_biking_tone3:": {
+  },
+  ":person_mountain_biking_tone3:": {
     uc_output: "1f6b5-1f3fd",
     shortnames: [":mountain_bicyclist_tone3:"],
     category: "activity"
-},
-":person_mountain_biking_tone4:": {
+  },
+  ":person_mountain_biking_tone4:": {
     uc_output: "1f6b5-1f3fe",
     shortnames: [":mountain_bicyclist_tone4:"],
     category: "activity"
-},
-":person_mountain_biking_tone5:": {
+  },
+  ":person_mountain_biking_tone5:": {
     uc_output: "1f6b5-1f3ff",
     shortnames: [":mountain_bicyclist_tone5:"],
     category: "activity"
-},
-":person_playing_handball_tone1:": {
+  },
+  ":person_playing_handball_tone1:": {
     uc_output: "1f93e-1f3fb",
     shortnames: [":handball_tone1:"],
     category: "activity"
-},
-":person_playing_handball_tone2:": {
+  },
+  ":person_playing_handball_tone2:": {
     uc_output: "1f93e-1f3fc",
     shortnames: [":handball_tone2:"],
     category: "activity"
-},
-":person_playing_handball_tone3:": {
+  },
+  ":person_playing_handball_tone3:": {
     uc_output: "1f93e-1f3fd",
     shortnames: [":handball_tone3:"],
     category: "activity"
-},
-":person_playing_handball_tone4:": {
+  },
+  ":person_playing_handball_tone4:": {
     uc_output: "1f93e-1f3fe",
     shortnames: [":handball_tone4:"],
     category: "activity"
-},
-":person_playing_handball_tone5:": {
+  },
+  ":person_playing_handball_tone5:": {
     uc_output: "1f93e-1f3ff",
     shortnames: [":handball_tone5:"],
     category: "activity"
-},
-":person_playing_water_polo_tone1:": {
+  },
+  ":person_playing_water_polo_tone1:": {
     uc_output: "1f93d-1f3fb",
     shortnames: [":water_polo_tone1:"],
     category: "activity"
-},
-":person_playing_water_polo_tone2:": {
+  },
+  ":person_playing_water_polo_tone2:": {
     uc_output: "1f93d-1f3fc",
     shortnames: [":water_polo_tone2:"],
     category: "activity"
-},
-":person_playing_water_polo_tone3:": {
+  },
+  ":person_playing_water_polo_tone3:": {
     uc_output: "1f93d-1f3fd",
     shortnames: [":water_polo_tone3:"],
     category: "activity"
-},
-":person_playing_water_polo_tone4:": {
+  },
+  ":person_playing_water_polo_tone4:": {
     uc_output: "1f93d-1f3fe",
     shortnames: [":water_polo_tone4:"],
     category: "activity"
-},
-":person_playing_water_polo_tone5:": {
+  },
+  ":person_playing_water_polo_tone5:": {
     uc_output: "1f93d-1f3ff",
     shortnames: [":water_polo_tone5:"],
     category: "activity"
-},
-":person_pouting_tone1:": {
+  },
+  ":person_pouting_tone1:": {
     uc_output: "1f64e-1f3fb",
     shortnames: [":person_with_pouting_face_tone1:"],
     category: "people"
-},
-":person_pouting_tone2:": {
+  },
+  ":person_pouting_tone2:": {
     uc_output: "1f64e-1f3fc",
     shortnames: [":person_with_pouting_face_tone2:"],
     category: "people"
-},
-":person_pouting_tone3:": {
+  },
+  ":person_pouting_tone3:": {
     uc_output: "1f64e-1f3fd",
     shortnames: [":person_with_pouting_face_tone3:"],
     category: "people"
-},
-":person_pouting_tone4:": {
+  },
+  ":person_pouting_tone4:": {
     uc_output: "1f64e-1f3fe",
     shortnames: [":person_with_pouting_face_tone4:"],
     category: "people"
-},
-":person_pouting_tone5:": {
+  },
+  ":person_pouting_tone5:": {
     uc_output: "1f64e-1f3ff",
     shortnames: [":person_with_pouting_face_tone5:"],
     category: "people"
-},
-":person_raising_hand_tone1:": {
+  },
+  ":person_raising_hand_tone1:": {
     uc_output: "1f64b-1f3fb",
     shortnames: [":raising_hand_tone1:"],
     category: "people"
-},
-":person_raising_hand_tone2:": {
+  },
+  ":person_raising_hand_tone2:": {
     uc_output: "1f64b-1f3fc",
     shortnames: [":raising_hand_tone2:"],
     category: "people"
-},
-":person_raising_hand_tone3:": {
+  },
+  ":person_raising_hand_tone3:": {
     uc_output: "1f64b-1f3fd",
     shortnames: [":raising_hand_tone3:"],
     category: "people"
-},
-":person_raising_hand_tone4:": {
+  },
+  ":person_raising_hand_tone4:": {
     uc_output: "1f64b-1f3fe",
     shortnames: [":raising_hand_tone4:"],
     category: "people"
-},
-":person_raising_hand_tone5:": {
+  },
+  ":person_raising_hand_tone5:": {
     uc_output: "1f64b-1f3ff",
     shortnames: [":raising_hand_tone5:"],
     category: "people"
-},
-":person_rowing_boat_tone1:": {
+  },
+  ":person_rowing_boat_tone1:": {
     uc_output: "1f6a3-1f3fb",
     shortnames: [":rowboat_tone1:"],
     category: "activity"
-},
-":person_rowing_boat_tone2:": {
+  },
+  ":person_rowing_boat_tone2:": {
     uc_output: "1f6a3-1f3fc",
     shortnames: [":rowboat_tone2:"],
     category: "activity"
-},
-":person_rowing_boat_tone3:": {
+  },
+  ":person_rowing_boat_tone3:": {
     uc_output: "1f6a3-1f3fd",
     shortnames: [":rowboat_tone3:"],
     category: "activity"
-},
-":person_rowing_boat_tone4:": {
+  },
+  ":person_rowing_boat_tone4:": {
     uc_output: "1f6a3-1f3fe",
     shortnames: [":rowboat_tone4:"],
     category: "activity"
-},
-":person_rowing_boat_tone5:": {
+  },
+  ":person_rowing_boat_tone5:": {
     uc_output: "1f6a3-1f3ff",
     shortnames: [":rowboat_tone5:"],
     category: "activity"
-},
-":person_running_tone1:": {
+  },
+  ":person_running_tone1:": {
     uc_output: "1f3c3-1f3fb",
     shortnames: [":runner_tone1:"],
     category: "people"
-},
-":person_running_tone2:": {
+  },
+  ":person_running_tone2:": {
     uc_output: "1f3c3-1f3fc",
     shortnames: [":runner_tone2:"],
     category: "people"
-},
-":person_running_tone3:": {
+  },
+  ":person_running_tone3:": {
     uc_output: "1f3c3-1f3fd",
     shortnames: [":runner_tone3:"],
     category: "people"
-},
-":person_running_tone4:": {
+  },
+  ":person_running_tone4:": {
     uc_output: "1f3c3-1f3fe",
     shortnames: [":runner_tone4:"],
     category: "people"
-},
-":person_running_tone5:": {
+  },
+  ":person_running_tone5:": {
     uc_output: "1f3c3-1f3ff",
     shortnames: [":runner_tone5:"],
     category: "people"
-},
-":person_shrugging_tone1:": {
+  },
+  ":person_shrugging_tone1:": {
     uc_output: "1f937-1f3fb",
     shortnames: [":shrug_tone1:"],
     category: "people"
-},
-":person_shrugging_tone2:": {
+  },
+  ":person_shrugging_tone2:": {
     uc_output: "1f937-1f3fc",
     shortnames: [":shrug_tone2:"],
     category: "people"
-},
-":person_shrugging_tone3:": {
+  },
+  ":person_shrugging_tone3:": {
     uc_output: "1f937-1f3fd",
     shortnames: [":shrug_tone3:"],
     category: "people"
-},
-":person_shrugging_tone4:": {
+  },
+  ":person_shrugging_tone4:": {
     uc_output: "1f937-1f3fe",
     shortnames: [":shrug_tone4:"],
     category: "people"
-},
-":person_shrugging_tone5:": {
+  },
+  ":person_shrugging_tone5:": {
     uc_output: "1f937-1f3ff",
     shortnames: [":shrug_tone5:"],
     category: "people"
-},
-":person_surfing_tone1:": {
+  },
+  ":person_surfing_tone1:": {
     uc_output: "1f3c4-1f3fb",
     shortnames: [":surfer_tone1:"],
     category: "activity"
-},
-":person_surfing_tone2:": {
+  },
+  ":person_surfing_tone2:": {
     uc_output: "1f3c4-1f3fc",
     shortnames: [":surfer_tone2:"],
     category: "activity"
-},
-":person_surfing_tone3:": {
+  },
+  ":person_surfing_tone3:": {
     uc_output: "1f3c4-1f3fd",
     shortnames: [":surfer_tone3:"],
     category: "activity"
-},
-":person_surfing_tone4:": {
+  },
+  ":person_surfing_tone4:": {
     uc_output: "1f3c4-1f3fe",
     shortnames: [":surfer_tone4:"],
     category: "activity"
-},
-":person_surfing_tone5:": {
+  },
+  ":person_surfing_tone5:": {
     uc_output: "1f3c4-1f3ff",
     shortnames: [":surfer_tone5:"],
     category: "activity"
-},
-":person_swimming_tone1:": {
+  },
+  ":person_swimming_tone1:": {
     uc_output: "1f3ca-1f3fb",
     shortnames: [":swimmer_tone1:"],
     category: "activity"
-},
-":person_swimming_tone2:": {
+  },
+  ":person_swimming_tone2:": {
     uc_output: "1f3ca-1f3fc",
     shortnames: [":swimmer_tone2:"],
     category: "activity"
-},
-":person_swimming_tone3:": {
+  },
+  ":person_swimming_tone3:": {
     uc_output: "1f3ca-1f3fd",
     shortnames: [":swimmer_tone3:"],
     category: "activity"
-},
-":person_swimming_tone4:": {
+  },
+  ":person_swimming_tone4:": {
     uc_output: "1f3ca-1f3fe",
     shortnames: [":swimmer_tone4:"],
     category: "activity"
-},
-":person_swimming_tone5:": {
+  },
+  ":person_swimming_tone5:": {
     uc_output: "1f3ca-1f3ff",
     shortnames: [":swimmer_tone5:"],
     category: "activity"
-},
-":person_tipping_hand_tone1:": {
+  },
+  ":person_tipping_hand_tone1:": {
     uc_output: "1f481-1f3fb",
     shortnames: [":information_desk_person_tone1:"],
     category: "people"
-},
-":person_tipping_hand_tone2:": {
+  },
+  ":person_tipping_hand_tone2:": {
     uc_output: "1f481-1f3fc",
     shortnames: [":information_desk_person_tone2:"],
     category: "people"
-},
-":person_tipping_hand_tone3:": {
+  },
+  ":person_tipping_hand_tone3:": {
     uc_output: "1f481-1f3fd",
     shortnames: [":information_desk_person_tone3:"],
     category: "people"
-},
-":person_tipping_hand_tone4:": {
+  },
+  ":person_tipping_hand_tone4:": {
     uc_output: "1f481-1f3fe",
     shortnames: [":information_desk_person_tone4:"],
     category: "people"
-},
-":person_tipping_hand_tone5:": {
+  },
+  ":person_tipping_hand_tone5:": {
     uc_output: "1f481-1f3ff",
     shortnames: [":information_desk_person_tone5:"],
     category: "people"
-},
-":person_walking_tone1:": {
+  },
+  ":person_walking_tone1:": {
     uc_output: "1f6b6-1f3fb",
     shortnames: [":walking_tone1:"],
     category: "people"
-},
-":person_walking_tone2:": {
+  },
+  ":person_walking_tone2:": {
     uc_output: "1f6b6-1f3fc",
     shortnames: [":walking_tone2:"],
     category: "people"
-},
-":person_walking_tone3:": {
+  },
+  ":person_walking_tone3:": {
     uc_output: "1f6b6-1f3fd",
     shortnames: [":walking_tone3:"],
     category: "people"
-},
-":person_walking_tone4:": {
+  },
+  ":person_walking_tone4:": {
     uc_output: "1f6b6-1f3fe",
     shortnames: [":walking_tone4:"],
     category: "people"
-},
-":person_walking_tone5:": {
+  },
+  ":person_walking_tone5:": {
     uc_output: "1f6b6-1f3ff",
     shortnames: [":walking_tone5:"],
     category: "people"
-},
-":person_wearing_turban_tone1:": {
+  },
+  ":person_wearing_turban_tone1:": {
     uc_output: "1f473-1f3fb",
     shortnames: [":man_with_turban_tone1:"],
     category: "people"
-},
-":person_wearing_turban_tone2:": {
+  },
+  ":person_wearing_turban_tone2:": {
     uc_output: "1f473-1f3fc",
     shortnames: [":man_with_turban_tone2:"],
     category: "people"
-},
-":person_wearing_turban_tone3:": {
+  },
+  ":person_wearing_turban_tone3:": {
     uc_output: "1f473-1f3fd",
     shortnames: [":man_with_turban_tone3:"],
     category: "people"
-},
-":person_wearing_turban_tone4:": {
+  },
+  ":person_wearing_turban_tone4:": {
     uc_output: "1f473-1f3fe",
     shortnames: [":man_with_turban_tone4:"],
     category: "people"
-},
-":person_wearing_turban_tone5:": {
+  },
+  ":person_wearing_turban_tone5:": {
     uc_output: "1f473-1f3ff",
     shortnames: [":man_with_turban_tone5:"],
     category: "people"
-},
-":point_down_tone1:": {
+  },
+  ":point_down_tone1:": {
     uc_output: "1f447-1f3fb",
     shortnames: [],
     category: "people"
-},
-":point_down_tone2:": {
+  },
+  ":point_down_tone2:": {
     uc_output: "1f447-1f3fc",
     shortnames: [],
     category: "people"
-},
-":point_down_tone3:": {
+  },
+  ":point_down_tone3:": {
     uc_output: "1f447-1f3fd",
     shortnames: [],
     category: "people"
-},
-":point_down_tone4:": {
+  },
+  ":point_down_tone4:": {
     uc_output: "1f447-1f3fe",
     shortnames: [],
     category: "people"
-},
-":point_down_tone5:": {
+  },
+  ":point_down_tone5:": {
     uc_output: "1f447-1f3ff",
     shortnames: [],
     category: "people"
-},
-":point_left_tone1:": {
+  },
+  ":point_left_tone1:": {
     uc_output: "1f448-1f3fb",
     shortnames: [],
     category: "people"
-},
-":point_left_tone2:": {
+  },
+  ":point_left_tone2:": {
     uc_output: "1f448-1f3fc",
     shortnames: [],
     category: "people"
-},
-":point_left_tone3:": {
+  },
+  ":point_left_tone3:": {
     uc_output: "1f448-1f3fd",
     shortnames: [],
     category: "people"
-},
-":point_left_tone4:": {
+  },
+  ":point_left_tone4:": {
     uc_output: "1f448-1f3fe",
     shortnames: [],
     category: "people"
-},
-":point_left_tone5:": {
+  },
+  ":point_left_tone5:": {
     uc_output: "1f448-1f3ff",
     shortnames: [],
     category: "people"
-},
-":point_right_tone1:": {
+  },
+  ":point_right_tone1:": {
     uc_output: "1f449-1f3fb",
     shortnames: [],
     category: "people"
-},
-":point_right_tone2:": {
+  },
+  ":point_right_tone2:": {
     uc_output: "1f449-1f3fc",
     shortnames: [],
     category: "people"
-},
-":point_right_tone3:": {
+  },
+  ":point_right_tone3:": {
     uc_output: "1f449-1f3fd",
     shortnames: [],
     category: "people"
-},
-":point_right_tone4:": {
+  },
+  ":point_right_tone4:": {
     uc_output: "1f449-1f3fe",
     shortnames: [],
     category: "people"
-},
-":point_right_tone5:": {
+  },
+  ":point_right_tone5:": {
     uc_output: "1f449-1f3ff",
     shortnames: [],
     category: "people"
-},
-":point_up_2_tone1:": {
+  },
+  ":point_up_2_tone1:": {
     uc_output: "1f446-1f3fb",
     shortnames: [],
     category: "people"
-},
-":point_up_2_tone2:": {
+  },
+  ":point_up_2_tone2:": {
     uc_output: "1f446-1f3fc",
     shortnames: [],
     category: "people"
-},
-":point_up_2_tone3:": {
+  },
+  ":point_up_2_tone3:": {
     uc_output: "1f446-1f3fd",
     shortnames: [],
     category: "people"
-},
-":point_up_2_tone4:": {
+  },
+  ":point_up_2_tone4:": {
     uc_output: "1f446-1f3fe",
     shortnames: [],
     category: "people"
-},
-":point_up_2_tone5:": {
+  },
+  ":point_up_2_tone5:": {
     uc_output: "1f446-1f3ff",
     shortnames: [],
     category: "people"
-},
-":police_officer_tone1:": {
+  },
+  ":police_officer_tone1:": {
     uc_output: "1f46e-1f3fb",
     shortnames: [":cop_tone1:"],
     category: "people"
-},
-":police_officer_tone2:": {
+  },
+  ":police_officer_tone2:": {
     uc_output: "1f46e-1f3fc",
     shortnames: [":cop_tone2:"],
     category: "people"
-},
-":police_officer_tone3:": {
+  },
+  ":police_officer_tone3:": {
     uc_output: "1f46e-1f3fd",
     shortnames: [":cop_tone3:"],
     category: "people"
-},
-":police_officer_tone4:": {
+  },
+  ":police_officer_tone4:": {
     uc_output: "1f46e-1f3fe",
     shortnames: [":cop_tone4:"],
     category: "people"
-},
-":police_officer_tone5:": {
+  },
+  ":police_officer_tone5:": {
     uc_output: "1f46e-1f3ff",
     shortnames: [":cop_tone5:"],
     category: "people"
-},
-":pray_tone1:": {
+  },
+  ":pray_tone1:": {
     uc_output: "1f64f-1f3fb",
     shortnames: [],
     category: "people"
-},
-":pray_tone2:": {
+  },
+  ":pray_tone2:": {
     uc_output: "1f64f-1f3fc",
     shortnames: [],
     category: "people"
-},
-":pray_tone3:": {
+  },
+  ":pray_tone3:": {
     uc_output: "1f64f-1f3fd",
     shortnames: [],
     category: "people"
-},
-":pray_tone4:": {
+  },
+  ":pray_tone4:": {
     uc_output: "1f64f-1f3fe",
     shortnames: [],
     category: "people"
-},
-":pray_tone5:": {
+  },
+  ":pray_tone5:": {
     uc_output: "1f64f-1f3ff",
     shortnames: [],
     category: "people"
-},
-":pregnant_woman_tone1:": {
+  },
+  ":pregnant_woman_tone1:": {
     uc_output: "1f930-1f3fb",
     shortnames: [":expecting_woman_tone1:"],
     category: "people"
-},
-":pregnant_woman_tone2:": {
+  },
+  ":pregnant_woman_tone2:": {
     uc_output: "1f930-1f3fc",
     shortnames: [":expecting_woman_tone2:"],
     category: "people"
-},
-":pregnant_woman_tone3:": {
+  },
+  ":pregnant_woman_tone3:": {
     uc_output: "1f930-1f3fd",
     shortnames: [":expecting_woman_tone3:"],
     category: "people"
-},
-":pregnant_woman_tone4:": {
+  },
+  ":pregnant_woman_tone4:": {
     uc_output: "1f930-1f3fe",
     shortnames: [":expecting_woman_tone4:"],
     category: "people"
-},
-":pregnant_woman_tone5:": {
+  },
+  ":pregnant_woman_tone5:": {
     uc_output: "1f930-1f3ff",
     shortnames: [":expecting_woman_tone5:"],
     category: "people"
-},
-":prince_tone1:": {
+  },
+  ":prince_tone1:": {
     uc_output: "1f934-1f3fb",
     shortnames: [],
     category: "people"
-},
-":prince_tone2:": {
+  },
+  ":prince_tone2:": {
     uc_output: "1f934-1f3fc",
     shortnames: [],
     category: "people"
-},
-":prince_tone3:": {
+  },
+  ":prince_tone3:": {
     uc_output: "1f934-1f3fd",
     shortnames: [],
     category: "people"
-},
-":prince_tone4:": {
+  },
+  ":prince_tone4:": {
     uc_output: "1f934-1f3fe",
     shortnames: [],
     category: "people"
-},
-":prince_tone5:": {
+  },
+  ":prince_tone5:": {
     uc_output: "1f934-1f3ff",
     shortnames: [],
     category: "people"
-},
-":princess_tone1:": {
+  },
+  ":princess_tone1:": {
     uc_output: "1f478-1f3fb",
     shortnames: [],
     category: "people"
-},
-":princess_tone2:": {
+  },
+  ":princess_tone2:": {
     uc_output: "1f478-1f3fc",
     shortnames: [],
     category: "people"
-},
-":princess_tone3:": {
+  },
+  ":princess_tone3:": {
     uc_output: "1f478-1f3fd",
     shortnames: [],
     category: "people"
-},
-":princess_tone4:": {
+  },
+  ":princess_tone4:": {
     uc_output: "1f478-1f3fe",
     shortnames: [],
     category: "people"
-},
-":princess_tone5:": {
+  },
+  ":princess_tone5:": {
     uc_output: "1f478-1f3ff",
     shortnames: [],
     category: "people"
-},
-":punch_tone1:": {
+  },
+  ":punch_tone1:": {
     uc_output: "1f44a-1f3fb",
     shortnames: [],
     category: "people"
-},
-":punch_tone2:": {
+  },
+  ":punch_tone2:": {
     uc_output: "1f44a-1f3fc",
     shortnames: [],
     category: "people"
-},
-":punch_tone3:": {
+  },
+  ":punch_tone3:": {
     uc_output: "1f44a-1f3fd",
     shortnames: [],
     category: "people"
-},
-":punch_tone4:": {
+  },
+  ":punch_tone4:": {
     uc_output: "1f44a-1f3fe",
     shortnames: [],
     category: "people"
-},
-":punch_tone5:": {
+  },
+  ":punch_tone5:": {
     uc_output: "1f44a-1f3ff",
     shortnames: [],
     category: "people"
-},
-":raised_back_of_hand_tone1:": {
+  },
+  ":raised_back_of_hand_tone1:": {
     uc_output: "1f91a-1f3fb",
     shortnames: [":back_of_hand_tone1:"],
     category: "people"
-},
-":raised_back_of_hand_tone2:": {
+  },
+  ":raised_back_of_hand_tone2:": {
     uc_output: "1f91a-1f3fc",
     shortnames: [":back_of_hand_tone2:"],
     category: "people"
-},
-":raised_back_of_hand_tone3:": {
+  },
+  ":raised_back_of_hand_tone3:": {
     uc_output: "1f91a-1f3fd",
     shortnames: [":back_of_hand_tone3:"],
     category: "people"
-},
-":raised_back_of_hand_tone4:": {
+  },
+  ":raised_back_of_hand_tone4:": {
     uc_output: "1f91a-1f3fe",
     shortnames: [":back_of_hand_tone4:"],
     category: "people"
-},
-":raised_back_of_hand_tone5:": {
+  },
+  ":raised_back_of_hand_tone5:": {
     uc_output: "1f91a-1f3ff",
     shortnames: [":back_of_hand_tone5:"],
     category: "people"
-},
-":raised_hands_tone1:": {
+  },
+  ":raised_hands_tone1:": {
     uc_output: "1f64c-1f3fb",
     shortnames: [],
     category: "people"
-},
-":raised_hands_tone2:": {
+  },
+  ":raised_hands_tone2:": {
     uc_output: "1f64c-1f3fc",
     shortnames: [],
     category: "people"
-},
-":raised_hands_tone3:": {
+  },
+  ":raised_hands_tone3:": {
     uc_output: "1f64c-1f3fd",
     shortnames: [],
     category: "people"
-},
-":raised_hands_tone4:": {
+  },
+  ":raised_hands_tone4:": {
     uc_output: "1f64c-1f3fe",
     shortnames: [],
     category: "people"
-},
-":raised_hands_tone5:": {
+  },
+  ":raised_hands_tone5:": {
     uc_output: "1f64c-1f3ff",
     shortnames: [],
     category: "people"
-},
-":right_facing_fist_tone1:": {
+  },
+  ":right_facing_fist_tone1:": {
     uc_output: "1f91c-1f3fb",
     shortnames: [":right_fist_tone1:"],
     category: "people"
-},
-":right_facing_fist_tone2:": {
+  },
+  ":right_facing_fist_tone2:": {
     uc_output: "1f91c-1f3fc",
     shortnames: [":right_fist_tone2:"],
     category: "people"
-},
-":right_facing_fist_tone3:": {
+  },
+  ":right_facing_fist_tone3:": {
     uc_output: "1f91c-1f3fd",
     shortnames: [":right_fist_tone3:"],
     category: "people"
-},
-":right_facing_fist_tone4:": {
+  },
+  ":right_facing_fist_tone4:": {
     uc_output: "1f91c-1f3fe",
     shortnames: [":right_fist_tone4:"],
     category: "people"
-},
-":right_facing_fist_tone5:": {
+  },
+  ":right_facing_fist_tone5:": {
     uc_output: "1f91c-1f3ff",
     shortnames: [":right_fist_tone5:"],
     category: "people"
-},
-":santa_tone1:": {
+  },
+  ":santa_tone1:": {
     uc_output: "1f385-1f3fb",
     shortnames: [],
     category: "people"
-},
-":santa_tone2:": {
+  },
+  ":santa_tone2:": {
     uc_output: "1f385-1f3fc",
     shortnames: [],
     category: "people"
-},
-":santa_tone3:": {
+  },
+  ":santa_tone3:": {
     uc_output: "1f385-1f3fd",
     shortnames: [],
     category: "people"
-},
-":santa_tone4:": {
+  },
+  ":santa_tone4:": {
     uc_output: "1f385-1f3fe",
     shortnames: [],
     category: "people"
-},
-":santa_tone5:": {
+  },
+  ":santa_tone5:": {
     uc_output: "1f385-1f3ff",
     shortnames: [],
     category: "people"
-},
-":selfie_tone1:": {
+  },
+  ":selfie_tone1:": {
     uc_output: "1f933-1f3fb",
     shortnames: [],
     category: "people"
-},
-":selfie_tone2:": {
+  },
+  ":selfie_tone2:": {
     uc_output: "1f933-1f3fc",
     shortnames: [],
     category: "people"
-},
-":selfie_tone3:": {
+  },
+  ":selfie_tone3:": {
     uc_output: "1f933-1f3fd",
     shortnames: [],
     category: "people"
-},
-":selfie_tone4:": {
+  },
+  ":selfie_tone4:": {
     uc_output: "1f933-1f3fe",
     shortnames: [],
     category: "people"
-},
-":selfie_tone5:": {
+  },
+  ":selfie_tone5:": {
     uc_output: "1f933-1f3ff",
     shortnames: [],
     category: "people"
-},
-":snowboarder_tone1:": {
+  },
+  ":snowboarder_tone1:": {
     uc_output: "1f3c2-1f3fb",
     shortnames: [":snowboarder_light_skin_tone:"],
     category: "activity"
-},
-":snowboarder_tone2:": {
+  },
+  ":snowboarder_tone2:": {
     uc_output: "1f3c2-1f3fc",
     shortnames: [":snowboarder_medium_light_skin_tone:"],
     category: "activity"
-},
-":snowboarder_tone3:": {
+  },
+  ":snowboarder_tone3:": {
     uc_output: "1f3c2-1f3fd",
     shortnames: [":snowboarder_medium_skin_tone:"],
     category: "activity"
-},
-":snowboarder_tone4:": {
+  },
+  ":snowboarder_tone4:": {
     uc_output: "1f3c2-1f3fe",
     shortnames: [":snowboarder_medium_dark_skin_tone:"],
     category: "activity"
-},
-":snowboarder_tone5:": {
+  },
+  ":snowboarder_tone5:": {
     uc_output: "1f3c2-1f3ff",
     shortnames: [":snowboarder_dark_skin_tone:"],
     category: "activity"
-},
-":thumbsdown_tone1:": {
+  },
+  ":thumbsdown_tone1:": {
     uc_output: "1f44e-1f3fb",
     shortnames: [":-1_tone1:", ":thumbdown_tone1:"],
     category: "people"
-},
-":thumbsdown_tone2:": {
+  },
+  ":thumbsdown_tone2:": {
     uc_output: "1f44e-1f3fc",
     shortnames: [":-1_tone2:", ":thumbdown_tone2:"],
     category: "people"
-},
-":thumbsdown_tone3:": {
+  },
+  ":thumbsdown_tone3:": {
     uc_output: "1f44e-1f3fd",
     shortnames: [":-1_tone3:", ":thumbdown_tone3:"],
     category: "people"
-},
-":thumbsdown_tone4:": {
+  },
+  ":thumbsdown_tone4:": {
     uc_output: "1f44e-1f3fe",
     shortnames: [":-1_tone4:", ":thumbdown_tone4:"],
     category: "people"
-},
-":thumbsdown_tone5:": {
+  },
+  ":thumbsdown_tone5:": {
     uc_output: "1f44e-1f3ff",
     shortnames: [":-1_tone5:", ":thumbdown_tone5:"],
     category: "people"
-},
-":thumbsup_tone1:": {
+  },
+  ":thumbsup_tone1:": {
     uc_output: "1f44d-1f3fb",
     shortnames: [":+1_tone1:", ":thumbup_tone1:"],
     category: "people"
-},
-":thumbsup_tone2:": {
+  },
+  ":thumbsup_tone2:": {
     uc_output: "1f44d-1f3fc",
     shortnames: [":+1_tone2:", ":thumbup_tone2:"],
     category: "people"
-},
-":thumbsup_tone3:": {
+  },
+  ":thumbsup_tone3:": {
     uc_output: "1f44d-1f3fd",
     shortnames: [":+1_tone3:", ":thumbup_tone3:"],
     category: "people"
-},
-":thumbsup_tone4:": {
+  },
+  ":thumbsup_tone4:": {
     uc_output: "1f44d-1f3fe",
     shortnames: [":+1_tone4:", ":thumbup_tone4:"],
     category: "people"
-},
-":thumbsup_tone5:": {
+  },
+  ":thumbsup_tone5:": {
     uc_output: "1f44d-1f3ff",
     shortnames: [":+1_tone5:", ":thumbup_tone5:"],
     category: "people"
-},
-":united_nations:": {
+  },
+  ":united_nations:": {
     uc_output: "1f1fa-1f1f3",
     shortnames: [],
     category: "flags"
-},
-":vampire_tone1:": {
+  },
+  ":vampire_tone1:": {
     uc_output: "1f9db-1f3fb",
     shortnames: [":vampire_light_skin_tone:"],
     category: "people"
-},
-":vampire_tone2:": {
+  },
+  ":vampire_tone2:": {
     uc_output: "1f9db-1f3fc",
     shortnames: [":vampire_medium_light_skin_tone:"],
     category: "people"
-},
-":vampire_tone3:": {
+  },
+  ":vampire_tone3:": {
     uc_output: "1f9db-1f3fd",
     shortnames: [":vampire_medium_skin_tone:"],
     category: "people"
-},
-":vampire_tone4:": {
+  },
+  ":vampire_tone4:": {
     uc_output: "1f9db-1f3fe",
     shortnames: [":vampire_medium_dark_skin_tone:"],
     category: "people"
-},
-":vampire_tone5:": {
+  },
+  ":vampire_tone5:": {
     uc_output: "1f9db-1f3ff",
     shortnames: [":vampire_dark_skin_tone:"],
     category: "people"
-},
-":vulcan_tone1:": {
+  },
+  ":vulcan_tone1:": {
     uc_output: "1f596-1f3fb",
     shortnames: [
-    ":raised_hand_with_part_between_middle_and_ring_fingers_tone1:"
+      ":raised_hand_with_part_between_middle_and_ring_fingers_tone1:"
     ],
     category: "people"
-},
-":vulcan_tone2:": {
+  },
+  ":vulcan_tone2:": {
     uc_output: "1f596-1f3fc",
     shortnames: [
-    ":raised_hand_with_part_between_middle_and_ring_fingers_tone2:"
+      ":raised_hand_with_part_between_middle_and_ring_fingers_tone2:"
     ],
     category: "people"
-},
-":vulcan_tone3:": {
+  },
+  ":vulcan_tone3:": {
     uc_output: "1f596-1f3fd",
     shortnames: [
-    ":raised_hand_with_part_between_middle_and_ring_fingers_tone3:"
+      ":raised_hand_with_part_between_middle_and_ring_fingers_tone3:"
     ],
     category: "people"
-},
-":vulcan_tone4:": {
+  },
+  ":vulcan_tone4:": {
     uc_output: "1f596-1f3fe",
     shortnames: [
-    ":raised_hand_with_part_between_middle_and_ring_fingers_tone4:"
+      ":raised_hand_with_part_between_middle_and_ring_fingers_tone4:"
     ],
     category: "people"
-},
-":vulcan_tone5:": {
+  },
+  ":vulcan_tone5:": {
     uc_output: "1f596-1f3ff",
     shortnames: [
-    ":raised_hand_with_part_between_middle_and_ring_fingers_tone5:"
+      ":raised_hand_with_part_between_middle_and_ring_fingers_tone5:"
     ],
     category: "people"
-},
-":wave_tone1:": {
+  },
+  ":wave_tone1:": {
     uc_output: "1f44b-1f3fb",
     shortnames: [],
     category: "people"
-},
-":wave_tone2:": {
+  },
+  ":wave_tone2:": {
     uc_output: "1f44b-1f3fc",
     shortnames: [],
     category: "people"
-},
-":wave_tone3:": {
+  },
+  ":wave_tone3:": {
     uc_output: "1f44b-1f3fd",
     shortnames: [],
     category: "people"
-},
-":wave_tone4:": {
+  },
+  ":wave_tone4:": {
     uc_output: "1f44b-1f3fe",
     shortnames: [],
     category: "people"
-},
-":wave_tone5:": {
+  },
+  ":wave_tone5:": {
     uc_output: "1f44b-1f3ff",
     shortnames: [],
     category: "people"
-},
-":woman_tone1:": {
+  },
+  ":woman_tone1:": {
     uc_output: "1f469-1f3fb",
     shortnames: [],
     category: "people"
-},
-":woman_tone2:": {
+  },
+  ":woman_tone2:": {
     uc_output: "1f469-1f3fc",
     shortnames: [],
     category: "people"
-},
-":woman_tone3:": {
+  },
+  ":woman_tone3:": {
     uc_output: "1f469-1f3fd",
     shortnames: [],
     category: "people"
-},
-":woman_tone4:": {
+  },
+  ":woman_tone4:": {
     uc_output: "1f469-1f3fe",
     shortnames: [],
     category: "people"
-},
-":woman_tone5:": {
+  },
+  ":woman_tone5:": {
     uc_output: "1f469-1f3ff",
     shortnames: [],
     category: "people"
-},
-":woman_with_headscarf_tone1:": {
+  },
+  ":woman_with_headscarf_tone1:": {
     uc_output: "1f9d5-1f3fb",
     shortnames: [":woman_with_headscarf_light_skin_tone:"],
     category: "people"
-},
-":woman_with_headscarf_tone2:": {
+  },
+  ":woman_with_headscarf_tone2:": {
     uc_output: "1f9d5-1f3fc",
     shortnames: [":woman_with_headscarf_medium_light_skin_tone:"],
     category: "people"
-},
-":woman_with_headscarf_tone3:": {
+  },
+  ":woman_with_headscarf_tone3:": {
     uc_output: "1f9d5-1f3fd",
     shortnames: [":woman_with_headscarf_medium_skin_tone:"],
     category: "people"
-},
-":woman_with_headscarf_tone4:": {
+  },
+  ":woman_with_headscarf_tone4:": {
     uc_output: "1f9d5-1f3fe",
     shortnames: [":woman_with_headscarf_medium_dark_skin_tone:"],
     category: "people"
-},
-":woman_with_headscarf_tone5:": {
+  },
+  ":woman_with_headscarf_tone5:": {
     uc_output: "1f9d5-1f3ff",
     shortnames: [":woman_with_headscarf_dark_skin_tone:"],
     category: "people"
-},
-":a:": {
+  },
+  ":a:": {
     uc_output: "1f170-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":airplane_small:": {
+  },
+  ":airplane_small:": {
     uc_output: "1f6e9-fe0f",
     shortnames: [":small_airplane:"],
     category: "travel"
-},
-":anger_right:": {
+  },
+  ":anger_right:": {
     uc_output: "1f5ef-fe0f",
     shortnames: [":right_anger_bubble:"],
     category: "symbols"
-},
-":b:": {
+  },
+  ":b:": {
     uc_output: "1f171-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":ballot_box:": {
+  },
+  ":ballot_box:": {
     uc_output: "1f5f3-fe0f",
     shortnames: [":ballot_box_with_ballot:"],
     category: "objects"
-},
-":beach:": {
+  },
+  ":beach:": {
     uc_output: "1f3d6-fe0f",
     shortnames: [":beach_with_umbrella:"],
     category: "travel"
-},
-":bed:": {
+  },
+  ":bed:": {
     uc_output: "1f6cf-fe0f",
     shortnames: [],
     category: "objects"
-},
-":bellhop:": {
+  },
+  ":bellhop:": {
     uc_output: "1f6ce-fe0f",
     shortnames: [":bellhop_bell:"],
     category: "objects"
-},
-":calendar_spiral:": {
+  },
+  ":calendar_spiral:": {
     uc_output: "1f5d3-fe0f",
     shortnames: [":spiral_calendar_pad:"],
     category: "objects"
-},
-":camping:": {
+  },
+  ":camping:": {
     uc_output: "1f3d5-fe0f",
     shortnames: [],
     category: "travel"
-},
-":candle:": {
+  },
+  ":candle:": {
     uc_output: "1f56f-fe0f",
     shortnames: [],
     category: "objects"
-},
-":card_box:": {
+  },
+  ":card_box:": {
     uc_output: "1f5c3-fe0f",
     shortnames: [":card_file_box:"],
     category: "objects"
-},
-":chipmunk:": {
+  },
+  ":chipmunk:": {
     uc_output: "1f43f-fe0f",
     shortnames: [],
     category: "nature"
-},
-":cityscape:": {
+  },
+  ":cityscape:": {
     uc_output: "1f3d9-fe0f",
     shortnames: [],
     category: "travel"
-},
-":classical_building:": {
+  },
+  ":classical_building:": {
     uc_output: "1f3db-fe0f",
     shortnames: [],
     category: "travel"
-},
-":clock:": {
+  },
+  ":clock:": {
     uc_output: "1f570-fe0f",
     shortnames: [":mantlepiece_clock:"],
     category: "objects"
-},
-":cloud_lightning:": {
+  },
+  ":cloud_lightning:": {
     uc_output: "1f329-fe0f",
     shortnames: [":cloud_with_lightning:"],
     category: "nature"
-},
-":cloud_rain:": {
+  },
+  ":cloud_rain:": {
     uc_output: "1f327-fe0f",
     shortnames: [":cloud_with_rain:"],
     category: "nature"
-},
-":cloud_snow:": {
+  },
+  ":cloud_snow:": {
     uc_output: "1f328-fe0f",
     shortnames: [":cloud_with_snow:"],
     category: "nature"
-},
-":cloud_tornado:": {
+  },
+  ":cloud_tornado:": {
     uc_output: "1f32a-fe0f",
     shortnames: [":cloud_with_tornado:"],
     category: "nature"
-},
-":compression:": {
+  },
+  ":compression:": {
     uc_output: "1f5dc-fe0f",
     shortnames: [],
     category: "objects"
-},
-":construction_site:": {
+  },
+  ":construction_site:": {
     uc_output: "1f3d7-fe0f",
     shortnames: [":building_construction:"],
     category: "travel"
-},
-":control_knobs:": {
+  },
+  ":control_knobs:": {
     uc_output: "1f39b-fe0f",
     shortnames: [],
     category: "objects"
-},
-":couch:": {
+  },
+  ":couch:": {
     uc_output: "1f6cb-fe0f",
     shortnames: [":couch_and_lamp:"],
     category: "objects"
-},
-":crayon:": {
+  },
+  ":crayon:": {
     uc_output: "1f58d-fe0f",
     shortnames: [":lower_left_crayon:"],
     category: "objects"
-},
-":cruise_ship:": {
+  },
+  ":cruise_ship:": {
     uc_output: "1f6f3-fe0f",
     shortnames: [":passenger_ship:"],
     category: "travel"
-},
-":dagger:": {
+  },
+  ":dagger:": {
     uc_output: "1f5e1-fe0f",
     shortnames: [":dagger_knife:"],
     category: "objects"
-},
-":dark_sunglasses:": {
+  },
+  ":dark_sunglasses:": {
     uc_output: "1f576-fe0f",
     shortnames: [],
     category: "people"
-},
-":desert:": {
+  },
+  ":desert:": {
     uc_output: "1f3dc-fe0f",
     shortnames: [],
     category: "travel"
-},
-":desktop:": {
+  },
+  ":desktop:": {
     uc_output: "1f5a5-fe0f",
     shortnames: [":desktop_computer:"],
     category: "objects"
-},
-":detective:": {
+  },
+  ":detective:": {
     uc_output: "1f575-fe0f",
     shortnames: [":spy:", ":sleuth_or_spy:"],
     category: "people"
-},
-":dividers:": {
+  },
+  ":dividers:": {
     uc_output: "1f5c2-fe0f",
     shortnames: [":card_index_dividers:"],
     category: "objects"
-},
-":dove:": {
+  },
+  ":dove:": {
     uc_output: "1f54a-fe0f",
     shortnames: [":dove_of_peace:"],
     category: "nature"
-},
-":eye:": {
+  },
+  ":eye:": {
     uc_output: "1f441-fe0f",
     shortnames: [],
     category: "people"
-},
-":file_cabinet:": {
+  },
+  ":file_cabinet:": {
     uc_output: "1f5c4-fe0f",
     shortnames: [],
     category: "objects"
-},
-":film_frames:": {
+  },
+  ":film_frames:": {
     uc_output: "1f39e-fe0f",
     shortnames: [],
     category: "objects"
-},
-":fist_tone1:": {
+  },
+  ":fist_tone1:": {
     uc_output: "270a-1f3fb",
     shortnames: [],
     category: "people"
-},
-":fist_tone2:": {
+  },
+  ":fist_tone2:": {
     uc_output: "270a-1f3fc",
     shortnames: [],
     category: "people"
-},
-":fist_tone3:": {
+  },
+  ":fist_tone3:": {
     uc_output: "270a-1f3fd",
     shortnames: [],
     category: "people"
-},
-":fist_tone4:": {
+  },
+  ":fist_tone4:": {
     uc_output: "270a-1f3fe",
     shortnames: [],
     category: "people"
-},
-":fist_tone5:": {
+  },
+  ":fist_tone5:": {
     uc_output: "270a-1f3ff",
     shortnames: [],
     category: "people"
-},
-":flag_white:": {
+  },
+  ":flag_white:": {
     uc_output: "1f3f3-fe0f",
     shortnames: [":waving_white_flag:"],
     category: "flags"
-},
-":fog:": {
+  },
+  ":fog:": {
     uc_output: "1f32b-fe0f",
     shortnames: [],
     category: "nature"
-},
-":fork_knife_plate:": {
+  },
+  ":fork_knife_plate:": {
     uc_output: "1f37d-fe0f",
     shortnames: [":fork_and_knife_with_plate:"],
     category: "food"
-},
-":frame_photo:": {
+  },
+  ":frame_photo:": {
     uc_output: "1f5bc-fe0f",
     shortnames: [":frame_with_picture:"],
     category: "objects"
-},
-":hand_splayed:": {
+  },
+  ":hand_splayed:": {
     uc_output: "1f590-fe0f",
     shortnames: [":raised_hand_with_fingers_splayed:"],
     category: "people"
-},
-":hole:": {
+  },
+  ":hole:": {
     uc_output: "1f573-fe0f",
     shortnames: [],
     category: "objects"
-},
-":homes:": {
+  },
+  ":homes:": {
     uc_output: "1f3d8-fe0f",
     shortnames: [":house_buildings:"],
     category: "travel"
-},
-":hot_pepper:": {
+  },
+  ":hot_pepper:": {
     uc_output: "1f336-fe0f",
     shortnames: [],
     category: "food"
-},
-":house_abandoned:": {
+  },
+  ":house_abandoned:": {
     uc_output: "1f3da-fe0f",
     shortnames: [":derelict_house_building:"],
     category: "travel"
-},
-":island:": {
+  },
+  ":island:": {
     uc_output: "1f3dd-fe0f",
     shortnames: [":desert_island:"],
     category: "travel"
-},
-":joystick:": {
+  },
+  ":joystick:": {
     uc_output: "1f579-fe0f",
     shortnames: [],
     category: "objects"
-},
-":key2:": {
+  },
+  ":key2:": {
     uc_output: "1f5dd-fe0f",
     shortnames: [":old_key:"],
     category: "objects"
-},
-":label:": {
+  },
+  ":label:": {
     uc_output: "1f3f7-fe0f",
     shortnames: [],
     category: "objects"
-},
-":level_slider:": {
+  },
+  ":level_slider:": {
     uc_output: "1f39a-fe0f",
     shortnames: [],
     category: "objects"
-},
-":man_in_business_suit_levitating:": {
+  },
+  ":man_in_business_suit_levitating:": {
     uc_output: "1f574-fe0f",
     shortnames: [],
     category: "people"
-},
-":map:": {
+  },
+  ":map:": {
     uc_output: "1f5fa-fe0f",
     shortnames: [":world_map:"],
     category: "travel"
-},
-":microphone2:": {
+  },
+  ":microphone2:": {
     uc_output: "1f399-fe0f",
     shortnames: [":studio_microphone:"],
     category: "objects"
-},
-":military_medal:": {
+  },
+  ":military_medal:": {
     uc_output: "1f396-fe0f",
     shortnames: [],
     category: "activity"
-},
-":motorboat:": {
+  },
+  ":motorboat:": {
     uc_output: "1f6e5-fe0f",
     shortnames: [],
     category: "travel"
-},
-":motorcycle:": {
+  },
+  ":motorcycle:": {
     uc_output: "1f3cd-fe0f",
     shortnames: [":racing_motorcycle:"],
     category: "travel"
-},
-":motorway:": {
+  },
+  ":motorway:": {
     uc_output: "1f6e3-fe0f",
     shortnames: [],
     category: "travel"
-},
-":mountain_snow:": {
+  },
+  ":mountain_snow:": {
     uc_output: "1f3d4-fe0f",
     shortnames: [":snow_capped_mountain:"],
     category: "travel"
-},
-":mouse_three_button:": {
+  },
+  ":mouse_three_button:": {
     uc_output: "1f5b1-fe0f",
     shortnames: [":three_button_mouse:"],
     category: "objects"
-},
-":newspaper2:": {
+  },
+  ":newspaper2:": {
     uc_output: "1f5de-fe0f",
     shortnames: [":rolled_up_newspaper:"],
     category: "objects"
-},
-":notepad_spiral:": {
+  },
+  ":notepad_spiral:": {
     uc_output: "1f5d2-fe0f",
     shortnames: [":spiral_note_pad:"],
     category: "objects"
-},
-":o2:": {
+  },
+  ":o2:": {
     uc_output: "1f17e-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":oil:": {
+  },
+  ":oil:": {
     uc_output: "1f6e2-fe0f",
     shortnames: [":oil_drum:"],
     category: "objects"
-},
-":om_symbol:": {
+  },
+  ":om_symbol:": {
     uc_output: "1f549-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":paintbrush:": {
+  },
+  ":paintbrush:": {
     uc_output: "1f58c-fe0f",
     shortnames: [":lower_left_paintbrush:"],
     category: "objects"
-},
-":paperclips:": {
+  },
+  ":paperclips:": {
     uc_output: "1f587-fe0f",
     shortnames: [":linked_paperclips:"],
     category: "objects"
-},
-":park:": {
+  },
+  ":park:": {
     uc_output: "1f3de-fe0f",
     shortnames: [":national_park:"],
     category: "travel"
-},
-":parking:": {
+  },
+  ":parking:": {
     uc_output: "1f17f-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":pen_ballpoint:": {
+  },
+  ":pen_ballpoint:": {
     uc_output: "1f58a-fe0f",
     shortnames: [":lower_left_ballpoint_pen:"],
     category: "objects"
-},
-":pen_fountain:": {
+  },
+  ":pen_fountain:": {
     uc_output: "1f58b-fe0f",
     shortnames: [":lower_left_fountain_pen:"],
     category: "objects"
-},
-":person_bouncing_ball_tone1:": {
+  },
+  ":person_bouncing_ball_tone1:": {
     uc_output: "26f9-1f3fb",
     shortnames: [":basketball_player_tone1:", ":person_with_ball_tone1:"],
     category: "activity"
-},
-":person_bouncing_ball_tone2:": {
+  },
+  ":person_bouncing_ball_tone2:": {
     uc_output: "26f9-1f3fc",
     shortnames: [":basketball_player_tone2:", ":person_with_ball_tone2:"],
     category: "activity"
-},
-":person_bouncing_ball_tone3:": {
+  },
+  ":person_bouncing_ball_tone3:": {
     uc_output: "26f9-1f3fd",
     shortnames: [":basketball_player_tone3:", ":person_with_ball_tone3:"],
     category: "activity"
-},
-":person_bouncing_ball_tone4:": {
+  },
+  ":person_bouncing_ball_tone4:": {
     uc_output: "26f9-1f3fe",
     shortnames: [":basketball_player_tone4:", ":person_with_ball_tone4:"],
     category: "activity"
-},
-":person_bouncing_ball_tone5:": {
+  },
+  ":person_bouncing_ball_tone5:": {
     uc_output: "26f9-1f3ff",
     shortnames: [":basketball_player_tone5:", ":person_with_ball_tone5:"],
     category: "activity"
-},
-":person_golfing:": {
+  },
+  ":person_golfing:": {
     uc_output: "1f3cc-fe0f",
     shortnames: [":golfer:"],
     category: "activity"
-},
-":person_lifting_weights:": {
+  },
+  ":person_lifting_weights:": {
     uc_output: "1f3cb-fe0f",
     shortnames: [":lifter:", ":weight_lifter:"],
     category: "activity"
-},
-":point_up_tone1:": {
+  },
+  ":point_up_tone1:": {
     uc_output: "261d-1f3fb",
     shortnames: [],
     category: "people"
-},
-":point_up_tone2:": {
+  },
+  ":point_up_tone2:": {
     uc_output: "261d-1f3fc",
     shortnames: [],
     category: "people"
-},
-":point_up_tone3:": {
+  },
+  ":point_up_tone3:": {
     uc_output: "261d-1f3fd",
     shortnames: [],
     category: "people"
-},
-":point_up_tone4:": {
+  },
+  ":point_up_tone4:": {
     uc_output: "261d-1f3fe",
     shortnames: [],
     category: "people"
-},
-":point_up_tone5:": {
+  },
+  ":point_up_tone5:": {
     uc_output: "261d-1f3ff",
     shortnames: [],
     category: "people"
-},
-":printer:": {
+  },
+  ":printer:": {
     uc_output: "1f5a8-fe0f",
     shortnames: [],
     category: "objects"
-},
-":projector:": {
+  },
+  ":projector:": {
     uc_output: "1f4fd-fe0f",
     shortnames: [":film_projector:"],
     category: "objects"
-},
-":race_car:": {
+  },
+  ":race_car:": {
     uc_output: "1f3ce-fe0f",
     shortnames: [":racing_car:"],
     category: "travel"
-},
-":railway_track:": {
+  },
+  ":railway_track:": {
     uc_output: "1f6e4-fe0f",
     shortnames: [":railroad_track:"],
     category: "travel"
-},
-":raised_hand_tone1:": {
+  },
+  ":raised_hand_tone1:": {
     uc_output: "270b-1f3fb",
     shortnames: [],
     category: "people"
-},
-":raised_hand_tone2:": {
+  },
+  ":raised_hand_tone2:": {
     uc_output: "270b-1f3fc",
     shortnames: [],
     category: "people"
-},
-":raised_hand_tone3:": {
+  },
+  ":raised_hand_tone3:": {
     uc_output: "270b-1f3fd",
     shortnames: [],
     category: "people"
-},
-":raised_hand_tone4:": {
+  },
+  ":raised_hand_tone4:": {
     uc_output: "270b-1f3fe",
     shortnames: [],
     category: "people"
-},
-":raised_hand_tone5:": {
+  },
+  ":raised_hand_tone5:": {
     uc_output: "270b-1f3ff",
     shortnames: [],
     category: "people"
-},
-":reminder_ribbon:": {
+  },
+  ":reminder_ribbon:": {
     uc_output: "1f397-fe0f",
     shortnames: [],
     category: "activity"
-},
-":rosette:": {
+  },
+  ":rosette:": {
     uc_output: "1f3f5-fe0f",
     shortnames: [],
     category: "activity"
-},
-":sa:": {
+  },
+  ":sa:": {
     uc_output: "1f202-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":satellite_orbital:": {
+  },
+  ":satellite_orbital:": {
     uc_output: "1f6f0-fe0f",
     shortnames: [],
     category: "travel"
-},
-":shield:": {
+  },
+  ":shield:": {
     uc_output: "1f6e1-fe0f",
     shortnames: [],
     category: "objects"
-},
-":shopping_bags:": {
+  },
+  ":shopping_bags:": {
     uc_output: "1f6cd-fe0f",
     shortnames: [],
     category: "objects"
-},
-":speaking_head:": {
+  },
+  ":speaking_head:": {
     uc_output: "1f5e3-fe0f",
     shortnames: [":speaking_head_in_silhouette:"],
     category: "people"
-},
-":speech_left:": {
+  },
+  ":speech_left:": {
     uc_output: "1f5e8-fe0f",
     shortnames: [":left_speech_bubble:"],
     category: "symbols"
-},
-":spider:": {
+  },
+  ":spider:": {
     uc_output: "1f577-fe0f",
     shortnames: [],
     category: "nature"
-},
-":spider_web:": {
+  },
+  ":spider_web:": {
     uc_output: "1f578-fe0f",
     shortnames: [],
     category: "nature"
-},
-":stadium:": {
+  },
+  ":stadium:": {
     uc_output: "1f3df-fe0f",
     shortnames: [],
     category: "travel"
-},
-":thermometer:": {
+  },
+  ":thermometer:": {
     uc_output: "1f321-fe0f",
     shortnames: [],
     category: "objects"
-},
-":tickets:": {
+  },
+  ":tickets:": {
     uc_output: "1f39f-fe0f",
     shortnames: [":admission_tickets:"],
     category: "activity"
-},
-":tools:": {
+  },
+  ":tools:": {
     uc_output: "1f6e0-fe0f",
     shortnames: [":hammer_and_wrench:"],
     category: "objects"
-},
-":trackball:": {
+  },
+  ":trackball:": {
     uc_output: "1f5b2-fe0f",
     shortnames: [],
     category: "objects"
-},
-":u6708:": {
+  },
+  ":u6708:": {
     uc_output: "1f237-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":v_tone1:": {
+  },
+  ":v_tone1:": {
     uc_output: "270c-1f3fb",
     shortnames: [],
     category: "people"
-},
-":v_tone2:": {
+  },
+  ":v_tone2:": {
     uc_output: "270c-1f3fc",
     shortnames: [],
     category: "people"
-},
-":v_tone3:": {
+  },
+  ":v_tone3:": {
     uc_output: "270c-1f3fd",
     shortnames: [],
     category: "people"
-},
-":v_tone4:": {
+  },
+  ":v_tone4:": {
     uc_output: "270c-1f3fe",
     shortnames: [],
     category: "people"
-},
-":v_tone5:": {
+  },
+  ":v_tone5:": {
     uc_output: "270c-1f3ff",
     shortnames: [],
     category: "people"
-},
-":wastebasket:": {
+  },
+  ":wastebasket:": {
     uc_output: "1f5d1-fe0f",
     shortnames: [],
     category: "objects"
-},
-":white_sun_cloud:": {
+  },
+  ":white_sun_cloud:": {
     uc_output: "1f325-fe0f",
     shortnames: [":white_sun_behind_cloud:"],
     category: "nature"
-},
-":white_sun_rain_cloud:": {
+  },
+  ":white_sun_rain_cloud:": {
     uc_output: "1f326-fe0f",
     shortnames: [":white_sun_behind_cloud_with_rain:"],
     category: "nature"
-},
-":white_sun_small_cloud:": {
+  },
+  ":white_sun_small_cloud:": {
     uc_output: "1f324-fe0f",
     shortnames: [":white_sun_with_small_cloud:"],
     category: "nature"
-},
-":wind_blowing_face:": {
+  },
+  ":wind_blowing_face:": {
     uc_output: "1f32c-fe0f",
     shortnames: [],
     category: "nature"
-},
-":writing_hand_tone1:": {
+  },
+  ":writing_hand_tone1:": {
     uc_output: "270d-1f3fb",
     shortnames: [],
     category: "people"
-},
-":writing_hand_tone2:": {
+  },
+  ":writing_hand_tone2:": {
     uc_output: "270d-1f3fc",
     shortnames: [],
     category: "people"
-},
-":writing_hand_tone3:": {
+  },
+  ":writing_hand_tone3:": {
     uc_output: "270d-1f3fd",
     shortnames: [],
     category: "people"
-},
-":writing_hand_tone4:": {
+  },
+  ":writing_hand_tone4:": {
     uc_output: "270d-1f3fe",
     shortnames: [],
     category: "people"
-},
-":writing_hand_tone5:": {
+  },
+  ":writing_hand_tone5:": {
     uc_output: "270d-1f3ff",
     shortnames: [],
     category: "people"
-},
-":airplane:": {
+  },
+  ":airplane:": {
     uc_output: "2708-fe0f",
     shortnames: [],
     category: "travel"
-},
-":alembic:": {
+  },
+  ":alembic:": {
     uc_output: "2697-fe0f",
     shortnames: [],
     category: "objects"
-},
-":arrow_backward:": {
+  },
+  ":arrow_backward:": {
     uc_output: "25c0-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_down:": {
+  },
+  ":arrow_down:": {
     uc_output: "2b07-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_forward:": {
+  },
+  ":arrow_forward:": {
     uc_output: "25b6-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_heading_down:": {
+  },
+  ":arrow_heading_down:": {
     uc_output: "2935-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_heading_up:": {
+  },
+  ":arrow_heading_up:": {
     uc_output: "2934-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_left:": {
+  },
+  ":arrow_left:": {
     uc_output: "2b05-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_lower_left:": {
+  },
+  ":arrow_lower_left:": {
     uc_output: "2199-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_lower_right:": {
+  },
+  ":arrow_lower_right:": {
     uc_output: "2198-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_right:": {
+  },
+  ":arrow_right:": {
     uc_output: "27a1-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_right_hook:": {
+  },
+  ":arrow_right_hook:": {
     uc_output: "21aa-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_up:": {
+  },
+  ":arrow_up:": {
     uc_output: "2b06-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_up_down:": {
+  },
+  ":arrow_up_down:": {
     uc_output: "2195-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_upper_left:": {
+  },
+  ":arrow_upper_left:": {
     uc_output: "2196-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":arrow_upper_right:": {
+  },
+  ":arrow_upper_right:": {
     uc_output: "2197-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":asterisk_symbol:": {
+  },
+  ":asterisk_symbol:": {
     uc_output: "002a-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":atom:": {
+  },
+  ":atom:": {
     uc_output: "269b-fe0f",
     shortnames: [":atom_symbol:"],
     category: "symbols"
-},
-":ballot_box_with_check:": {
+  },
+  ":ballot_box_with_check:": {
     uc_output: "2611-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":bangbang:": {
+  },
+  ":bangbang:": {
     uc_output: "203c-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":beach_umbrella:": {
+  },
+  ":beach_umbrella:": {
     uc_output: "26f1-fe0f",
     shortnames: [":umbrella_on_ground:"],
     category: "travel"
-},
-":biohazard:": {
+  },
+  ":biohazard:": {
     uc_output: "2623-fe0f",
     shortnames: [":biohazard_sign:"],
     category: "symbols"
-},
-":black_medium_square:": {
+  },
+  ":black_medium_square:": {
     uc_output: "25fc-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":black_nib:": {
+  },
+  ":black_nib:": {
     uc_output: "2712-fe0f",
     shortnames: [],
     category: "objects"
-},
-":black_small_square:": {
+  },
+  ":black_small_square:": {
     uc_output: "25aa-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":chains:": {
+  },
+  ":chains:": {
     uc_output: "26d3-fe0f",
     shortnames: [],
     category: "objects"
-},
-":cloud:": {
+  },
+  ":cloud:": {
     uc_output: "2601-fe0f",
     shortnames: [],
     category: "nature"
-},
-":clubs:": {
+  },
+  ":clubs:": {
     uc_output: "2663-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":coffin:": {
+  },
+  ":coffin:": {
     uc_output: "26b0-fe0f",
     shortnames: [],
     category: "objects"
-},
-":comet:": {
+  },
+  ":comet:": {
     uc_output: "2604-fe0f",
     shortnames: [],
     category: "nature"
-},
-":congratulations:": {
+  },
+  ":congratulations:": {
     uc_output: "3297-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":copyright:": {
+  },
+  ":copyright:": {
     uc_output: "00a9-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":cross:": {
+  },
+  ":cross:": {
     uc_output: "271d-fe0f",
     shortnames: [":latin_cross:"],
     category: "symbols"
-},
-":crossed_swords:": {
+  },
+  ":crossed_swords:": {
     uc_output: "2694-fe0f",
     shortnames: [],
     category: "objects"
-},
-":diamonds:": {
+  },
+  ":diamonds:": {
     uc_output: "2666-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_eight:": {
+  },
+  ":digit_eight:": {
     uc_output: "0038-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_five:": {
+  },
+  ":digit_five:": {
     uc_output: "0035-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_four:": {
+  },
+  ":digit_four:": {
     uc_output: "0034-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_nine:": {
+  },
+  ":digit_nine:": {
     uc_output: "0039-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_one:": {
+  },
+  ":digit_one:": {
     uc_output: "0031-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_seven:": {
+  },
+  ":digit_seven:": {
     uc_output: "0037-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_six:": {
+  },
+  ":digit_six:": {
     uc_output: "0036-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_three:": {
+  },
+  ":digit_three:": {
     uc_output: "0033-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_two:": {
+  },
+  ":digit_two:": {
     uc_output: "0032-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":digit_zero:": {
+  },
+  ":digit_zero:": {
     uc_output: "0030-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":eight_pointed_black_star:": {
+  },
+  ":eight_pointed_black_star:": {
     uc_output: "2734-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":eight_spoked_asterisk:": {
+  },
+  ":eight_spoked_asterisk:": {
     uc_output: "2733-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":eject:": {
+  },
+  ":eject:": {
     uc_output: "23cf-fe0f",
     shortnames: [":eject_symbol:"],
     category: "symbols"
-},
-":envelope:": {
+  },
+  ":envelope:": {
     uc_output: "2709-fe0f",
     shortnames: [],
     category: "objects"
-},
-":female_sign:": {
+  },
+  ":female_sign:": {
     uc_output: "2640-fe0f",
     shortnames: [],
     category: "people"
-},
-":ferry:": {
+  },
+  ":ferry:": {
     uc_output: "26f4-fe0f",
     shortnames: [],
     category: "travel"
-},
-":fleur-de-lis:": {
+  },
+  ":fleur-de-lis:": {
     uc_output: "269c-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":frowning2:": {
+  },
+  ":frowning2:": {
     uc_output: "2639-fe0f",
     shortnames: [":white_frowning_face:"],
     category: "people"
-},
-":gear:": {
+  },
+  ":gear:": {
     uc_output: "2699-fe0f",
     shortnames: [],
     category: "objects"
-},
-":hammer_pick:": {
+  },
+  ":hammer_pick:": {
     uc_output: "2692-fe0f",
     shortnames: [":hammer_and_pick:"],
     category: "objects"
-},
-":heart:": {
+  },
+  ":heart:": {
     uc_output: "2764-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":heart_exclamation:": {
+  },
+  ":heart_exclamation:": {
     uc_output: "2763-fe0f",
     shortnames: [":heavy_heart_exclamation_mark_ornament:"],
     category: "symbols"
-},
-":hearts:": {
+  },
+  ":hearts:": {
     uc_output: "2665-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":heavy_check_mark:": {
+  },
+  ":heavy_check_mark:": {
     uc_output: "2714-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":heavy_multiplication_x:": {
+  },
+  ":heavy_multiplication_x:": {
     uc_output: "2716-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":helmet_with_cross:": {
+  },
+  ":helmet_with_cross:": {
     uc_output: "26d1-fe0f",
     shortnames: [":helmet_with_white_cross:"],
     category: "people"
-},
-":hotsprings:": {
+  },
+  ":hotsprings:": {
     uc_output: "2668-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":ice_skate:": {
+  },
+  ":ice_skate:": {
     uc_output: "26f8-fe0f",
     shortnames: [],
     category: "activity"
-},
-":information_source:": {
+  },
+  ":information_source:": {
     uc_output: "2139-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":interrobang:": {
+  },
+  ":interrobang:": {
     uc_output: "2049-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":keyboard:": {
+  },
+  ":keyboard:": {
     uc_output: "2328-fe0f",
     shortnames: [],
     category: "objects"
-},
-":left_right_arrow:": {
+  },
+  ":left_right_arrow:": {
     uc_output: "2194-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":leftwards_arrow_with_hook:": {
+  },
+  ":leftwards_arrow_with_hook:": {
     uc_output: "21a9-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":m:": {
+  },
+  ":m:": {
     uc_output: "24c2-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":male_sign:": {
+  },
+  ":male_sign:": {
     uc_output: "2642-fe0f",
     shortnames: [],
     category: "people"
-},
-":medical_symbol:": {
+  },
+  ":medical_symbol:": {
     uc_output: "2695-fe0f",
     shortnames: [],
     category: "people"
-},
-":mountain:": {
+  },
+  ":mountain:": {
     uc_output: "26f0-fe0f",
     shortnames: [],
     category: "travel"
-},
-":orthodox_cross:": {
+  },
+  ":orthodox_cross:": {
     uc_output: "2626-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":part_alternation_mark:": {
+  },
+  ":part_alternation_mark:": {
     uc_output: "303d-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":pause_button:": {
+  },
+  ":pause_button:": {
     uc_output: "23f8-fe0f",
     shortnames: [":double_vertical_bar:"],
     category: "symbols"
-},
-":peace:": {
+  },
+  ":peace:": {
     uc_output: "262e-fe0f",
     shortnames: [":peace_symbol:"],
     category: "symbols"
-},
-":pencil2:": {
+  },
+  ":pencil2:": {
     uc_output: "270f-fe0f",
     shortnames: [],
     category: "objects"
-},
-":person_bouncing_ball:": {
+  },
+  ":person_bouncing_ball:": {
     uc_output: "26f9-fe0f",
     shortnames: [":basketball_player:", ":person_with_ball:"],
     category: "activity"
-},
-":pick:": {
+  },
+  ":pick:": {
     uc_output: "26cf-fe0f",
     shortnames: [],
     category: "objects"
-},
-":play_pause:": {
+  },
+  ":play_pause:": {
     uc_output: "23ef-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":point_up:": {
+  },
+  ":point_up:": {
     uc_output: "261d-fe0f",
     shortnames: [],
     category: "people"
-},
-":pound_symbol:": {
+  },
+  ":pound_symbol:": {
     uc_output: "0023-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":radioactive:": {
+  },
+  ":radioactive:": {
     uc_output: "2622-fe0f",
     shortnames: [":radioactive_sign:"],
     category: "symbols"
-},
-":record_button:": {
+  },
+  ":record_button:": {
     uc_output: "23fa-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":recycle:": {
+  },
+  ":recycle:": {
     uc_output: "267b-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":registered:": {
+  },
+  ":registered:": {
     uc_output: "00ae-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":relaxed:": {
+  },
+  ":relaxed:": {
     uc_output: "263a-fe0f",
     shortnames: [],
     category: "people"
-},
-":scales:": {
+  },
+  ":scales:": {
     uc_output: "2696-fe0f",
     shortnames: [],
     category: "objects"
-},
-":scissors:": {
+  },
+  ":scissors:": {
     uc_output: "2702-fe0f",
     shortnames: [],
     category: "objects"
-},
-":secret:": {
+  },
+  ":secret:": {
     uc_output: "3299-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":shamrock:": {
+  },
+  ":shamrock:": {
     uc_output: "2618-fe0f",
     shortnames: [],
     category: "nature"
-},
-":shinto_shrine:": {
+  },
+  ":shinto_shrine:": {
     uc_output: "26e9-fe0f",
     shortnames: [],
     category: "travel"
-},
-":skier:": {
+  },
+  ":skier:": {
     uc_output: "26f7-fe0f",
     shortnames: [],
     category: "activity"
-},
-":skull_crossbones:": {
+  },
+  ":skull_crossbones:": {
     uc_output: "2620-fe0f",
     shortnames: [":skull_and_crossbones:"],
     category: "people"
-},
-":snowflake:": {
+  },
+  ":snowflake:": {
     uc_output: "2744-fe0f",
     shortnames: [],
     category: "nature"
-},
-":snowman2:": {
+  },
+  ":snowman2:": {
     uc_output: "2603-fe0f",
     shortnames: [],
     category: "nature"
-},
-":spades:": {
+  },
+  ":spades:": {
     uc_output: "2660-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":sparkle:": {
+  },
+  ":sparkle:": {
     uc_output: "2747-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":star_and_crescent:": {
+  },
+  ":star_and_crescent:": {
     uc_output: "262a-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":star_of_david:": {
+  },
+  ":star_of_david:": {
     uc_output: "2721-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":stop_button:": {
+  },
+  ":stop_button:": {
     uc_output: "23f9-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":stopwatch:": {
+  },
+  ":stopwatch:": {
     uc_output: "23f1-fe0f",
     shortnames: [],
     category: "objects"
-},
-":sunny:": {
+  },
+  ":sunny:": {
     uc_output: "2600-fe0f",
     shortnames: [],
     category: "nature"
-},
-":telephone:": {
+  },
+  ":telephone:": {
     uc_output: "260e-fe0f",
     shortnames: [],
     category: "objects"
-},
-":thunder_cloud_rain:": {
+  },
+  ":thunder_cloud_rain:": {
     uc_output: "26c8-fe0f",
     shortnames: [":thunder_cloud_and_rain:"],
     category: "nature"
-},
-":timer:": {
+  },
+  ":timer:": {
     uc_output: "23f2-fe0f",
     shortnames: [":timer_clock:"],
     category: "objects"
-},
-":tm:": {
+  },
+  ":tm:": {
     uc_output: "2122-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":track_next:": {
+  },
+  ":track_next:": {
     uc_output: "23ed-fe0f",
     shortnames: [":next_track:"],
     category: "symbols"
-},
-":track_previous:": {
+  },
+  ":track_previous:": {
     uc_output: "23ee-fe0f",
     shortnames: [":previous_track:"],
     category: "symbols"
-},
-":umbrella2:": {
+  },
+  ":umbrella2:": {
     uc_output: "2602-fe0f",
     shortnames: [],
     category: "people"
-},
-":urn:": {
+  },
+  ":urn:": {
     uc_output: "26b1-fe0f",
     shortnames: [":funeral_urn:"],
     category: "objects"
-},
-":v:": {
+  },
+  ":v:": {
     uc_output: "270c-fe0f",
     shortnames: [],
     category: "people"
-},
-":warning:": {
+  },
+  ":warning:": {
     uc_output: "26a0-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":wavy_dash:": {
+  },
+  ":wavy_dash:": {
     uc_output: "3030-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":wheel_of_dharma:": {
+  },
+  ":wheel_of_dharma:": {
     uc_output: "2638-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":white_medium_square:": {
+  },
+  ":white_medium_square:": {
     uc_output: "25fb-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":white_small_square:": {
+  },
+  ":white_small_square:": {
     uc_output: "25ab-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":writing_hand:": {
+  },
+  ":writing_hand:": {
     uc_output: "270d-fe0f",
     shortnames: [],
     category: "people"
-},
-":yin_yang:": {
+  },
+  ":yin_yang:": {
     uc_output: "262f-fe0f",
     shortnames: [],
     category: "symbols"
-},
-":100:": {
+  },
+  ":100:": {
     uc_output: "1f4af",
     shortnames: [],
     category: "symbols"
-},
-":1234:": {
+  },
+  ":1234:": {
     uc_output: "1f522",
     shortnames: [],
     category: "symbols"
-},
-":8ball:": {
+  },
+  ":8ball:": {
     uc_output: "1f3b1",
     shortnames: [],
     category: "activity"
-},
-":ab:": {
+  },
+  ":ab:": {
     uc_output: "1f18e",
     shortnames: [],
     category: "symbols"
-},
-":abc:": {
+  },
+  ":abc:": {
     uc_output: "1f524",
     shortnames: [],
     category: "symbols"
-},
-":abcd:": {
+  },
+  ":abcd:": {
     uc_output: "1f521",
     shortnames: [],
     category: "symbols"
-},
-":accept:": {
+  },
+  ":accept:": {
     uc_output: "1f251",
     shortnames: [],
     category: "symbols"
-},
-":adult:": {
+  },
+  ":adult:": {
     uc_output: "1f9d1",
     shortnames: [],
     category: "people"
-},
-":aerial_tramway:": {
+  },
+  ":aerial_tramway:": {
     uc_output: "1f6a1",
     shortnames: [],
     category: "travel"
-},
-":airplane_arriving:": {
+  },
+  ":airplane_arriving:": {
     uc_output: "1f6ec",
     shortnames: [],
     category: "travel"
-},
-":airplane_departure:": {
+  },
+  ":airplane_departure:": {
     uc_output: "1f6eb",
     shortnames: [],
     category: "travel"
-},
-":alien:": {
+  },
+  ":alien:": {
     uc_output: "1f47d",
     shortnames: [],
     category: "people"
-},
-":ambulance:": {
+  },
+  ":ambulance:": {
     uc_output: "1f691",
     shortnames: [],
     category: "travel"
-},
-":amphora:": {
+  },
+  ":amphora:": {
     uc_output: "1f3fa",
     shortnames: [],
     category: "objects"
-},
-":angel:": {
+  },
+  ":angel:": {
     uc_output: "1f47c",
     shortnames: [],
     category: "people"
-},
-":anger:": {
+  },
+  ":anger:": {
     uc_output: "1f4a2",
     shortnames: [],
     category: "symbols"
-},
-":angry:": {
+  },
+  ":angry:": {
     uc_output: "1f620",
     shortnames: [],
     category: "people"
-},
-":anguished:": {
+  },
+  ":anguished:": {
     uc_output: "1f627",
     shortnames: [],
     category: "people"
-},
-":ant:": {
+  },
+  ":ant:": {
     uc_output: "1f41c",
     shortnames: [],
     category: "nature"
-},
-":apple:": {
+  },
+  ":apple:": {
     uc_output: "1f34e",
     shortnames: [],
     category: "food"
-},
-":arrow_down_small:": {
+  },
+  ":arrow_down_small:": {
     uc_output: "1f53d",
     shortnames: [],
     category: "symbols"
-},
-":arrow_up_small:": {
+  },
+  ":arrow_up_small:": {
     uc_output: "1f53c",
     shortnames: [],
     category: "symbols"
-},
-":arrows_clockwise:": {
+  },
+  ":arrows_clockwise:": {
     uc_output: "1f503",
     shortnames: [],
     category: "symbols"
-},
-":arrows_counterclockwise:": {
+  },
+  ":arrows_counterclockwise:": {
     uc_output: "1f504",
     shortnames: [],
     category: "symbols"
-},
-":art:": {
+  },
+  ":art:": {
     uc_output: "1f3a8",
     shortnames: [],
     category: "activity"
-},
-":articulated_lorry:": {
+  },
+  ":articulated_lorry:": {
     uc_output: "1f69b",
     shortnames: [],
     category: "travel"
-},
-":astonished:": {
+  },
+  ":astonished:": {
     uc_output: "1f632",
     shortnames: [],
     category: "people"
-},
-":athletic_shoe:": {
+  },
+  ":athletic_shoe:": {
     uc_output: "1f45f",
     shortnames: [],
     category: "people"
-},
-":atm:": {
+  },
+  ":atm:": {
     uc_output: "1f3e7",
     shortnames: [],
     category: "symbols"
-},
-":avocado:": {
+  },
+  ":avocado:": {
     uc_output: "1f951",
     shortnames: [],
     category: "food"
-},
-":baby:": {
+  },
+  ":baby:": {
     uc_output: "1f476",
     shortnames: [],
     category: "people"
-},
-":baby_bottle:": {
+  },
+  ":baby_bottle:": {
     uc_output: "1f37c",
     shortnames: [],
     category: "food"
-},
-":baby_chick:": {
+  },
+  ":baby_chick:": {
     uc_output: "1f424",
     shortnames: [],
     category: "nature"
-},
-":baby_symbol:": {
+  },
+  ":baby_symbol:": {
     uc_output: "1f6bc",
     shortnames: [],
     category: "symbols"
-},
-":back:": {
+  },
+  ":back:": {
     uc_output: "1f519",
     shortnames: [],
     category: "symbols"
-},
-":bacon:": {
+  },
+  ":bacon:": {
     uc_output: "1f953",
     shortnames: [],
     category: "food"
-},
-":badminton:": {
+  },
+  ":badminton:": {
     uc_output: "1f3f8",
     shortnames: [],
     category: "activity"
-},
-":baggage_claim:": {
+  },
+  ":baggage_claim:": {
     uc_output: "1f6c4",
     shortnames: [],
     category: "symbols"
-},
-":balloon:": {
+  },
+  ":balloon:": {
     uc_output: "1f388",
     shortnames: [],
     category: "objects"
-},
-":bamboo:": {
+  },
+  ":bamboo:": {
     uc_output: "1f38d",
     shortnames: [],
     category: "nature"
-},
-":banana:": {
+  },
+  ":banana:": {
     uc_output: "1f34c",
     shortnames: [],
     category: "food"
-},
-":bank:": {
+  },
+  ":bank:": {
     uc_output: "1f3e6",
     shortnames: [],
     category: "travel"
-},
-":bar_chart:": {
+  },
+  ":bar_chart:": {
     uc_output: "1f4ca",
     shortnames: [],
     category: "objects"
-},
-":barber:": {
+  },
+  ":barber:": {
     uc_output: "1f488",
     shortnames: [],
     category: "objects"
-},
-":basketball:": {
+  },
+  ":basketball:": {
     uc_output: "1f3c0",
     shortnames: [],
     category: "activity"
-},
-":bat:": {
+  },
+  ":bat:": {
     uc_output: "1f987",
     shortnames: [],
     category: "nature"
-},
-":bath:": {
+  },
+  ":bath:": {
     uc_output: "1f6c0",
     shortnames: [],
     category: "objects"
-},
-":bathtub:": {
+  },
+  ":bathtub:": {
     uc_output: "1f6c1",
     shortnames: [],
     category: "objects"
-},
-":battery:": {
+  },
+  ":battery:": {
     uc_output: "1f50b",
     shortnames: [],
     category: "objects"
-},
-":bear:": {
+  },
+  ":bear:": {
     uc_output: "1f43b",
     shortnames: [],
     category: "nature"
-},
-":bearded_person:": {
+  },
+  ":bearded_person:": {
     uc_output: "1f9d4",
     shortnames: [],
     category: "people"
-},
-":bee:": {
+  },
+  ":bee:": {
     uc_output: "1f41d",
     shortnames: [],
     category: "nature"
-},
-":beer:": {
+  },
+  ":beer:": {
     uc_output: "1f37a",
     shortnames: [],
     category: "food"
-},
-":beers:": {
+  },
+  ":beers:": {
     uc_output: "1f37b",
     shortnames: [],
     category: "food"
-},
-":beetle:": {
+  },
+  ":beetle:": {
     uc_output: "1f41e",
     shortnames: [],
     category: "nature"
-},
-":beginner:": {
+  },
+  ":beginner:": {
     uc_output: "1f530",
     shortnames: [],
     category: "symbols"
-},
-":bell:": {
+  },
+  ":bell:": {
     uc_output: "1f514",
     shortnames: [],
     category: "symbols"
-},
-":bento:": {
+  },
+  ":bento:": {
     uc_output: "1f371",
     shortnames: [],
     category: "food"
-},
-":bike:": {
+  },
+  ":bike:": {
     uc_output: "1f6b2",
     shortnames: [],
     category: "travel"
-},
-":bikini:": {
+  },
+  ":bikini:": {
     uc_output: "1f459",
     shortnames: [],
     category: "people"
-},
-":billed_cap:": {
+  },
+  ":billed_cap:": {
     uc_output: "1f9e2",
     shortnames: [],
     category: "people"
-},
-":bird:": {
+  },
+  ":bird:": {
     uc_output: "1f426",
     shortnames: [],
     category: "nature"
-},
-":birthday:": {
+  },
+  ":birthday:": {
     uc_output: "1f382",
     shortnames: [],
     category: "food"
-},
-":black_heart:": {
+  },
+  ":black_heart:": {
     uc_output: "1f5a4",
     shortnames: [],
     category: "symbols"
-},
-":black_joker:": {
+  },
+  ":black_joker:": {
     uc_output: "1f0cf",
     shortnames: [],
     category: "symbols"
-},
-":black_square_button:": {
+  },
+  ":black_square_button:": {
     uc_output: "1f532",
     shortnames: [],
     category: "symbols"
-},
-":blond_haired_person:": {
+  },
+  ":blond_haired_person:": {
     uc_output: "1f471",
     shortnames: [":person_with_blond_hair:"],
     category: "people"
-},
-":blossom:": {
+  },
+  ":blossom:": {
     uc_output: "1f33c",
     shortnames: [],
     category: "nature"
-},
-":blowfish:": {
+  },
+  ":blowfish:": {
     uc_output: "1f421",
     shortnames: [],
     category: "nature"
-},
-":blue_book:": {
+  },
+  ":blue_book:": {
     uc_output: "1f4d8",
     shortnames: [],
     category: "objects"
-},
-":blue_car:": {
+  },
+  ":blue_car:": {
     uc_output: "1f699",
     shortnames: [],
     category: "travel"
-},
-":blue_circle:": {
+  },
+  ":blue_circle:": {
     uc_output: "1f535",
     shortnames: [],
     category: "symbols"
-},
-":blue_heart:": {
+  },
+  ":blue_heart:": {
     uc_output: "1f499",
     shortnames: [],
     category: "symbols"
-},
-":blush:": {
+  },
+  ":blush:": {
     uc_output: "1f60a",
     shortnames: [],
     category: "people"
-},
-":boar:": {
+  },
+  ":boar:": {
     uc_output: "1f417",
     shortnames: [],
     category: "nature"
-},
-":bomb:": {
+  },
+  ":bomb:": {
     uc_output: "1f4a3",
     shortnames: [],
     category: "objects"
-},
-":book:": {
+  },
+  ":book:": {
     uc_output: "1f4d6",
     shortnames: [],
     category: "objects"
-},
-":bookmark:": {
+  },
+  ":bookmark:": {
     uc_output: "1f516",
     shortnames: [],
     category: "objects"
-},
-":bookmark_tabs:": {
+  },
+  ":bookmark_tabs:": {
     uc_output: "1f4d1",
     shortnames: [],
     category: "objects"
-},
-":books:": {
+  },
+  ":books:": {
     uc_output: "1f4da",
     shortnames: [],
     category: "objects"
-},
-":boom:": {
+  },
+  ":boom:": {
     uc_output: "1f4a5",
     shortnames: [],
     category: "nature"
-},
-":boot:": {
+  },
+  ":boot:": {
     uc_output: "1f462",
     shortnames: [],
     category: "people"
-},
-":bouquet:": {
+  },
+  ":bouquet:": {
     uc_output: "1f490",
     shortnames: [],
     category: "nature"
-},
-":bow_and_arrow:": {
+  },
+  ":bow_and_arrow:": {
     uc_output: "1f3f9",
     shortnames: [":archery:"],
     category: "activity"
-},
-":bowl_with_spoon:": {
+  },
+  ":bowl_with_spoon:": {
     uc_output: "1f963",
     shortnames: [],
     category: "food"
-},
-":bowling:": {
+  },
+  ":bowling:": {
     uc_output: "1f3b3",
     shortnames: [],
     category: "activity"
-},
-":boxing_glove:": {
+  },
+  ":boxing_glove:": {
     uc_output: "1f94a",
     shortnames: [":boxing_gloves:"],
     category: "activity"
-},
-":boy:": {
+  },
+  ":boy:": {
     uc_output: "1f466",
     shortnames: [],
     category: "people"
-},
-":brain:": {
+  },
+  ":brain:": {
     uc_output: "1f9e0",
     shortnames: [],
     category: "people"
-},
-":bread:": {
+  },
+  ":bread:": {
     uc_output: "1f35e",
     shortnames: [],
     category: "food"
-},
-":breast_feeding:": {
+  },
+  ":breast_feeding:": {
     uc_output: "1f931",
     shortnames: [],
     category: "activity"
-},
-":bride_with_veil:": {
+  },
+  ":bride_with_veil:": {
     uc_output: "1f470",
     shortnames: [],
     category: "people"
-},
-":bridge_at_night:": {
+  },
+  ":bridge_at_night:": {
     uc_output: "1f309",
     shortnames: [],
     category: "travel"
-},
-":briefcase:": {
+  },
+  ":briefcase:": {
     uc_output: "1f4bc",
     shortnames: [],
     category: "people"
-},
-":broccoli:": {
+  },
+  ":broccoli:": {
     uc_output: "1f966",
     shortnames: [],
     category: "food"
-},
-":broken_heart:": {
+  },
+  ":broken_heart:": {
     uc_output: "1f494",
     shortnames: [],
     category: "symbols"
-},
-":bug:": {
+  },
+  ":bug:": {
     uc_output: "1f41b",
     shortnames: [],
     category: "nature"
-},
-":bulb:": {
+  },
+  ":bulb:": {
     uc_output: "1f4a1",
     shortnames: [],
     category: "objects"
-},
-":bullettrain_front:": {
+  },
+  ":bullettrain_front:": {
     uc_output: "1f685",
     shortnames: [],
     category: "travel"
-},
-":bullettrain_side:": {
+  },
+  ":bullettrain_side:": {
     uc_output: "1f684",
     shortnames: [],
     category: "travel"
-},
-":burrito:": {
+  },
+  ":burrito:": {
     uc_output: "1f32f",
     shortnames: [],
     category: "food"
-},
-":bus:": {
+  },
+  ":bus:": {
     uc_output: "1f68c",
     shortnames: [],
     category: "travel"
-},
-":busstop:": {
+  },
+  ":busstop:": {
     uc_output: "1f68f",
     shortnames: [],
     category: "travel"
-},
-":bust_in_silhouette:": {
+  },
+  ":bust_in_silhouette:": {
     uc_output: "1f464",
     shortnames: [],
     category: "people"
-},
-":busts_in_silhouette:": {
+  },
+  ":busts_in_silhouette:": {
     uc_output: "1f465",
     shortnames: [],
     category: "people"
-},
-":butterfly:": {
+  },
+  ":butterfly:": {
     uc_output: "1f98b",
     shortnames: [],
     category: "nature"
-},
-":cactus:": {
+  },
+  ":cactus:": {
     uc_output: "1f335",
     shortnames: [],
     category: "nature"
-},
-":cake:": {
+  },
+  ":cake:": {
     uc_output: "1f370",
     shortnames: [],
     category: "food"
-},
-":calendar:": {
+  },
+  ":calendar:": {
     uc_output: "1f4c6",
     shortnames: [],
     category: "objects"
-},
-":call_me:": {
+  },
+  ":call_me:": {
     uc_output: "1f919",
     shortnames: [":call_me_hand:"],
     category: "people"
-},
-":calling:": {
+  },
+  ":calling:": {
     uc_output: "1f4f2",
     shortnames: [],
     category: "objects"
-},
-":camel:": {
+  },
+  ":camel:": {
     uc_output: "1f42b",
     shortnames: [],
     category: "nature"
-},
-":camera:": {
+  },
+  ":camera:": {
     uc_output: "1f4f7",
     shortnames: [],
     category: "objects"
-},
-":camera_with_flash:": {
+  },
+  ":camera_with_flash:": {
     uc_output: "1f4f8",
     shortnames: [],
     category: "objects"
-},
-":candy:": {
+  },
+  ":candy:": {
     uc_output: "1f36c",
     shortnames: [],
     category: "food"
-},
-":canned_food:": {
+  },
+  ":canned_food:": {
     uc_output: "1f96b",
     shortnames: [],
     category: "food"
-},
-":canoe:": {
+  },
+  ":canoe:": {
     uc_output: "1f6f6",
     shortnames: [":kayak:"],
     category: "travel"
-},
-":capital_abcd:": {
+  },
+  ":capital_abcd:": {
     uc_output: "1f520",
     shortnames: [],
     category: "symbols"
-},
-":card_index:": {
+  },
+  ":card_index:": {
     uc_output: "1f4c7",
     shortnames: [],
     category: "objects"
-},
-":carousel_horse:": {
+  },
+  ":carousel_horse:": {
     uc_output: "1f3a0",
     shortnames: [],
     category: "travel"
-},
-":carrot:": {
+  },
+  ":carrot:": {
     uc_output: "1f955",
     shortnames: [],
     category: "food"
-},
-":cat2:": {
+  },
+  ":cat2:": {
     uc_output: "1f408",
     shortnames: [],
     category: "nature"
-},
-":cat:": {
+  },
+  ":cat:": {
     uc_output: "1f431",
     shortnames: [],
     category: "nature"
-},
-":cd:": {
+  },
+  ":cd:": {
     uc_output: "1f4bf",
     shortnames: [],
     category: "objects"
-},
-":champagne:": {
+  },
+  ":champagne:": {
     uc_output: "1f37e",
     shortnames: [":bottle_with_popping_cork:"],
     category: "food"
-},
-":champagne_glass:": {
+  },
+  ":champagne_glass:": {
     uc_output: "1f942",
     shortnames: [":clinking_glass:"],
     category: "food"
-},
-":chart:": {
+  },
+  ":chart:": {
     uc_output: "1f4b9",
     shortnames: [],
     category: "symbols"
-},
-":chart_with_downwards_trend:": {
+  },
+  ":chart_with_downwards_trend:": {
     uc_output: "1f4c9",
     shortnames: [],
     category: "objects"
-},
-":chart_with_upwards_trend:": {
+  },
+  ":chart_with_upwards_trend:": {
     uc_output: "1f4c8",
     shortnames: [],
     category: "objects"
-},
-":checkered_flag:": {
+  },
+  ":checkered_flag:": {
     uc_output: "1f3c1",
     shortnames: [],
     category: "flags"
-},
-":cheese:": {
+  },
+  ":cheese:": {
     uc_output: "1f9c0",
     shortnames: [":cheese_wedge:"],
     category: "food"
-},
-":cherries:": {
+  },
+  ":cherries:": {
     uc_output: "1f352",
     shortnames: [],
     category: "food"
-},
-":cherry_blossom:": {
+  },
+  ":cherry_blossom:": {
     uc_output: "1f338",
     shortnames: [],
     category: "nature"
-},
-":chestnut:": {
+  },
+  ":chestnut:": {
     uc_output: "1f330",
     shortnames: [],
     category: "food"
-},
-":chicken:": {
+  },
+  ":chicken:": {
     uc_output: "1f414",
     shortnames: [],
     category: "nature"
-},
-":child:": {
+  },
+  ":child:": {
     uc_output: "1f9d2",
     shortnames: [],
     category: "people"
-},
-":children_crossing:": {
+  },
+  ":children_crossing:": {
     uc_output: "1f6b8",
     shortnames: [],
     category: "symbols"
-},
-":chocolate_bar:": {
+  },
+  ":chocolate_bar:": {
     uc_output: "1f36b",
     shortnames: [],
     category: "food"
-},
-":chopsticks:": {
+  },
+  ":chopsticks:": {
     uc_output: "1f962",
     shortnames: [],
     category: "food"
-},
-":christmas_tree:": {
+  },
+  ":christmas_tree:": {
     uc_output: "1f384",
     shortnames: [],
     category: "nature"
-},
-":cinema:": {
+  },
+  ":cinema:": {
     uc_output: "1f3a6",
     shortnames: [],
     category: "symbols"
-},
-":circus_tent:": {
+  },
+  ":circus_tent:": {
     uc_output: "1f3aa",
     shortnames: [],
     category: "activity"
-},
-":city_dusk:": {
+  },
+  ":city_dusk:": {
     uc_output: "1f306",
     shortnames: [],
     category: "travel"
-},
-":city_sunset:": {
+  },
+  ":city_sunset:": {
     uc_output: "1f307",
     shortnames: [":city_sunrise:"],
     category: "travel"
-},
-":cl:": {
+  },
+  ":cl:": {
     uc_output: "1f191",
     shortnames: [],
     category: "symbols"
-},
-":clap:": {
+  },
+  ":clap:": {
     uc_output: "1f44f",
     shortnames: [],
     category: "people"
-},
-":clapper:": {
+  },
+  ":clapper:": {
     uc_output: "1f3ac",
     shortnames: [],
     category: "activity"
-},
-":clipboard:": {
+  },
+  ":clipboard:": {
     uc_output: "1f4cb",
     shortnames: [],
     category: "objects"
-},
-":clock1030:": {
+  },
+  ":clock1030:": {
     uc_output: "1f565",
     shortnames: [],
     category: "symbols"
-},
-":clock10:": {
+  },
+  ":clock10:": {
     uc_output: "1f559",
     shortnames: [],
     category: "symbols"
-},
-":clock1130:": {
+  },
+  ":clock1130:": {
     uc_output: "1f566",
     shortnames: [],
     category: "symbols"
-},
-":clock11:": {
+  },
+  ":clock11:": {
     uc_output: "1f55a",
     shortnames: [],
     category: "symbols"
-},
-":clock1230:": {
+  },
+  ":clock1230:": {
     uc_output: "1f567",
     shortnames: [],
     category: "symbols"
-},
-":clock12:": {
+  },
+  ":clock12:": {
     uc_output: "1f55b",
     shortnames: [],
     category: "symbols"
-},
-":clock130:": {
+  },
+  ":clock130:": {
     uc_output: "1f55c",
     shortnames: [],
     category: "symbols"
-},
-":clock1:": {
+  },
+  ":clock1:": {
     uc_output: "1f550",
     shortnames: [],
     category: "symbols"
-},
-":clock230:": {
+  },
+  ":clock230:": {
     uc_output: "1f55d",
     shortnames: [],
     category: "symbols"
-},
-":clock2:": {
+  },
+  ":clock2:": {
     uc_output: "1f551",
     shortnames: [],
     category: "symbols"
-},
-":clock330:": {
+  },
+  ":clock330:": {
     uc_output: "1f55e",
     shortnames: [],
     category: "symbols"
-},
-":clock3:": {
+  },
+  ":clock3:": {
     uc_output: "1f552",
     shortnames: [],
     category: "symbols"
-},
-":clock430:": {
+  },
+  ":clock430:": {
     uc_output: "1f55f",
     shortnames: [],
     category: "symbols"
-},
-":clock4:": {
+  },
+  ":clock4:": {
     uc_output: "1f553",
     shortnames: [],
     category: "symbols"
-},
-":clock530:": {
+  },
+  ":clock530:": {
     uc_output: "1f560",
     shortnames: [],
     category: "symbols"
-},
-":clock5:": {
+  },
+  ":clock5:": {
     uc_output: "1f554",
     shortnames: [],
     category: "symbols"
-},
-":clock630:": {
+  },
+  ":clock630:": {
     uc_output: "1f561",
     shortnames: [],
     category: "symbols"
-},
-":clock6:": {
+  },
+  ":clock6:": {
     uc_output: "1f555",
     shortnames: [],
     category: "symbols"
-},
-":clock730:": {
+  },
+  ":clock730:": {
     uc_output: "1f562",
     shortnames: [],
     category: "symbols"
-},
-":clock7:": {
+  },
+  ":clock7:": {
     uc_output: "1f556",
     shortnames: [],
     category: "symbols"
-},
-":clock830:": {
+  },
+  ":clock830:": {
     uc_output: "1f563",
     shortnames: [],
     category: "symbols"
-},
-":clock8:": {
+  },
+  ":clock8:": {
     uc_output: "1f557",
     shortnames: [],
     category: "symbols"
-},
-":clock930:": {
+  },
+  ":clock930:": {
     uc_output: "1f564",
     shortnames: [],
     category: "symbols"
-},
-":clock9:": {
+  },
+  ":clock9:": {
     uc_output: "1f558",
     shortnames: [],
     category: "symbols"
-},
-":closed_book:": {
+  },
+  ":closed_book:": {
     uc_output: "1f4d5",
     shortnames: [],
     category: "objects"
-},
-":closed_lock_with_key:": {
+  },
+  ":closed_lock_with_key:": {
     uc_output: "1f510",
     shortnames: [],
     category: "objects"
-},
-":closed_umbrella:": {
+  },
+  ":closed_umbrella:": {
     uc_output: "1f302",
     shortnames: [],
     category: "people"
-},
-":clown:": {
+  },
+  ":clown:": {
     uc_output: "1f921",
     shortnames: [":clown_face:"],
     category: "people"
-},
-":coat:": {
+  },
+  ":coat:": {
     uc_output: "1f9e5",
     shortnames: [],
     category: "people"
-},
-":cocktail:": {
+  },
+  ":cocktail:": {
     uc_output: "1f378",
     shortnames: [],
     category: "food"
-},
-":coconut:": {
+  },
+  ":coconut:": {
     uc_output: "1f965",
     shortnames: [],
     category: "food"
-},
-":cold_sweat:": {
+  },
+  ":cold_sweat:": {
     uc_output: "1f630",
     shortnames: [],
     category: "people"
-},
-":computer:": {
+  },
+  ":computer:": {
     uc_output: "1f4bb",
     shortnames: [],
     category: "objects"
-},
-":confetti_ball:": {
+  },
+  ":confetti_ball:": {
     uc_output: "1f38a",
     shortnames: [],
     category: "objects"
-},
-":confounded:": {
+  },
+  ":confounded:": {
     uc_output: "1f616",
     shortnames: [],
     category: "people"
-},
-":confused:": {
+  },
+  ":confused:": {
     uc_output: "1f615",
     shortnames: [],
     category: "people"
-},
-":construction:": {
+  },
+  ":construction:": {
     uc_output: "1f6a7",
     shortnames: [],
     category: "travel"
-},
-":construction_worker:": {
+  },
+  ":construction_worker:": {
     uc_output: "1f477",
     shortnames: [],
     category: "people"
-},
-":convenience_store:": {
+  },
+  ":convenience_store:": {
     uc_output: "1f3ea",
     shortnames: [],
     category: "travel"
-},
-":cookie:": {
+  },
+  ":cookie:": {
     uc_output: "1f36a",
     shortnames: [],
     category: "food"
-},
-":cooking:": {
+  },
+  ":cooking:": {
     uc_output: "1f373",
     shortnames: [],
     category: "food"
-},
-":cool:": {
+  },
+  ":cool:": {
     uc_output: "1f192",
     shortnames: [],
     category: "symbols"
-},
-":corn:": {
+  },
+  ":corn:": {
     uc_output: "1f33d",
     shortnames: [],
     category: "food"
-},
-":couple:": {
+  },
+  ":couple:": {
     uc_output: "1f46b",
     shortnames: [],
     category: "people"
-},
-":couple_with_heart:": {
+  },
+  ":couple_with_heart:": {
     uc_output: "1f491",
     shortnames: [],
     category: "people"
-},
-":couplekiss:": {
+  },
+  ":couplekiss:": {
     uc_output: "1f48f",
     shortnames: [],
     category: "people"
-},
-":cow2:": {
+  },
+  ":cow2:": {
     uc_output: "1f404",
     shortnames: [],
     category: "nature"
-},
-":cow:": {
+  },
+  ":cow:": {
     uc_output: "1f42e",
     shortnames: [],
     category: "nature"
-},
-":cowboy:": {
+  },
+  ":cowboy:": {
     uc_output: "1f920",
     shortnames: [":face_with_cowboy_hat:"],
     category: "people"
-},
-":crab:": {
+  },
+  ":crab:": {
     uc_output: "1f980",
     shortnames: [],
     category: "nature"
-},
-":crazy_face:": {
+  },
+  ":crazy_face:": {
     uc_output: "1f92a",
     shortnames: [],
     category: "people"
-},
-":credit_card:": {
+  },
+  ":credit_card:": {
     uc_output: "1f4b3",
     shortnames: [],
     category: "objects"
-},
-":crescent_moon:": {
+  },
+  ":crescent_moon:": {
     uc_output: "1f319",
     shortnames: [],
     category: "nature"
-},
-":cricket:": {
+  },
+  ":cricket:": {
     uc_output: "1f997",
     shortnames: [],
     category: "nature"
-},
-":cricket_game:": {
+  },
+  ":cricket_game:": {
     uc_output: "1f3cf",
     shortnames: [":cricket_bat_ball:"],
     category: "activity"
-},
-":crocodile:": {
+  },
+  ":crocodile:": {
     uc_output: "1f40a",
     shortnames: [],
     category: "nature"
-},
-":croissant:": {
+  },
+  ":croissant:": {
     uc_output: "1f950",
     shortnames: [],
     category: "food"
-},
-":crossed_flags:": {
+  },
+  ":crossed_flags:": {
     uc_output: "1f38c",
     shortnames: [],
     category: "flags"
-},
-":crown:": {
+  },
+  ":crown:": {
     uc_output: "1f451",
     shortnames: [],
     category: "people"
-},
-":cry:": {
+  },
+  ":cry:": {
     uc_output: "1f622",
     shortnames: [],
     category: "people"
-},
-":crying_cat_face:": {
+  },
+  ":crying_cat_face:": {
     uc_output: "1f63f",
     shortnames: [],
     category: "people"
-},
-":crystal_ball:": {
+  },
+  ":crystal_ball:": {
     uc_output: "1f52e",
     shortnames: [],
     category: "objects"
-},
-":cucumber:": {
+  },
+  ":cucumber:": {
     uc_output: "1f952",
     shortnames: [],
     category: "food"
-},
-":cup_with_straw:": {
+  },
+  ":cup_with_straw:": {
     uc_output: "1f964",
     shortnames: [],
     category: "food"
-},
-":cupid:": {
+  },
+  ":cupid:": {
     uc_output: "1f498",
     shortnames: [],
     category: "symbols"
-},
-":curling_stone:": {
+  },
+  ":curling_stone:": {
     uc_output: "1f94c",
     shortnames: [],
     category: "activity"
-},
-":currency_exchange:": {
+  },
+  ":currency_exchange:": {
     uc_output: "1f4b1",
     shortnames: [],
     category: "symbols"
-},
-":curry:": {
+  },
+  ":curry:": {
     uc_output: "1f35b",
     shortnames: [],
     category: "food"
-},
-":custard:": {
+  },
+  ":custard:": {
     uc_output: "1f36e",
     shortnames: [":pudding:", ":flan:"],
     category: "food"
-},
-":customs:": {
+  },
+  ":customs:": {
     uc_output: "1f6c3",
     shortnames: [],
     category: "symbols"
-},
-":cut_of_meat:": {
+  },
+  ":cut_of_meat:": {
     uc_output: "1f969",
     shortnames: [],
     category: "food"
-},
-":cyclone:": {
+  },
+  ":cyclone:": {
     uc_output: "1f300",
     shortnames: [],
     category: "symbols"
-},
-":dancer:": {
+  },
+  ":dancer:": {
     uc_output: "1f483",
     shortnames: [],
     category: "people"
-},
-":dango:": {
+  },
+  ":dango:": {
     uc_output: "1f361",
     shortnames: [],
     category: "food"
-},
-":dart:": {
+  },
+  ":dart:": {
     uc_output: "1f3af",
     shortnames: [],
     category: "activity"
-},
-":dash:": {
+  },
+  ":dash:": {
     uc_output: "1f4a8",
     shortnames: [],
     category: "nature"
-},
-":date:": {
+  },
+  ":date:": {
     uc_output: "1f4c5",
     shortnames: [],
     category: "objects"
-},
-":deciduous_tree:": {
+  },
+  ":deciduous_tree:": {
     uc_output: "1f333",
     shortnames: [],
     category: "nature"
-},
-":deer:": {
+  },
+  ":deer:": {
     uc_output: "1f98c",
     shortnames: [],
     category: "nature"
-},
-":department_store:": {
+  },
+  ":department_store:": {
     uc_output: "1f3ec",
     shortnames: [],
     category: "travel"
-},
-":diamond_shape_with_a_dot_inside:": {
+  },
+  ":diamond_shape_with_a_dot_inside:": {
     uc_output: "1f4a0",
     shortnames: [],
     category: "symbols"
-},
-":disappointed:": {
+  },
+  ":disappointed:": {
     uc_output: "1f61e",
     shortnames: [],
     category: "people"
-},
-":disappointed_relieved:": {
+  },
+  ":disappointed_relieved:": {
     uc_output: "1f625",
     shortnames: [],
     category: "people"
-},
-":dizzy:": {
+  },
+  ":dizzy:": {
     uc_output: "1f4ab",
     shortnames: [],
     category: "nature"
-},
-":dizzy_face:": {
+  },
+  ":dizzy_face:": {
     uc_output: "1f635",
     shortnames: [],
     category: "people"
-},
-":do_not_litter:": {
+  },
+  ":do_not_litter:": {
     uc_output: "1f6af",
     shortnames: [],
     category: "symbols"
-},
-":dog2:": {
+  },
+  ":dog2:": {
     uc_output: "1f415",
     shortnames: [],
     category: "nature"
-},
-":dog:": {
+  },
+  ":dog:": {
     uc_output: "1f436",
     shortnames: [],
     category: "nature"
-},
-":dollar:": {
+  },
+  ":dollar:": {
     uc_output: "1f4b5",
     shortnames: [],
     category: "objects"
-},
-":dolls:": {
+  },
+  ":dolls:": {
     uc_output: "1f38e",
     shortnames: [],
     category: "objects"
-},
-":dolphin:": {
+  },
+  ":dolphin:": {
     uc_output: "1f42c",
     shortnames: [],
     category: "nature"
-},
-":door:": {
+  },
+  ":door:": {
     uc_output: "1f6aa",
     shortnames: [],
     category: "objects"
-},
-":doughnut:": {
+  },
+  ":doughnut:": {
     uc_output: "1f369",
     shortnames: [],
     category: "food"
-},
-":dragon:": {
+  },
+  ":dragon:": {
     uc_output: "1f409",
     shortnames: [],
     category: "nature"
-},
-":dragon_face:": {
+  },
+  ":dragon_face:": {
     uc_output: "1f432",
     shortnames: [],
     category: "nature"
-},
-":dress:": {
+  },
+  ":dress:": {
     uc_output: "1f457",
     shortnames: [],
     category: "people"
-},
-":dromedary_camel:": {
+  },
+  ":dromedary_camel:": {
     uc_output: "1f42a",
     shortnames: [],
     category: "nature"
-},
-":drooling_face:": {
+  },
+  ":drooling_face:": {
     uc_output: "1f924",
     shortnames: [":drool:"],
     category: "people"
-},
-":droplet:": {
+  },
+  ":droplet:": {
     uc_output: "1f4a7",
     shortnames: [],
     category: "nature"
-},
-":drum:": {
+  },
+  ":drum:": {
     uc_output: "1f941",
     shortnames: [":drum_with_drumsticks:"],
     category: "activity"
-},
-":duck:": {
+  },
+  ":duck:": {
     uc_output: "1f986",
     shortnames: [],
     category: "nature"
-},
-":dumpling:": {
+  },
+  ":dumpling:": {
     uc_output: "1f95f",
     shortnames: [],
     category: "food"
-},
-":dvd:": {
+  },
+  ":dvd:": {
     uc_output: "1f4c0",
     shortnames: [],
     category: "objects"
-},
-":e-mail:": {
+  },
+  ":e-mail:": {
     uc_output: "1f4e7",
     shortnames: [":email:"],
     category: "objects"
-},
-":eagle:": {
+  },
+  ":eagle:": {
     uc_output: "1f985",
     shortnames: [],
     category: "nature"
-},
-":ear:": {
+  },
+  ":ear:": {
     uc_output: "1f442",
     shortnames: [],
     category: "people"
-},
-":ear_of_rice:": {
+  },
+  ":ear_of_rice:": {
     uc_output: "1f33e",
     shortnames: [],
     category: "nature"
-},
-":earth_africa:": {
+  },
+  ":earth_africa:": {
     uc_output: "1f30d",
     shortnames: [],
     category: "nature"
-},
-":earth_americas:": {
+  },
+  ":earth_americas:": {
     uc_output: "1f30e",
     shortnames: [],
     category: "nature"
-},
-":earth_asia:": {
+  },
+  ":earth_asia:": {
     uc_output: "1f30f",
     shortnames: [],
     category: "nature"
-},
-":egg:": {
+  },
+  ":egg:": {
     uc_output: "1f95a",
     shortnames: [],
     category: "food"
-},
-":eggplant:": {
+  },
+  ":eggplant:": {
     uc_output: "1f346",
     shortnames: [],
     category: "food"
-},
-":electric_plug:": {
+  },
+  ":electric_plug:": {
     uc_output: "1f50c",
     shortnames: [],
     category: "objects"
-},
-":elephant:": {
+  },
+  ":elephant:": {
     uc_output: "1f418",
     shortnames: [],
     category: "nature"
-},
-":elf:": {
+  },
+  ":elf:": {
     uc_output: "1f9dd",
     shortnames: [],
     category: "people"
-},
-":end:": {
+  },
+  ":end:": {
     uc_output: "1f51a",
     shortnames: [],
     category: "symbols"
-},
-":envelope_with_arrow:": {
+  },
+  ":envelope_with_arrow:": {
     uc_output: "1f4e9",
     shortnames: [],
     category: "objects"
-},
-":euro:": {
+  },
+  ":euro:": {
     uc_output: "1f4b6",
     shortnames: [],
     category: "objects"
-},
-":european_castle:": {
+  },
+  ":european_castle:": {
     uc_output: "1f3f0",
     shortnames: [],
     category: "travel"
-},
-":european_post_office:": {
+  },
+  ":european_post_office:": {
     uc_output: "1f3e4",
     shortnames: [],
     category: "travel"
-},
-":evergreen_tree:": {
+  },
+  ":evergreen_tree:": {
     uc_output: "1f332",
     shortnames: [],
     category: "nature"
-},
-":exploding_head:": {
+  },
+  ":exploding_head:": {
     uc_output: "1f92f",
     shortnames: [],
     category: "people"
-},
-":expressionless:": {
+  },
+  ":expressionless:": {
     uc_output: "1f611",
     shortnames: [],
     category: "people"
-},
-":eyeglasses:": {
+  },
+  ":eyeglasses:": {
     uc_output: "1f453",
     shortnames: [],
     category: "people"
-},
-":eyes:": {
+  },
+  ":eyes:": {
     uc_output: "1f440",
     shortnames: [],
     category: "people"
-},
-":face_vomiting:": {
+  },
+  ":face_vomiting:": {
     uc_output: "1f92e",
     shortnames: [],
     category: "people"
-},
-":face_with_hand_over_mouth:": {
+  },
+  ":face_with_hand_over_mouth:": {
     uc_output: "1f92d",
     shortnames: [],
     category: "people"
-},
-":face_with_monocle:": {
+  },
+  ":face_with_monocle:": {
     uc_output: "1f9d0",
     shortnames: [],
     category: "people"
-},
-":face_with_raised_eyebrow:": {
+  },
+  ":face_with_raised_eyebrow:": {
     uc_output: "1f928",
     shortnames: [],
     category: "people"
-},
-":face_with_symbols_over_mouth:": {
+  },
+  ":face_with_symbols_over_mouth:": {
     uc_output: "1f92c",
     shortnames: [],
     category: "people"
-},
-":factory:": {
+  },
+  ":factory:": {
     uc_output: "1f3ed",
     shortnames: [],
     category: "travel"
-},
-":fairy:": {
+  },
+  ":fairy:": {
     uc_output: "1f9da",
     shortnames: [],
     category: "people"
-},
-":fallen_leaf:": {
+  },
+  ":fallen_leaf:": {
     uc_output: "1f342",
     shortnames: [],
     category: "nature"
-},
-":family:": {
+  },
+  ":family:": {
     uc_output: "1f46a",
     shortnames: [],
     category: "people"
-},
-":fax:": {
+  },
+  ":fax:": {
     uc_output: "1f4e0",
     shortnames: [],
     category: "objects"
-},
-":fearful:": {
+  },
+  ":fearful:": {
     uc_output: "1f628",
     shortnames: [],
     category: "people"
-},
-":feet:": {
+  },
+  ":feet:": {
     uc_output: "1f43e",
     shortnames: [":paw_prints:"],
     category: "nature"
-},
-":ferris_wheel:": {
+  },
+  ":ferris_wheel:": {
     uc_output: "1f3a1",
     shortnames: [],
     category: "travel"
-},
-":field_hockey:": {
+  },
+  ":field_hockey:": {
     uc_output: "1f3d1",
     shortnames: [],
     category: "activity"
-},
-":file_folder:": {
+  },
+  ":file_folder:": {
     uc_output: "1f4c1",
     shortnames: [],
     category: "objects"
-},
-":fingers_crossed:": {
+  },
+  ":fingers_crossed:": {
     uc_output: "1f91e",
     shortnames: [":hand_with_index_and_middle_finger_crossed:"],
     category: "people"
-},
-":fire:": {
+  },
+  ":fire:": {
     uc_output: "1f525",
     shortnames: [":flame:"],
     category: "nature"
-},
-":fire_engine:": {
+  },
+  ":fire_engine:": {
     uc_output: "1f692",
     shortnames: [],
     category: "travel"
-},
-":fireworks:": {
+  },
+  ":fireworks:": {
     uc_output: "1f386",
     shortnames: [],
     category: "travel"
-},
-":first_place:": {
+  },
+  ":first_place:": {
     uc_output: "1f947",
     shortnames: [":first_place_medal:"],
     category: "activity"
-},
-":first_quarter_moon:": {
+  },
+  ":first_quarter_moon:": {
     uc_output: "1f313",
     shortnames: [],
     category: "nature"
-},
-":first_quarter_moon_with_face:": {
+  },
+  ":first_quarter_moon_with_face:": {
     uc_output: "1f31b",
     shortnames: [],
     category: "nature"
-},
-":fish:": {
+  },
+  ":fish:": {
     uc_output: "1f41f",
     shortnames: [],
     category: "nature"
-},
-":fish_cake:": {
+  },
+  ":fish_cake:": {
     uc_output: "1f365",
     shortnames: [],
     category: "food"
-},
-":fishing_pole_and_fish:": {
+  },
+  ":fishing_pole_and_fish:": {
     uc_output: "1f3a3",
     shortnames: [],
     category: "activity"
-},
-":flag_black:": {
+  },
+  ":flag_black:": {
     uc_output: "1f3f4",
     shortnames: [":waving_black_flag:"],
     category: "flags"
-},
-":flags:": {
+  },
+  ":flags:": {
     uc_output: "1f38f",
     shortnames: [],
     category: "objects"
-},
-":flashlight:": {
+  },
+  ":flashlight:": {
     uc_output: "1f526",
     shortnames: [],
     category: "objects"
-},
-":floppy_disk:": {
+  },
+  ":floppy_disk:": {
     uc_output: "1f4be",
     shortnames: [],
     category: "objects"
-},
-":flower_playing_cards:": {
+  },
+  ":flower_playing_cards:": {
     uc_output: "1f3b4",
     shortnames: [],
     category: "symbols"
-},
-":flushed:": {
+  },
+  ":flushed:": {
     uc_output: "1f633",
     shortnames: [],
     category: "people"
-},
-":flying_saucer:": {
+  },
+  ":flying_saucer:": {
     uc_output: "1f6f8",
     shortnames: [],
     category: "travel"
-},
-":foggy:": {
+  },
+  ":foggy:": {
     uc_output: "1f301",
     shortnames: [],
     category: "travel"
-},
-":football:": {
+  },
+  ":football:": {
     uc_output: "1f3c8",
     shortnames: [],
     category: "activity"
-},
-":footprints:": {
+  },
+  ":footprints:": {
     uc_output: "1f463",
     shortnames: [],
     category: "people"
-},
-":fork_and_knife:": {
+  },
+  ":fork_and_knife:": {
     uc_output: "1f374",
     shortnames: [],
     category: "food"
-},
-":fortune_cookie:": {
+  },
+  ":fortune_cookie:": {
     uc_output: "1f960",
     shortnames: [],
     category: "food"
-},
-":four_leaf_clover:": {
+  },
+  ":four_leaf_clover:": {
     uc_output: "1f340",
     shortnames: [],
     category: "nature"
-},
-":fox:": {
+  },
+  ":fox:": {
     uc_output: "1f98a",
     shortnames: [":fox_face:"],
     category: "nature"
-},
-":free:": {
+  },
+  ":free:": {
     uc_output: "1f193",
     shortnames: [],
     category: "symbols"
-},
-":french_bread:": {
+  },
+  ":french_bread:": {
     uc_output: "1f956",
     shortnames: [":baguette_bread:"],
     category: "food"
-},
-":fried_shrimp:": {
+  },
+  ":fried_shrimp:": {
     uc_output: "1f364",
     shortnames: [],
     category: "food"
-},
-":fries:": {
+  },
+  ":fries:": {
     uc_output: "1f35f",
     shortnames: [],
     category: "food"
-},
-":frog:": {
+  },
+  ":frog:": {
     uc_output: "1f438",
     shortnames: [],
     category: "nature"
-},
-":frowning:": {
+  },
+  ":frowning:": {
     uc_output: "1f626",
     shortnames: [],
     category: "people"
-},
-":full_moon:": {
+  },
+  ":full_moon:": {
     uc_output: "1f315",
     shortnames: [],
     category: "nature"
-},
-":full_moon_with_face:": {
+  },
+  ":full_moon_with_face:": {
     uc_output: "1f31d",
     shortnames: [],
     category: "nature"
-},
-":game_die:": {
+  },
+  ":game_die:": {
     uc_output: "1f3b2",
     shortnames: [],
     category: "activity"
-},
-":gem:": {
+  },
+  ":gem:": {
     uc_output: "1f48e",
     shortnames: [],
     category: "objects"
-},
-":genie:": {
+  },
+  ":genie:": {
     uc_output: "1f9de",
     shortnames: [],
     category: "people"
-},
-":ghost:": {
+  },
+  ":ghost:": {
     uc_output: "1f47b",
     shortnames: [],
     category: "people"
-},
-":gift:": {
+  },
+  ":gift:": {
     uc_output: "1f381",
     shortnames: [],
     category: "objects"
-},
-":gift_heart:": {
+  },
+  ":gift_heart:": {
     uc_output: "1f49d",
     shortnames: [],
     category: "symbols"
-},
-":giraffe:": {
+  },
+  ":giraffe:": {
     uc_output: "1f992",
     shortnames: [],
     category: "nature"
-},
-":girl:": {
+  },
+  ":girl:": {
     uc_output: "1f467",
     shortnames: [],
     category: "people"
-},
-":globe_with_meridians:": {
+  },
+  ":globe_with_meridians:": {
     uc_output: "1f310",
     shortnames: [],
     category: "symbols"
-},
-":gloves:": {
+  },
+  ":gloves:": {
     uc_output: "1f9e4",
     shortnames: [],
     category: "people"
-},
-":goal:": {
+  },
+  ":goal:": {
     uc_output: "1f945",
     shortnames: [":goal_net:"],
     category: "activity"
-},
-":goat:": {
+  },
+  ":goat:": {
     uc_output: "1f410",
     shortnames: [],
     category: "nature"
-},
-":gorilla:": {
+  },
+  ":gorilla:": {
     uc_output: "1f98d",
     shortnames: [],
     category: "nature"
-},
-":grapes:": {
+  },
+  ":grapes:": {
     uc_output: "1f347",
     shortnames: [],
     category: "food"
-},
-":green_apple:": {
+  },
+  ":green_apple:": {
     uc_output: "1f34f",
     shortnames: [],
     category: "food"
-},
-":green_book:": {
+  },
+  ":green_book:": {
     uc_output: "1f4d7",
     shortnames: [],
     category: "objects"
-},
-":green_heart:": {
+  },
+  ":green_heart:": {
     uc_output: "1f49a",
     shortnames: [],
     category: "symbols"
-},
-":grimacing:": {
+  },
+  ":grimacing:": {
     uc_output: "1f62c",
     shortnames: [],
     category: "people"
-},
-":grin:": {
+  },
+  ":grin:": {
     uc_output: "1f601",
     shortnames: [],
     category: "people"
-},
-":grinning:": {
+  },
+  ":grinning:": {
     uc_output: "1f600",
     shortnames: [],
     category: "people"
-},
-":guard:": {
+  },
+  ":guard:": {
     uc_output: "1f482",
     shortnames: [":guardsman:"],
     category: "people"
-},
-":guitar:": {
+  },
+  ":guitar:": {
     uc_output: "1f3b8",
     shortnames: [],
     category: "activity"
-},
-":gun:": {
+  },
+  ":gun:": {
     uc_output: "1f52b",
     shortnames: [],
     category: "objects"
-},
-":hamburger:": {
+  },
+  ":hamburger:": {
     uc_output: "1f354",
     shortnames: [],
     category: "food"
-},
-":hammer:": {
+  },
+  ":hammer:": {
     uc_output: "1f528",
     shortnames: [],
     category: "objects"
-},
-":hamster:": {
+  },
+  ":hamster:": {
     uc_output: "1f439",
     shortnames: [],
     category: "nature"
-},
-":handbag:": {
+  },
+  ":handbag:": {
     uc_output: "1f45c",
     shortnames: [],
     category: "people"
-},
-":handshake:": {
+  },
+  ":handshake:": {
     uc_output: "1f91d",
     shortnames: [":shaking_hands:"],
     category: "people"
-},
-":hatched_chick:": {
+  },
+  ":hatched_chick:": {
     uc_output: "1f425",
     shortnames: [],
     category: "nature"
-},
-":hatching_chick:": {
+  },
+  ":hatching_chick:": {
     uc_output: "1f423",
     shortnames: [],
     category: "nature"
-},
-":head_bandage:": {
+  },
+  ":head_bandage:": {
     uc_output: "1f915",
     shortnames: [":face_with_head_bandage:"],
     category: "people"
-},
-":headphones:": {
+  },
+  ":headphones:": {
     uc_output: "1f3a7",
     shortnames: [],
     category: "activity"
-},
-":hear_no_evil:": {
+  },
+  ":hear_no_evil:": {
     uc_output: "1f649",
     shortnames: [],
     category: "nature"
-},
-":heart_decoration:": {
+  },
+  ":heart_decoration:": {
     uc_output: "1f49f",
     shortnames: [],
     category: "symbols"
-},
-":heart_eyes:": {
+  },
+  ":heart_eyes:": {
     uc_output: "1f60d",
     shortnames: [],
     category: "people"
-},
-":heart_eyes_cat:": {
+  },
+  ":heart_eyes_cat:": {
     uc_output: "1f63b",
     shortnames: [],
     category: "people"
-},
-":heartbeat:": {
+  },
+  ":heartbeat:": {
     uc_output: "1f493",
     shortnames: [],
     category: "symbols"
-},
-":heartpulse:": {
+  },
+  ":heartpulse:": {
     uc_output: "1f497",
     shortnames: [],
     category: "symbols"
-},
-":heavy_dollar_sign:": {
+  },
+  ":heavy_dollar_sign:": {
     uc_output: "1f4b2",
     shortnames: [],
     category: "symbols"
-},
-":hedgehog:": {
+  },
+  ":hedgehog:": {
     uc_output: "1f994",
     shortnames: [],
     category: "nature"
-},
-":helicopter:": {
+  },
+  ":helicopter:": {
     uc_output: "1f681",
     shortnames: [],
     category: "travel"
-},
-":herb:": {
+  },
+  ":herb:": {
     uc_output: "1f33f",
     shortnames: [],
     category: "nature"
-},
-":hibiscus:": {
+  },
+  ":hibiscus:": {
     uc_output: "1f33a",
     shortnames: [],
     category: "nature"
-},
-":high_brightness:": {
+  },
+  ":high_brightness:": {
     uc_output: "1f506",
     shortnames: [],
     category: "symbols"
-},
-":high_heel:": {
+  },
+  ":high_heel:": {
     uc_output: "1f460",
     shortnames: [],
     category: "people"
-},
-":hockey:": {
+  },
+  ":hockey:": {
     uc_output: "1f3d2",
     shortnames: [],
     category: "activity"
-},
-":honey_pot:": {
+  },
+  ":honey_pot:": {
     uc_output: "1f36f",
     shortnames: [],
     category: "food"
-},
-":horse:": {
+  },
+  ":horse:": {
     uc_output: "1f434",
     shortnames: [],
     category: "nature"
-},
-":horse_racing:": {
+  },
+  ":horse_racing:": {
     uc_output: "1f3c7",
     shortnames: [],
     category: "activity"
-},
-":hospital:": {
+  },
+  ":hospital:": {
     uc_output: "1f3e5",
     shortnames: [],
     category: "travel"
-},
-":hotdog:": {
+  },
+  ":hotdog:": {
     uc_output: "1f32d",
     shortnames: [":hot_dog:"],
     category: "food"
-},
-":hotel:": {
+  },
+  ":hotel:": {
     uc_output: "1f3e8",
     shortnames: [],
     category: "travel"
-},
-":house:": {
+  },
+  ":house:": {
     uc_output: "1f3e0",
     shortnames: [],
     category: "travel"
-},
-":house_with_garden:": {
+  },
+  ":house_with_garden:": {
     uc_output: "1f3e1",
     shortnames: [],
     category: "travel"
-},
-":hugging:": {
+  },
+  ":hugging:": {
     uc_output: "1f917",
     shortnames: [":hugging_face:"],
     category: "people"
-},
-":hushed:": {
+  },
+  ":hushed:": {
     uc_output: "1f62f",
     shortnames: [],
     category: "people"
-},
-":ice_cream:": {
+  },
+  ":ice_cream:": {
     uc_output: "1f368",
     shortnames: [],
     category: "food"
-},
-":icecream:": {
+  },
+  ":icecream:": {
     uc_output: "1f366",
     shortnames: [],
     category: "food"
-},
-":id:": {
+  },
+  ":id:": {
     uc_output: "1f194",
     shortnames: [],
     category: "symbols"
-},
-":ideograph_advantage:": {
+  },
+  ":ideograph_advantage:": {
     uc_output: "1f250",
     shortnames: [],
     category: "symbols"
-},
-":imp:": {
+  },
+  ":imp:": {
     uc_output: "1f47f",
     shortnames: [],
     category: "people"
-},
-":inbox_tray:": {
+  },
+  ":inbox_tray:": {
     uc_output: "1f4e5",
     shortnames: [],
     category: "objects"
-},
-":incoming_envelope:": {
+  },
+  ":incoming_envelope:": {
     uc_output: "1f4e8",
     shortnames: [],
     category: "objects"
-},
-":innocent:": {
+  },
+  ":innocent:": {
     uc_output: "1f607",
     shortnames: [],
     category: "people"
-},
-":iphone:": {
+  },
+  ":iphone:": {
     uc_output: "1f4f1",
     shortnames: [],
     category: "objects"
-},
-":izakaya_lantern:": {
+  },
+  ":izakaya_lantern:": {
     uc_output: "1f3ee",
     shortnames: [],
     category: "objects"
-},
-":jack_o_lantern:": {
+  },
+  ":jack_o_lantern:": {
     uc_output: "1f383",
     shortnames: [],
     category: "people"
-},
-":japan:": {
+  },
+  ":japan:": {
     uc_output: "1f5fe",
     shortnames: [],
     category: "travel"
-},
-":japanese_castle:": {
+  },
+  ":japanese_castle:": {
     uc_output: "1f3ef",
     shortnames: [],
     category: "travel"
-},
-":japanese_goblin:": {
+  },
+  ":japanese_goblin:": {
     uc_output: "1f47a",
     shortnames: [],
     category: "people"
-},
-":japanese_ogre:": {
+  },
+  ":japanese_ogre:": {
     uc_output: "1f479",
     shortnames: [],
     category: "people"
-},
-":jeans:": {
+  },
+  ":jeans:": {
     uc_output: "1f456",
     shortnames: [],
     category: "people"
-},
-":joy:": {
+  },
+  ":joy:": {
     uc_output: "1f602",
     shortnames: [],
     category: "people"
-},
-":joy_cat:": {
+  },
+  ":joy_cat:": {
     uc_output: "1f639",
     shortnames: [],
     category: "people"
-},
-":kaaba:": {
+  },
+  ":kaaba:": {
     uc_output: "1f54b",
     shortnames: [],
     category: "travel"
-},
-":key:": {
+  },
+  ":key:": {
     uc_output: "1f511",
     shortnames: [],
     category: "objects"
-},
-":keycap_ten:": {
+  },
+  ":keycap_ten:": {
     uc_output: "1f51f",
     shortnames: [],
     category: "symbols"
-},
-":kimono:": {
+  },
+  ":kimono:": {
     uc_output: "1f458",
     shortnames: [],
     category: "people"
-},
-":kiss:": {
+  },
+  ":kiss:": {
     uc_output: "1f48b",
     shortnames: [],
     category: "people"
-},
-":kissing:": {
+  },
+  ":kissing:": {
     uc_output: "1f617",
     shortnames: [],
     category: "people"
-},
-":kissing_cat:": {
+  },
+  ":kissing_cat:": {
     uc_output: "1f63d",
     shortnames: [],
     category: "people"
-},
-":kissing_closed_eyes:": {
+  },
+  ":kissing_closed_eyes:": {
     uc_output: "1f61a",
     shortnames: [],
     category: "people"
-},
-":kissing_heart:": {
+  },
+  ":kissing_heart:": {
     uc_output: "1f618",
     shortnames: [],
     category: "people"
-},
-":kissing_smiling_eyes:": {
+  },
+  ":kissing_smiling_eyes:": {
     uc_output: "1f619",
     shortnames: [],
     category: "people"
-},
-":kiwi:": {
+  },
+  ":kiwi:": {
     uc_output: "1f95d",
     shortnames: [":kiwifruit:"],
     category: "food"
-},
-":knife:": {
+  },
+  ":knife:": {
     uc_output: "1f52a",
     shortnames: [],
     category: "objects"
-},
-":koala:": {
+  },
+  ":koala:": {
     uc_output: "1f428",
     shortnames: [],
     category: "nature"
-},
-":koko:": {
+  },
+  ":koko:": {
     uc_output: "1f201",
     shortnames: [],
     category: "symbols"
-},
-":large_blue_diamond:": {
+  },
+  ":large_blue_diamond:": {
     uc_output: "1f537",
     shortnames: [],
     category: "symbols"
-},
-":large_orange_diamond:": {
+  },
+  ":large_orange_diamond:": {
     uc_output: "1f536",
     shortnames: [],
     category: "symbols"
-},
-":last_quarter_moon:": {
+  },
+  ":last_quarter_moon:": {
     uc_output: "1f317",
     shortnames: [],
     category: "nature"
-},
-":last_quarter_moon_with_face:": {
+  },
+  ":last_quarter_moon_with_face:": {
     uc_output: "1f31c",
     shortnames: [],
     category: "nature"
-},
-":laughing:": {
+  },
+  ":laughing:": {
     uc_output: "1f606",
     shortnames: [":satisfied:"],
     category: "people"
-},
-":leaves:": {
+  },
+  ":leaves:": {
     uc_output: "1f343",
     shortnames: [],
     category: "nature"
-},
-":ledger:": {
+  },
+  ":ledger:": {
     uc_output: "1f4d2",
     shortnames: [],
     category: "objects"
-},
-":left_facing_fist:": {
+  },
+  ":left_facing_fist:": {
     uc_output: "1f91b",
     shortnames: [":left_fist:"],
     category: "people"
-},
-":left_luggage:": {
+  },
+  ":left_luggage:": {
     uc_output: "1f6c5",
     shortnames: [],
     category: "symbols"
-},
-":lemon:": {
+  },
+  ":lemon:": {
     uc_output: "1f34b",
     shortnames: [],
     category: "food"
-},
-":leopard:": {
+  },
+  ":leopard:": {
     uc_output: "1f406",
     shortnames: [],
     category: "nature"
-},
-":light_rail:": {
+  },
+  ":light_rail:": {
     uc_output: "1f688",
     shortnames: [],
     category: "travel"
-},
-":link:": {
+  },
+  ":link:": {
     uc_output: "1f517",
     shortnames: [],
     category: "objects"
-},
-":lion_face:": {
+  },
+  ":lion_face:": {
     uc_output: "1f981",
     shortnames: [":lion:"],
     category: "nature"
-},
-":lips:": {
+  },
+  ":lips:": {
     uc_output: "1f444",
     shortnames: [],
     category: "people"
-},
-":lipstick:": {
+  },
+  ":lipstick:": {
     uc_output: "1f484",
     shortnames: [],
     category: "people"
-},
-":lizard:": {
+  },
+  ":lizard:": {
     uc_output: "1f98e",
     shortnames: [],
     category: "nature"
-},
-":lock:": {
+  },
+  ":lock:": {
     uc_output: "1f512",
     shortnames: [],
     category: "objects"
-},
-":lock_with_ink_pen:": {
+  },
+  ":lock_with_ink_pen:": {
     uc_output: "1f50f",
     shortnames: [],
     category: "objects"
-},
-":lollipop:": {
+  },
+  ":lollipop:": {
     uc_output: "1f36d",
     shortnames: [],
     category: "food"
-},
-":loud_sound:": {
+  },
+  ":loud_sound:": {
     uc_output: "1f50a",
     shortnames: [],
     category: "symbols"
-},
-":loudspeaker:": {
+  },
+  ":loudspeaker:": {
     uc_output: "1f4e2",
     shortnames: [],
     category: "symbols"
-},
-":love_hotel:": {
+  },
+  ":love_hotel:": {
     uc_output: "1f3e9",
     shortnames: [],
     category: "travel"
-},
-":love_letter:": {
+  },
+  ":love_letter:": {
     uc_output: "1f48c",
     shortnames: [],
     category: "objects"
-},
-":love_you_gesture:": {
+  },
+  ":love_you_gesture:": {
     uc_output: "1f91f",
     shortnames: [],
     category: "people"
-},
-":low_brightness:": {
+  },
+  ":low_brightness:": {
     uc_output: "1f505",
     shortnames: [],
     category: "symbols"
-},
-":lying_face:": {
+  },
+  ":lying_face:": {
     uc_output: "1f925",
     shortnames: [":liar:"],
     category: "people"
-},
-":mag:": {
+  },
+  ":mag:": {
     uc_output: "1f50d",
     shortnames: [],
     category: "objects"
-},
-":mag_right:": {
+  },
+  ":mag_right:": {
     uc_output: "1f50e",
     shortnames: [],
     category: "objects"
-},
-":mage:": {
+  },
+  ":mage:": {
     uc_output: "1f9d9",
     shortnames: [],
     category: "people"
-},
-":mahjong:": {
+  },
+  ":mahjong:": {
     uc_output: "1f004",
     shortnames: [],
     category: "symbols"
-},
-":mailbox:": {
+  },
+  ":mailbox:": {
     uc_output: "1f4eb",
     shortnames: [],
     category: "objects"
-},
-":mailbox_closed:": {
+  },
+  ":mailbox_closed:": {
     uc_output: "1f4ea",
     shortnames: [],
     category: "objects"
-},
-":mailbox_with_mail:": {
+  },
+  ":mailbox_with_mail:": {
     uc_output: "1f4ec",
     shortnames: [],
     category: "objects"
-},
-":mailbox_with_no_mail:": {
+  },
+  ":mailbox_with_no_mail:": {
     uc_output: "1f4ed",
     shortnames: [],
     category: "objects"
-},
-":man:": {
+  },
+  ":man:": {
     uc_output: "1f468",
     shortnames: [],
     category: "people"
-},
-":man_dancing:": {
+  },
+  ":man_dancing:": {
     uc_output: "1f57a",
     shortnames: [":male_dancer:"],
     category: "people"
-},
-":man_in_tuxedo:": {
+  },
+  ":man_in_tuxedo:": {
     uc_output: "1f935",
     shortnames: [],
     category: "people"
-},
-":man_with_chinese_cap:": {
+  },
+  ":man_with_chinese_cap:": {
     uc_output: "1f472",
     shortnames: [":man_with_gua_pi_mao:"],
     category: "people"
-},
-":mans_shoe:": {
+  },
+  ":mans_shoe:": {
     uc_output: "1f45e",
     shortnames: [],
     category: "people"
-},
-":maple_leaf:": {
+  },
+  ":maple_leaf:": {
     uc_output: "1f341",
     shortnames: [],
     category: "nature"
-},
-":martial_arts_uniform:": {
+  },
+  ":martial_arts_uniform:": {
     uc_output: "1f94b",
     shortnames: [":karate_uniform:"],
     category: "activity"
-},
-":mask:": {
+  },
+  ":mask:": {
     uc_output: "1f637",
     shortnames: [],
     category: "people"
-},
-":meat_on_bone:": {
+  },
+  ":meat_on_bone:": {
     uc_output: "1f356",
     shortnames: [],
     category: "food"
-},
-":medal:": {
+  },
+  ":medal:": {
     uc_output: "1f3c5",
     shortnames: [":sports_medal:"],
     category: "activity"
-},
-":mega:": {
+  },
+  ":mega:": {
     uc_output: "1f4e3",
     shortnames: [],
     category: "symbols"
-},
-":melon:": {
+  },
+  ":melon:": {
     uc_output: "1f348",
     shortnames: [],
     category: "food"
-},
-":menorah:": {
+  },
+  ":menorah:": {
     uc_output: "1f54e",
     shortnames: [],
     category: "symbols"
-},
-":mens:": {
+  },
+  ":mens:": {
     uc_output: "1f6b9",
     shortnames: [],
     category: "symbols"
-},
-":merperson:": {
+  },
+  ":merperson:": {
     uc_output: "1f9dc",
     shortnames: [],
     category: "people"
-},
-":metal:": {
+  },
+  ":metal:": {
     uc_output: "1f918",
     shortnames: [":sign_of_the_horns:"],
     category: "people"
-},
-":metro:": {
+  },
+  ":metro:": {
     uc_output: "1f687",
     shortnames: [],
     category: "travel"
-},
-":microphone:": {
+  },
+  ":microphone:": {
     uc_output: "1f3a4",
     shortnames: [],
     category: "activity"
-},
-":microscope:": {
+  },
+  ":microscope:": {
     uc_output: "1f52c",
     shortnames: [],
     category: "objects"
-},
-":middle_finger:": {
+  },
+  ":middle_finger:": {
     uc_output: "1f595",
     shortnames: [":reversed_hand_with_middle_finger_extended:"],
     category: "people"
-},
-":milk:": {
+  },
+  ":milk:": {
     uc_output: "1f95b",
     shortnames: [":glass_of_milk:"],
     category: "food"
-},
-":milky_way:": {
+  },
+  ":milky_way:": {
     uc_output: "1f30c",
     shortnames: [],
     category: "travel"
-},
-":minibus:": {
+  },
+  ":minibus:": {
     uc_output: "1f690",
     shortnames: [],
     category: "travel"
-},
-":minidisc:": {
+  },
+  ":minidisc:": {
     uc_output: "1f4bd",
     shortnames: [],
     category: "objects"
-},
-":mobile_phone_off:": {
+  },
+  ":mobile_phone_off:": {
     uc_output: "1f4f4",
     shortnames: [],
     category: "symbols"
-},
-":money_mouth:": {
+  },
+  ":money_mouth:": {
     uc_output: "1f911",
     shortnames: [":money_mouth_face:"],
     category: "people"
-},
-":money_with_wings:": {
+  },
+  ":money_with_wings:": {
     uc_output: "1f4b8",
     shortnames: [],
     category: "objects"
-},
-":moneybag:": {
+  },
+  ":moneybag:": {
     uc_output: "1f4b0",
     shortnames: [],
     category: "objects"
-},
-":monkey:": {
+  },
+  ":monkey:": {
     uc_output: "1f412",
     shortnames: [],
     category: "nature"
-},
-":monkey_face:": {
+  },
+  ":monkey_face:": {
     uc_output: "1f435",
     shortnames: [],
     category: "nature"
-},
-":monorail:": {
+  },
+  ":monorail:": {
     uc_output: "1f69d",
     shortnames: [],
     category: "travel"
-},
-":mortar_board:": {
+  },
+  ":mortar_board:": {
     uc_output: "1f393",
     shortnames: [],
     category: "people"
-},
-":mosque:": {
+  },
+  ":mosque:": {
     uc_output: "1f54c",
     shortnames: [],
     category: "travel"
-},
-":motor_scooter:": {
+  },
+  ":motor_scooter:": {
     uc_output: "1f6f5",
     shortnames: [":motorbike:"],
     category: "travel"
-},
-":mount_fuji:": {
+  },
+  ":mount_fuji:": {
     uc_output: "1f5fb",
     shortnames: [],
     category: "travel"
-},
-":mountain_cableway:": {
+  },
+  ":mountain_cableway:": {
     uc_output: "1f6a0",
     shortnames: [],
     category: "travel"
-},
-":mountain_railway:": {
+  },
+  ":mountain_railway:": {
     uc_output: "1f69e",
     shortnames: [],
     category: "travel"
-},
-":mouse2:": {
+  },
+  ":mouse2:": {
     uc_output: "1f401",
     shortnames: [],
     category: "nature"
-},
-":mouse:": {
+  },
+  ":mouse:": {
     uc_output: "1f42d",
     shortnames: [],
     category: "nature"
-},
-":movie_camera:": {
+  },
+  ":movie_camera:": {
     uc_output: "1f3a5",
     shortnames: [],
     category: "objects"
-},
-":moyai:": {
+  },
+  ":moyai:": {
     uc_output: "1f5ff",
     shortnames: [],
     category: "travel"
-},
-":mrs_claus:": {
+  },
+  ":mrs_claus:": {
     uc_output: "1f936",
     shortnames: [":mother_christmas:"],
     category: "people"
-},
-":muscle:": {
+  },
+  ":muscle:": {
     uc_output: "1f4aa",
     shortnames: [],
     category: "people"
-},
-":mushroom:": {
+  },
+  ":mushroom:": {
     uc_output: "1f344",
     shortnames: [],
     category: "nature"
-},
-":musical_keyboard:": {
+  },
+  ":musical_keyboard:": {
     uc_output: "1f3b9",
     shortnames: [],
     category: "activity"
-},
-":musical_note:": {
+  },
+  ":musical_note:": {
     uc_output: "1f3b5",
     shortnames: [],
     category: "symbols"
-},
-":musical_score:": {
+  },
+  ":musical_score:": {
     uc_output: "1f3bc",
     shortnames: [],
     category: "activity"
-},
-":mute:": {
+  },
+  ":mute:": {
     uc_output: "1f507",
     shortnames: [],
     category: "symbols"
-},
-":nail_care:": {
+  },
+  ":nail_care:": {
     uc_output: "1f485",
     shortnames: [],
     category: "people"
-},
-":name_badge:": {
+  },
+  ":name_badge:": {
     uc_output: "1f4db",
     shortnames: [],
     category: "symbols"
-},
-":nauseated_face:": {
+  },
+  ":nauseated_face:": {
     uc_output: "1f922",
     shortnames: [":sick:"],
     category: "people"
-},
-":necktie:": {
+  },
+  ":necktie:": {
     uc_output: "1f454",
     shortnames: [],
     category: "people"
-},
-":nerd:": {
+  },
+  ":nerd:": {
     uc_output: "1f913",
     shortnames: [":nerd_face:"],
     category: "people"
-},
-":neutral_face:": {
+  },
+  ":neutral_face:": {
     uc_output: "1f610",
     shortnames: [],
     category: "people"
-},
-":new:": {
+  },
+  ":new:": {
     uc_output: "1f195",
     shortnames: [],
     category: "symbols"
-},
-":new_moon:": {
+  },
+  ":new_moon:": {
     uc_output: "1f311",
     shortnames: [],
     category: "nature"
-},
-":new_moon_with_face:": {
+  },
+  ":new_moon_with_face:": {
     uc_output: "1f31a",
     shortnames: [],
     category: "nature"
-},
-":newspaper:": {
+  },
+  ":newspaper:": {
     uc_output: "1f4f0",
     shortnames: [],
     category: "objects"
-},
-":ng:": {
+  },
+  ":ng:": {
     uc_output: "1f196",
     shortnames: [],
     category: "symbols"
-},
-":night_with_stars:": {
+  },
+  ":night_with_stars:": {
     uc_output: "1f303",
     shortnames: [],
     category: "travel"
-},
-":no_bell:": {
+  },
+  ":no_bell:": {
     uc_output: "1f515",
     shortnames: [],
     category: "symbols"
-},
-":no_bicycles:": {
+  },
+  ":no_bicycles:": {
     uc_output: "1f6b3",
     shortnames: [],
     category: "symbols"
-},
-":no_entry_sign:": {
+  },
+  ":no_entry_sign:": {
     uc_output: "1f6ab",
     shortnames: [],
     category: "symbols"
-},
-":no_mobile_phones:": {
+  },
+  ":no_mobile_phones:": {
     uc_output: "1f4f5",
     shortnames: [],
     category: "symbols"
-},
-":no_mouth:": {
+  },
+  ":no_mouth:": {
     uc_output: "1f636",
     shortnames: [],
     category: "people"
-},
-":no_pedestrians:": {
+  },
+  ":no_pedestrians:": {
     uc_output: "1f6b7",
     shortnames: [],
     category: "symbols"
-},
-":no_smoking:": {
+  },
+  ":no_smoking:": {
     uc_output: "1f6ad",
     shortnames: [],
     category: "symbols"
-},
-":non-potable_water:": {
+  },
+  ":non-potable_water:": {
     uc_output: "1f6b1",
     shortnames: [],
     category: "symbols"
-},
-":nose:": {
+  },
+  ":nose:": {
     uc_output: "1f443",
     shortnames: [],
     category: "people"
-},
-":notebook:": {
+  },
+  ":notebook:": {
     uc_output: "1f4d3",
     shortnames: [],
     category: "objects"
-},
-":notebook_with_decorative_cover:": {
+  },
+  ":notebook_with_decorative_cover:": {
     uc_output: "1f4d4",
     shortnames: [],
     category: "objects"
-},
-":notes:": {
+  },
+  ":notes:": {
     uc_output: "1f3b6",
     shortnames: [],
     category: "symbols"
-},
-":nut_and_bolt:": {
+  },
+  ":nut_and_bolt:": {
     uc_output: "1f529",
     shortnames: [],
     category: "objects"
-},
-":ocean:": {
+  },
+  ":ocean:": {
     uc_output: "1f30a",
     shortnames: [],
     category: "nature"
-},
-":octagonal_sign:": {
+  },
+  ":octagonal_sign:": {
     uc_output: "1f6d1",
     shortnames: [":stop_sign:"],
     category: "symbols"
-},
-":octopus:": {
+  },
+  ":octopus:": {
     uc_output: "1f419",
     shortnames: [],
     category: "nature"
-},
-":oden:": {
+  },
+  ":oden:": {
     uc_output: "1f362",
     shortnames: [],
     category: "food"
-},
-":office:": {
+  },
+  ":office:": {
     uc_output: "1f3e2",
     shortnames: [],
     category: "travel"
-},
-":ok:": {
+  },
+  ":ok:": {
     uc_output: "1f197",
     shortnames: [],
     category: "symbols"
-},
-":ok_hand:": {
+  },
+  ":ok_hand:": {
     uc_output: "1f44c",
     shortnames: [],
     category: "people"
-},
-":older_adult:": {
+  },
+  ":older_adult:": {
     uc_output: "1f9d3",
     shortnames: [],
     category: "people"
-},
-":older_man:": {
+  },
+  ":older_man:": {
     uc_output: "1f474",
     shortnames: [],
     category: "people"
-},
-":older_woman:": {
+  },
+  ":older_woman:": {
     uc_output: "1f475",
     shortnames: [":grandma:"],
     category: "people"
-},
-":on:": {
+  },
+  ":on:": {
     uc_output: "1f51b",
     shortnames: [],
     category: "symbols"
-},
-":oncoming_automobile:": {
+  },
+  ":oncoming_automobile:": {
     uc_output: "1f698",
     shortnames: [],
     category: "travel"
-},
-":oncoming_bus:": {
+  },
+  ":oncoming_bus:": {
     uc_output: "1f68d",
     shortnames: [],
     category: "travel"
-},
-":oncoming_police_car:": {
+  },
+  ":oncoming_police_car:": {
     uc_output: "1f694",
     shortnames: [],
     category: "travel"
-},
-":oncoming_taxi:": {
+  },
+  ":oncoming_taxi:": {
     uc_output: "1f696",
     shortnames: [],
     category: "travel"
-},
-":open_file_folder:": {
+  },
+  ":open_file_folder:": {
     uc_output: "1f4c2",
     shortnames: [],
     category: "objects"
-},
-":open_hands:": {
+  },
+  ":open_hands:": {
     uc_output: "1f450",
     shortnames: [],
     category: "people"
-},
-":open_mouth:": {
+  },
+  ":open_mouth:": {
     uc_output: "1f62e",
     shortnames: [],
     category: "people"
-},
-":orange_book:": {
+  },
+  ":orange_book:": {
     uc_output: "1f4d9",
     shortnames: [],
     category: "objects"
-},
-":orange_heart:": {
+  },
+  ":orange_heart:": {
     uc_output: "1f9e1",
     shortnames: [],
     category: "objects"
-},
-":outbox_tray:": {
+  },
+  ":outbox_tray:": {
     uc_output: "1f4e4",
     shortnames: [],
     category: "objects"
-},
-":owl:": {
+  },
+  ":owl:": {
     uc_output: "1f989",
     shortnames: [],
     category: "nature"
-},
-":ox:": {
+  },
+  ":ox:": {
     uc_output: "1f402",
     shortnames: [],
     category: "nature"
-},
-":package:": {
+  },
+  ":package:": {
     uc_output: "1f4e6",
     shortnames: [],
     category: "objects"
-},
-":page_facing_up:": {
+  },
+  ":page_facing_up:": {
     uc_output: "1f4c4",
     shortnames: [],
     category: "objects"
-},
-":page_with_curl:": {
+  },
+  ":page_with_curl:": {
     uc_output: "1f4c3",
     shortnames: [],
     category: "objects"
-},
-":pager:": {
+  },
+  ":pager:": {
     uc_output: "1f4df",
     shortnames: [],
     category: "objects"
-},
-":palm_tree:": {
+  },
+  ":palm_tree:": {
     uc_output: "1f334",
     shortnames: [],
     category: "nature"
-},
-":palms_up_together:": {
+  },
+  ":palms_up_together:": {
     uc_output: "1f932",
     shortnames: [],
     category: "people"
-},
-":pancakes:": {
+  },
+  ":pancakes:": {
     uc_output: "1f95e",
     shortnames: [],
     category: "food"
-},
-":panda_face:": {
+  },
+  ":panda_face:": {
     uc_output: "1f43c",
     shortnames: [],
     category: "nature"
-},
-":paperclip:": {
+  },
+  ":paperclip:": {
     uc_output: "1f4ce",
     shortnames: [],
     category: "objects"
-},
-":passport_control:": {
+  },
+  ":passport_control:": {
     uc_output: "1f6c2",
     shortnames: [],
     category: "symbols"
-},
-":peach:": {
+  },
+  ":peach:": {
     uc_output: "1f351",
     shortnames: [],
     category: "food"
-},
-":peanuts:": {
+  },
+  ":peanuts:": {
     uc_output: "1f95c",
     shortnames: [":shelled_peanut:"],
     category: "food"
-},
-":pear:": {
+  },
+  ":pear:": {
     uc_output: "1f350",
     shortnames: [],
     category: "food"
-},
-":pencil:": {
+  },
+  ":pencil:": {
     uc_output: "1f4dd",
     shortnames: [":memo:"],
     category: "objects"
-},
-":penguin:": {
+  },
+  ":penguin:": {
     uc_output: "1f427",
     shortnames: [],
     category: "nature"
-},
-":pensive:": {
+  },
+  ":pensive:": {
     uc_output: "1f614",
     shortnames: [],
     category: "people"
-},
-":people_with_bunny_ears_partying:": {
+  },
+  ":people_with_bunny_ears_partying:": {
     uc_output: "1f46f",
     shortnames: [":dancers:"],
     category: "people"
-},
-":people_wrestling:": {
+  },
+  ":people_wrestling:": {
     uc_output: "1f93c",
     shortnames: [":wrestlers:", ":wrestling:"],
     category: "activity"
-},
-":performing_arts:": {
+  },
+  ":performing_arts:": {
     uc_output: "1f3ad",
     shortnames: [],
     category: "activity"
-},
-":persevere:": {
+  },
+  ":persevere:": {
     uc_output: "1f623",
     shortnames: [],
     category: "people"
-},
-":person_biking:": {
+  },
+  ":person_biking:": {
     uc_output: "1f6b4",
     shortnames: [":bicyclist:"],
     category: "activity"
-},
-":person_bowing:": {
+  },
+  ":person_bowing:": {
     uc_output: "1f647",
     shortnames: [":bow:"],
     category: "people"
-},
-":person_climbing:": {
+  },
+  ":person_climbing:": {
     uc_output: "1f9d7",
     shortnames: [],
     category: "activity"
-},
-":person_doing_cartwheel:": {
+  },
+  ":person_doing_cartwheel:": {
     uc_output: "1f938",
     shortnames: [":cartwheel:"],
     category: "activity"
-},
-":person_facepalming:": {
+  },
+  ":person_facepalming:": {
     uc_output: "1f926",
     shortnames: [":face_palm:", ":facepalm:"],
     category: "people"
-},
-":person_fencing:": {
+  },
+  ":person_fencing:": {
     uc_output: "1f93a",
     shortnames: [":fencer:", ":fencing:"],
     category: "activity"
-},
-":person_frowning:": {
+  },
+  ":person_frowning:": {
     uc_output: "1f64d",
     shortnames: [],
     category: "people"
-},
-":person_gesturing_no:": {
+  },
+  ":person_gesturing_no:": {
     uc_output: "1f645",
     shortnames: [":no_good:"],
     category: "people"
-},
-":person_gesturing_ok:": {
+  },
+  ":person_gesturing_ok:": {
     uc_output: "1f646",
     shortnames: [":ok_woman:"],
     category: "people"
-},
-":person_getting_haircut:": {
+  },
+  ":person_getting_haircut:": {
     uc_output: "1f487",
     shortnames: [":haircut:"],
     category: "people"
-},
-":person_getting_massage:": {
+  },
+  ":person_getting_massage:": {
     uc_output: "1f486",
     shortnames: [":massage:"],
     category: "people"
-},
-":person_in_lotus_position:": {
+  },
+  ":person_in_lotus_position:": {
     uc_output: "1f9d8",
     shortnames: [],
     category: "activity"
-},
-":person_in_steamy_room:": {
+  },
+  ":person_in_steamy_room:": {
     uc_output: "1f9d6",
     shortnames: [],
     category: "activity"
-},
-":person_juggling:": {
+  },
+  ":person_juggling:": {
     uc_output: "1f939",
     shortnames: [":juggling:", ":juggler:"],
     category: "activity"
-},
-":person_mountain_biking:": {
+  },
+  ":person_mountain_biking:": {
     uc_output: "1f6b5",
     shortnames: [":mountain_bicyclist:"],
     category: "activity"
-},
-":person_playing_handball:": {
+  },
+  ":person_playing_handball:": {
     uc_output: "1f93e",
     shortnames: [":handball:"],
     category: "activity"
-},
-":person_playing_water_polo:": {
+  },
+  ":person_playing_water_polo:": {
     uc_output: "1f93d",
     shortnames: [":water_polo:"],
     category: "activity"
-},
-":person_pouting:": {
+  },
+  ":person_pouting:": {
     uc_output: "1f64e",
     shortnames: [":person_with_pouting_face:"],
     category: "people"
-},
-":person_raising_hand:": {
+  },
+  ":person_raising_hand:": {
     uc_output: "1f64b",
     shortnames: [":raising_hand:"],
     category: "people"
-},
-":person_rowing_boat:": {
+  },
+  ":person_rowing_boat:": {
     uc_output: "1f6a3",
     shortnames: [":rowboat:"],
     category: "activity"
-},
-":person_running:": {
+  },
+  ":person_running:": {
     uc_output: "1f3c3",
     shortnames: [":runner:"],
     category: "people"
-},
-":person_shrugging:": {
+  },
+  ":person_shrugging:": {
     uc_output: "1f937",
     shortnames: [":shrug:"],
     category: "people"
-},
-":person_surfing:": {
+  },
+  ":person_surfing:": {
     uc_output: "1f3c4",
     shortnames: [":surfer:"],
     category: "activity"
-},
-":person_swimming:": {
+  },
+  ":person_swimming:": {
     uc_output: "1f3ca",
     shortnames: [":swimmer:"],
     category: "activity"
-},
-":person_tipping_hand:": {
+  },
+  ":person_tipping_hand:": {
     uc_output: "1f481",
     shortnames: [":information_desk_person:"],
     category: "people"
-},
-":person_walking:": {
+  },
+  ":person_walking:": {
     uc_output: "1f6b6",
     shortnames: [":walking:"],
     category: "people"
-},
-":person_wearing_turban:": {
+  },
+  ":person_wearing_turban:": {
     uc_output: "1f473",
     shortnames: [":man_with_turban:"],
     category: "people"
-},
-":pie:": {
+  },
+  ":pie:": {
     uc_output: "1f967",
     shortnames: [],
     category: "food"
-},
-":pig2:": {
+  },
+  ":pig2:": {
     uc_output: "1f416",
     shortnames: [],
     category: "nature"
-},
-":pig:": {
+  },
+  ":pig:": {
     uc_output: "1f437",
     shortnames: [],
     category: "nature"
-},
-":pig_nose:": {
+  },
+  ":pig_nose:": {
     uc_output: "1f43d",
     shortnames: [],
     category: "nature"
-},
-":pill:": {
+  },
+  ":pill:": {
     uc_output: "1f48a",
     shortnames: [],
     category: "objects"
-},
-":pineapple:": {
+  },
+  ":pineapple:": {
     uc_output: "1f34d",
     shortnames: [],
     category: "food"
-},
-":ping_pong:": {
+  },
+  ":ping_pong:": {
     uc_output: "1f3d3",
     shortnames: [":table_tennis:"],
     category: "activity"
-},
-":pizza:": {
+  },
+  ":pizza:": {
     uc_output: "1f355",
     shortnames: [],
     category: "food"
-},
-":place_of_worship:": {
+  },
+  ":place_of_worship:": {
     uc_output: "1f6d0",
     shortnames: [":worship_symbol:"],
     category: "symbols"
-},
-":point_down:": {
+  },
+  ":point_down:": {
     uc_output: "1f447",
     shortnames: [],
     category: "people"
-},
-":point_left:": {
+  },
+  ":point_left:": {
     uc_output: "1f448",
     shortnames: [],
     category: "people"
-},
-":point_right:": {
+  },
+  ":point_right:": {
     uc_output: "1f449",
     shortnames: [],
     category: "people"
-},
-":point_up_2:": {
+  },
+  ":point_up_2:": {
     uc_output: "1f446",
     shortnames: [],
     category: "people"
-},
-":police_car:": {
+  },
+  ":police_car:": {
     uc_output: "1f693",
     shortnames: [],
     category: "travel"
-},
-":police_officer:": {
+  },
+  ":police_officer:": {
     uc_output: "1f46e",
     shortnames: [":cop:"],
     category: "people"
-},
-":poodle:": {
+  },
+  ":poodle:": {
     uc_output: "1f429",
     shortnames: [],
     category: "nature"
-},
-":poop:": {
+  },
+  ":poop:": {
     uc_output: "1f4a9",
     shortnames: [":shit:", ":hankey:", ":poo:"],
     category: "people"
-},
-":popcorn:": {
+  },
+  ":popcorn:": {
     uc_output: "1f37f",
     shortnames: [],
     category: "food"
-},
-":post_office:": {
+  },
+  ":post_office:": {
     uc_output: "1f3e3",
     shortnames: [],
     category: "travel"
-},
-":postal_horn:": {
+  },
+  ":postal_horn:": {
     uc_output: "1f4ef",
     shortnames: [],
     category: "objects"
-},
-":postbox:": {
+  },
+  ":postbox:": {
     uc_output: "1f4ee",
     shortnames: [],
     category: "objects"
-},
-":potable_water:": {
+  },
+  ":potable_water:": {
     uc_output: "1f6b0",
     shortnames: [],
     category: "objects"
-},
-":potato:": {
+  },
+  ":potato:": {
     uc_output: "1f954",
     shortnames: [],
     category: "food"
-},
-":pouch:": {
+  },
+  ":pouch:": {
     uc_output: "1f45d",
     shortnames: [],
     category: "people"
-},
-":poultry_leg:": {
+  },
+  ":poultry_leg:": {
     uc_output: "1f357",
     shortnames: [],
     category: "food"
-},
-":pound:": {
+  },
+  ":pound:": {
     uc_output: "1f4b7",
     shortnames: [],
     category: "objects"
-},
-":pouting_cat:": {
+  },
+  ":pouting_cat:": {
     uc_output: "1f63e",
     shortnames: [],
     category: "people"
-},
-":pray:": {
+  },
+  ":pray:": {
     uc_output: "1f64f",
     shortnames: [],
     category: "people"
-},
-":prayer_beads:": {
+  },
+  ":prayer_beads:": {
     uc_output: "1f4ff",
     shortnames: [],
     category: "objects"
-},
-":pregnant_woman:": {
+  },
+  ":pregnant_woman:": {
     uc_output: "1f930",
     shortnames: [":expecting_woman:"],
     category: "people"
-},
-":pretzel:": {
+  },
+  ":pretzel:": {
     uc_output: "1f968",
     shortnames: [],
     category: "food"
-},
-":prince:": {
+  },
+  ":prince:": {
     uc_output: "1f934",
     shortnames: [],
     category: "people"
-},
-":princess:": {
+  },
+  ":princess:": {
     uc_output: "1f478",
     shortnames: [],
     category: "people"
-},
-":punch:": {
+  },
+  ":punch:": {
     uc_output: "1f44a",
     shortnames: [],
     category: "people"
-},
-":purple_heart:": {
+  },
+  ":purple_heart:": {
     uc_output: "1f49c",
     shortnames: [],
     category: "symbols"
-},
-":purse:": {
+  },
+  ":purse:": {
     uc_output: "1f45b",
     shortnames: [],
     category: "people"
-},
-":pushpin:": {
+  },
+  ":pushpin:": {
     uc_output: "1f4cc",
     shortnames: [],
     category: "objects"
-},
-":put_litter_in_its_place:": {
+  },
+  ":put_litter_in_its_place:": {
     uc_output: "1f6ae",
     shortnames: [],
     category: "symbols"
-},
-":rabbit2:": {
+  },
+  ":rabbit2:": {
     uc_output: "1f407",
     shortnames: [],
     category: "nature"
-},
-":rabbit:": {
+  },
+  ":rabbit:": {
     uc_output: "1f430",
     shortnames: [],
     category: "nature"
-},
-":racehorse:": {
+  },
+  ":racehorse:": {
     uc_output: "1f40e",
     shortnames: [],
     category: "nature"
-},
-":radio:": {
+  },
+  ":radio:": {
     uc_output: "1f4fb",
     shortnames: [],
     category: "objects"
-},
-":radio_button:": {
+  },
+  ":radio_button:": {
     uc_output: "1f518",
     shortnames: [],
     category: "symbols"
-},
-":rage:": {
+  },
+  ":rage:": {
     uc_output: "1f621",
     shortnames: [],
     category: "people"
-},
-":railway_car:": {
+  },
+  ":railway_car:": {
     uc_output: "1f683",
     shortnames: [],
     category: "travel"
-},
-":rainbow:": {
+  },
+  ":rainbow:": {
     uc_output: "1f308",
     shortnames: [],
     category: "nature"
-},
-":raised_back_of_hand:": {
+  },
+  ":raised_back_of_hand:": {
     uc_output: "1f91a",
     shortnames: [":back_of_hand:"],
     category: "people"
-},
-":raised_hands:": {
+  },
+  ":raised_hands:": {
     uc_output: "1f64c",
     shortnames: [],
     category: "people"
-},
-":ram:": {
+  },
+  ":ram:": {
     uc_output: "1f40f",
     shortnames: [],
     category: "nature"
-},
-":ramen:": {
+  },
+  ":ramen:": {
     uc_output: "1f35c",
     shortnames: [],
     category: "food"
-},
-":rat:": {
+  },
+  ":rat:": {
     uc_output: "1f400",
     shortnames: [],
     category: "nature"
-},
-":red_car:": {
+  },
+  ":red_car:": {
     uc_output: "1f697",
     shortnames: [],
     category: "travel"
-},
-":red_circle:": {
+  },
+  ":red_circle:": {
     uc_output: "1f534",
     shortnames: [],
     category: "symbols"
-},
-":regional_indicator_a:": {
+  },
+  ":regional_indicator_a:": {
     uc_output: "1f1e6",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_b:": {
+  },
+  ":regional_indicator_b:": {
     uc_output: "1f1e7",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_c:": {
+  },
+  ":regional_indicator_c:": {
     uc_output: "1f1e8",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_d:": {
+  },
+  ":regional_indicator_d:": {
     uc_output: "1f1e9",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_e:": {
+  },
+  ":regional_indicator_e:": {
     uc_output: "1f1ea",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_f:": {
+  },
+  ":regional_indicator_f:": {
     uc_output: "1f1eb",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_g:": {
+  },
+  ":regional_indicator_g:": {
     uc_output: "1f1ec",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_h:": {
+  },
+  ":regional_indicator_h:": {
     uc_output: "1f1ed",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_i:": {
+  },
+  ":regional_indicator_i:": {
     uc_output: "1f1ee",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_j:": {
+  },
+  ":regional_indicator_j:": {
     uc_output: "1f1ef",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_k:": {
+  },
+  ":regional_indicator_k:": {
     uc_output: "1f1f0",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_l:": {
+  },
+  ":regional_indicator_l:": {
     uc_output: "1f1f1",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_m:": {
+  },
+  ":regional_indicator_m:": {
     uc_output: "1f1f2",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_n:": {
+  },
+  ":regional_indicator_n:": {
     uc_output: "1f1f3",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_o:": {
+  },
+  ":regional_indicator_o:": {
     uc_output: "1f1f4",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_p:": {
+  },
+  ":regional_indicator_p:": {
     uc_output: "1f1f5",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_q:": {
+  },
+  ":regional_indicator_q:": {
     uc_output: "1f1f6",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_r:": {
+  },
+  ":regional_indicator_r:": {
     uc_output: "1f1f7",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_s:": {
+  },
+  ":regional_indicator_s:": {
     uc_output: "1f1f8",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_t:": {
+  },
+  ":regional_indicator_t:": {
     uc_output: "1f1f9",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_u:": {
+  },
+  ":regional_indicator_u:": {
     uc_output: "1f1fa",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_v:": {
+  },
+  ":regional_indicator_v:": {
     uc_output: "1f1fb",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_w:": {
+  },
+  ":regional_indicator_w:": {
     uc_output: "1f1fc",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_x:": {
+  },
+  ":regional_indicator_x:": {
     uc_output: "1f1fd",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_y:": {
+  },
+  ":regional_indicator_y:": {
     uc_output: "1f1fe",
     shortnames: [],
     category: "regional"
-},
-":regional_indicator_z:": {
+  },
+  ":regional_indicator_z:": {
     uc_output: "1f1ff",
     shortnames: [],
     category: "regional"
-},
-":relieved:": {
+  },
+  ":relieved:": {
     uc_output: "1f60c",
     shortnames: [],
     category: "people"
-},
-":repeat:": {
+  },
+  ":repeat:": {
     uc_output: "1f501",
     shortnames: [],
     category: "symbols"
-},
-":repeat_one:": {
+  },
+  ":repeat_one:": {
     uc_output: "1f502",
     shortnames: [],
     category: "symbols"
-},
-":restroom:": {
+  },
+  ":restroom:": {
     uc_output: "1f6bb",
     shortnames: [],
     category: "symbols"
-},
-":revolving_hearts:": {
+  },
+  ":revolving_hearts:": {
     uc_output: "1f49e",
     shortnames: [],
     category: "symbols"
-},
-":rhino:": {
+  },
+  ":rhino:": {
     uc_output: "1f98f",
     shortnames: [":rhinoceros:"],
     category: "nature"
-},
-":ribbon:": {
+  },
+  ":ribbon:": {
     uc_output: "1f380",
     shortnames: [],
     category: "objects"
-},
-":rice:": {
+  },
+  ":rice:": {
     uc_output: "1f35a",
     shortnames: [],
     category: "food"
-},
-":rice_ball:": {
+  },
+  ":rice_ball:": {
     uc_output: "1f359",
     shortnames: [],
     category: "food"
-},
-":rice_cracker:": {
+  },
+  ":rice_cracker:": {
     uc_output: "1f358",
     shortnames: [],
     category: "food"
-},
-":rice_scene:": {
+  },
+  ":rice_scene:": {
     uc_output: "1f391",
     shortnames: [],
     category: "travel"
-},
-":right_facing_fist:": {
+  },
+  ":right_facing_fist:": {
     uc_output: "1f91c",
     shortnames: [":right_fist:"],
     category: "people"
-},
-":ring:": {
+  },
+  ":ring:": {
     uc_output: "1f48d",
     shortnames: [],
     category: "people"
-},
-":robot:": {
+  },
+  ":robot:": {
     uc_output: "1f916",
     shortnames: [":robot_face:"],
     category: "people"
-},
-":rocket:": {
+  },
+  ":rocket:": {
     uc_output: "1f680",
     shortnames: [],
     category: "travel"
-},
-":rofl:": {
+  },
+  ":rofl:": {
     uc_output: "1f923",
     shortnames: [":rolling_on_the_floor_laughing:"],
     category: "people"
-},
-":roller_coaster:": {
+  },
+  ":roller_coaster:": {
     uc_output: "1f3a2",
     shortnames: [],
     category: "travel"
-},
-":rolling_eyes:": {
+  },
+  ":rolling_eyes:": {
     uc_output: "1f644",
     shortnames: [":face_with_rolling_eyes:"],
     category: "people"
-},
-":rooster:": {
+  },
+  ":rooster:": {
     uc_output: "1f413",
     shortnames: [],
     category: "nature"
-},
-":rose:": {
+  },
+  ":rose:": {
     uc_output: "1f339",
     shortnames: [],
     category: "nature"
-},
-":rotating_light:": {
+  },
+  ":rotating_light:": {
     uc_output: "1f6a8",
     shortnames: [],
     category: "travel"
-},
-":round_pushpin:": {
+  },
+  ":round_pushpin:": {
     uc_output: "1f4cd",
     shortnames: [],
     category: "objects"
-},
-":rugby_football:": {
+  },
+  ":rugby_football:": {
     uc_output: "1f3c9",
     shortnames: [],
     category: "activity"
-},
-":running_shirt_with_sash:": {
+  },
+  ":running_shirt_with_sash:": {
     uc_output: "1f3bd",
     shortnames: [],
     category: "activity"
-},
-":sake:": {
+  },
+  ":sake:": {
     uc_output: "1f376",
     shortnames: [],
     category: "food"
-},
-":salad:": {
+  },
+  ":salad:": {
     uc_output: "1f957",
     shortnames: [":green_salad:"],
     category: "food"
-},
-":sandal:": {
+  },
+  ":sandal:": {
     uc_output: "1f461",
     shortnames: [],
     category: "people"
-},
-":sandwich:": {
+  },
+  ":sandwich:": {
     uc_output: "1f96a",
     shortnames: [],
     category: "food"
-},
-":santa:": {
+  },
+  ":santa:": {
     uc_output: "1f385",
     shortnames: [],
     category: "people"
-},
-":satellite:": {
+  },
+  ":satellite:": {
     uc_output: "1f4e1",
     shortnames: [],
     category: "objects"
-},
-":sauropod:": {
+  },
+  ":sauropod:": {
     uc_output: "1f995",
     shortnames: [],
     category: "nature"
-},
-":saxophone:": {
+  },
+  ":saxophone:": {
     uc_output: "1f3b7",
     shortnames: [],
     category: "activity"
-},
-":scarf:": {
+  },
+  ":scarf:": {
     uc_output: "1f9e3",
     shortnames: [],
     category: "people"
-},
-":school:": {
+  },
+  ":school:": {
     uc_output: "1f3eb",
     shortnames: [],
     category: "travel"
-},
-":school_satchel:": {
+  },
+  ":school_satchel:": {
     uc_output: "1f392",
     shortnames: [],
     category: "people"
-},
-":scooter:": {
+  },
+  ":scooter:": {
     uc_output: "1f6f4",
     shortnames: [],
     category: "travel"
-},
-":scorpion:": {
+  },
+  ":scorpion:": {
     uc_output: "1f982",
     shortnames: [],
     category: "nature"
-},
-":scream:": {
+  },
+  ":scream:": {
     uc_output: "1f631",
     shortnames: [],
     category: "people"
-},
-":scream_cat:": {
+  },
+  ":scream_cat:": {
     uc_output: "1f640",
     shortnames: [],
     category: "people"
-},
-":scroll:": {
+  },
+  ":scroll:": {
     uc_output: "1f4dc",
     shortnames: [],
     category: "objects"
-},
-":seat:": {
+  },
+  ":seat:": {
     uc_output: "1f4ba",
     shortnames: [],
     category: "travel"
-},
-":second_place:": {
+  },
+  ":second_place:": {
     uc_output: "1f948",
     shortnames: [":second_place_medal:"],
     category: "activity"
-},
-":see_no_evil:": {
+  },
+  ":see_no_evil:": {
     uc_output: "1f648",
     shortnames: [],
     category: "nature"
-},
-":seedling:": {
+  },
+  ":seedling:": {
     uc_output: "1f331",
     shortnames: [],
     category: "nature"
-},
-":selfie:": {
+  },
+  ":selfie:": {
     uc_output: "1f933",
     shortnames: [],
     category: "people"
-},
-":shallow_pan_of_food:": {
+  },
+  ":shallow_pan_of_food:": {
     uc_output: "1f958",
     shortnames: [":paella:"],
     category: "food"
-},
-":shark:": {
+  },
+  ":shark:": {
     uc_output: "1f988",
     shortnames: [],
     category: "nature"
-},
-":shaved_ice:": {
+  },
+  ":shaved_ice:": {
     uc_output: "1f367",
     shortnames: [],
     category: "food"
-},
-":sheep:": {
+  },
+  ":sheep:": {
     uc_output: "1f411",
     shortnames: [],
     category: "nature"
-},
-":shell:": {
+  },
+  ":shell:": {
     uc_output: "1f41a",
     shortnames: [],
     category: "nature"
-},
-":ship:": {
+  },
+  ":ship:": {
     uc_output: "1f6a2",
     shortnames: [],
     category: "travel"
-},
-":shirt:": {
+  },
+  ":shirt:": {
     uc_output: "1f455",
     shortnames: [],
     category: "people"
-},
-":shopping_cart:": {
+  },
+  ":shopping_cart:": {
     uc_output: "1f6d2",
     shortnames: [":shopping_trolley:"],
     category: "objects"
-},
-":shower:": {
+  },
+  ":shower:": {
     uc_output: "1f6bf",
     shortnames: [],
     category: "objects"
-},
-":shrimp:": {
+  },
+  ":shrimp:": {
     uc_output: "1f990",
     shortnames: [],
     category: "nature"
-},
-":shushing_face:": {
+  },
+  ":shushing_face:": {
     uc_output: "1f92b",
     shortnames: [],
     category: "people"
-},
-":signal_strength:": {
+  },
+  ":signal_strength:": {
     uc_output: "1f4f6",
     shortnames: [],
     category: "symbols"
-},
-":six_pointed_star:": {
+  },
+  ":six_pointed_star:": {
     uc_output: "1f52f",
     shortnames: [],
     category: "symbols"
-},
-":ski:": {
+  },
+  ":ski:": {
     uc_output: "1f3bf",
     shortnames: [],
     category: "activity"
-},
-":skull:": {
+  },
+  ":skull:": {
     uc_output: "1f480",
     shortnames: [":skeleton:"],
     category: "people"
-},
-":sled:": {
+  },
+  ":sled:": {
     uc_output: "1f6f7",
     shortnames: [],
     category: "activity"
-},
-":sleeping:": {
+  },
+  ":sleeping:": {
     uc_output: "1f634",
     shortnames: [],
     category: "people"
-},
-":sleeping_accommodation:": {
+  },
+  ":sleeping_accommodation:": {
     uc_output: "1f6cc",
     shortnames: [],
     category: "objects"
-},
-":sleepy:": {
+  },
+  ":sleepy:": {
     uc_output: "1f62a",
     shortnames: [],
     category: "people"
-},
-":slight_frown:": {
+  },
+  ":slight_frown:": {
     uc_output: "1f641",
     shortnames: [":slightly_frowning_face:"],
     category: "people"
-},
-":slight_smile:": {
+  },
+  ":slight_smile:": {
     uc_output: "1f642",
     shortnames: [":slightly_smiling_face:"],
     category: "people"
-},
-":slot_machine:": {
+  },
+  ":slot_machine:": {
     uc_output: "1f3b0",
     shortnames: [],
     category: "activity"
-},
-":small_blue_diamond:": {
+  },
+  ":small_blue_diamond:": {
     uc_output: "1f539",
     shortnames: [],
     category: "symbols"
-},
-":small_orange_diamond:": {
+  },
+  ":small_orange_diamond:": {
     uc_output: "1f538",
     shortnames: [],
     category: "symbols"
-},
-":small_red_triangle:": {
+  },
+  ":small_red_triangle:": {
     uc_output: "1f53a",
     shortnames: [],
     category: "symbols"
-},
-":small_red_triangle_down:": {
+  },
+  ":small_red_triangle_down:": {
     uc_output: "1f53b",
     shortnames: [],
     category: "symbols"
-},
-":smile:": {
+  },
+  ":smile:": {
     uc_output: "1f604",
     shortnames: [],
     category: "people"
-},
-":smile_cat:": {
+  },
+  ":smile_cat:": {
     uc_output: "1f638",
     shortnames: [],
     category: "people"
-},
-":smiley:": {
+  },
+  ":smiley:": {
     uc_output: "1f603",
     shortnames: [],
     category: "people"
-},
-":smiley_cat:": {
+  },
+  ":smiley_cat:": {
     uc_output: "1f63a",
     shortnames: [],
     category: "people"
-},
-":smiling_imp:": {
+  },
+  ":smiling_imp:": {
     uc_output: "1f608",
     shortnames: [],
     category: "people"
-},
-":smirk:": {
+  },
+  ":smirk:": {
     uc_output: "1f60f",
     shortnames: [],
     category: "people"
-},
-":smirk_cat:": {
+  },
+  ":smirk_cat:": {
     uc_output: "1f63c",
     shortnames: [],
     category: "people"
-},
-":smoking:": {
+  },
+  ":smoking:": {
     uc_output: "1f6ac",
     shortnames: [],
     category: "objects"
-},
-":snail:": {
+  },
+  ":snail:": {
     uc_output: "1f40c",
     shortnames: [],
     category: "nature"
-},
-":snake:": {
+  },
+  ":snake:": {
     uc_output: "1f40d",
     shortnames: [],
     category: "nature"
-},
-":sneezing_face:": {
+  },
+  ":sneezing_face:": {
     uc_output: "1f927",
     shortnames: [":sneeze:"],
     category: "people"
-},
-":snowboarder:": {
+  },
+  ":snowboarder:": {
     uc_output: "1f3c2",
     shortnames: [],
     category: "activity"
-},
-":sob:": {
+  },
+  ":sob:": {
     uc_output: "1f62d",
     shortnames: [],
     category: "people"
-},
-":socks:": {
+  },
+  ":socks:": {
     uc_output: "1f9e6",
     shortnames: [],
     category: "people"
-},
-":soon:": {
+  },
+  ":soon:": {
     uc_output: "1f51c",
     shortnames: [],
     category: "symbols"
-},
-":sos:": {
+  },
+  ":sos:": {
     uc_output: "1f198",
     shortnames: [],
     category: "symbols"
-},
-":sound:": {
+  },
+  ":sound:": {
     uc_output: "1f509",
     shortnames: [],
     category: "symbols"
-},
-":space_invader:": {
+  },
+  ":space_invader:": {
     uc_output: "1f47e",
     shortnames: [],
     category: "people"
-},
-":spaghetti:": {
+  },
+  ":spaghetti:": {
     uc_output: "1f35d",
     shortnames: [],
     category: "food"
-},
-":sparkler:": {
+  },
+  ":sparkler:": {
     uc_output: "1f387",
     shortnames: [],
     category: "travel"
-},
-":sparkling_heart:": {
+  },
+  ":sparkling_heart:": {
     uc_output: "1f496",
     shortnames: [],
     category: "symbols"
-},
-":speak_no_evil:": {
+  },
+  ":speak_no_evil:": {
     uc_output: "1f64a",
     shortnames: [],
     category: "nature"
-},
-":speaker:": {
+  },
+  ":speaker:": {
     uc_output: "1f508",
     shortnames: [],
     category: "symbols"
-},
-":speech_balloon:": {
+  },
+  ":speech_balloon:": {
     uc_output: "1f4ac",
     shortnames: [],
     category: "symbols"
-},
-":speedboat:": {
+  },
+  ":speedboat:": {
     uc_output: "1f6a4",
     shortnames: [],
     category: "travel"
-},
-":spoon:": {
+  },
+  ":spoon:": {
     uc_output: "1f944",
     shortnames: [],
     category: "food"
-},
-":squid:": {
+  },
+  ":squid:": {
     uc_output: "1f991",
     shortnames: [],
     category: "nature"
-},
-":star2:": {
+  },
+  ":star2:": {
     uc_output: "1f31f",
     shortnames: [],
     category: "nature"
-},
-":star_struck:": {
+  },
+  ":star_struck:": {
     uc_output: "1f929",
     shortnames: [],
     category: "people"
-},
-":stars:": {
+  },
+  ":stars:": {
     uc_output: "1f320",
     shortnames: [],
     category: "travel"
-},
-":station:": {
+  },
+  ":station:": {
     uc_output: "1f689",
     shortnames: [],
     category: "travel"
-},
-":statue_of_liberty:": {
+  },
+  ":statue_of_liberty:": {
     uc_output: "1f5fd",
     shortnames: [],
     category: "travel"
-},
-":steam_locomotive:": {
+  },
+  ":steam_locomotive:": {
     uc_output: "1f682",
     shortnames: [],
     category: "travel"
-},
-":stew:": {
+  },
+  ":stew:": {
     uc_output: "1f372",
     shortnames: [],
     category: "food"
-},
-":straight_ruler:": {
+  },
+  ":straight_ruler:": {
     uc_output: "1f4cf",
     shortnames: [],
     category: "objects"
-},
-":strawberry:": {
+  },
+  ":strawberry:": {
     uc_output: "1f353",
     shortnames: [],
     category: "food"
-},
-":stuck_out_tongue:": {
+  },
+  ":stuck_out_tongue:": {
     uc_output: "1f61b",
     shortnames: [],
     category: "people"
-},
-":stuck_out_tongue_closed_eyes:": {
+  },
+  ":stuck_out_tongue_closed_eyes:": {
     uc_output: "1f61d",
     shortnames: [],
     category: "people"
-},
-":stuck_out_tongue_winking_eye:": {
+  },
+  ":stuck_out_tongue_winking_eye:": {
     uc_output: "1f61c",
     shortnames: [],
     category: "people"
-},
-":stuffed_flatbread:": {
+  },
+  ":stuffed_flatbread:": {
     uc_output: "1f959",
     shortnames: [":stuffed_pita:"],
     category: "food"
-},
-":sun_with_face:": {
+  },
+  ":sun_with_face:": {
     uc_output: "1f31e",
     shortnames: [],
     category: "nature"
-},
-":sunflower:": {
+  },
+  ":sunflower:": {
     uc_output: "1f33b",
     shortnames: [],
     category: "nature"
-},
-":sunglasses:": {
+  },
+  ":sunglasses:": {
     uc_output: "1f60e",
     shortnames: [],
     category: "people"
-},
-":sunrise:": {
+  },
+  ":sunrise:": {
     uc_output: "1f305",
     shortnames: [],
     category: "travel"
-},
-":sunrise_over_mountains:": {
+  },
+  ":sunrise_over_mountains:": {
     uc_output: "1f304",
     shortnames: [],
     category: "travel"
-},
-":sushi:": {
+  },
+  ":sushi:": {
     uc_output: "1f363",
     shortnames: [],
     category: "food"
-},
-":suspension_railway:": {
+  },
+  ":suspension_railway:": {
     uc_output: "1f69f",
     shortnames: [],
     category: "travel"
-},
-":sweat:": {
+  },
+  ":sweat:": {
     uc_output: "1f613",
     shortnames: [],
     category: "people"
-},
-":sweat_drops:": {
+  },
+  ":sweat_drops:": {
     uc_output: "1f4a6",
     shortnames: [],
     category: "nature"
-},
-":sweat_smile:": {
+  },
+  ":sweat_smile:": {
     uc_output: "1f605",
     shortnames: [],
     category: "people"
-},
-":sweet_potato:": {
+  },
+  ":sweet_potato:": {
     uc_output: "1f360",
     shortnames: [],
     category: "food"
-},
-":symbols:": {
+  },
+  ":symbols:": {
     uc_output: "1f523",
     shortnames: [],
     category: "symbols"
-},
-":synagogue:": {
+  },
+  ":synagogue:": {
     uc_output: "1f54d",
     shortnames: [],
     category: "travel"
-},
-":syringe:": {
+  },
+  ":syringe:": {
     uc_output: "1f489",
     shortnames: [],
     category: "objects"
-},
-":t_rex:": {
+  },
+  ":t_rex:": {
     uc_output: "1f996",
     shortnames: [],
     category: "nature"
-},
-":taco:": {
+  },
+  ":taco:": {
     uc_output: "1f32e",
     shortnames: [],
     category: "food"
-},
-":tada:": {
+  },
+  ":tada:": {
     uc_output: "1f389",
     shortnames: [],
     category: "objects"
-},
-":takeout_box:": {
+  },
+  ":takeout_box:": {
     uc_output: "1f961",
     shortnames: [],
     category: "food"
-},
-":tanabata_tree:": {
+  },
+  ":tanabata_tree:": {
     uc_output: "1f38b",
     shortnames: [],
     category: "nature"
-},
-":tangerine:": {
+  },
+  ":tangerine:": {
     uc_output: "1f34a",
     shortnames: [],
     category: "food"
-},
-":taxi:": {
+  },
+  ":taxi:": {
     uc_output: "1f695",
     shortnames: [],
     category: "travel"
-},
-":tea:": {
+  },
+  ":tea:": {
     uc_output: "1f375",
     shortnames: [],
     category: "food"
-},
-":telephone_receiver:": {
+  },
+  ":telephone_receiver:": {
     uc_output: "1f4de",
     shortnames: [],
     category: "objects"
-},
-":telescope:": {
+  },
+  ":telescope:": {
     uc_output: "1f52d",
     shortnames: [],
     category: "objects"
-},
-":tennis:": {
+  },
+  ":tennis:": {
     uc_output: "1f3be",
     shortnames: [],
     category: "activity"
-},
-":thermometer_face:": {
+  },
+  ":thermometer_face:": {
     uc_output: "1f912",
     shortnames: [":face_with_thermometer:"],
     category: "people"
-},
-":thinking:": {
+  },
+  ":thinking:": {
     uc_output: "1f914",
     shortnames: [":thinking_face:"],
     category: "people"
-},
-":third_place:": {
+  },
+  ":third_place:": {
     uc_output: "1f949",
     shortnames: [":third_place_medal:"],
     category: "activity"
-},
-":thought_balloon:": {
+  },
+  ":thought_balloon:": {
     uc_output: "1f4ad",
     shortnames: [],
     category: "symbols"
-},
-":thumbsdown:": {
+  },
+  ":thumbsdown:": {
     uc_output: "1f44e",
     shortnames: [":-1:", ":thumbdown:"],
     category: "people"
-},
-":thumbsup:": {
+  },
+  ":thumbsup:": {
     uc_output: "1f44d",
     shortnames: [":+1:", ":thumbup:"],
     category: "people"
-},
-":ticket:": {
+  },
+  ":ticket:": {
     uc_output: "1f3ab",
     shortnames: [],
     category: "activity"
-},
-":tiger2:": {
+  },
+  ":tiger2:": {
     uc_output: "1f405",
     shortnames: [],
     category: "nature"
-},
-":tiger:": {
+  },
+  ":tiger:": {
     uc_output: "1f42f",
     shortnames: [],
     category: "nature"
-},
-":tired_face:": {
+  },
+  ":tired_face:": {
     uc_output: "1f62b",
     shortnames: [],
     category: "people"
-},
-":toilet:": {
+  },
+  ":toilet:": {
     uc_output: "1f6bd",
     shortnames: [],
     category: "objects"
-},
-":tokyo_tower:": {
+  },
+  ":tokyo_tower:": {
     uc_output: "1f5fc",
     shortnames: [],
     category: "travel"
-},
-":tomato:": {
+  },
+  ":tomato:": {
     uc_output: "1f345",
     shortnames: [],
     category: "food"
-},
-":tone1:": {
+  },
+  ":tone1:": {
     uc_output: "1f3fb",
     shortnames: [],
     category: "modifier"
-},
-":tone2:": {
+  },
+  ":tone2:": {
     uc_output: "1f3fc",
     shortnames: [],
     category: "modifier"
-},
-":tone3:": {
+  },
+  ":tone3:": {
     uc_output: "1f3fd",
     shortnames: [],
     category: "modifier"
-},
-":tone4:": {
+  },
+  ":tone4:": {
     uc_output: "1f3fe",
     shortnames: [],
     category: "modifier"
-},
-":tone5:": {
+  },
+  ":tone5:": {
     uc_output: "1f3ff",
     shortnames: [],
     category: "modifier"
-},
-":tongue:": {
+  },
+  ":tongue:": {
     uc_output: "1f445",
     shortnames: [],
     category: "people"
-},
-":top:": {
+  },
+  ":top:": {
     uc_output: "1f51d",
     shortnames: [],
     category: "symbols"
-},
-":tophat:": {
+  },
+  ":tophat:": {
     uc_output: "1f3a9",
     shortnames: [],
     category: "people"
-},
-":tractor:": {
+  },
+  ":tractor:": {
     uc_output: "1f69c",
     shortnames: [],
     category: "travel"
-},
-":traffic_light:": {
+  },
+  ":traffic_light:": {
     uc_output: "1f6a5",
     shortnames: [],
     category: "travel"
-},
-":train2:": {
+  },
+  ":train2:": {
     uc_output: "1f686",
     shortnames: [],
     category: "travel"
-},
-":train:": {
+  },
+  ":train:": {
     uc_output: "1f68b",
     shortnames: [],
     category: "travel"
-},
-":tram:": {
+  },
+  ":tram:": {
     uc_output: "1f68a",
     shortnames: [],
     category: "travel"
-},
-":triangular_flag_on_post:": {
+  },
+  ":triangular_flag_on_post:": {
     uc_output: "1f6a9",
     shortnames: [],
     category: "flags"
-},
-":triangular_ruler:": {
+  },
+  ":triangular_ruler:": {
     uc_output: "1f4d0",
     shortnames: [],
     category: "objects"
-},
-":trident:": {
+  },
+  ":trident:": {
     uc_output: "1f531",
     shortnames: [],
     category: "symbols"
-},
-":triumph:": {
+  },
+  ":triumph:": {
     uc_output: "1f624",
     shortnames: [],
     category: "people"
-},
-":trolleybus:": {
+  },
+  ":trolleybus:": {
     uc_output: "1f68e",
     shortnames: [],
     category: "travel"
-},
-":trophy:": {
+  },
+  ":trophy:": {
     uc_output: "1f3c6",
     shortnames: [],
     category: "activity"
-},
-":tropical_drink:": {
+  },
+  ":tropical_drink:": {
     uc_output: "1f379",
     shortnames: [],
     category: "food"
-},
-":tropical_fish:": {
+  },
+  ":tropical_fish:": {
     uc_output: "1f420",
     shortnames: [],
     category: "nature"
-},
-":truck:": {
+  },
+  ":truck:": {
     uc_output: "1f69a",
     shortnames: [],
     category: "travel"
-},
-":trumpet:": {
+  },
+  ":trumpet:": {
     uc_output: "1f3ba",
     shortnames: [],
     category: "activity"
-},
-":tulip:": {
+  },
+  ":tulip:": {
     uc_output: "1f337",
     shortnames: [],
     category: "nature"
-},
-":tumbler_glass:": {
+  },
+  ":tumbler_glass:": {
     uc_output: "1f943",
     shortnames: [":whisky:"],
     category: "food"
-},
-":turkey:": {
+  },
+  ":turkey:": {
     uc_output: "1f983",
     shortnames: [],
     category: "nature"
-},
-":turtle:": {
+  },
+  ":turtle:": {
     uc_output: "1f422",
     shortnames: [],
     category: "nature"
-},
-":tv:": {
+  },
+  ":tv:": {
     uc_output: "1f4fa",
     shortnames: [],
     category: "objects"
-},
-":twisted_rightwards_arrows:": {
+  },
+  ":twisted_rightwards_arrows:": {
     uc_output: "1f500",
     shortnames: [],
     category: "symbols"
-},
-":two_hearts:": {
+  },
+  ":two_hearts:": {
     uc_output: "1f495",
     shortnames: [],
     category: "symbols"
-},
-":two_men_holding_hands:": {
+  },
+  ":two_men_holding_hands:": {
     uc_output: "1f46c",
     shortnames: [],
     category: "people"
-},
-":two_women_holding_hands:": {
+  },
+  ":two_women_holding_hands:": {
     uc_output: "1f46d",
     shortnames: [],
     category: "people"
-},
-":u5272:": {
+  },
+  ":u5272:": {
     uc_output: "1f239",
     shortnames: [],
     category: "symbols"
-},
-":u5408:": {
+  },
+  ":u5408:": {
     uc_output: "1f234",
     shortnames: [],
     category: "symbols"
-},
-":u55b6:": {
+  },
+  ":u55b6:": {
     uc_output: "1f23a",
     shortnames: [],
     category: "symbols"
-},
-":u6307:": {
+  },
+  ":u6307:": {
     uc_output: "1f22f",
     shortnames: [],
     category: "symbols"
-},
-":u6709:": {
+  },
+  ":u6709:": {
     uc_output: "1f236",
     shortnames: [],
     category: "symbols"
-},
-":u6e80:": {
+  },
+  ":u6e80:": {
     uc_output: "1f235",
     shortnames: [],
     category: "symbols"
-},
-":u7121:": {
+  },
+  ":u7121:": {
     uc_output: "1f21a",
     shortnames: [],
     category: "symbols"
-},
-":u7533:": {
+  },
+  ":u7533:": {
     uc_output: "1f238",
     shortnames: [],
     category: "symbols"
-},
-":u7981:": {
+  },
+  ":u7981:": {
     uc_output: "1f232",
     shortnames: [],
     category: "symbols"
-},
-":u7a7a:": {
+  },
+  ":u7a7a:": {
     uc_output: "1f233",
     shortnames: [],
     category: "symbols"
-},
-":unamused:": {
+  },
+  ":unamused:": {
     uc_output: "1f612",
     shortnames: [],
     category: "people"
-},
-":underage:": {
+  },
+  ":underage:": {
     uc_output: "1f51e",
     shortnames: [],
     category: "symbols"
-},
-":unicorn:": {
+  },
+  ":unicorn:": {
     uc_output: "1f984",
     shortnames: [":unicorn_face:"],
     category: "nature"
-},
-":unlock:": {
+  },
+  ":unlock:": {
     uc_output: "1f513",
     shortnames: [],
     category: "objects"
-},
-":up:": {
+  },
+  ":up:": {
     uc_output: "1f199",
     shortnames: [],
     category: "symbols"
-},
-":upside_down:": {
+  },
+  ":upside_down:": {
     uc_output: "1f643",
     shortnames: [":upside_down_face:"],
     category: "people"
-},
-":vampire:": {
+  },
+  ":vampire:": {
     uc_output: "1f9db",
     shortnames: [],
     category: "people"
-},
-":vertical_traffic_light:": {
+  },
+  ":vertical_traffic_light:": {
     uc_output: "1f6a6",
     shortnames: [],
     category: "travel"
-},
-":vhs:": {
+  },
+  ":vhs:": {
     uc_output: "1f4fc",
     shortnames: [],
     category: "objects"
-},
-":vibration_mode:": {
+  },
+  ":vibration_mode:": {
     uc_output: "1f4f3",
     shortnames: [],
     category: "symbols"
-},
-":video_camera:": {
+  },
+  ":video_camera:": {
     uc_output: "1f4f9",
     shortnames: [],
     category: "objects"
-},
-":video_game:": {
+  },
+  ":video_game:": {
     uc_output: "1f3ae",
     shortnames: [],
     category: "activity"
-},
-":violin:": {
+  },
+  ":violin:": {
     uc_output: "1f3bb",
     shortnames: [],
     category: "activity"
-},
-":volcano:": {
+  },
+  ":volcano:": {
     uc_output: "1f30b",
     shortnames: [],
     category: "travel"
-},
-":volleyball:": {
+  },
+  ":volleyball:": {
     uc_output: "1f3d0",
     shortnames: [],
     category: "activity"
-},
-":vs:": {
+  },
+  ":vs:": {
     uc_output: "1f19a",
     shortnames: [],
     category: "symbols"
-},
-":vulcan:": {
+  },
+  ":vulcan:": {
     uc_output: "1f596",
     shortnames: [":raised_hand_with_part_between_middle_and_ring_fingers:"],
     category: "people"
-},
-":waning_crescent_moon:": {
+  },
+  ":waning_crescent_moon:": {
     uc_output: "1f318",
     shortnames: [],
     category: "nature"
-},
-":waning_gibbous_moon:": {
+  },
+  ":waning_gibbous_moon:": {
     uc_output: "1f316",
     shortnames: [],
     category: "nature"
-},
-":water_buffalo:": {
+  },
+  ":water_buffalo:": {
     uc_output: "1f403",
     shortnames: [],
     category: "nature"
-},
-":watermelon:": {
+  },
+  ":watermelon:": {
     uc_output: "1f349",
     shortnames: [],
     category: "food"
-},
-":wave:": {
+  },
+  ":wave:": {
     uc_output: "1f44b",
     shortnames: [],
     category: "people"
-},
-":waxing_crescent_moon:": {
+  },
+  ":waxing_crescent_moon:": {
     uc_output: "1f312",
     shortnames: [],
     category: "nature"
-},
-":waxing_gibbous_moon:": {
+  },
+  ":waxing_gibbous_moon:": {
     uc_output: "1f314",
     shortnames: [],
     category: "nature"
-},
-":wc:": {
+  },
+  ":wc:": {
     uc_output: "1f6be",
     shortnames: [],
     category: "symbols"
-},
-":weary:": {
+  },
+  ":weary:": {
     uc_output: "1f629",
     shortnames: [],
     category: "people"
-},
-":wedding:": {
+  },
+  ":wedding:": {
     uc_output: "1f492",
     shortnames: [],
     category: "travel"
-},
-":whale2:": {
+  },
+  ":whale2:": {
     uc_output: "1f40b",
     shortnames: [],
     category: "nature"
-},
-":whale:": {
+  },
+  ":whale:": {
     uc_output: "1f433",
     shortnames: [],
     category: "nature"
-},
-":white_flower:": {
+  },
+  ":white_flower:": {
     uc_output: "1f4ae",
     shortnames: [],
     category: "symbols"
-},
-":white_square_button:": {
+  },
+  ":white_square_button:": {
     uc_output: "1f533",
     shortnames: [],
     category: "symbols"
-},
-":wilted_rose:": {
+  },
+  ":wilted_rose:": {
     uc_output: "1f940",
     shortnames: [":wilted_flower:"],
     category: "nature"
-},
-":wind_chime:": {
+  },
+  ":wind_chime:": {
     uc_output: "1f390",
     shortnames: [],
     category: "objects"
-},
-":wine_glass:": {
+  },
+  ":wine_glass:": {
     uc_output: "1f377",
     shortnames: [],
     category: "food"
-},
-":wink:": {
+  },
+  ":wink:": {
     uc_output: "1f609",
     shortnames: [],
     category: "people"
-},
-":wolf:": {
+  },
+  ":wolf:": {
     uc_output: "1f43a",
     shortnames: [],
     category: "nature"
-},
-":woman:": {
+  },
+  ":woman:": {
     uc_output: "1f469",
     shortnames: [],
     category: "people"
-},
-":woman_with_headscarf:": {
+  },
+  ":woman_with_headscarf:": {
     uc_output: "1f9d5",
     shortnames: [],
     category: "people"
-},
-":womans_clothes:": {
+  },
+  ":womans_clothes:": {
     uc_output: "1f45a",
     shortnames: [],
     category: "people"
-},
-":womans_hat:": {
+  },
+  ":womans_hat:": {
     uc_output: "1f452",
     shortnames: [],
     category: "people"
-},
-":womens:": {
+  },
+  ":womens:": {
     uc_output: "1f6ba",
     shortnames: [],
     category: "symbols"
-},
-":worried:": {
+  },
+  ":worried:": {
     uc_output: "1f61f",
     shortnames: [],
     category: "people"
-},
-":wrench:": {
+  },
+  ":wrench:": {
     uc_output: "1f527",
     shortnames: [],
     category: "objects"
-},
-":yellow_heart:": {
+  },
+  ":yellow_heart:": {
     uc_output: "1f49b",
     shortnames: [],
     category: "symbols"
-},
-":yen:": {
+  },
+  ":yen:": {
     uc_output: "1f4b4",
     shortnames: [],
     category: "objects"
-},
-":yum:": {
+  },
+  ":yum:": {
     uc_output: "1f60b",
     shortnames: [],
     category: "people"
-},
-":zebra:": {
+  },
+  ":zebra:": {
     uc_output: "1f993",
     shortnames: [],
     category: "nature"
-},
-":zipper_mouth:": {
+  },
+  ":zipper_mouth:": {
     uc_output: "1f910",
     shortnames: [":zipper_mouth_face:"],
     category: "people"
-},
-":zombie:": {
+  },
+  ":zombie:": {
     uc_output: "1f9df",
     shortnames: [],
     category: "people"
-},
-":zzz:": {
+  },
+  ":zzz:": {
     uc_output: "1f4a4",
     shortnames: [],
     category: "symbols"
-},
-":alarm_clock:": {
+  },
+  ":alarm_clock:": {
     uc_output: "23f0",
     shortnames: [],
     category: "objects"
-},
-":anchor:": {
+  },
+  ":anchor:": {
     uc_output: "2693",
     shortnames: [],
     category: "travel"
-},
-":aquarius:": {
+  },
+  ":aquarius:": {
     uc_output: "2652",
     shortnames: [],
     category: "symbols"
-},
-":aries:": {
+  },
+  ":aries:": {
     uc_output: "2648",
     shortnames: [],
     category: "symbols"
-},
-":arrow_double_down:": {
+  },
+  ":arrow_double_down:": {
     uc_output: "23ec",
     shortnames: [],
     category: "symbols"
-},
-":arrow_double_up:": {
+  },
+  ":arrow_double_up:": {
     uc_output: "23eb",
     shortnames: [],
     category: "symbols"
-},
-":baseball:": {
+  },
+  ":baseball:": {
     uc_output: "26be",
     shortnames: [],
     category: "activity"
-},
-":black_circle:": {
+  },
+  ":black_circle:": {
     uc_output: "26ab",
     shortnames: [],
     category: "symbols"
-},
-":black_large_square:": {
+  },
+  ":black_large_square:": {
     uc_output: "2b1b",
     shortnames: [],
     category: "symbols"
-},
-":black_medium_small_square:": {
+  },
+  ":black_medium_small_square:": {
     uc_output: "25fe",
     shortnames: [],
     category: "symbols"
-},
-":cancer:": {
+  },
+  ":cancer:": {
     uc_output: "264b",
     shortnames: [],
     category: "symbols"
-},
-":capricorn:": {
+  },
+  ":capricorn:": {
     uc_output: "2651",
     shortnames: [],
     category: "symbols"
-},
-":church:": {
+  },
+  ":church:": {
     uc_output: "26ea",
     shortnames: [],
     category: "travel"
-},
-":coffee:": {
+  },
+  ":coffee:": {
     uc_output: "2615",
     shortnames: [],
     category: "food"
-},
-":curly_loop:": {
+  },
+  ":curly_loop:": {
     uc_output: "27b0",
     shortnames: [],
     category: "symbols"
-},
-":exclamation:": {
+  },
+  ":exclamation:": {
     uc_output: "2757",
     shortnames: [],
     category: "symbols"
-},
-":fast_forward:": {
+  },
+  ":fast_forward:": {
     uc_output: "23e9",
     shortnames: [],
     category: "symbols"
-},
-":fist:": {
+  },
+  ":fist:": {
     uc_output: "270a",
     shortnames: [],
     category: "people"
-},
-":fountain:": {
+  },
+  ":fountain:": {
     uc_output: "26f2",
     shortnames: [],
     category: "travel"
-},
-":fuelpump:": {
+  },
+  ":fuelpump:": {
     uc_output: "26fd",
     shortnames: [],
     category: "travel"
-},
-":gemini:": {
+  },
+  ":gemini:": {
     uc_output: "264a",
     shortnames: [],
     category: "symbols"
-},
-":golf:": {
+  },
+  ":golf:": {
     uc_output: "26f3",
     shortnames: [],
     category: "activity"
-},
-":grey_exclamation:": {
+  },
+  ":grey_exclamation:": {
     uc_output: "2755",
     shortnames: [],
     category: "symbols"
-},
-":grey_question:": {
+  },
+  ":grey_question:": {
     uc_output: "2754",
     shortnames: [],
     category: "symbols"
-},
-":heavy_division_sign:": {
+  },
+  ":heavy_division_sign:": {
     uc_output: "2797",
     shortnames: [],
     category: "symbols"
-},
-":heavy_minus_sign:": {
+  },
+  ":heavy_minus_sign:": {
     uc_output: "2796",
     shortnames: [],
     category: "symbols"
-},
-":heavy_plus_sign:": {
+  },
+  ":heavy_plus_sign:": {
     uc_output: "2795",
     shortnames: [],
     category: "symbols"
-},
-":hourglass:": {
+  },
+  ":hourglass:": {
     uc_output: "231b",
     shortnames: [],
     category: "objects"
-},
-":hourglass_flowing_sand:": {
+  },
+  ":hourglass_flowing_sand:": {
     uc_output: "23f3",
     shortnames: [],
     category: "objects"
-},
-":leo:": {
+  },
+  ":leo:": {
     uc_output: "264c",
     shortnames: [],
     category: "symbols"
-},
-":libra:": {
+  },
+  ":libra:": {
     uc_output: "264e",
     shortnames: [],
     category: "symbols"
-},
-":loop:": {
+  },
+  ":loop:": {
     uc_output: "27bf",
     shortnames: [],
     category: "symbols"
-},
-":negative_squared_cross_mark:": {
+  },
+  ":negative_squared_cross_mark:": {
     uc_output: "274e",
     shortnames: [],
     category: "symbols"
-},
-":no_entry:": {
+  },
+  ":no_entry:": {
     uc_output: "26d4",
     shortnames: [],
     category: "symbols"
-},
-":o:": {
+  },
+  ":o:": {
     uc_output: "2b55",
     shortnames: [],
     category: "symbols"
-},
-":ophiuchus:": {
+  },
+  ":ophiuchus:": {
     uc_output: "26ce",
     shortnames: [],
     category: "symbols"
-},
-":partly_sunny:": {
+  },
+  ":partly_sunny:": {
     uc_output: "26c5",
     shortnames: [],
     category: "nature"
-},
-":pisces:": {
+  },
+  ":pisces:": {
     uc_output: "2653",
     shortnames: [],
     category: "symbols"
-},
-":question:": {
+  },
+  ":question:": {
     uc_output: "2753",
     shortnames: [],
     category: "symbols"
-},
-":raised_hand:": {
+  },
+  ":raised_hand:": {
     uc_output: "270b",
     shortnames: [],
     category: "people"
-},
-":rewind:": {
+  },
+  ":rewind:": {
     uc_output: "23ea",
     shortnames: [],
     category: "symbols"
-},
-":sagittarius:": {
+  },
+  ":sagittarius:": {
     uc_output: "2650",
     shortnames: [],
     category: "symbols"
-},
-":sailboat:": {
+  },
+  ":sailboat:": {
     uc_output: "26f5",
     shortnames: [],
     category: "travel"
-},
-":scorpius:": {
+  },
+  ":scorpius:": {
     uc_output: "264f",
     shortnames: [],
     category: "symbols"
-},
-":snowman:": {
+  },
+  ":snowman:": {
     uc_output: "26c4",
     shortnames: [],
     category: "nature"
-},
-":soccer:": {
+  },
+  ":soccer:": {
     uc_output: "26bd",
     shortnames: [],
     category: "activity"
-},
-":sparkles:": {
+  },
+  ":sparkles:": {
     uc_output: "2728",
     shortnames: [],
     category: "nature"
-},
-":star:": {
+  },
+  ":star:": {
     uc_output: "2b50",
     shortnames: [],
     category: "nature"
-},
-":taurus:": {
+  },
+  ":taurus:": {
     uc_output: "2649",
     shortnames: [],
     category: "symbols"
-},
-":tent:": {
+  },
+  ":tent:": {
     uc_output: "26fa",
     shortnames: [],
     category: "travel"
-},
-":umbrella:": {
+  },
+  ":umbrella:": {
     uc_output: "2614",
     shortnames: [],
     category: "nature"
-},
-":virgo:": {
+  },
+  ":virgo:": {
     uc_output: "264d",
     shortnames: [],
     category: "symbols"
-},
-":watch:": {
+  },
+  ":watch:": {
     uc_output: "231a",
     shortnames: [],
     category: "objects"
-},
-":wheelchair:": {
+  },
+  ":wheelchair:": {
     uc_output: "267f",
     shortnames: [],
     category: "symbols"
-},
-":white_check_mark:": {
+  },
+  ":white_check_mark:": {
     uc_output: "2705",
     shortnames: [],
     category: "symbols"
-},
-":white_circle:": {
+  },
+  ":white_circle:": {
     uc_output: "26aa",
     shortnames: [],
     category: "symbols"
-},
-":white_large_square:": {
+  },
+  ":white_large_square:": {
     uc_output: "2b1c",
     shortnames: [],
     category: "symbols"
-},
-":white_medium_small_square:": {
+  },
+  ":white_medium_small_square:": {
     uc_output: "25fd",
     shortnames: [],
     category: "symbols"
-},
-":x:": {
+  },
+  ":x:": {
     uc_output: "274c",
     shortnames: [],
     category: "symbols"
-},
-":zap:": {
+  },
+  ":zap:": {
     uc_output: "26a1",
     shortnames: [],
     category: "nature"
-}
+  }
 };
 
 const convertEmojioneBugMap = [
-    [":digit_one:", 1],
-    [":digit_two:", 2],
-    [":digit_three:", 3],
-    [":digit_four:", 4],
-    [":digit_five:", 5],
-    [":digit_six:", 6],
-    [":digit_seven:", 7],
-    [":digit_eight:", 8],
-    [":digit_nine:", 9],
-    [":digit_zero:", 0],
-    [":asterisk_symbol:", "*"],
-    [":pound_symbol:", "#"]
+  [":digit_one:", 1],
+  [":digit_two:", 2],
+  [":digit_three:", 3],
+  [":digit_four:", 4],
+  [":digit_five:", 5],
+  [":digit_six:", 6],
+  [":digit_seven:", 7],
+  [":digit_eight:", 8],
+  [":digit_nine:", 9],
+  [":digit_zero:", 0],
+  [":asterisk_symbol:", "*"],
+  [":pound_symbol:", "#"]
 ];
 
 // for converting unicode code points and code pairs to their respective characters
 function convert(unicode) {
-    if (unicode.indexOf("-") > -1) {
-      var parts = [];
-      var s = unicode.split("-");
-      for (var i = 0; i < s.length; i++) {
-        var part = parseInt(s[i], 16);
-        if (part >= 0x10000 && part <= 0x10ffff) {
-          var hi = Math.floor((part - 0x10000) / 0x400) + 0xd800;
-          var lo = ((part - 0x10000) % 0x400) + 0xdc00;
-          part = String.fromCharCode(hi) + String.fromCharCode(lo);
-        } else {
-          part = String.fromCharCode(part);
-        }
-        parts.push(part);
-      }
-      return parts.join("");
-    } else {
-      var s = parseInt(unicode, 16);
-      if (s >= 0x10000 && s <= 0x10ffff) {
-        var hi = Math.floor((s - 0x10000) / 0x400) + 0xd800;
-        var lo = ((s - 0x10000) % 0x400) + 0xdc00;
-        return String.fromCharCode(hi) + String.fromCharCode(lo);
+  if (unicode.indexOf("-") > -1) {
+    var parts = [];
+    var s = unicode.split("-");
+    for (var i = 0; i < s.length; i++) {
+      var part = parseInt(s[i], 16);
+      if (part >= 0x10000 && part <= 0x10ffff) {
+        var hi = Math.floor((part - 0x10000) / 0x400) + 0xd800;
+        var lo = ((part - 0x10000) % 0x400) + 0xdc00;
+        part = String.fromCharCode(hi) + String.fromCharCode(lo);
       } else {
-        return String.fromCharCode(s);
+        part = String.fromCharCode(part);
       }
+      parts.push(part);
+    }
+    return parts.join("");
+  } else {
+    var s = parseInt(unicode, 16);
+    if (s >= 0x10000 && s <= 0x10ffff) {
+      var hi = Math.floor((s - 0x10000) / 0x400) + 0xd800;
+      var lo = ((s - 0x10000) % 0x400) + 0xdc00;
+      return String.fromCharCode(hi) + String.fromCharCode(lo);
+    } else {
+      return String.fromCharCode(s);
     }
   }
+}
 
 function _getTmpShortNames() {
-    let tmpShortNames = [];
+  let tmpShortNames = [];
 
-    for (let emoji in emojiList) {
-        if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
-        tmpShortNames.push(emoji.replace(/[+]/g, "\\$&"));
-        for (var i = 0; i < emojiList[emoji].shortnames.length; i++) {
-        tmpShortNames.push(emojiList[emoji].shortnames[i].replace(/[+]/g, "\\$&"));
-        }
+  for (let emoji in emojiList) {
+    if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
+    tmpShortNames.push(emoji.replace(/[+]/g, "\\$&"));
+    for (var i = 0; i < emojiList[emoji].shortnames.length; i++) {
+      tmpShortNames.push(
+        emojiList[emoji].shortnames[i].replace(/[+]/g, "\\$&")
+      );
     }
-    return tmpShortNames.join("|")
+  }
+  return tmpShortNames.join("|");
 }
 
 function _getUnicodeCharRegex() {
-    let map = [];
-    for (let emoji in emojiList) {
-        if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
-        map.push(convert(emojiList[emoji].uc_output));
-    }
-    return map.join("|");
+  let map = [];
+  for (let emoji in emojiList) {
+    if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
+    map.push(convert(emojiList[emoji].uc_output));
+  }
+  return map.join("|");
 }
 
 function _getShortnameConversionMap() {
-    let map = [];
-    for (let emoji in emojiList) {
-        if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
-        map[convert(emojiList[emoji].uc_output)] = emoji;
-    }
-    return map;
+  let map = [];
+  for (let emoji in emojiList) {
+    if (!emojiList.hasOwnProperty(emoji) || emoji === "") continue;
+    map[convert(emojiList[emoji].uc_output)] = emoji;
+  }
+  return map;
 }
-
 
 // Init when package loaded
 const shortnames = _getTmpShortNames();
 const emojiRegShortNames = new RegExp(
-"<object[^>]*>.*?</object>|<span[^>]*>.*?</span>|<(?:object|embed|svg|img|div|span|p|a)[^>]*>|(" +
+  "<object[^>]*>.*?</object>|<span[^>]*>.*?</span>|<(?:object|embed|svg|img|div|span|p|a)[^>]*>|(" +
     shortnames +
     ")",
-"gi"
+  "gi"
 );
 const unicodeCharRegex = _getUnicodeCharRegex();
-const shortnameConversionMap = _getShortnameConversionMap()
+const shortnameConversionMap = _getShortnameConversionMap();
 
 export {
-    emojiList,
-    convert,
-    convertEmojioneBugMap,
-    shortnames,
-    emojiRegShortNames,
-    unicodeCharRegex,
-    shortnameConversionMap
-}
+  emojiList,
+  convert,
+  convertEmojioneBugMap,
+  shortnames,
+  emojiRegShortNames,
+  unicodeCharRegex,
+  shortnameConversionMap
+};

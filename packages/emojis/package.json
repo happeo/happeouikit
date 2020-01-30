@@ -22,7 +22,6 @@
     "@happeokit/colors": "^3.0.1",
     "@happeokit/icons": "^3.0.1",
     "@happeokit/theme": "^3.0.1",
-    "@happeokit/translations": "^3.0.1",
     "@universe/analytics": "0.0.2",
     "emoji-mart": "2.11.1",
     "react-tether": "^2.0.3"
