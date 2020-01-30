@@ -66,8 +66,7 @@ const DatePickerV2 = ({
           selectedDays: [from, { from, to }],
           navbarElement: <CustomNavbar />,
           showOutsideDays: true,
-          fromMonth,
-          disabledDays
+          fromMonth
         }}
         {...props}
       />
