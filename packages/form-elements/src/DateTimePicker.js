@@ -10,8 +10,6 @@ import { IconArrowDropDown } from "@happeokit/icons";
 import { components } from "react-select";
 import { gray06, active, black70, lighten, white } from "@happeokit/colors";
 import { sansFamily } from "@happeokit/typography";
-import { msg } from "@happeokit/translations";
-import { injectIntl } from "react-intl";
 import messages from "./messages";
 import "react-day-picker/lib/style.css";
 
@@ -64,7 +62,7 @@ class DateTimePicker extends React.Component {
     if (time.length !== 2) {
       this.setState({
         timeInputState: "error",
-        timeInputErrorMessage: msg(messages.wrongFormat)
+        timeInputErrorMessage: messages.wrongFormat
       });
       return;
     }
@@ -79,14 +77,14 @@ class DateTimePicker extends React.Component {
     if (isNaN(hour) || isNaN(minute)) {
       this.setState({
         timeInputState: "error",
-        timeInputErrorMessage: msg(messages.notNumber)
+        timeInputErrorMessage: messages.notNumber
       });
       return false;
     }
     if ((this.state.mode !== "24h" && hour > 12) || hour > 23 || minute > 59) {
       this.setState({
         timeInputState: "error",
-        timeInputErrorMessage: msg(messages.invalidTime)
+        timeInputErrorMessage: messages.invalidTime
       });
       return false;
     }
@@ -177,8 +175,8 @@ class DateTimePicker extends React.Component {
             }}
             options={[{}]}
             isSearchable={false}
-            placeholder={msg(messages.selectDate)}
-            label={msg(messages.calendarLabel)}
+            placeholder={messages.selectDate}
+            label={messages.calendarLabel}
             ref={this.calendarRef}
           />
         </InputWrapper>
@@ -186,8 +184,8 @@ class DateTimePicker extends React.Component {
         <TimeInputs>
           <InputWrapper>
             <Input
-              placeholder={intl.formatMessage(messages.timeInputPlaceholder)}
-              label={msg(messages.timeInputLabel)}
+              placeholder={messages.timeInputPlaceholder}
+              label={messages.timeInputLabel}
               onChange={this.onChangeTime}
               state={this.state.timeInputState}
               errorMessage={this.state.timeInputErrorMessage}
@@ -199,11 +197,11 @@ class DateTimePicker extends React.Component {
             <Spacer />
             <StyledDropdown
               options={[
-                { value: "am", label: msg(messages.am) },
-                { value: "pm", label: msg(messages.pm) },
-                { value: "24h", label: msg(messages.twentyFourHour) }
+                { value: "am", label: messages.am },
+                { value: "pm", label: messages.pm },
+                { value: "24h", label: messages.twentyFourHour }
               ]}
-              defaultValue={{ value: "am", label: msg(messages.am) }}
+              defaultValue={{ value: "am", label: messages.am }}
               onChange={this.onChangeMode}
             />
           </InputWrapper>
@@ -288,7 +286,7 @@ const StyledDayPicker = styled(DayPicker)`
       font-family: ${sansFamily};
     }
 
-    &-Day:hover:not(.&-Day--outside) {
+    &-Day:hover:not(.DayPicker-Day--outside) {
       background-color: ${lighten(active, 90)};
     }
 
@@ -352,4 +350,4 @@ DateTimePicker.propTypes = {
   onChange: PropTypes.func.isRequired
 };
 
-export default injectIntl(DateTimePicker);
+export default DateTimePicker;

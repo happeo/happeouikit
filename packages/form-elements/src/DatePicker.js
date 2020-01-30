@@ -1,205 +1,277 @@
-import React from "react";
-import styled from "styled-components";
-import moment from "moment";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import Dropdown from "./Dropdown";
-import { alert } from "@happeokit/colors";
-import { TinyText } from "@happeokit/typography";
-import DateTimePicker from "./DateTimePicker";
-import { MONTH_RANGE } from "./constant";
-import { msg } from "@happeokit/translations";
-import messages from "./messages";
-import { media } from "@happeokit/layout";
+import styled from "styled-components";
+import DayPickerInput from "react-day-picker/DayPickerInput";
+import moment from "moment";
+import MomentLocaleUtils, {
+  formatDate,
+  parseDate
+} from "react-day-picker/moment";
+import "moment/locale/en-gb";
 
-class DatePicker extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      dateObject: moment(),
-      selectedDay: undefined,
-      selectedMonth: undefined,
-      selectedYear: undefined
-    };
-  }
+import { sansFamily, TextZeta } from "@happeokit/typography";
+import {
+  gray06,
+  black,
+  active,
+  gray01,
+  toBgLight,
+  white,
+  gray03
+} from "@happeokit/colors";
+import { Spacer } from "@happeokit/layout";
+import { IconButton } from "@happeokit/buttons";
+import {
+  IconChevronLeft,
+  IconChevronRight,
+  IconCalendar
+} from "@happeokit/icons";
+import { shadow500 } from "@happeokit/theme";
 
-  createDayRange = () => {
-    const current = moment().month(0);
+// CSS
+import "react-day-picker/lib/style.css";
 
-    if (this.state.selectedMonth === 2 && this.state.selectedYear) {
-      current.month(1).year(this.state.selectedYear);
-    } else if (this.state.selectedMonth) {
-      current.month(this.state.selectedMonth - 1);
-    }
-
-    const dayArr = [];
-    for (let i = 1; i <= current.daysInMonth(); i++) {
-      dayArr.push({ label: i.toString(), value: i });
-    }
-
-    return dayArr;
-  };
-
-  createYearRange = () => {
-    const currentYear = moment(this.state.dateObject).year();
-    const { maxYear, minYear } = this.props;
-    let upperLimit = maxYear;
-    let lowerLimit = minYear;
-
-    if (!maxYear && !minYear) {
-      upperLimit = currentYear;
-      lowerLimit = moment(this.state.dateObject)
-        .subtract(100, "year")
-        .year();
-    }
-
-    const yearArr = [];
-    for (let i = upperLimit; i >= lowerLimit; i--) {
-      const currentYearString = moment()
-        .year(i)
-        .format("YYYY");
-      yearArr.push({
-        label: currentYearString,
-        value: parseInt(currentYearString)
-      });
-    }
-
-    return yearArr;
-  };
-
-  onDateChange = () => {
-    const { selectedDay, selectedMonth, selectedYear } = this.state;
-
-    if (!selectedDay || !selectedMonth) return;
-
-    if (selectedYear) {
-      if (!moment([selectedYear, selectedMonth - 1, selectedDay]).isValid()) {
-        this.setState({ error: msg(messages.invalidDate) });
-        return;
-      }
-    } else {
-      if (
-        selectedDay >
-        moment()
-          .month(selectedMonth - 1)
-          .daysInMonth()
-      ) {
-        this.setState({ error: msg(messages.invalidDate) });
-        return;
-      }
-    }
-
-    this.setState({ error: null });
-    const selectedFullDate = moment({
-      year: selectedYear,
-      month: selectedMonth - 1,
-      day: selectedDay
-    });
-
-    if (this.props.onChange) this.props.onChange(selectedFullDate.toDate());
-  };
-
-  handleOnFieldChange = (value, field) => {
-    this.setState(
-      {
-        ...(field === "day" && { selectedDay: value }),
-        ...(field === "month" && { selectedMonth: value }),
-        ...(field === "year" && { selectedYear: value })
-      },
-      this.onDateChange
-    );
-  };
-
-  render() {
-    if (this.props.mode === "date-time") {
-      return <DateTimePicker onChange={this.props.onChange} />;
-    }
-    return (
-      <Wrapper {...this.props}>
-        <StyledPicker
-          placeholder={msg(messages.day)}
-          options={this.createDayRange(this.state.selectedMonth - 1)}
-          styles={dayPickerContainer}
-          onChange={({ value }) => this.handleOnFieldChange(value, "day")}
-          state={this.state.error ? "error" : "default"}
-        />
-        <StyledPicker
-          placeholder={msg(messages.month)}
-          options={MONTH_RANGE}
-          styles={monthPickerContainer}
-          onChange={({ value }) => this.handleOnFieldChange(value, "month")}
-          state={this.state.error ? "error" : "default"}
-        />
-        <StyledPicker
-          placeholder={msg(messages.year)}
-          options={this.createYearRange(this.state.dateObject)}
-          styles={yearPickerContainer}
-          onChange={({ value }) => this.handleOnFieldChange(value, "year")}
-          state={this.state.error ? "error" : "default"}
-        />
-        {this.state.error && (
-          <ErrorMessage color={alert}>{msg(messages.invalidDate)}</ErrorMessage>
-        )}
-      </Wrapper>
-    );
-  }
-}
-
-const dayPickerContainer = {
-  container: base => ({
-    ...base,
-    flex: "1 3 auto"
-  })
+const DatePicker = ({
+  label,
+  locale,
+  width,
+  date,
+  type,
+  fromMonth,
+  disabledDays,
+  ...props
+}) => {
+  const { to, from } = date;
+  return (
+    <Wrapper width={width} hasRange={Boolean(to)}>
+      {label && (
+        <Fragment>
+          <TextZeta>{label}</TextZeta>
+          <Spacer height="4px" />
+        </Fragment>
+      )}
+      <DayPickerInput
+        component={props => <CustomInput {...props} />}
+        value={date[type] && moment(date[type]).format("L")}
+        key={date[type]}
+        formatDate={formatDate}
+        parseDate={parseDate}
+        placeholder={`${formatDate(new Date(), "L", "en-gb")}`}
+        dayPickerProps={{
+          locale: locale || "en-gb",
+          localeUtils: MomentLocaleUtils,
+          className: "Range",
+          disabledDays: type === "to" ? { before: from } : {},
+          modifiers: { before: from, after: to },
+          selectedDays: [from, { from, to }],
+          navbarElement: <CustomNavbar />,
+          showOutsideDays: true,
+          fromMonth
+        }}
+        {...props}
+      />
+    </Wrapper>
+  );
 };
-const monthPickerContainer = {
-  container: base => ({
-    ...base,
-    flex: "3 1 auto",
-    marginRight: 10,
-    marginLeft: 10
-  })
-};
-const yearPickerContainer = {
-  container: base => ({
-    ...base,
-    flex: "1 3 auto"
-  })
-};
-
-const Wrapper = styled.div`
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-
-  ${media.min.xs`
-    flex-direction: row;
-  `}
-`;
-const ErrorMessage = styled(TinyText)`
-  margin: 8px 0;
-  width: 100%;
-`;
-const StyledPicker = styled(Dropdown)`
-  min-width: 90px;
-
-  .dropdown__control {
-    border-color: ${({ state }) => state === "error" && alert};
-  }
-`;
 
 DatePicker.propTypes = {
-  onChange: PropTypes.func.isRequired,
-  maxYear: (props, propName) => {
-    if (props["minYear"] && !props[propName]) {
-      return new Error("maxYear props is required when minYear is defined");
-    }
-  },
-  minYear: (props, propName) => {
-    if (props["maxYear"] && !props[propName]) {
-      return new Error("minYear props is required when maxYear is defined");
-    }
-  },
-  mode: PropTypes.string
+  label: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  locale: PropTypes.string,
+  width: PropTypes.string,
+  from: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  fromMonth: PropTypes.object
 };
 
+const CustomNavbar = ({ month, onPreviousClick, onNextClick }) => {
+  return (
+    <NavBarContainer>
+      <IconButton
+        icon={IconChevronLeft}
+        isActionIcon
+        onClick={() => onPreviousClick()}
+      />
+      <TextZeta bold>{moment(month).format("MMMM YYYY")}</TextZeta>
+      <IconButton
+        icon={IconChevronRight}
+        isActionIcon
+        onClick={() => onNextClick()}
+      />
+    </NavBarContainer>
+  );
+};
+
+const CustomInput = props => {
+  return (
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <IconCalendar
+        style={{
+          position: "absolute",
+          paddingLeft: "10px",
+          fill: gray03,
+          height: "20px",
+          width: "20px",
+          boxSizing: "content-box"
+        }}
+      />
+      <input {...props} />
+    </div>
+  );
+};
+
+const borderRadius = "100px";
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: ${({ width }) => width || "200px"};
+
+  .DayPickerInput-Overlay {
+    margin-top: 8px;
+    box-shadow: ${shadow500};
+  }
+
+  .DayPickerInput {
+    .Range {
+      .DayPicker-Day {
+        &.DayPicker-Day--selected:not(.DayPicker-Day--before):not(.DayPicker-Day--after) {
+          background-color: ${toBgLight(active)};
+          border-radius: 0;
+          &:not(.DayPicker-Day--outside) {
+            color: ${gray01};
+          }
+        }
+        &.DayPicker-Day--selected {
+          background-color: ${active};
+        }
+
+        &.DayPicker-Day--before {
+          position: relative;
+
+          ${({ hasRange }) =>
+            hasRange &&
+            `
+          ::before {
+            content: "";
+            position: absolute;
+            background-color: ${toBgLight(active)};
+            width: 10px;
+            height: 32px;
+            top: 0;
+            right: 0;
+            z-index: -1;
+          }
+        `}
+        }
+        &.DayPicker-Day--after {
+          position: relative;
+          ${({ hasRange }) =>
+            hasRange &&
+            `
+          ::before {
+            content: "";
+            position: absolute;
+            background-color: ${toBgLight(active)};
+            width: 10px;
+            height: 32px;
+            top: 0;
+            left: 0;
+            z-index: -1;
+          }
+        `}
+        }
+        &.DayPicker-Day--today:not(.DayPicker-Day--selected) {
+          color: ${active};
+        }
+
+        &.DayPicker-Day--outside {
+          &.DayPicker-Day--before,
+          &.DayPicker-Day--after {
+            color: ${white};
+          }
+        }
+      }
+    }
+    input {
+      font-family: ${sansFamily};
+      width: 100%;
+      height: 40px;
+      border-radius: 4px;
+      border: solid 1px ${gray06};
+      box-sizing: border-box;
+      box-shadow: none;
+      font-size: 14px;
+      padding: 10px 40px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: 0.3px;
+      color: ${black};
+
+      :hover {
+        border-color: ${gray06};
+      }
+
+      :active {
+        outline: none;
+        box-shadow: none;
+        border-color: ${active};
+      }
+
+      :focus {
+        outline: none;
+        border-color: ${active};
+      }
+    }
+
+    .DayPicker-wrapper {
+      font-family: ${sansFamily};
+      color: ${gray01};
+      letter-spacing: -0.3px;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .DayPicker-Week {
+      .DayPicker-Day--selected:not(.DayPicker-Day--before):not(.DayPicker-Day--after) {
+        &:first-child {
+          border-top-left-radius: ${borderRadius} !important;
+          border-bottom-left-radius: ${borderRadius} !important;
+        }
+        &:last-child {
+          border-top-right-radius: ${borderRadius} !important;
+          border-bottom-right-radius: ${borderRadius} !important;
+        }
+      }
+
+      .DayPicker-Day--selected {
+        &:first-child {
+          &.DayPicker-Day--after {
+            ::before {
+              content: none;
+            }
+          }
+        }
+        &:last-child {
+          &.DayPicker-Day--before {
+            ::before {
+              content: none;
+            }
+          }
+        }
+      }
+    }
+
+    .DayPicker-Caption {
+      display: none;
+    }
+  }
+`;
+
+const NavBarContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+`;
 export default DatePicker;

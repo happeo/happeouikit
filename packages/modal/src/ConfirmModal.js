@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { msg } from "@happeokit/translations";
 import { Modal, ModalIcon } from "./index";
 import { TextZeta, TextDelta } from "@happeokit/typography";
 import { Spacer } from "@happeokit/layout";

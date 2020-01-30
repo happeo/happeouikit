@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { msg } from "@happeokit/translations";
 import { TinyText } from "@happeokit/typography";
 import { alert, toBgLight } from "@happeokit/colors";
 

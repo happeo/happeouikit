@@ -8,6 +8,6 @@ export { default as Textarea } from "./Textarea";
 export { default as Tag } from "./Tag";
 export { default as Badge } from "./Badge";
 export { default as DatePicker } from "./DatePicker";
-export { default as DatePickerV2 } from "./DatePickerV2";
 export { default as TagInput } from "./TagInput";
 export * from "./utils";
+export { default as DateTimePicker } from "./DateTimePicker";

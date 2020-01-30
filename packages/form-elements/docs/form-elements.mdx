@@ -8,9 +8,8 @@ import { Playground, Props } from 'docz';
 import { Metadata } from '@happeokit/docs';
 import pkg from "../package.json";
 import { IconSearch } from  '@happeokit/icons';
-import { Dropdown, Input, InputNumber, Switch, Link, Checkbox, RadioButton, Tag, Badge, Textarea, TagInput, DatePicker,DatePickerV2 } from '../src/index';
+import { Dropdown, Input, InputNumber, Switch, Link, Checkbox, RadioButton, Tag, Badge, Textarea, TagInput, DatePicker, DateTimePicker } from '../src/index';
 import { loadOptions, selectCallback, promiseOptions, InjectableTagInput } from '../src/Example'
-import TranslationProvider from '../src/TranslationProvider'
 import { BodyUI } from "../../typography/src";
 
 # Form-elements
@@ -100,35 +99,24 @@ import { BodyUI } from "../../typography/src";
 <Props of={Badge} />
 
 ### Date Picker
-Mode default to none, or can be set to 'date-time'
 <Playground>
-    <TranslationProvider>
-        <DatePicker onChange={date => console.log(date)}/>
-    </TranslationProvider>
+    <DateTimePicker onChange={date => console.log(date)}/>
 </Playground>
 
 <Playground>
-    <TranslationProvider>
-        <DatePicker onChange={date => console.log(date)} mode='date-time'/>
-    </TranslationProvider>
-</Playground>
-
-<Playground>
-    <TranslationProvider>
-        <DatePickerV2 
-            type="to"
-            date={{ from: "", to: "" }}
-            fromMonth={new Date(2020, 0)}
-            disabledDays={[
-                new Date(2020, 0, 1),
-                {
-                    after: new Date(2020, 0, 20),
-                    before: new Date(2020, 0, 25),
-                },
-            ]}
-            onDayChange={val => console.log(val)}
-         />
-    </TranslationProvider>
+    <DatePicker
+        type="to"
+        date={{ from: "", to: "" }}
+        fromMonth={new Date(2020, 0)}
+        disabledDays={[
+            new Date(2020, 0, 1),
+            {
+                after: new Date(2020, 0, 20),
+                before: new Date(2020, 0, 25),
+            },
+        ]}
+        onDayChange={val => console.log(val)}
+     />
 </Playground>
 
 #### Props
@@ -145,8 +133,7 @@ Mode default to none, or can be set to 'date-time'
 
 ### Tag Input for article
 <Playground>
-    <TranslationProvider>
-        <TagInput
+    <TagInput
         loadOptions={promiseOptions}
         callback={selectCallback}
         placeholder={'Add hashtags'}
@@ -155,13 +142,11 @@ Mode default to none, or can be set to 'date-time'
         targetElement="article"
         warningThreshold={2}
         warningMessage="We recommend using at most 2 tags"/>
-    </TranslationProvider>
 </Playground>
 
 ### Tag Input for page
 <Playground>
-    <TranslationProvider>
-        <TagInput
+    <TagInput
         loadOptions={promiseOptions}
         callback={selectCallback}
         placeholder={'Add hashtags'}
@@ -170,14 +155,11 @@ Mode default to none, or can be set to 'date-time'
         targetElement="pages"
         warningThreshold={2}
         warningMessage="We recommend using at most 2 tags"/>
-    </TranslationProvider>
 </Playground>
 
 ### Tag Input with button to inject tags from outside.
 <Playground>
-    <TranslationProvider>
         <InjectableTagInput />
-    </TranslationProvider>
 </Playground>
 
 #### Props

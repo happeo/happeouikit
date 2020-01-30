@@ -14,10 +14,8 @@ import { dropdownStyles } from "./Dropdown";
 import { IconButton } from "@happeokit/buttons";
 import { IconAddCircle } from "@happeokit/icons";
 import { gray04, active, alert } from "@happeokit/colors";
-import { FormattedMessage } from "react-intl";
 import messages from "./messages";
 import { Spacer } from "@happeokit/layout";
-import { injectIntl } from "react-intl";
 
 const TagInput = forwardRef(
   (
@@ -92,9 +90,8 @@ const TagInput = forwardRef(
         )}
         {error && isMenuFocused && (
           <TinyText style={{ color: alert }}>
-            {intl.formatMessage(messages.tagMaximumNumberExceeded, {
-              limit: maxOptions
-            })}
+            {messages.tagMaximumNumberExceeded}
+            {maxOptions}
           </TinyText>
         )}
         <StyledDropdown
@@ -180,13 +177,7 @@ const FormatOptionLabel = ({
           </div>
           <Spacer height={"8px"} />
           <BodyUI color={gray04}>
-            {!suggested && (
-              <FormattedMessage
-                {...messages.timesUsed}
-                values={{ times: count }}
-              />
-            )}
-            {suggested && <FormattedMessage {...messages.suggestedTag} />}
+            {!suggested ? messages.timesUsed + count : messages.suggestedTag}
           </BodyUI>
         </CreateInputRowInner>
       </CreateInputRow>
@@ -196,7 +187,7 @@ const FormatOptionLabel = ({
   }
 };
 
-const FormatCreateLabel = ({ value, intl }) => {
+const FormatCreateLabel = ({ value }) => {
   const sanitisedHashtag = sanitiseHashtag(value);
   const lengthExceeded = sanitisedHashtag.length >= 64;
   return (
@@ -205,11 +196,9 @@ const FormatCreateLabel = ({ value, intl }) => {
         <BodyUI color={active}>{sanitisedHashtag}</BodyUI>
         <Spacer height={"8px"} />
         {lengthExceeded ? (
-          <BodyUI color={alert}>
-            {intl.formatMessage(messages.tagLengthExceeded)}}
-          </BodyUI>
+          <BodyUI color={alert}>{messages.tagLengthExceeded}</BodyUI>
         ) : (
-          <BodyUI color={gray04}>{intl.formatMessage(messages.addTag)}</BodyUI>
+          <BodyUI color={gray04}>{messages.addTag}</BodyUI>
         )}
       </CreateInputRowInner>
       <IconButton icon={IconAddCircle} />
@@ -217,10 +206,10 @@ const FormatCreateLabel = ({ value, intl }) => {
   );
 };
 
-const InjectedFormatCreateLabel = injectIntl(FormatCreateLabel);
+const InjectedFormatCreateLabel = FormatCreateLabel;
 
 const StyledDropdown = styled(AsyncCreatableSelect)`
-  ${dropdownStyles}
+  ${dropdownStyles};
 `;
 
 const StyledLabel = ({ targetElement, text }) => {
@@ -274,4 +263,4 @@ const CreateInputRowInner = styled.div`
   display: flex;
   flex-direction: column;
 `;
-export default injectIntl(TagInput, { withRef: true });
+export default TagInput;
