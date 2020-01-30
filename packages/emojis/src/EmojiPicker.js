@@ -173,7 +173,9 @@ const StyledPicker = styled.div`
 `;
 
 EmojiPicker.propTypes = {
-  onSelected: PropTypes.func.isRequired
+  onSelected: PropTypes.func.isRequired,
+  pickerTitle: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  customEmojis: PropTypes.array
 };
 
 export default EmojiPicker;

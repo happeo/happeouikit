@@ -74,11 +74,7 @@ Modal.propTypes = {
   footer: PropTypes.bool,
   okCallback: PropTypes.func,
   okText: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-  cancelText: (props, propName) => {
-    if (props.footer && !props.footerComponent && !props[propName]) {
-      return new Error(`${propName} is required when 'footer' is true.`);
-    }
-  },
+  cancelText: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   iconClose: PropTypes.bool,
   footerComponent: (props, propName) => {
     if (!props.footer && props[propName]) {
@@ -94,6 +90,7 @@ Modal.defaultProps = {
   width: "300px",
   footer: true,
   okText: "OK",
+  cancelText: "Cancel",
   iconClose: false,
   disabled: false
 };

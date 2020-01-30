@@ -1,8 +1,9 @@
 import React, { Component, Fragment, useState } from "react";
 import styled from "styled-components";
-import Modal from "./Modal";
 import { ButtonPrimary, ButtonSecondary } from "@happeokit/buttons";
 import { BodyUI } from "@happeokit/typography";
+
+import Modal from "./Modal";
 import ConfirmModal from "./ConfirmModal";
 
 export default class ModalExample extends Component {

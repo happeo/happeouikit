@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { msg } from "@happeokit/translations";
-import messages from "./messages";
 import { Modal, ModalIcon } from "./index";
 import { TextZeta, TextDelta } from "@happeokit/typography";
 import { Spacer } from "@happeokit/layout";
@@ -40,17 +39,12 @@ const ConfirmModal = ({
       </BodyWrapper>
       <ModalFooter>
         <ButtonPrimary
-          text={okText || msg(messages.ok)}
+          text={okText}
           onClick={okCb}
           type={buttonType}
           disabled={btnDisabled}
         />
-        {!hideCancel && (
-          <ButtonSecondary
-            text={cancelText || msg(messages.cancel)}
-            onClick={close}
-          />
-        )}
+        {!hideCancel && <ButtonSecondary text={cancelText} onClick={close} />}
       </ModalFooter>
     </Modal>
   );
@@ -91,11 +85,15 @@ ConfirmModal.propTypes = {
   okCb: PropTypes.func,
   hideCancel: PropTypes.bool,
   state: PropTypes.string,
-  btnDisabled: PropTypes.bool
+  btnDisabled: PropTypes.bool,
+  okText: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  cancelText: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
 };
 
 ConfirmModal.defaultProps = {
-  state: MODAL_STATES.success
+  state: MODAL_STATES.success,
+  okText: "OK",
+  cancelText: "Cancel"
 };
 
 export default ConfirmModal;

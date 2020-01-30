@@ -21,25 +21,16 @@
   "scripts": {
     "clear:dist": "lerna exec -- rm -rf dist",
     "compile": " yarn clear:dist && NODE_ENV=production BABEL_ENV=production lerna exec -- babel --root-mode upward src -d dist",
-    "prebuild": "yarn intl:generate-messages",
     "build": "yarn compile",
     "build:docs": "yarn docz build",
     "publish": "yarn build && lerna publish",
     "publish:single": "node ./scripts/release/index.js",
-    "extract-messages": "BABEL_ENV=development babel ./packages/*/src/messages.js > /dev/null",
-    "predev": "yarn extract-messages && yarn intl:fix-defaults",
     "dev": "BABEL_ENV=development yarn docz dev",
     "serve": "yarn docz serve",
     "generate": "plop --plopfile scripts/generator/index.js",
     "docs:deploy:draft": "netlify deploy --dir .docz/dist",
     "docs:deploy": "netlify deploy --dir .docz/dist --prod",
-    "preintl:download": "mkdir -p translations",
-    "intl:download": "/node_modules/.bin/crowdin export-file --projectId $CROWDIN_PROJECT_ID --file admin-app.pot --apiKey $CROWDIN_API_KEY --pot2po --replace-filename --dest translations",
-    "intl:generate-pot": "react-intl-po json2pot './.intl/packages/**/**/messages.json' -o '.intl/admin-app.pot' -c 'id'",
-    "intl:generate-translations": "react-intl-po po2json 'translations/*.po' -m './.intl/messages.json' -o './.intl/translations.json' -c 'id'",
-    "intl:generate-messages": "lerna exec -- node ../../scripts/translations/generate-messages.js",
-    "intl:fix-defaults": "react-intl-default-fixer --messages ./.intl/packages/**/**/messages.json --translations ./intl/temp-translations.json --destination ./intl/translations.json",
-    "cleaninstall": "rm -rf ./.docz && rm -rf node_modules/ && lerna bootstrap"
+     "cleaninstall": "rm -rf ./.docz && rm -rf node_modules/ && lerna bootstrap"
   },
   "keywords": [],
   "devDependencies": {

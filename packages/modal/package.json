@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
-    "dist",
-    "messages.json"
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +21,6 @@
     "@happeokit/colors": "^3.0.1",
     "@happeokit/icons": "^3.0.1",
     "@happeokit/layout": "^3.0.1",
-    "@happeokit/translations": "^3.0.1",
     "@happeokit/typography": "^3.0.1",
     "react-modal": "^3.8.1"
   },
