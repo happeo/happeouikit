@@ -1,0 +1,81 @@
+---
+name: Loaders
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata, BackgroundBox } from '@happeokit/docs';
+import pkg from "../package.json";
+import { Spinner, Loader, LoadingContainer, LoadingModal } from '../src/index';
+import SpinnerExample from "../src/SpinnerExample";
+import LoadingModalExample from "../src/LoadingModalExample";
+
+# Loaders
+
+<Metadata pkg={pkg}/>
+
+### Default
+<Playground>
+    Small
+    <Loader/>
+
+    Medium
+    <Loader size='medium'/>
+
+    Large
+    <Loader size='large'/>
+</Playground>
+
+### Light
+<BackgroundBox>
+       Small
+       <Loader light/>
+
+       Medium
+       <Loader light size='medium'/>
+
+       Large
+       <Loader light size='large'/>
+</BackgroundBox>
+
+## Props
+<Props of={Loader} />
+
+# Spinner
+Spinner is meant to be used as a standalone spinner, with a loader content or with loader modal.
+It has three different states: "loading", "success", "error". The transition between this states
+are animated from "loading" > "success" and "loading" > "error". 
+
+<Playground>
+    <SpinnerExample />
+</Playground>
+
+<Props of={Spinner} />
+
+# LoadingContainer
+LoadingContainer is meant to be used in modal actions or elsewhere where it makes more sense not to use
+LoadingModal. 
+
+<Playground>
+    <LoadingContainer title={"So much title"} description={"This loader will load for ever and ever and ever..."}/>
+</Playground>
+
+<Props of={LoadingContainer} />
+
+# LoadingModal
+LoadingModal is meant to be used when a full loader is needed and loading time is long.
+
+<Playground>
+    <LoadingModalExample />
+</Playground>
+
+```js
+    <LoadingModal
+        isOpen={modalIsOpen}
+        title={"Such title"}
+        description={"Such description that contains more info"}
+        state={"loading"}
+        />
+```
+
+<Props of={LoadingModal} />

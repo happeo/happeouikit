@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="xMidYMid meet" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 32 28">
+    <g id="music-file" fill="none" fill-rule="evenodd">
+        <rect width="32" height="28" fill="#29C4AF" rx="2"/>
+        <path fill="#FFFFFF" fill-rule="nonzero"
+              d="M16,5 L16,15.55 C15.3116667,15.21 14.5183333,15 13.6666667,15 C11.0883333,15 9,16.79 9,19 C9,21.21 11.0883333,23 13.6666667,23 C16.245,23 18.3333333,21.21 18.3333333,19 L18.3333333,9 L23,9 L23,5 L16,5 Z"/>
+    </g>
+</svg>

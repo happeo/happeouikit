@@ -1,0 +1,53 @@
+---
+name: Content-renderer
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata, BackgroundBox } from '@happeokit/docs';
+import pkg from "../package.json";
+import { ContentRenderer } from '../src/index';
+
+# Content-renderer
+
+<Metadata pkg={pkg}/>
+
+Rendering text, html and markdown content, run through emojis converter and linkify all link elements. This will wrap the content inside `<p>` tags.
+
+## Usage with bare content
+
+Rendering with bare content, i.e. just text. In this case, specify "text" as the type.
+
+```js
+<ContentRenderer type={"text"} content={"text content"} />
+```
+
+<Playground>
+    <ContentRenderer type={"text"} content={"Bare text content and unicode emojis: 🤩 and shorthand emojis :giraffe:"} />
+</Playground>
+
+
+## Usage with html content
+Rendering with html content will run the html through xss filter to allow only given html tags and attributes.
+
+```js
+<ContentRenderer type={"html"} content={"html content"} />
+```
+
+<Playground>
+    <ContentRenderer type={"html"} content={"<h1>Header 1 🤩</h1><p>This is my text with :smile: some <a href='https://www.happeo.com'>content</a>. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.</p><ul><li>List item 1</li><li>List item 2</li></ul><p>This is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.</p><ol><li>Numbered list one</li><li>Numbered list two</li></ol><h2>With header 2</h2><p>This is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.</p><blockquote>This is a blockquote text in the content</blockquote><h3>With header 3</h3><p>This is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.</p><hr /><p>Some content after a hr line.</p><h4>With header 4</h4><p>This is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.</p><pre>Code block lives here as well\nAnd it should work as intended</pre><p>Then lets end it up with a table</p><table><tr><th>Firstname</th><th>Lastname</th> <th>Age</th></tr><tr><td>Jill</td><td>Smith</td> <td>50</td></tr><tr><td>Eve</td><td>Jackson</td> <td>94</td></tr></table>"} />
+</Playground>
+
+## Usage with markdown content
+Rendering with markdown content will run the markdown through html converter and through xss filter to allow only given html tags and attributes.
+
+```js
+<ContentRenderer type={"markdown"} content={"markdown content"}/>
+```
+
+<Playground>
+    <ContentRenderer type={"markdown"} content={"#Header 1 🤩\nThis is my text with some :giraffe: content. @123:(antero) has been mentioned Nullam id dolor www.youtube.com id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.\nThis is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.\n##With header 2\nThis is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.\n###With header 3\nThis is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla.\n####With header 4\nThis is my text with some content. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla."} />
+</Playground>
+
+# Props
+<Props of={ContentRenderer} />

@@ -1,0 +1,25 @@
+---
+name: File-picker
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { FilePicker } from '../src/index';
+
+# File-picker
+
+<Metadata pkg={pkg}/>
+
+Creates a file picker
+
+<Playground>
+    <FilePicker onSelected={file => console.log(file)}/>
+    <FilePicker onSelected={file => console.log(file)} text={"some text"} />
+    <FilePicker onSelected={file => console.log(file)} disabled/>
+</Playground>
+
+<Props of={FilePicker} />
+
+

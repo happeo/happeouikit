@@ -1,0 +1,28 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image:
+  name: eu.gcr.io/spacegapps/frontend-tools:2.0.0
+  username: _json_key
+  password: "$GCR_JSON_KEY"
+pipelines:
+  pull-requests:
+    "**": #this runs as default for any branch not elsewhere defined
+      - step:
+          name: Build and deploy draft
+          script:
+            - setup-npm
+            - lerna bootstrap
+            - yarn run build:docs
+            - yarn run docs:deploy:draft #to view changes introduced by this PR please inspect the generated <Live Draft URL>
+  branches:
+    master:
+      - step:
+          name: Build and deploy documentation
+          script:
+            - setup-npm
+            - lerna bootstrap
+            - yarn run build:docs
+            - yarn run docs:deploy

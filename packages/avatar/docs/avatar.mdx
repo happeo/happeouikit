@@ -1,0 +1,61 @@
+---
+name: Avatar
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { Avatar } from '../src/index';
+
+
+# Avatar
+
+<Metadata pkg={pkg}/>
+
+### Hover Event
+<Playground>
+  <Avatar 
+    size='l' 
+    hoverEvent 
+    onMouseOver={() => console.log('hovering')}
+    user={{thumbnailPhotoUrl: 'https://storage.googleapis.com/spacegapps_uploads/b18cde23-2942-4ef0-8eba-9a059a89c675?etag=TN30oD80QTVK45AAxvl_wbzs4vs/hW48jDsWiDIX8EuYnCnCVVk9bHE', fullName: 'Diane Yellow'}}
+    />
+</Playground>
+
+### Click Event
+<Playground>
+  <Avatar 
+    size='l' 
+    clickEvent 
+    onClick={() => console.log('clicked')}
+    user={{thumbnailPhotoUrl: 'https://storage.googleapis.com/spacegapps_uploads/b18cde23-2942-4ef0-8eba-9a059a89c675?etag=TN30oD80QTVK45AAxvl_wbzs4vs/hW48jDsWiDIX8EuYnCnCVVk9bHE', fullName: 'Diane Yellow'}}
+    />
+</Playground>
+
+### Fallback image
+<Playground>
+  <Avatar
+    size='l'
+    clickEvent
+    onClick={() => console.log('clicked')}
+    user={{thumbnailPhotoUrl: 'https://doesntexist.com', fullName: 'Diane Yellow'}}
+    />
+</Playground>
+
+### Presence
+Presence status can also be shown on avatars bigger than size *xs* with property `showPresence`.
+
+<Playground>
+  <Avatar 
+    size='m' 
+    clickEvent 
+    onClick={() => console.log('clicked')}
+    user={{thumbnailPhotoUrl: 'https://storage.googleapis.com/spacegapps_uploads/b18cde23-2942-4ef0-8eba-9a059a89c675?etag=TN30oD80QTVK45AAxvl_wbzs4vs/hW48jDsWiDIX8EuYnCnCVVk9bHE', fullName: 'Diane Yellow', status: 'free'}}
+    showPresence
+    />
+</Playground>
+
+## Props
+
+<Props of={Avatar} />

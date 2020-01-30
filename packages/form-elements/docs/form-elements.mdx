@@ -1,0 +1,187 @@
+---
+name: Form-Elements
+menu: Components
+
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { IconSearch } from  '@happeokit/icons';
+import { Dropdown, Input, InputNumber, Switch, Link, Checkbox, RadioButton, Tag, Badge, Textarea, TagInput, DatePicker,DatePickerV2 } from '../src/index';
+import { loadOptions, selectCallback, promiseOptions, InjectableTagInput } from '../src/Example'
+import TranslationProvider from '../src/TranslationProvider'
+import { BodyUI } from "../../typography/src";
+
+# Form-elements
+
+<Metadata pkg={pkg}/>
+
+### Input
+<Playground>
+    <Input placeholder='Placeholder' label='Label' autoComplete="off"/>
+    <Input placeholder='Placeholder' label='Disabled' disabled/>
+    <Input placeholder='Placeholder' label='Success' state='success'/>
+    <Input placeholder='Placeholder' label='Error' state='error' errorMessage='Error message'/>
+    <Input placeholder='Placeholder' state='error' errorMessage='Error message'/>
+    <Input placeholder='Placeholder' label='Input with icon' icon={IconSearch}/>  <Input placeholder='Placeholder' label='Input with icon' icon={IconSearch}/>
+</Playground>
+
+### Number Input
+<Playground>
+    <InputNumber placeholder='0' label='Label'/>
+    <br/>
+    <InputNumber placeholder='0' label='Disabled' value='1' disabled/>
+</Playground>
+
+<Props of={Input} />
+
+### Dropdown
+
+<Playground>
+    <Dropdown options={[{label: 'One',value: 'One'},{label: 'Two',value: 'Two'}]}/>
+</Playground>
+
+<Props of={Dropdown} />
+
+### Switch
+<Playground>
+    <Switch label="First" onChange={() => ''} defaultChecked/>
+    <Switch label="Second" onChange={() => ''}/>
+    <Switch label="Disabled" disabled onChange={() => ''} defaultChecked/>
+    <Switch onChange={() => ''} defaultChecked/>
+</Playground>
+
+<Props of={Switch} />
+
+### Checkbox
+<Playground>
+    <Checkbox label="First" defaultChecked/>
+    <Checkbox label="Second" />
+    <Checkbox label="Third" />
+</Playground>
+
+<Props of={Checkbox} />
+
+### RadioButton
+<Playground>
+    <RadioButton id="1" name="Buttons1" label="First" defaultChecked/>
+    <RadioButton id="2" name="Buttons1" label="Second"/>
+    <RadioButton id="3" name="Buttons1" label="Third (disabled)" disabled/>
+
+</Playground>
+
+<Props of={RadioButton} />
+
+### Textarea
+<Playground>
+    <Textarea rows={5} cols={20}/>
+    <Textarea /> 
+</Playground>
+
+<Props of={Textarea} />
+
+### Tag
+<Playground>
+    <Tag text="Example tag" /> 
+</Playground>
+
+<Props of={Tag} />
+
+### Badge
+<Playground>
+    <Badge text="Default badge" />
+    <br/>
+    <br/>
+     <Badge text="Filled badge" isFilled/>
+     <Badge text="Custom wrapped badge" applyCustomStylings={text => <BodyUI style={{backgroundColor: "red", textTransform: "none"}}>{text}</BodyUI>} isFilled/>
+</Playground>
+
+<Props of={Badge} />
+
+### Date Picker
+Mode default to none, or can be set to 'date-time'
+<Playground>
+    <TranslationProvider>
+        <DatePicker onChange={date => console.log(date)}/>
+    </TranslationProvider>
+</Playground>
+
+<Playground>
+    <TranslationProvider>
+        <DatePicker onChange={date => console.log(date)} mode='date-time'/>
+    </TranslationProvider>
+</Playground>
+
+<Playground>
+    <TranslationProvider>
+        <DatePickerV2 
+            type="to"
+            date={{ from: "", to: "" }}
+            fromMonth={new Date(2020, 0)}
+            disabledDays={[
+                new Date(2020, 0, 1),
+                {
+                    after: new Date(2020, 0, 20),
+                    before: new Date(2020, 0, 25),
+                },
+            ]}
+            onDayChange={val => console.log(val)}
+         />
+    </TranslationProvider>
+</Playground>
+
+#### Props
+<Props of={DatePicker} />
+
+
+### Link
+<Playground>
+    <Link href="www.google.fi">Link</Link>
+</Playground>
+
+#### Props
+<Props of={Link} />
+
+### Tag Input for article
+<Playground>
+    <TranslationProvider>
+        <TagInput
+        loadOptions={promiseOptions}
+        callback={selectCallback}
+        placeholder={'Add hashtags'}
+        maxOptions={3}
+        label={'some label'}
+        targetElement="article"
+        warningThreshold={2}
+        warningMessage="We recommend using at most 2 tags"/>
+    </TranslationProvider>
+</Playground>
+
+### Tag Input for page
+<Playground>
+    <TranslationProvider>
+        <TagInput
+        loadOptions={promiseOptions}
+        callback={selectCallback}
+        placeholder={'Add hashtags'}
+        maxOptions={3}
+        label={'some label'}
+        targetElement="pages"
+        warningThreshold={2}
+        warningMessage="We recommend using at most 2 tags"/>
+    </TranslationProvider>
+</Playground>
+
+### Tag Input with button to inject tags from outside.
+<Playground>
+    <TranslationProvider>
+        <InjectableTagInput />
+    </TranslationProvider>
+</Playground>
+
+#### Props
+##### `loadOptions` - async function that returns an array of hashtags in format `[{hashtag: 'test', count: 33}]`
+##### `callback` - a function called when new hashtag is added/created. Returns an array of currently selected hashtags: `[{hashtag: 'test'}]`
+##### `defaultValue` - pre-selected values for the input in format `[{hashtag: 'test'}]`
+<Props of={TagInput} />

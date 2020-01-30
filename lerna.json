@@ -1,0 +1,13 @@
+{
+  "lerna": "3.16.4",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
+    }
+  },
+  "ignoreChanges": ["**/dist/**", "**/__tests__/**", "**/*.md"]
+}

@@ -1,0 +1,67 @@
+---
+name: Card
+menu: Components
+---
+
+import { Card,CardWithHeader } from '../src';
+import { Playground, Props  } from 'docz';
+import { ButtonPrimary, ButtonSecondary } from "@happeokit/buttons";
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+
+# Card
+<Metadata pkg={pkg}/>
+
+### Default
+<Playground>
+<Card>
+  <div>
+  <p>Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel
+  augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.</p>
+    <ButtonPrimary text="Do action!" />
+    <ButtonSecondary text="Cancel Action!" />
+</div>
+</Card>
+</Playground>
+
+
+<Playground>
+<Card fullWidth={false}>
+  <div>
+    <p>This is now auto width</p>
+  </div>
+</Card>
+</Playground>
+
+
+## Props
+
+<Props of={Card} />
+
+# CardWithHeader
+
+This is a card that has a header.
+
+<CardWithHeader header="Give the card header">
+<p>Content goes in here</p>
+</CardWithHeader>
+
+## Usage examples
+
+<Playground>
+<CardWithHeader header="Give the card header" >
+    <div>
+        <p>Maecenas faucibus mollis interdum.
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+        Donec sed odio dui.
+        </p>
+        <ButtonPrimary text="Do action!" />
+        <ButtonSecondary text="Cancel Action!" />
+    </div>
+</CardWithHeader>
+</Playground>
+
+## Props
+
+<Props of={CardWithHeader} />
+

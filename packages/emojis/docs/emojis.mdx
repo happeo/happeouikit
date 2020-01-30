@@ -1,0 +1,81 @@
+---
+name: Emojis
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import EmojiExample from '../src/EmojiExample';
+import { EmojiPickerExample } from '../src/EmojiPickerExample';
+import TranslationProvider from '../src/TranslationProvider';
+import EmojiPicker from '../src/EmojiPicker';
+
+# Emojis
+
+<Metadata pkg={pkg}/>
+
+## Emoji functions
+
+Happeo emoji handling. There are found main functions here. `shortToUnicode()`, `emojisToShort()`, `removeEmojis()` and `listAllEmojis()`. 
+These can be used in different text environments and to list all emojis. This is package is done in order to minimise the amount of code that
+was import with the emojione library.
+
+```js
+
+const text = "This is emoji with short hand :smile: converted to unicode";
+const renderText = shortToUnicode(text);
+
+const text2 = "This is unicode 😄 converted to short hand";
+const renderText2 = emojisToShort(text2);
+
+const text3 = "This is 😄 has emojis 😄 and they will be removed 😄";
+const renderText3 = removeEmojis(text3);
+
+```
+<Playground>
+    <EmojiExample />
+</Playground>
+
+## Emoji picker
+
+Emoji picker has Tether automatically attached to it and is behind a button. Therefore it can be declared anywhere and a picker will appear.
+The picker also accepts custom emojis as an array. If no customEmojis is present, the custom emoji tab will disappear.
+
+```js
+
+<EmojiPicker
+    onSelectedEmoji={emoji => setInputValue(emoji.native)}
+    customEmojis={[
+        {
+        name: "Octocat",
+        short_names: ["octocat"],
+        text: "",
+        emoticons: [],
+        keywords: ["github"],
+        imageUrl:
+            "https://github.githubassets.com/images/icons/emoji/octocat.png"
+        },
+        {
+        name: "Happeo",
+        short_names: ["happeo"],
+        text: "",
+        emoticons: [],
+        keywords: ["happeo"],
+        imageUrl: "https://cdn.getuniverse.com/assets/img/favicon.png"
+        }
+    ]}
+/>
+
+```
+
+<Playground>
+    <TranslationProvider>
+        <EmojiPickerExample />
+    </TranslationProvider>
+</Playground>
+
+
+<Props of={EmojiPicker} />
+
+

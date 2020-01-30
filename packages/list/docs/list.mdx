@@ -1,0 +1,39 @@
+---
+name: List
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata, BackgroundBox } from '@happeokit/docs';
+import pkg from "../package.json";
+import { LiStriped, ListStripedContainer, Ul, ListHeader, UserDetails } from '../src/index';
+import { HeaderWithData, LiWithData, LiStripedWithData } from '../src/Examples';
+
+# List
+
+<Metadata pkg={pkg}/>
+
+### Striped List
+<Playground>
+    <ListStripedContainer>
+        <HeaderWithData />
+        <LiStripedWithData/>
+    </ListStripedContainer>
+</Playground>
+
+### List with margins
+<BackgroundBox>
+     <Ul>
+        <HeaderWithData />
+        <LiWithData/>
+    </Ul>
+</BackgroundBox>
+
+### User details
+<Playground>
+     <UserDetails user={{fullName: 'Test User', id: 1}}/>
+</Playground>
+
+### ListHeader props
+
+<Props of={ListHeader} />

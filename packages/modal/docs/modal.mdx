@@ -1,0 +1,30 @@
+---
+name: Modal
+menu: Components
+---
+
+import { Playground, Props} from 'docz';
+import { Metadata } from '@happeokit/docs';
+import {ButtonPrimary, ButtonSecondary} from '@happeokit/buttons';
+import TranslationProvider from '../src/TranslationProvider';
+import pkg from "../package.json";
+import {Modal, ModalExample} from '../src/index';
+import {ConfirmModalExample} from '../src/Examples';
+
+# Modal
+
+<Metadata pkg={pkg}/>
+
+<Playground>
+    <ModalExample/>
+</Playground>
+
+<Playground>
+<TranslationProvider>
+    <ConfirmModalExample />
+</TranslationProvider>
+</Playground>
+
+## Props
+
+<Props of={Modal} />

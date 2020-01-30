@@ -1,0 +1,5 @@
+<svg height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet">
+    <path d="M5,21 L19,21 L19,19 L5,19 L5,21 Z M5,3 L5,5 L19,5 L19,3 L5,3 Z M2,7 L22,7 L22,17 L2,17 L2,7 Z"
+          transform="rotate(-180 12 12)"/>
+</svg>

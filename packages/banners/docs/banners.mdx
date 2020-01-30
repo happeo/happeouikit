@@ -1,0 +1,90 @@
+---
+name: Banners
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { Banner } from '../src/index';
+import { BodyUI } from "@happeokit/typography";
+import { active } from "@happeokit/colors";
+import { IconBulb } from "@happeokit/icons";
+
+# Banner
+
+<Metadata pkg={pkg}/>
+
+## Info Banner with title
+<Playground>
+    <div style={{ width: "400px" }}>
+        <Banner 
+            title={"USPS has updated their rates"}
+        />
+    </div>        
+</Playground>
+
+
+## Info Banner with title and short description
+<Playground>
+    <div style={{ width: "400px" }}>
+        <Banner 
+            state={"info"} 
+            title={"USPS has updated their rates"}
+            description={"Before fulfilling this order"} />
+    </div>        
+</Playground>
+
+## Error Banner with title and long description
+<Playground>
+    <div style={{ width: "400px" }}>
+        <Banner 
+            state={"error"} 
+            title={"USPS has updated their rates"}
+            description={"Before fulfilling this order or capturing payment, please review the Risk Analysis and determine if this order is fraudulent."}
+        />
+    </div>
+</Playground>
+
+## Warning Banner with title and long description
+<Playground>
+    <div style={{ width: "400px" }}>
+        <Banner 
+            state={"warn"} 
+            title={"USPS has updated their rates"}
+            description={"Before fulfilling this order or capturing payment, please review the Risk Analysis and determine if this order is fraudulent."}
+        />
+    </div>
+</Playground>
+
+##  Banner with custom icon
+<Playground>
+    <div style={{ width: "568px" }}>
+        <Banner 
+            state={"warn"} 
+            title={"Broken Link"}
+            description={"Make sure you know about these changes"} 
+            icon={<IconBulb />}
+        />
+    </div>
+</Playground>
+
+## Success Banner with title, description and action
+<Playground>
+    <div style={{ width: "400px" }}>
+        <Banner 
+            state={"success"} 
+            title={"USPS has updated their rates"}
+            description={"Before fulfilling this order or capturing payment, please review the Risk Analysis and determine if this order is fraudulent."} 
+            action={<BodyUI color={active} onClick={() => console.log("execute some action")}>Action</BodyUI>}
+        />
+    </div>
+</Playground>
+
+### Props
+
+<Props of={Banner} />
+
+
+
+

@@ -1,0 +1,24 @@
+---
+name: Icons
+menu: Components
+---
+
+import { Playground } from 'docz';
+import { Metadata } from  '@happeokit/docs';
+import pkg from "../package.json";
+<!-- INJECT_IMPORT -->
+
+# Icons
+
+<Metadata pkg={pkg}/>
+
+Happeo Icon Library.
+
+## List of icons 
+
+<table>
+<tbody>
+<tr><td>Name</td><td>Example</td></tr>
+<!-- INJECT_TABLE -->
+</tbody>
+</table>

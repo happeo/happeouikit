@@ -1,0 +1,168 @@
+---
+name: Layout
+menu: Guidelines
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+
+import PaddingExample from '../src/examples/PaddingExample';
+import MarginExample from '../src/examples/MarginExample';
+
+import { 
+  margin100,
+  margin200,
+  margin300,
+  margin400,
+  margin500,
+  margin600,
+  margin700,
+  margin800 
+} from "../src/margins";
+
+import {
+  padding300,
+  padding400,
+  padding600,
+  padding800
+} from "../src/paddings";
+
+import {
+  Container,
+  Col,
+  Row
+} from "../src/grid";
+
+import {
+  Spacer
+} from "../src/Spacer";
+
+# Layout
+
+<Metadata pkg={pkg}/>
+
+This guideline part has the core layout principles and values.
+
+## Screen Sizes
+
+There are five different screen sizes.
+
+- XS, a.k.a Mobile Small
+- SM, a.k.a Mobile Standard
+- MD, a.k.a Tablet Vertical
+- LG, a.k.a Laptop and tablet horizontal
+- XL, a.k.a Desktop
+
+## Media Queries
+
+Write in "Mobile First": withouth a media query you define the smallest screen.
+You can then add more elements with `media.min[size]` query, see example.
+
+```js
+import styled from "styled-components";
+import {media} from "@happeokit/layout
+
+const StyledDiv = styled.div`
+  width: 100%;
+  ${media.min.md`
+    max-width: 1812px;
+  `}
+`;
+```
+
+To only show something on exact screen size use `media.only[size]`.
+
+```
+const StyledDiv = styled.div`
+  width: 100%;
+  ${media.only.md`
+    display: none;
+  `}
+`;
+```
+
+**NOTE:** For tricky situations there is also `media.max[size]`, but please prefer the Mobile First approach, 
+and use the minimum value to keep the code consistent.
+
+## Grid 
+
+Grid is based on [Bootstrap 12 column grid](https://getbootstrap.com/docs/4.2/layout/grid/).
+See Bootsrap documentation for extensive amount of examples. Basically the Bootstrap classes has been transformed to React Components:
+`<Container>`, `<Row>` and `<Col>`. Each of the components takes in the modifications as parameters, not with 
+classes as in Bootstrap documentation.
+
+### For example:
+
+<Playground>
+  <Container>
+    <Row>
+      <Col xs={3} xs={2}><div style={{backgroundColor: "rgba(237,70,71,0.08)"}}>A</div></Col>
+      <Col xs={3} md={4}><div style={{backgroundColor: "rgba(237,70,71,0.08)"}}>B</div></Col>
+    </Row>
+  </Container>
+</Playground>
+
+> If you want to have for example a fixed width sidebar and then columns for content. Do not use grid for the sidebar+content layout, but use
+custom elements with fixed with. Inside the sidebar and/or content you can then use a grid.
+
+### `<Container />`
+
+<Props of={Container} />
+
+### `<Row />`
+
+<Props of={Row} />
+
+### `<Col />`
+
+<Props of={Col} />
+
+## Margins
+
+<MarginExample margin={{margin100}} />
+<MarginExample margin={{margin200}} />
+<MarginExample margin={{margin300}} />
+<MarginExample margin={{margin400}} />
+<MarginExample margin={{margin500}} />
+<MarginExample margin={{margin600}} />
+<MarginExample margin={{margin700}} />
+<MarginExample margin={{margin800}} /> 
+
+## Paddings
+
+<PaddingExample padding={{padding300}} />
+<PaddingExample padding={{padding400}} />
+<PaddingExample padding={{padding600}} />
+<PaddingExample padding={{padding800}} />
+
+## Spacers
+Spacer component accepts width and height, both will default to 16px if value not given.
+
+<Playground>
+  <Container>
+    <Row>
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>Default</div>
+      <Spacer />
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>/Default</div>
+    </Row>
+    <Row>
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>Width 20px</div>
+      <Spacer width={"20px"} />
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>/Width 20px</div>
+    </Row>
+    <Row>
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>Height 60px</div>
+      <Spacer height={"60px"} />
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>/Height 60px</div>
+    </Row>
+    <Row>
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>Height, Width 40px</div>
+      <Spacer width={"40px"} height={"40px"} />
+      <div style={{backgroundColor: "rgba(237,70,71,0.08)",padding:"8px"}}>/Height, Width 40px</div>
+    </Row>
+  </Container>
+</Playground>
+
+
+

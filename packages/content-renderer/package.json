@@ -1,0 +1,36 @@
+{
+  "name": "@happeokit/content-renderer",
+  "version": "3.1.0",
+  "description": "Rendering html and markdown content",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist",
+    "messages.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
+  },
+  "public": true,
+  "author": "Universe Company Oy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@happeokit/colors": "^3.0.1",
+    "@happeokit/emojis": "^3.1.0",
+    "@happeokit/typography": "^3.0.1",
+    "linkifyjs": "^2.1.8",
+    "showdown": "^1.9.0",
+    "xss": "^1.0.6"
+  },
+  "devDependencies": {
+    "@happeokit/docs": "^3.0.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "styled-components": "^4.1.1"
+  }
+}

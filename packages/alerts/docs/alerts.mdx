@@ -1,0 +1,36 @@
+---
+name: Alerts
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { InfoText, ErrorMessage } from '../src/index';
+import TranslationProvider from '../src/TranslationProvider'
+
+# Alerts
+
+<Metadata pkg={pkg}/>
+
+## Info text
+<Playground>
+<InfoText state='success' text='Success!'/>
+<div style={{height: '16px', width: '100%'}} />
+<InfoText state='error' text='Error'/>
+</Playground>
+
+## Error message
+<Playground>
+<TranslationProvider>
+<ErrorMessage/>
+</TranslationProvider>
+</Playground>
+
+### Props
+
+<Props of={InfoText} />
+
+
+
+

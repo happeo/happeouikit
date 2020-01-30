@@ -1,0 +1,65 @@
+---
+name: Buttons
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { Button, ButtonPrimary, ButtonSecondary, IconButton } from '../src/index';
+import { IconLanguage } from  '@happeokit/icons';
+
+# Buttons
+
+
+<Metadata pkg={pkg}/>
+
+### Default
+<Playground>
+    <div style={{display: 'flex', justifyContent: 'space-between',  alignItems: 'center'}}>
+        <ButtonPrimary text='Primary Button'/>
+        <ButtonPrimary text='Button with Icon' icon={IconLanguage}/>
+        <ButtonSecondary text='Secondary Button'></ButtonSecondary>
+        <ButtonSecondary text='Secondary Button' icon={IconLanguage}></ButtonSecondary>
+     </div>
+      <div style={{display: 'flex', marginTop: '20px', alignItems: 'center'}}>
+        <ButtonPrimary text='Small Button' size='small'/>
+        <ButtonPrimary text='Large Button' size='large'/>
+        </div>
+</Playground>
+
+### Success
+<Playground>
+    <ButtonPrimary text='Primary Button' type='success'/>
+    <ButtonSecondary text='Secondary Button' type='success'></ButtonSecondary>
+    <ButtonSecondary text='Secondary Button'type='success' icon={IconLanguage}></ButtonSecondary>
+</Playground>
+
+### Disabled
+<Playground>
+    <ButtonPrimary text='Primary Button' disabled/>
+    <ButtonSecondary text='Secondary Button' disabled></ButtonSecondary>
+</Playground>
+
+### IconButton
+
+<Playground>
+    <small>Primary</small> <br/>
+    <IconButton icon={IconLanguage}/>
+    <br/><br/>
+    <small>Alert</small> <br/>
+     <IconButton icon={IconLanguage} type='alert' />
+     <br/><br/>
+     <small>Disabled</small> <br/>
+    <IconButton icon={IconLanguage} disabled/>
+    <br/><br/>
+    <small>Action Icon</small> <br/>
+    <IconButton icon={IconLanguage} isActionIcon/>
+    <br/><br/>
+    <small>Dark Icon Button</small> <br/>
+    <IconButton type="dark" icon={IconLanguage}/>
+    <br/>
+</Playground>
+
+## Props
+<Props of={Button}/>

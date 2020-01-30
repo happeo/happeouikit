@@ -1,0 +1,11 @@
+.docz
+node_modules
+.DS_Store
+packages/*/dist
+packages/*/messages.json
+.idea/
+.intl
+yarn-error.log
+
+## We are using yarn here so lets ignore this if someone accidentally uses npm
+package-lock.json

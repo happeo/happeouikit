@@ -1,0 +1,36 @@
+{
+  "name": "@happeokit/icons",
+  "version": "3.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist",
+    "messages.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-svgs": "rm -rf src/icons && mkdir -p src/icons && svgr --icon svgs -d src/icons",
+    "generate-index": "node ./scripts/generate-index.js",
+    "generate-docs": "yarn run convert-svgs && node ./scripts/generate-docs.js",
+    "predocs": "yarn run prebuild",
+    "prebuild": "yarn run convert-svgs && yarn run generate-index && yarn run generate-docs"
+  },
+  "publishConfig": {
+    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
+  },
+  "public": true,
+  "author": "Universe Company Oy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@happeokit/colors": "^3.0.1"
+  },
+  "devDependencies": {
+    "@happeokit/docs": "^3.0.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "styled-components": "^4.1.1"
+  }
+}

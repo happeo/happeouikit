@@ -1,0 +1,24 @@
+---
+name: Color-picker
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { ColorPicker } from '../src/index';
+
+# Colorpicker
+
+
+<Metadata pkg={pkg}/>
+
+<Playground>
+<div style={{position: 'relative', height: '300px'}}>
+<ColorPicker show={true} color='#ccc' handleClose={() => ''}
+handleChange={(color) => console.log('c', color) }/>
+</div>
+</Playground>
+
+<Props of={ColorPicker}/>
+

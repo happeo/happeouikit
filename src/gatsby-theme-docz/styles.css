@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500&display=swap');
+
+div[data-testid="live-preview"] {
+    padding: 15px;
+}

@@ -1,0 +1,157 @@
+---
+name: Theme
+menu: Guidelines
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata, BackgroundBox } from '@happeokit/docs';
+import pkg from "../package.json";
+import RectangleExample, { CircleExample } from "../src/examples/RectangleExample";
+import { DarkBox } from "../src/examples/DarkBox";
+import BorderExample from "../src/examples/BorderExample";
+import {
+    ElementDropFade,
+    ElementFadeInOut,
+    ElementFadeIn,
+    ElementScaleAndFadeIn,
+    ElementScaleAndFadeOut
+} from "../src/examples/AnimationsExample";
+
+import { 
+    radius000, 
+    radius300, 
+    radius400, 
+    radius500 
+} from "../src/rectangles";
+
+import { border } from "../src/borders";
+
+import { Line300, Line400, Line600 } from '../src/Lines';
+
+import {
+    shadow100,
+    shadow200,
+    shadow300,
+    shadow400,
+    shadow500,
+    shadowDark400
+} from '../src/shadows';
+
+
+
+# Theme
+
+<Metadata pkg={pkg}/>
+
+## Rectangles
+
+<RectangleExample borderRadius={radius000} name='radius000' />
+<RectangleExample borderRadius={radius300} name='radius300' />
+<RectangleExample borderRadius={radius400} name='radius400' />
+<RectangleExample borderRadius={radius500} name='radius500' />
+
+## Borders
+
+Function `border(type: String)` receives the name of the border and returns the corresponding color.
+```
+import { border } from "@happeokit/theme";
+const Box = styled.div`
+  width: 100%;
+  height: 40px;
+  border-radius: ${radius400};
+  border: ${border("gray")};
+`;
+```
+
+<div style={{display: 'flex', alignItems: 'flex-start'}}>
+    <div style={{width: '50%'}}>
+        <BorderExample border={border('black')} name='black'/>
+        <BorderExample border={border('gray')} name='gray (gray-06)'/>
+        <BorderExample border={border('disabled')} name='disable (gray-08)'/>
+    </div>
+    <div style={{width: '50%'}}>
+        <BorderExample border={border('navy')} name='navy'/>
+        <BorderExample border={border('active')} name='active'/>
+        <BorderExample border={border('success')} name='success'/>
+        <BorderExample border={border('warn')} name='warn'/>
+        <BorderExample border={border('alert')} name='alert'/>
+        <BorderExample border={border('violet')} name='alert'/>
+    </div>
+</div>
+
+## Lines
+Each line has its own component `<Line300 />`, `<Line400 />`, `<Line600 />`.
+
+<Line300 />
+<p>Line300</p>
+<Line400 />
+<p>Line400</p>
+<Line600 />
+<p>Line600</p>
+
+## Shadows
+
+<RectangleExample name='shadow200' shadow={shadow200}/>
+<RectangleExample name='shadow300' shadow={shadow300}/>
+<RectangleExample name='shadow400' shadow={shadow400}/>
+<RectangleExample name='shadow500' shadow={shadow500}/>
+<CircleExample name='shadow100' shadow={shadow100} />
+
+<BackgroundBox>
+    <RectangleExample name='shadow200' shadow={shadow200}/>
+    <RectangleExample name='shadow300' shadow={shadow300}/>
+    <RectangleExample name='shadow400' shadow={shadow400}/>
+    <RectangleExample name='shadow500' shadow={shadow500}/>
+    <CircleExample name='shadow100' shadow={shadow100} />
+</BackgroundBox>
+
+Use when the background is dark, i.e on Modal
+
+<DarkBox>
+    <RectangleExample name='shadowDark400' shadow={shadowDark400}/>
+</DarkBox>
+
+## Animations
+
+Animations have five basic animations `dropFade`, `fadeInOut`, `fadeIn`, `scaleAndFadeIn`, `scaleAndFadeOut`.
+There is one important constants `animationCurve`, which is our basic animation curve (duh). You can also use "linear" or othes that work for the occasion.
+The 2 main speeds for animations are `animationFast`, which is 260ms and `animationSlow` which is 600ms.
+
+```
+export const ElementDropFade = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: ${radius400};
+  background-color: green;
+  animation: ${dropFade} ${animationFast} ${animationCurve} infinite;
+`;
+```
+
+<BackgroundBox>
+    <div style={{display:"flex"}}>
+        <div>
+            <p>Example with slow animation (1000ms)</p>
+            <ElementDropFade duration={"1000ms"} />
+            <ElementFadeInOut duration={"1000ms"} />
+            <ElementFadeIn duration={"1000ms"} />
+            <ElementScaleAndFadeIn duration={"1000ms"} />
+            <ElementScaleAndFadeOut duration={"1000ms"} />
+        </div>
+        <div>
+            <p>Example using animationFast (260ms)</p>
+            <ElementDropFade duration={"fast"} />
+            <ElementFadeInOut duration={"fast"} />
+            <ElementFadeIn duration={"fast"} />
+            <ElementScaleAndFadeIn duration={"fast"} />
+            <ElementScaleAndFadeOut duration={"fast"} />
+        </div>
+        <div>
+            <p>Example using animationSlow (600ms)</p>
+            <ElementDropFade duration={"slow"} />
+            <ElementFadeInOut duration={"slow"} />
+            <ElementFadeIn duration={"slow"} />
+            <ElementScaleAndFadeIn duration={"slow"} />
+            <ElementScaleAndFadeOut duration={"slow"} />
+        </div>
+    </div>
+</BackgroundBox>

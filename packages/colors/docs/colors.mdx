@@ -1,0 +1,128 @@
+---
+name: Colors
+menu: Guidelines
+---
+
+import { Playground } from 'docz';
+import { Metadata, ColorExample, BackgroundBox, ShadeGrid } from '@happeokit/docs';
+import pkg from "../package.json";
+import { 
+    brandLight,
+    brand,
+    violet,
+    white,
+    white70,
+    black,
+    black70,
+    black50,
+    black30,
+    active,
+    alert,
+    navy,
+    success,
+    warn,
+    gray01,
+    gray02,
+    gray03,
+    gray04,
+    gray05,
+    gray06,
+    gray07,
+    gray08,
+    gray09,
+    gray10,
+    darken,
+    lighten,
+    darken80,
+    darken60,
+    darken40,
+    darken20,
+    lighten20,
+    lighten40,
+    lighten60,
+    lighten80,
+    lighten90
+} from '../src/index';
+
+# Colors
+
+<Metadata pkg={pkg}/>
+
+## Primary Colors
+
+Each primary color is exported by it's name, so use that rather than the HEX code.
+
+<ColorExample hex={navy} name="navy" />
+<ColorExample hex={active} name="active" />
+<ColorExample hex={success} name="success" />
+<ColorExample hex={warn} name="warn" />
+<ColorExample hex={alert} name="alert" />
+<ColorExample hex={violet} name="violet" />
+
+## Happeo Brand
+
+<ColorExample hex={brand} name="brand" />
+<ColorExample hex={brandLight} name="brandLight" />
+
+## Grayscale
+
+Grayscale is used primarily. When grayscale texts are used on top of an image or colorful background, choose Black and it’s opacities below
+
+<ColorExample hex={gray01} name="gray01" darkText={false}/>
+<ColorExample hex={gray02} name="gray02" darkText={false}/>
+<ColorExample hex={gray03} name="gray03" darkText={false}/>
+<ColorExample hex={gray04} name="gray04" darkText={false}/>
+<ColorExample hex={gray05} name="gray05" darkText={false}/>
+<ColorExample hex={gray06} name="gray06" darkText={true}/>
+<ColorExample hex={gray07} name="gray07" darkText={true}/>
+<ColorExample hex={gray08} name="gray08" darkText={true} border={true}/>
+<ColorExample hex={gray09} name="gray09" darkText={true} border={true}/>
+<ColorExample hex={gray10} name="gray10" darkText={true} border={true}/>
+
+## Black & white
+
+<div>
+    <ColorExample hex={black} name="black" darkText={false}/>
+    <ColorExample hex={black70} name="black70" darkText={false}/>
+    <ColorExample hex={black50} name="black50" darkText={false}/>
+    <ColorExample hex={black30} name="black30" darkText={false}/>
+</div>
+
+<BackgroundBox>
+    <ColorExample hex={white} name="white" darkText={true}/>
+    <ColorExample hex={white70} name="white70" darkText={true}/>
+</BackgroundBox>
+
+## Lighten & Darken
+
+For darkening and lightening there is functions ready.
+
+<ColorExample hex={darken(violet, 0.8)} name="darken(violet, 0.8)"/>
+<ColorExample hex={lighten(navy, 0.8)} name="lighten(navy, 0.8)" darkText={true}/>
+
+Below in the list there is examples of all the primary colors shaded.
+
+<ShadeGrid colors={{
+    navy,
+    active,
+    success,
+    warn,
+    alert,
+    violet
+}} shadeFns={{
+    darken80,
+    darken60,
+    darken40,
+    darken20,
+    default: (color) => color,
+    lighten20,
+    lighten40,
+    lighten60,
+    lighten80,
+    lighten90
+}}/>
+
+<Playground>
+    <ColorExample hex={darken(violet, 0.8)} name="darken"/>
+    <ColorExample hex={lighten(violet, 0.8)} name="lighten" darkText={true}/>
+</Playground>

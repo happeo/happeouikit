@@ -1,0 +1,27 @@
+{
+  "name": "{{ kitname }}/{{kebab name}}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
+  },
+  "public": true,
+  "author": "Universe Company Oy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@happeokit/colors": "^{{ happeo-colors-version }}"
+  },
+  "devDependencies": {
+    "@happeokit/docs": "^{{ happeo-docs-version }}"
+  },
+  "peerDependencies": {
+    "react": "{{ react-version }}",
+    "styled-components": "{{ styled-components-version }}",
+    "prop-types": "{{ prop-types-version }}"
+  }
+}

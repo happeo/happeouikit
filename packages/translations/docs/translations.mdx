@@ -1,0 +1,84 @@
+---
+name: Translations
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { msg } from '../src/index';
+
+# Translations
+
+<Metadata pkg={pkg}/>
+
+
+## `msg` function
+
+A wrapper component for simplifying message translation without injecting
+intl in every component: <https://github.com/yahoo/react-intl/issues/781#issuecomment-418300474>
+
+Below really simple example:
+
+```js
+  import React, { Component } from "react";
+  import messages from "./messages";
+  import msg from "@happeokit/translations";
+
+  const Thing = () => {
+    return (<strong>{msg(messages.invitesHeader)}</strong>);
+  };
+  export default Thing;
+```
+
+Where messages file is:
+
+```js
+import { defineMessages } from "react-intl";
+export default defineMessages({
+  invitesHeader: {
+    id: "invites.header",
+    defaultMessage: "Invite users"
+  }
+});
+```
+
+## `resolveMessagesForLocale` 
+
+Function to handle the messages resolving for a locale. Basically matches
+given locale to a translation in object given. First takes in all the translations 
+and default locale, returns a function that will take in a locale code and tries 
+to match to messages, if no match returns the default messages.
+
+```js
+import React, { Component, Fragment } from "react";
+import { IntlProvider } from "react-intl";
+import connect from "./connect";
+
+import { resolveMessages, DEFAULT_LOCALE } from "@happeokit/translations";
+import translatedMessages from "./translations.json";
+
+const resolveMessagesForLocale = resolveMessages(translatedMessages, DEFAULT_LOCALE);
+
+class TranslationsProvider extends Component {
+  
+  render() {
+    const { userLocale } = this.props;
+    messages = resolveMessagesForLocale(userLocale);
+
+    return (
+      <IntlProvider
+        locale={locale}
+        key={locale}
+        messages={messages}
+        textComponent={Fragment}
+      >
+        {this.props.children}
+      </IntlProvider>
+    );
+  }
+}
+
+export default connect(TranslationsProvider);
+
+```

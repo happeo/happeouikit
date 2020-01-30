@@ -1,0 +1,68 @@
+---
+name: Actions-menu
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import { Metadata } from '@happeokit/docs';
+import pkg from "../package.json";
+import { ActionsMenu, FilterMenu } from '../src/index';
+import { actions } from '../src/Examples';
+import { IconChat } from "@happeokit/icons";
+
+# Actions menu
+
+<Metadata pkg={pkg}/>
+
+
+### Menu right (when the trigger button is on the left)
+<Playground>
+    <div style={{width: '200px', display: 'flex', justifyContent: 'flex-start'}}>
+        <ActionsMenu actions={actions} menuPosition='right' />
+    </div>
+</Playground>
+
+
+### Menu left (when the trigger button is on the right)
+<Playground>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'flex-end'}}>
+        <ActionsMenu actions={actions}  />
+    </div>
+</Playground>
+
+### Filter menu
+<Playground>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'flex-start'}}>
+        <FilterMenu actions={actions} menuPosition='right' initialChecked/>
+    </div>
+</Playground>
+
+### Filter menu with custom icon
+<Playground>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'flex-start'}}>
+        <FilterMenu actions={actions} menuPosition='right' initialChecked icon={IconChat}/>
+    </div>
+</Playground>
+
+### Filter menu with custom button
+<Playground>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'flex-start'}}>
+        <FilterMenu actions={actions} menuPosition='right' initialChecked text='Test'/>
+    </div>
+</Playground>
+
+### Filter menu with preselected values
+<Playground>
+    <div style={{width: '100%', display: 'flex', justifyContent: 'flex-start'}}>
+    <FilterMenu
+      actions={actions}
+      menuPosition="right"
+      text="Test"
+      selected={['edit']}
+    />
+    </div>
+</Playground>
+
+
+### Props
+<Props of={ActionsMenu} />
