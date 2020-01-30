@@ -19,7 +19,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@happeokit/colors": "^3.0.1",
-    "@happeokit/translations": "^3.0.1",
     "@happeokit/typography": "^3.0.1"
   },
   "devDependencies": {

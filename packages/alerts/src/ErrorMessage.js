@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+
 import { msg } from "@happeokit/translations";
-import messages from "./messages";
 import { TinyText } from "@happeokit/typography";
 import { alert, toBgLight } from "@happeokit/colors";
 
@@ -14,7 +14,12 @@ import { alert, toBgLight } from "@happeokit/colors";
 const ErrorMessage = ({ text }) => {
   return (
     <ErrorContainer>
-      <TinyText color={alert}>{msg(text || messages.generalError)}</TinyText>
+      <TinyText color={alert}>
+        {msg(
+          text ||
+            "Oops, something went wrong. Please try again later or contact support."
+        )}
+      </TinyText>
     </ErrorContainer>
   );
 };
