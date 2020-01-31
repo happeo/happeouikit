@@ -1200,10 +1200,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@happeo/docs-tools@^1.0.1-rc.0":
-  version "1.0.1-rc.0"
-  resolved "https://registry.yarnpkg.com/@happeo/docs-tools/-/docs-tools-1.0.1-rc.0.tgz#dba906ed36802f12d95d3b23bc319285bdbe8fea"
-  integrity sha512-wbGYH0N8UBuhscdnUPgW9oX1pkfKFUSY/SktDe+zzGfSrTKtJsbV4Auz+1M+YR4PPHmntF9f5cg0UzkyoxNeoA==
+"@happeo/docs-tools@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@happeo/docs-tools/-/docs-tools-1.0.0.tgz#d87de2832cf7bbb32fa5db09939ba448dfc2b3c5"
+  integrity sha512-A8hecEn06HUgcP6QinS47VZQ4qho80DkSVzCfMXScCvg0IyaJXO1qymkUGtdziKjS8NUxbvMpQ442gAVbtu/1w==
 
 "@hutson/parse-repository-url@^3.0.0":
   version "3.0.2"
