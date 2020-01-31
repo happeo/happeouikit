@@ -2866,13 +2866,6 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@universe/analytics@0.0.2":
-  version "0.0.2"
-  resolved "https://universe.jfrog.io/universe/api/npm/npm-local/@universe/analytics/-/@universe/analytics-0.0.2.tgz#9533137f870bf8d8d336cae555d5225a290326dc"
-  integrity sha1-lTMTf4cL+NjTNsrlVdUiWikDJtw=
-  dependencies:
-    jest "^24.8.0"
-
 "@universe/analytics@^0.0.3-8":
   version "0.0.3-8"
   resolved "https://universe.jfrog.io/universe/api/npm/npm-local/@universe/analytics/-/@universe/analytics-0.0.3-8.tgz#a38f88651b96cabc818383c148b6aee66888e55b"
