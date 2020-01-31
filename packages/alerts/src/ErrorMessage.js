@@ -14,10 +14,8 @@ const ErrorMessage = ({ text }) => {
   return (
     <ErrorContainer>
       <TinyText color={alert}>
-        {msg(
-          text ||
-            "Oops, something went wrong. Please try again later or contact support."
-        )}
+        {text ||
+          "Oops, something went wrong. Please try again later or contact support."}
       </TinyText>
     </ErrorContainer>
   );
