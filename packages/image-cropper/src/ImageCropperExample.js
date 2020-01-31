@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { ButtonPrimary, ButtonSecondary } from "@happeouikit/buttons";
-import { Modal } from "@happeouikit/modal";
+import { Modal } from "@happeouikit/modals";
 import { gray08 } from "@happeouikit/colors";
 import ImageCropper, { cropperEvent } from "./ImageCropper";
 

@@ -6,7 +6,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Modal } from "@happeouikit/modal";
+import { Modal } from "@happeouikit/modals";
 import LoadingContainer from "./LoadingContainer";
 
 const LoadingModal = ({ isOpen, title, description, state }) => (
