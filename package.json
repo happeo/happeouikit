@@ -63,7 +63,7 @@
     "styled-components": "^4.4.1"
   },
   "dependencies": {
-    "@happeo/docs-tools": "^1.0.0",
+    "@happeo/docs-tools": "1.0.1",
     "@universe/analytics": "^0.0.3-8",
     "@universe/api-client": "^1.23.0",
     "@universe/frontend-utils": "^0.1.0",
