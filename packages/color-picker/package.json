@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@happeouikit/colors": "^1.0.0",
-    "react-color": "^2.17.0"
+    "react-color": "^2.17.3"
   },
   "devDependencies": {
     "@happeouikit/docs": "^1.0.0"
