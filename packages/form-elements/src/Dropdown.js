@@ -6,7 +6,7 @@ import React, {
 } from "react";
 import styled, { css } from "styled-components";
 import Select, { components } from "react-select";
-import { IconArrowDropDown } from "@happeokit/icons";
+import { IconArrowDropDown } from "@happeouikit/icons";
 import {
   active,
   gray01,
@@ -14,9 +14,9 @@ import {
   gray05,
   toBgLight,
   gray04
-} from "@happeokit/colors";
-import { BodyUI, sansFamily } from "@happeokit/typography";
-import { screen } from "@happeokit/theme";
+} from "@happeouikit/colors";
+import { BodyUI, sansFamily } from "@happeouikit/typography";
+import { screen } from "@happeouikit/theme";
 
 const Dropdown = ({ label, ...props }, ref) => {
   const dropdownRef = useRef();

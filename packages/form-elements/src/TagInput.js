@@ -8,14 +8,14 @@ import React, {
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import AsyncCreatableSelect from "react-select/async-creatable";
-import { BodyUI, TinyText, TextZeta } from "@happeokit/typography";
+import { BodyUI, TinyText, TextZeta } from "@happeouikit/typography";
 import { Tag, sanitiseHashtag } from "./index";
 import { dropdownStyles } from "./Dropdown";
-import { IconButton } from "@happeokit/buttons";
-import { IconAddCircle } from "@happeokit/icons";
-import { gray04, active, alert } from "@happeokit/colors";
+import { IconButton } from "@happeouikit/buttons";
+import { IconAddCircle } from "@happeouikit/icons";
+import { gray04, active, alert } from "@happeouikit/colors";
 import messages from "./messages";
-import { Spacer } from "@happeokit/layout";
+import { Spacer } from "@happeouikit/layout";
 
 const TagInput = forwardRef(
   (

@@ -3,10 +3,10 @@
  * Default Loader component
  *
  */
-import React  from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
-import { Modal } from "@happeokit/modal";
+import { Modal } from "@happeouikit/modal";
 import LoadingContainer from "./LoadingContainer";
 
 const LoadingModal = ({ isOpen, title, description, state }) => (

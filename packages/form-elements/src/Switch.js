@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { active, gray08, gray01 } from "@happeokit/colors";
-import { BodyUI } from "@happeokit/typography";
+import { active, gray08, gray01 } from "@happeouikit/colors";
+import { BodyUI } from "@happeouikit/typography";
 
 const Switch = ({ label, ...props }) => {
   return (

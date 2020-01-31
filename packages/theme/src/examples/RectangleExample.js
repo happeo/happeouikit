@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { gray04, white } from "@happeokit/colors";
+import { gray04, white } from "@happeouikit/colors";
 import { radius400 } from "../rectangles";
 
 const Box = styled.div`

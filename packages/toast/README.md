@@ -4,11 +4,11 @@
 
 Installation
 
-    yarn add @happeokit/toast
+    yarn add @happeouikit/toast
 
 or 
 
-    npm install --save @happeokit/toast
+    npm install --save @happeouikit/toast
 
 
 ### Usage
@@ -18,7 +18,7 @@ or
 
 // App.js
 
-import {ToastContainer} from '@happeokit/toast';
+import {ToastContainer} from '@happeouikit/toast';
 
 ...
 
@@ -31,7 +31,7 @@ render () {
 
 // Component.js
 
-import {toast} from '@happeokit/toast';
+import {toast} from '@happeouikit/toast';
 ...
 
 const someMethod = () => {

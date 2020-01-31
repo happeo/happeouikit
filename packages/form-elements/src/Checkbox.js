@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { white, active, gray01, gray06 } from "@happeokit/colors";
-import { BodyUI } from "@happeokit/typography";
+import { white, active, gray01, gray06 } from "@happeouikit/colors";
+import { BodyUI } from "@happeouikit/typography";
 
 const Checkbox = ({ label, background, ...props }) => {
   return (

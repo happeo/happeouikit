@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { TinyText } from "@happeokit/typography";
-import { toBgLight, active, white } from "@happeokit/colors";
+import { TinyText } from "@happeouikit/typography";
+import { toBgLight, active, white } from "@happeouikit/colors";
 
 const Badge = ({ text, isFilled, color = active, applyCustomStylings }) => {
   return (

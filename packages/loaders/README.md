@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/loaders
+    yarn add @happeouikit/loaders
 
 or 
 
-    npm install --save @happeokit/loaders
+    npm install --save @happeouikit/loaders

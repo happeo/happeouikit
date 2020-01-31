@@ -1,5 +1,5 @@
 {
-  "name": "@happeokit/docs",
+  "name": "@happeouikit/docs",
   "version": "3.0.1",
   "description": "Tools for Documentation Engine",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
   },
   "public": true,
   "author": "Universe Company Oy",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1"

@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/list
+    yarn add @happeouikit/list
 
 or 
 
-    npm install --save @happeokit/list
+    npm install --save @happeouikit/list

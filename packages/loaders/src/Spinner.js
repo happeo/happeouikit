@@ -5,8 +5,8 @@
  */
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { lighten, active, success, alert, gray08 } from "@happeokit/colors";
-import { IconCheck, IconDeleteCircle } from "@happeokit/icons";
+import { lighten, active, success, alert, gray08 } from "@happeouikit/colors";
+import { IconCheck, IconDeleteCircle } from "@happeouikit/icons";
 import PropTypes from "prop-types";
 
 const Spinner = ({ state }) => (

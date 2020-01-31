@@ -1,6 +1,6 @@
 # Changelog
 
-This is the Changelog for the Happeokit engine and the Documentation. **Not for individual components**.
+This is the Changelog for the happeouikit engine and the Documentation. **Not for individual components**.
 See their Changelog in the respective packages.
 
 ## 3.0.0

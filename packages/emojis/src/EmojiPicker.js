@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
-import { IconFace } from "@happeokit/icons";
+import { IconFace } from "@happeouikit/icons";
 import TetherComponent from "react-tether";
 import styled from "styled-components";
 import { Picker } from "emoji-mart";
@@ -13,11 +13,11 @@ import {
   gray05,
   gray06,
   gray08
-} from "@happeokit/colors";
+} from "@happeouikit/colors";
 import { trackEvent, events } from "@universe/analytics";
-import { shadow500 } from "@happeokit/theme";
-import { IconButton } from "@happeokit/buttons";
-import { sansFamily } from "@happeokit/typography";
+import { shadow500 } from "@happeouikit/theme";
+import { IconButton } from "@happeouikit/buttons";
+import { sansFamily } from "@happeouikit/typography";
 
 import categoryIcons from "./categoryIcons";
 

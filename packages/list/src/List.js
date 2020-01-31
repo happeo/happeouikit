@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { white, bgGray } from "@happeokit/colors";
-import { shadow200, screen } from "@happeokit/theme";
+import { white, bgGray } from "@happeouikit/colors";
+import { shadow200, screen } from "@happeouikit/theme";
 
 const LiBase = styled.li`
   display: flex;

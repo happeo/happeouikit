@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { IconCheck, IconClose, IconDelete } from "@happeokit/icons";
-import { alert, success, toBgLight } from "@happeokit/colors";
+import { IconCheck, IconClose, IconDelete } from "@happeouikit/icons";
+import { alert, success, toBgLight } from "@happeouikit/colors";
 import { MODAL_STATES as STATES } from "./constants";
 
 /**

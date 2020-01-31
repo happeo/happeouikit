@@ -1,7 +1,7 @@
 import React, { Component, Fragment, useState } from "react";
 import styled from "styled-components";
-import { ButtonPrimary, ButtonSecondary } from "@happeokit/buttons";
-import { BodyUI } from "@happeokit/typography";
+import { ButtonPrimary, ButtonSecondary } from "@happeouikit/buttons";
+import { BodyUI } from "@happeouikit/typography";
 
 import Modal from "./Modal";
 import ConfirmModal from "./ConfirmModal";

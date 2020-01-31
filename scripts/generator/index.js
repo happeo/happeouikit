@@ -35,7 +35,7 @@ module.exports = function(plop) {
 
   // Defaults in a "hackish way"...
   plop.setHelper("kitname", function(text) {
-    return "@happeokit";
+    return "@happeouikit";
   });
 
   plop.setHelper("react-version", function(text) {

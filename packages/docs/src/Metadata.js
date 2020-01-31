@@ -63,12 +63,10 @@ const DependenciesList = ({ dependencies = {} }) => {
 
 const Metadata = ({ pkg }) => {
   if (!pkg) return null;
-  const repoName = pkg.name.split("@happeokit/")[1];
-  const readmeUrl = `https://bitbucket.org/getuniverse/happeokit/src/master/packages/${repoName}/README.md`;
-  const changeLogUrl = `https://bitbucket.org/getuniverse/happeokit/src/master/packages/${repoName}/CHANGELOG.md`;
-  const jfrogUrl = `https://universe.jfrog.io/universe/webapp/#/artifacts/browse/tree/General/npm-local/@happeokit/${repoName}/-/@happeokit/${repoName}-${
-    pkg.version
-  }.tgz`;
+  const repoName = pkg.name.split("@happeouikit/")[1];
+  const readmeUrl = `https://bitbucket.org/getuniverse/happeouikit/src/master/packages/${repoName}/README.md`;
+  const changeLogUrl = `https://bitbucket.org/getuniverse/happeouikit/src/master/packages/${repoName}/CHANGELOG.md`;
+  const jfrogUrl = `https://universe.jfrog.io/universe/webapp/#/artifacts/browse/tree/General/npm-local/@happeouikit/${repoName}/-/@happeouikit/${repoName}-${pkg.version}.tgz`;
 
   return (
     <MetadataWrapper>

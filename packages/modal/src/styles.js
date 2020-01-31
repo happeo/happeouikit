@@ -1,5 +1,5 @@
 import { createGlobalStyle, css } from "styled-components";
-import { black30 } from "@happeokit/colors";
+import { black30 } from "@happeouikit/colors";
 
 export const OverlayStyle = createGlobalStyle`
   .ReactModal__Body--open {

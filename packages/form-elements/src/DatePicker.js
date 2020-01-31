@@ -9,7 +9,7 @@ import MomentLocaleUtils, {
 } from "react-day-picker/moment";
 import "moment/locale/en-gb";
 
-import { sansFamily, TextZeta } from "@happeokit/typography";
+import { sansFamily, TextZeta } from "@happeouikit/typography";
 import {
   gray06,
   black,
@@ -18,15 +18,15 @@ import {
   toBgLight,
   white,
   gray03
-} from "@happeokit/colors";
-import { Spacer } from "@happeokit/layout";
-import { IconButton } from "@happeokit/buttons";
+} from "@happeouikit/colors";
+import { Spacer } from "@happeouikit/layout";
+import { IconButton } from "@happeouikit/buttons";
 import {
   IconChevronLeft,
   IconChevronRight,
   IconCalendar
-} from "@happeokit/icons";
-import { shadow500 } from "@happeokit/theme";
+} from "@happeouikit/icons";
+import { shadow500 } from "@happeouikit/theme";
 
 // CSS
 import "react-day-picker/lib/style.css";

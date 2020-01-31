@@ -1,3 +1,1 @@
-export {
-  default as ContentRenderer,
-} from "./ContentRenderer";
+export { default as ContentRenderer } from "./ContentRenderer";

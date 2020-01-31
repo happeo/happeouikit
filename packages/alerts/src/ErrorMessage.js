@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { TinyText } from "@happeokit/typography";
-import { alert, toBgLight } from "@happeokit/colors";
+import { TinyText } from "@happeouikit/typography";
+import { alert, toBgLight } from "@happeouikit/colors";
 
 /**
  *

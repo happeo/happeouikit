@@ -11,8 +11,8 @@ import {
   black,
   success,
   alert
-} from "@happeokit/colors";
-import { TinyText, sansFamily, BodyUI } from "@happeokit/typography";
+} from "@happeouikit/colors";
+import { TinyText, sansFamily, BodyUI } from "@happeouikit/typography";
 
 /**
  * Map input states to colors

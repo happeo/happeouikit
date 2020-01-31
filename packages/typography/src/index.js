@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { gray01 } from "@happeokit/colors";
+import { gray01 } from "@happeouikit/colors";
 
 export const sansFamily = "'IBM Plex Sans', sans serif";
 export const defaultColor = gray01;

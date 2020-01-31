@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/color-picker
+    yarn add @happeouikit/color-picker
 
 or 
 
-    npm install --save @happeokit/color-picker
+    npm install --save @happeouikit/color-picker

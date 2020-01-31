@@ -2,7 +2,7 @@ import React, { useRef, forwardRef } from "react";
 
 import { TagInput } from "./index";
 import { sanitiseHashtag } from "./utils";
-import { Button } from "@happeokit/buttons";
+import { Button } from "@happeouikit/buttons";
 
 const ForwardedTagInput = forwardRef((props, ref) => {
   return (

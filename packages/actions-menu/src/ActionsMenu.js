@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { IconButton } from "@happeokit/buttons";
-import { IconMoreVert } from "@happeokit/icons";
-import { BodyUI } from "@happeokit/typography";
+import { IconButton } from "@happeouikit/buttons";
+import { IconMoreVert } from "@happeouikit/icons";
+import { BodyUI } from "@happeouikit/typography";
 import { Container, Wrapper, ActionRow } from "./styles";
 
 /**

@@ -1,5 +1,5 @@
 {
-  "name": "@happeokit/avatar",
+  "name": "@happeouikit/avatar",
   "version": "3.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -18,12 +18,12 @@
   },
   "public": true,
   "author": "Universe Company Oy",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
-    "@happeokit/colors": "^3.0.1"
+    "@happeouikit/colors": "^3.0.1"
   },
   "devDependencies": {
-    "@happeokit/docs": "^3.0.1"
+    "@happeouikit/docs": "^3.0.1"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

@@ -4,8 +4,8 @@ import styled from "styled-components";
 import Croppie from "croppie";
 import "croppie/croppie.css";
 import { EventEmitter } from "fbemitter";
-import { IconButton } from "@happeokit/buttons";
-import { IconRotateLeft, IconRotateRight } from "@happeokit/icons";
+import { IconButton } from "@happeouikit/buttons";
+import { IconRotateLeft, IconRotateRight } from "@happeouikit/icons";
 
 class ImageCropper extends Component {
   constructor(props) {

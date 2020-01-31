@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/theme
+    yarn add @happeouikit/theme
 
 or 
 
-    npm install --save @happeokit/theme
+    npm install --save @happeouikit/theme

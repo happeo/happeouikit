@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { bgWhite } from "@happeokit/colors";
-import { screen } from "@happeokit/theme/";
+import { bgWhite } from "@happeouikit/colors";
+import { screen } from "@happeouikit/theme/";
 
 const Container = styled.div`
   border-radius: 6px;

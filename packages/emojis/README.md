@@ -4,8 +4,8 @@ Happeo emoji handlin
 
 Installation
 
-    yarn add @happeokit/emojis
+    yarn add @happeouikit/emojis
 
 or 
 
-    npm install --save @happeokit/emojis
+    npm install --save @happeouikit/emojis

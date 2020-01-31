@@ -1,4 +1,4 @@
-# Happeokit
+# happeouikit
 
 Happeo component library for React Apps.
 
@@ -39,7 +39,7 @@ Otherwise it can be added to the root `package.json` by running `yarn add -W pac
 1. Make sure all your edits are documented in the docs, i.e. the new props are in the `Props` and new additions have examples.
 1. Publish your edits: follow the "Publishing a Package" guide below.
 
-## Adding a new icon to happeokit
+## Adding a new icon to happeouikit
 
 1. Add svg file to the folder `packages/icons/svgs`
 2. Run `yarn run build`.
@@ -51,7 +51,7 @@ Otherwise it can be added to the root `package.json` by running `yarn add -W pac
 The documentation engine used is [Docz](https://www.docz.site/).
 
 - Try to write the docs as you develop, documenting all the use cases the component is made for.
-- If another component is shown only in the documentation, like a button in a card. The other package needs to be included as a dependency of the package you are writing. So for example `@happeokit/button` needs to be a dependency of `@happeokit/card`.
+- If another component is shown only in the documentation, like a button in a card. The other package needs to be included as a dependency of the package you are writing. So for example `@happeouikit/button` needs to be a dependency of `@happeouikit/card`.
 - Sometimes the page just doesn't refresh or shows old stuff. This is the time to start the `yarn run dev`.
 - If you get an error of a module cannot be found. Just stop the `dev` process and run `lerna bootstrap`. This will make sure all the dependencies are symlinked to the packages.
 
@@ -65,7 +65,7 @@ The documentation engine used is [Docz](https://www.docz.site/).
 
 ### Troubleshooting:
 
-- If you want to re-publish a version, you can delete uploaded version's `.tgz` files from JFrog. Be careful not to delete all versions. So read extra carefully. https://universe.jfrog.io/universe/webapp/#/artifacts/browse/tree/General/npm-local/@happeokit.
+- If you want to re-publish a version, you can delete uploaded version's `.tgz` files from JFrog. Be careful not to delete all versions. So read extra carefully. https://universe.jfrog.io/universe/webapp/#/artifacts/browse/tree/General/npm-local/@happeouikit.
 - If the changes to a package aren't visible after it has been published, make sure that the files in the package's `dist` folder have the new changes. If yes you might need to publish it again, since for some reason the changes aren't picked up sometimes.
 - If the files were not build, execute `yarn run build`.
 

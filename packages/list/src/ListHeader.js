@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { IconArrowDropDown, IconArrowDropUp } from "@happeokit/icons";
-import { TextZeta } from "@happeokit/typography";
+import { IconArrowDropDown, IconArrowDropUp } from "@happeouikit/icons";
+import { TextZeta } from "@happeouikit/typography";
 import { LiStriped, LiCol } from "./List";
-import { active, gray01 } from "@happeokit/colors";
-import { screen } from "@happeokit/theme";
+import { active, gray01 } from "@happeouikit/colors";
+import { screen } from "@happeouikit/theme";
 
 const ListHeader = ({ headers, sortDir, sortField, sortFn, padding }) => {
   return (

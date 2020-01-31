@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { Avatar } from "@happeokit/avatar";
-import { TextZeta } from "@happeokit/typography";
-import { Loader } from "@happeokit/loaders";
-import { gray01 } from "@happeokit/colors";
+import { Avatar } from "@happeouikit/avatar";
+import { TextZeta } from "@happeouikit/typography";
+import { Loader } from "@happeouikit/loaders";
+import { gray01 } from "@happeouikit/colors";
 
 /**
  *

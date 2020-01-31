@@ -6,9 +6,9 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { gray04 } from "@happeokit/colors";
-import { Spacer } from "@happeokit/layout";
-import { TextGamma, BodyUI } from "@happeokit/typography";
+import { gray04 } from "@happeouikit/colors";
+import { Spacer } from "@happeouikit/layout";
+import { TextGamma, BodyUI } from "@happeouikit/typography";
 
 import Spinner from "./Spinner";
 

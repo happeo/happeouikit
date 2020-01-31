@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { TextZeta, BodyUI } from "@happeokit/typography";
+import { TextZeta, BodyUI } from "@happeouikit/typography";
 import Card from "./Card";
-import { screen } from "@happeokit/theme";
+import { screen } from "@happeouikit/theme";
 
 const CardWithHeader = ({
   className,

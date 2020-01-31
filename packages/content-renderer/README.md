@@ -4,8 +4,8 @@ Rendering html and markdown content
 
 Installation
 
-    yarn add @happeokit/content-renderer
+    yarn add @happeouikit/content-renderer
 
 or 
 
-    npm install --save @happeokit/content-renderer
+    npm install --save @happeouikit/content-renderer

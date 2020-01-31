@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Modal, ModalIcon } from "./index";
-import { TextZeta, TextDelta } from "@happeokit/typography";
-import { Spacer } from "@happeokit/layout";
-import { gray05 } from "@happeokit/colors";
-import { ButtonPrimary, ButtonSecondary } from "@happeokit/buttons";
+import { TextZeta, TextDelta } from "@happeouikit/typography";
+import { Spacer } from "@happeouikit/layout";
+import { gray05 } from "@happeouikit/colors";
+import { ButtonPrimary, ButtonSecondary } from "@happeouikit/buttons";
 import { MODAL_STATES } from "./constants";
 
 /**

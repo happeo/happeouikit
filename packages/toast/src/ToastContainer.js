@@ -8,12 +8,12 @@ import {
   warn,
   black,
   white
-} from "@happeokit/colors";
-import { TextZeta, BodyUI } from "@happeokit/typography";
+} from "@happeouikit/colors";
+import { TextZeta, BodyUI } from "@happeouikit/typography";
 import { CSSTransition } from "react-transition-group";
-import { shadow200 } from "@happeokit/theme";
-import { IconInfo, IconClose, IconRefresh } from "@happeokit/icons";
-import { ButtonSecondary, IconButton } from "@happeokit/buttons";
+import { shadow200 } from "@happeouikit/theme";
+import { IconInfo, IconClose, IconRefresh } from "@happeouikit/icons";
+import { ButtonSecondary, IconButton } from "@happeouikit/buttons";
 import { ACTIONS, EVENTS } from "./constants";
 
 /**

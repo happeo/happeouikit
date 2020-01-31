@@ -1,4 +1,4 @@
-import * as colors from "@happeokit/colors";
+import * as colors from "@happeouikit/colors";
 
 export const border = type => {
   switch (type) {

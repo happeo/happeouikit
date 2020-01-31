@@ -1,7 +1,7 @@
 import React from "react";
 
 /**
- * Custom Happeokit logo
+ * Custom happeouikit logo
  */
 export const Logo = () => (
   <img

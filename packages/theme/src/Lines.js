@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { gray08 } from "@happeokit/colors";
+import { gray08 } from "@happeouikit/colors";
 
 const BaseLine = styled.div`
   width: 100%;

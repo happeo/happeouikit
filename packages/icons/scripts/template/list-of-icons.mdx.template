@@ -4,7 +4,7 @@ menu: Components
 ---
 
 import { Playground } from 'docz';
-import { Metadata } from  '@happeokit/docs';
+import { Metadata } from  '@happeouikit/docs';
 import pkg from "../package.json";
 <!-- INJECT_IMPORT -->
 

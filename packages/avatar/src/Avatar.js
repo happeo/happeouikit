@@ -1,7 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { keyframes } from "styled-components";
-import { bgGray, white, success, warn, alert, gray06 } from "@happeokit/colors";
+import {
+  bgGray,
+  white,
+  success,
+  warn,
+  alert,
+  gray06
+} from "@happeouikit/colors";
 import defaultImg from "./assets/img/avatar.png";
 
 const sizeMap = {

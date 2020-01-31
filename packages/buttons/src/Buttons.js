@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
-import { BodyUI, TextZeta, TinyText } from "@happeokit/typography";
+import { BodyUI, TextZeta, TinyText } from "@happeouikit/typography";
 import {
   active,
   white,
@@ -20,7 +20,7 @@ import {
   black50,
   gray08,
   gray05
-} from "@happeokit/colors";
+} from "@happeouikit/colors";
 
 const IconGen = props => {
   const Icon = props.icon;

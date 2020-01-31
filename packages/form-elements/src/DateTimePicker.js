@@ -6,10 +6,10 @@ import DayPicker from "react-day-picker";
 import Dropdown from "./Dropdown";
 import debounce from "lodash.debounce";
 import { Input } from "./Input";
-import { IconArrowDropDown } from "@happeokit/icons";
+import { IconArrowDropDown } from "@happeouikit/icons";
 import { components } from "react-select";
-import { gray06, active, black70, lighten, white } from "@happeokit/colors";
-import { sansFamily } from "@happeokit/typography";
+import { gray06, active, black70, lighten, white } from "@happeouikit/colors";
+import { sansFamily } from "@happeouikit/typography";
 import messages from "./messages";
 import "react-day-picker/lib/style.css";
 

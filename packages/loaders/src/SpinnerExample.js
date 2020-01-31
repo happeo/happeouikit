@@ -6,7 +6,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Spinner from "./Spinner";
-import { active } from "@happeokit/colors";
+import { active } from "@happeouikit/colors";
 
 const SpinnerExample = () => {
   const [loadingState, setLoadingState] = useState("loading");

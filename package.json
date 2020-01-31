@@ -4,7 +4,7 @@
       "packages/*"
     ]
   },
-  "homepage": "https://happeokit.netlify.com/",
+  "homepage": "https://happeouikit.netlify.com/",
   "private": true,
   "publishConfig": {
     "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
@@ -14,7 +14,7 @@
     "Perttu Ristimella <perttu.ristimella@happeo.com>"
   ],
   "license": "MIT",
-  "name": "happeokit",
+  "name": "happeouikit",
   "version": "2.0.0",
   "description": "Happeo Component Kit for React, this package holds multiple published packages",
   "main": "index.js",

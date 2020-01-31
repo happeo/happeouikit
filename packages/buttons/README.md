@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/buttons
+    yarn add @happeouikit/buttons
 
 or 
 
-    npm install --save @happeokit/buttons
+    npm install --save @happeouikit/buttons

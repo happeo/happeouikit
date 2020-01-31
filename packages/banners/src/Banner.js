@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { TextZeta, BodyUI } from "@happeokit/typography";
-import { active, success, warn, alert, gray04 } from "@happeokit/colors";
-import { IconError, IconInfoRound, IconCheckCircle } from "@happeokit/icons";
+import { TextZeta, BodyUI } from "@happeouikit/typography";
+import { active, success, warn, alert, gray04 } from "@happeouikit/colors";
+import { IconError, IconInfoRound, IconCheckCircle } from "@happeouikit/icons";
 
 const stateMap = { info: active, success, warn, error: alert };
 

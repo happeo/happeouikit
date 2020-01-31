@@ -4,8 +4,8 @@ Modal component with custom Happeo styling
 
 Installation
 
-    yarn add @happeokit/modal
+    yarn add @happeouikit/modal
 
 or 
 
-    npm install --save @happeokit/modal
+    npm install --save @happeouikit/modal

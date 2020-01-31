@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/avatar
+    yarn add @happeouikit/avatar
 
 or 
 
-    npm install --save @happeokit/avatar
+    npm install --save @happeouikit/avatar

@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { BodyUI } from "@happeokit/typography";
-import { active } from "@happeokit/colors";
+import { BodyUI } from "@happeouikit/typography";
+import { active } from "@happeouikit/colors";
 
 export const Link = props => {
   return (

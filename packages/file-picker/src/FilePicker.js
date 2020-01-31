@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import { IconFiles } from "@happeokit/icons";
-import { IconButton, ButtonSecondary } from "@happeokit/buttons";
+import { IconFiles } from "@happeouikit/icons";
+import { IconButton, ButtonSecondary } from "@happeouikit/buttons";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 

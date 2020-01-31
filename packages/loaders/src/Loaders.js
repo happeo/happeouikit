@@ -5,7 +5,7 @@
  */
 import React from "react";
 import styled, { css, keyframes } from "styled-components";
-import { gray01, white } from "@happeokit/colors";
+import { gray01, white } from "@happeouikit/colors";
 import PropTypes from "prop-types";
 
 const Loader = ({ size, light, containerHeight, containerWidth }) => {

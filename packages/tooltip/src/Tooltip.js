@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import ReactTooltip from "react-tooltip";
-import { gray01, white } from "@happeokit/colors";
-import { BodyUI } from "@happeokit/typography";
+import { gray01, white } from "@happeouikit/colors";
+import { BodyUI } from "@happeouikit/typography";
 
 class Tooltip extends React.Component {
   static rebuild() {

@@ -1,6 +1,6 @@
 import React from "react";
 import { ListHeader, LiCol, LiStriped, Li } from "./index";
-import { BodyUI } from "@happeokit/typography";
+import { BodyUI } from "@happeouikit/typography";
 
 const headers = [
   { name: "", width: "5%" },

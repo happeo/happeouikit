@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/icons
+    yarn add @happeouikit/icons
 
 or 
 
-    npm install --save @happeokit/icons
+    npm install --save @happeouikit/icons

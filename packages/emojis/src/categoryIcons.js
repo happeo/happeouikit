@@ -10,7 +10,7 @@ import {
   IconBulb,
   IconHistory,
   IconArrange
-} from "@happeokit/icons";
+} from "@happeouikit/icons";
 
 const categoryIcons = {
   categories: {

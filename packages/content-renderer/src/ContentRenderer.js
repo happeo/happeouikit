@@ -4,12 +4,12 @@
  *
  */
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-import { BodyUI } from "@happeokit/typography";
-import { active } from "@happeokit/colors";
+import { BodyUI } from "@happeouikit/typography";
+import { active } from "@happeouikit/colors";
 import { toHtml, toSafeText } from "./utils";
 
 const ContentRenderer = ({ content, type }) => {
@@ -23,19 +23,25 @@ const ContentRenderer = ({ content, type }) => {
   // This requires that all content is run through the toSafeText filter
   // before displaying. This will run it through xss filter.
   return (
-    <Wrapper dangerouslySetInnerHTML={{
-      __html: safeText
-    }} />
+    <Wrapper
+      dangerouslySetInnerHTML={{
+        __html: safeText
+      }}
+    />
   );
-}
+};
 
-const Wrapper = styled(BodyUI).attrs({as: 'div'})`
+const Wrapper = styled(BodyUI).attrs({ as: "div" })`
   h1 {
     font-weight: bold;
     font-size: 24px;
     letter-spacing: -0.9px;
     line-height: 32px;
-    + h1, h2, h3, h4, p {
+    + h1,
+    h2,
+    h3,
+    h4,
+    p {
       margin-top: 14px;
     }
   }
@@ -44,7 +50,11 @@ const Wrapper = styled(BodyUI).attrs({as: 'div'})`
     font-size: 20px;
     letter-spacing: -0.9px;
     line-height: 28px;
-    + h1, h2, h3, h4, p {
+    + h1,
+    h2,
+    h3,
+    h4,
+    p {
       margin-top: 14px;
     }
   }
@@ -53,15 +63,18 @@ const Wrapper = styled(BodyUI).attrs({as: 'div'})`
     font-size: 16px;
     letter-spacing: -0.4px;
     line-height: 20px;
-    + h1, h2, h3, h4, p {
+    + h1,
+    h2,
+    h3,
+    h4,
+    p {
       margin-top: 14px;
     }
   }
   h4 {
     font-size: 16px;
     letter-spacing: -0.4px;
-    line-height: 24px
-    + h1, h2, h3, h4, p {
+    line-height: 24px + h1, h2, h3, h4, p {
       margin-top: 14px;
     }
   }
@@ -69,7 +82,11 @@ const Wrapper = styled(BodyUI).attrs({as: 'div'})`
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.25px;
-    + h1, h2, h3, h4, p {
+    + h1,
+    h2,
+    h3,
+    h4,
+    p {
       margin-top: 14px;
     }
   }
@@ -158,7 +175,7 @@ const Wrapper = styled(BodyUI).attrs({as: 'div'})`
     }
     tr:nth-child(odd) {
       background: @white;
-    }    
+    }
   }
   table.no-borders {
     th,
@@ -206,7 +223,6 @@ const Wrapper = styled(BodyUI).attrs({as: 'div'})`
     text-align: center;
     margin: 48px 0;
   }
-
 `;
 
 ContentRenderer.propTypes = {

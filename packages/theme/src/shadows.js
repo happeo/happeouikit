@@ -3,7 +3,7 @@ import {
   shadowGray06,
   shadowGray08,
   black50
-} from "@happeokit/colors";
+} from "@happeouikit/colors";
 
 export const shadow100 = `0 8px 14px 0 ${shadowGray08}, 0 8px 14px 0 ${shadowActive}`;
 export const shadow200 = `0 1px 4px 0 ${shadowGray06}, 0 1px 4px 0 ${shadowActive}`;

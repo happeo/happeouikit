@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/banners
+    yarn add @happeouikit/banners
 
 or 
 
-    npm install --save @happeokit/banners
+    npm install --save @happeouikit/banners

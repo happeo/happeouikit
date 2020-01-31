@@ -1,5 +1,5 @@
 {
-  "name": "@happeokit/colors",
+  "name": "@happeouikit/colors",
   "version": "3.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -16,9 +16,9 @@
   },
   "public": true,
   "author": "Universe Company Oy",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
-    "@happeokit/docs": "^3.0.1",
+    "@happeouikit/docs": "^3.0.1",
     "polished": "^2.3.1"
   }
 }

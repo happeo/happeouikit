@@ -1,6 +1,6 @@
 {
-  "name": "@happeokit/form-elements",
-  "version": "3.1.0",
+  "name": "@happeouikit/form-elements",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -11,19 +11,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
   "author": "Universe Company Oy",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
-    "@happeokit/buttons": "^3.1.0",
-    "@happeokit/colors": "^3.0.1",
-    "@happeokit/icons": "^3.0.1",
-    "@happeokit/layout": "^3.0.1",
-    "@happeokit/theme": "^3.0.1",
-    "@happeokit/typography": "^3.0.1",
+    "@happeouikit/buttons": "^1.0.0",
+    "@happeouikit/colors": "^1.0.0",
+    "@happeouikit/icons": "^3.0.1",
+    "@happeouikit/layout": "^3.0.1",
+    "@happeouikit/theme": "^3.0.1",
+    "@happeouikit/typography": "^3.0.1",
     "lodash.debounce": "^4.0.8",
     "moment": "^2.24.0",
     "polished": "^2.3.1",
@@ -33,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-unicode-property-regex": "^7.4.4",
-    "@happeokit/docs": "^3.0.1"
+    "@happeouikit/docs": "^3.0.1"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

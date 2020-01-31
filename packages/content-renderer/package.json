@@ -1,5 +1,5 @@
 {
-  "name": "@happeokit/content-renderer",
+  "name": "@happeouikit/content-renderer",
   "version": "3.1.0",
   "description": "Rendering html and markdown content",
   "main": "dist/index.js",
@@ -16,17 +16,17 @@
   },
   "public": true,
   "author": "Universe Company Oy",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
-    "@happeokit/colors": "^3.0.1",
-    "@happeokit/emojis": "^3.1.0",
-    "@happeokit/typography": "^3.0.1",
+    "@happeouikit/colors": "^3.0.1",
+    "@happeouikit/emojis": "^3.1.0",
+    "@happeouikit/typography": "^3.0.1",
     "linkifyjs": "^2.1.8",
     "showdown": "^1.9.0",
     "xss": "^1.0.6"
   },
   "devDependencies": {
-    "@happeokit/docs": "^3.0.1"
+    "@happeouikit/docs": "^3.0.1"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

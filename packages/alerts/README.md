@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/alerts
+    yarn add @happeouikit/alerts
 
 or 
 
-    npm install --save @happeokit/alerts
+    npm install --save @happeouikit/alerts

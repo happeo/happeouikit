@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/typography
+    yarn add @happeouikit/typography
 
 or 
 
-    npm install --save @happeokit/typography
+    npm install --save @happeouikit/typography

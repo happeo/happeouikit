@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/form-elements
+    yarn add @happeouikit/form-elements
 
 or 
 
-    npm install --save @happeokit/form-elements
+    npm install --save @happeouikit/form-elements

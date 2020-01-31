@@ -5,7 +5,7 @@
  */
 import React, { useState } from "react";
 import styled from "styled-components";
-import { active } from "@happeokit/colors";
+import { active } from "@happeouikit/colors";
 import LoadingModal from "./LoadingModal";
 
 const LoadingModalExample = () => {

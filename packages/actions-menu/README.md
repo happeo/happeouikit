@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/actions-menu
+    yarn add @happeouikit/actions-menu
 
 or 
 
-    npm install --save @happeokit/actions-menu
+    npm install --save @happeouikit/actions-menu

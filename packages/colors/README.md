@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/colors
+    yarn add @happeouikit/colors
 
 or 
 
-    npm install --save @happeokit/colors
+    npm install --save @happeouikit/colors

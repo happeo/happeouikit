@@ -31,8 +31,8 @@ import {
   IconChat,
   IconChannelsColor,
   IconImageOverflowLeft
-} from "@happeokit/icons";
-import { navy, alert } from "@happeokit/colors";
+} from "@happeouikit/icons";
+import { navy, alert } from "@happeouikit/colors";
 
 export const MAP_MIME_TYPES_TO_ICONS = {
   "application/vnd.google-apps.folder": IconFolderColor,

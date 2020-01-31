@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { white, active, gray06, gray01, gray08 } from "@happeokit/colors";
-import { TextZeta } from "@happeokit/typography";
+import { white, active, gray06, gray01, gray08 } from "@happeouikit/colors";
+import { TextZeta } from "@happeouikit/typography";
 
 const RadioButton = ({ label, ...props }) => {
   return (

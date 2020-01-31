@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { white, active } from "@happeokit/colors";
-import { IconClose } from "@happeokit/icons";
-import { BodyUI } from "@happeokit/typography";
+import { white, active } from "@happeouikit/colors";
+import { IconClose } from "@happeouikit/icons";
+import { BodyUI } from "@happeouikit/typography";
 
 const Tag = ({ text, closeCallback, isUppercase, ...props }) => {
   const [show, setShow] = useState(true);

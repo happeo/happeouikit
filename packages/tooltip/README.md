@@ -4,8 +4,8 @@ Tooltips
 
 Installation
 
-    yarn add @happeokit/tooltip
+    yarn add @happeouikit/tooltip
 
 or 
 
-    npm install --save @happeokit/tooltip
+    npm install --save @happeouikit/tooltip

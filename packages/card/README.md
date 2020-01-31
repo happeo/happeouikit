@@ -4,8 +4,8 @@
 
 Installation
 
-    yarn add @happeokit/card
+    yarn add @happeouikit/card
 
 or 
 
-    npm install --save @happeokit/card
+    npm install --save @happeouikit/card

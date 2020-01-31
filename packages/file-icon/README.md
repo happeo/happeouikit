@@ -4,8 +4,8 @@ Icon for mimeTypes
 
 Installation
 
-    yarn add @happeokit/file-icon
+    yarn add @happeouikit/file-icon
 
 or 
 
-    npm install --save @happeokit/file-icon
+    npm install --save @happeouikit/file-icon

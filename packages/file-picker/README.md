@@ -4,8 +4,8 @@ Creates a file picker
 
 Installation
 
-    yarn add @happeokit/file-picker
+    yarn add @happeouikit/file-picker
 
 or 
 
-    npm install --save @happeokit/file-picker
+    npm install --save @happeouikit/file-picker

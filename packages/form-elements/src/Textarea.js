@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import styled from "styled-components";
-import { active, gray01, gray04, gray06 } from "@happeokit/colors";
+import { active, gray01, gray04, gray06 } from "@happeouikit/colors";
 import PropTypes from "prop-types";
-import { BodyUI, sansFamily } from "@happeokit/typography";
+import { BodyUI, sansFamily } from "@happeouikit/typography";
 
 const Textarea = ({ cols, rows, label, ...props }) => {
   return (

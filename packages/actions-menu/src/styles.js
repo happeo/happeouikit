@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { active, toBgLight, white } from "@happeokit/colors";
-import { Ul } from "@happeokit/list";
+import { active, toBgLight, white } from "@happeouikit/colors";
+import { Ul } from "@happeouikit/list";
 
 export const Wrapper = styled.div`
   position: relative;

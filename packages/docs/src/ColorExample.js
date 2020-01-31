@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import PropTypes from "prop-types";
-import { sansFamily } from "@happeokit/typography";
+import { sansFamily } from "@happeouikit/typography";
 
 // IMPORTANT!
 // In the docs thing we currently cannot use components that are in the library, so no typography or color packages..

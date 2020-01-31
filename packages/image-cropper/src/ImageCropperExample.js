@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { ButtonPrimary, ButtonSecondary } from "@happeokit/buttons";
-import { Modal } from "@happeokit/modal";
-import { gray08 } from "@happeokit/colors";
+import { ButtonPrimary, ButtonSecondary } from "@happeouikit/buttons";
+import { Modal } from "@happeouikit/modal";
+import { gray08 } from "@happeouikit/colors";
 import ImageCropper, { cropperEvent } from "./ImageCropper";
 
 class ImageCropperExample extends React.Component {

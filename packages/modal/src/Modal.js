@@ -2,11 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import RcModal from "react-modal";
-import { white } from "@happeokit/colors";
-import { IconClose } from "@happeokit/icons";
-import { TextDelta } from "@happeokit/typography";
-import { ButtonPrimary, ButtonSecondary, IconButton } from "@happeokit/buttons";
-import { media } from "@happeokit/layout";
+import { white } from "@happeouikit/colors";
+import { IconClose } from "@happeouikit/icons";
+import { TextDelta } from "@happeouikit/typography";
+import {
+  ButtonPrimary,
+  ButtonSecondary,
+  IconButton
+} from "@happeouikit/buttons";
+import { media } from "@happeouikit/layout";
 import { OverlayStyle } from "./styles";
 
 const Modal = ({

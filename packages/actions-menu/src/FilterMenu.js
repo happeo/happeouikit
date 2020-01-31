@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { IconButton, ButtonSecondary } from "@happeokit/buttons";
-import { IconFilter } from "@happeokit/icons";
-import { Checkbox } from "@happeokit/form-elements";
+import { IconButton, ButtonSecondary } from "@happeouikit/buttons";
+import { IconFilter } from "@happeouikit/icons";
+import { Checkbox } from "@happeouikit/form-elements";
 import { Container, ActionRow } from "./styles";
-import { active, toBgLight, white } from "@happeokit/colors";
-import { sansFamily } from "@happeokit/typography";
+import { active, toBgLight, white } from "@happeouikit/colors";
+import { sansFamily } from "@happeouikit/typography";
 
 /**
  *

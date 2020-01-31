@@ -4,8 +4,8 @@ This guideline part has the core layout principles and values
 
 Installation
 
-    yarn add @happeokit/layout
+    yarn add @happeouikit/layout
 
 or 
 
-    npm install --save @happeokit/layout
+    npm install --save @happeouikit/layout
