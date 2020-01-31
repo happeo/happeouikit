@@ -47,7 +47,7 @@ module.exports = function(plop) {
   });
 
   plop.setHelper("happeo-docs-version", function(text) {
-    return getPackageVersion("docs");
+    return getDepedencyVersion(bundlePkg, "@happeo/docs-tools");
   });
 
   plop.setHelper("happeo-colors-version", function(text) {
