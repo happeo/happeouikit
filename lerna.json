@@ -6,7 +6,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
+      "registry": "https://registry.npmjs.org"
     }
   },
   "ignoreChanges": ["**/dist/**", "**/__tests__/**", "**/*.md"]
