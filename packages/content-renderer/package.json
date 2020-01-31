@@ -22,9 +22,7 @@
     "showdown": "^1.9.0",
     "xss": "^1.0.6"
   },
-  "devDependencies": {
-    "@happeouikit/docs": "^1.0.0"
-  },
+
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

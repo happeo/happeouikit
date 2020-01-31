@@ -16,8 +16,5 @@
   "license": "MIT",
   "dependencies": {
     "polished": "^2.3.1"
-  },
-  "devDependencies": {
-    "@happeouikit/docs": "^1.0.0"
   }
 }

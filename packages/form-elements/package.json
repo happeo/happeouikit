@@ -29,8 +29,7 @@
     "react-switch": "^3.0.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-unicode-property-regex": "^7.4.4",
-    "@happeouikit/docs": "^1.0.0"
+    "@babel/plugin-proposal-unicode-property-regex": "^7.4.4"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

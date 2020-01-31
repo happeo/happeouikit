@@ -20,8 +20,7 @@
     "@happeouikit/typography": "^1.0.0"
   },
   "devDependencies": {
-    "@happeouikit/buttons": "^1.0.0",
-    "@happeouikit/docs": "^1.0.0"
+    "@happeouikit/buttons": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

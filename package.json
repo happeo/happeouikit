@@ -6,7 +6,6 @@
   },
   "homepage": "https://happeouikit.netlify.com/",
   "private": true,
-
   "author": "Happeo Oy",
   "contributors": [
     "Perttu Ristimella <perttu.ristimella@happeo.com>"
@@ -28,7 +27,7 @@
     "generate": "plop --plopfile scripts/generator/index.js",
     "docs:deploy:draft": "netlify deploy --dir .docz/dist",
     "docs:deploy": "netlify deploy --dir .docz/dist --prod",
-     "cleaninstall": "rm -rf ./.docz && rm -rf node_modules/ && lerna bootstrap"
+    "cleaninstall": "rm -rf ./.docz && rm -rf node_modules/ && lerna bootstrap"
   },
   "keywords": [],
   "devDependencies": {
@@ -43,6 +42,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@formatjs/cli": "^1.1.12",
+    "@happeo/docs-tools": "^1.0.1-rc.0",
     "@svgr/cli": "^3.1.0",
     "@universe/react-intl-default-fixer": "^0.2.0",
     "babel-plugin-styled-components": "^1.8.0",

@@ -20,9 +20,7 @@
   "dependencies": {
     "@happeouikit/colors": "^1.0.0"
   },
-  "devDependencies": {
-    "@happeouikit/docs": "^1.0.0"
-  },
+
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

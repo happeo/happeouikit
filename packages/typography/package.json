@@ -17,9 +17,7 @@
   "dependencies": {
     "@happeouikit/colors": "^1.0.0"
   },
-  "devDependencies": {
-    "@happeouikit/docs": "^1.0.0"
-  },
+
   "peerDependencies": {
     "styled-components": "^4.1.1"
   }
