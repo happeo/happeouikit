@@ -1,32 +1,29 @@
 {
   "name": "@happeouikit/content-renderer",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "description": "Rendering html and markdown content",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^3.0.1",
-    "@happeouikit/emojis": "^3.1.0",
-    "@happeouikit/typography": "^3.0.1",
+    "@happeouikit/colors": "^1.0.0",
+    "@happeouikit/emojis": "^1.0.0",
+    "@happeouikit/typography": "^1.0.0",
     "linkifyjs": "^2.1.8",
     "showdown": "^1.9.0",
     "xss": "^1.0.6"
   },
   "devDependencies": {
-    "@happeouikit/docs": "^3.0.1"
+    "@happeouikit/docs": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

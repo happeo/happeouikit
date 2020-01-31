@@ -1,29 +1,27 @@
 {
   "name": "@happeouikit/avatar",
-  "version": "3.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postbuild": "node ./scripts/copy-assets",
     "prepublish": "yarn run postbuild"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
+
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
     "@happeouikit/colors": "^3.0.1"
   },
   "devDependencies": {
-    "@happeouikit/docs": "^3.0.1"
+    "@happeouikit/docs": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

@@ -1,31 +1,29 @@
 {
-  "name": "@happeouikit/modal",
-  "version": "3.1.0",
+  "name": "@happeouikit/modals",
+  "version": "1.0.0",
   "description": "Modal component with custom Happeo styling",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
-    "dist"
+    "dist",
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/buttons": "^3.1.0",
-    "@happeouikit/colors": "^3.0.1",
-    "@happeouikit/icons": "^3.0.1",
-    "@happeouikit/layout": "^3.0.1",
-    "@happeouikit/typography": "^3.0.1",
+    "@happeouikit/buttons": "^1.0.0",
+    "@happeouikit/colors": "^1.0.0",
+    "@happeouikit/icons": "^1.0.0",
+    "@happeouikit/layout": "^1.0.0",
+    "@happeouikit/typography": "^1.0.0",
     "react-modal": "^3.8.1"
   },
   "devDependencies": {
-    "@happeouikit/docs": "^3.0.1"
+    "@happeouikit/docs": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

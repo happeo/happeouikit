@@ -1,33 +1,29 @@
 {
   "name": "@happeouikit/emojis",
-  "version": "3.1.0",
-  "description": "Happeo emoji handlin",
+  "version": "1.0.0",
+  "description": "Happeo emoji handling",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/buttons": "^3.1.0",
-    "@happeouikit/colors": "^3.0.1",
-    "@happeouikit/icons": "^3.0.1",
-    "@happeouikit/theme": "^3.0.1",
-    "@universe/analytics": "0.0.2",
+    "@happeouikit/buttons": "^1.0.0",
+    "@happeouikit/colors": "^1.0.0",
+    "@happeouikit/icons": "^1.0.0",
+    "@happeouikit/theme": "^1.0.0",
     "emoji-mart": "2.11.1",
     "react-tether": "^2.0.3"
   },
   "devDependencies": {
-    "@happeouikit/docs": "^3.0.1"
+    "@happeouikit/docs": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

@@ -1,21 +1,19 @@
 {
   "name": "@happeouikit/docs",
-  "version": "3.0.1",
+  "version": "1.0.0",
   "description": "Tools for Documentation Engine",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
+
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.10.1",

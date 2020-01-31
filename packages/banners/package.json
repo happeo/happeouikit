@@ -1,29 +1,26 @@
 {
   "name": "@happeouikit/banners",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^3.0.1",
-    "@happeouikit/icons": "^3.0.1",
-    "@happeouikit/typography": "^3.0.1"
+    "@happeouikit/colors": "^1.0.0",
+    "@happeouikit/icons": "^1.0.0",
+    "@happeouikit/typography": "^1.0.0"
   },
   "devDependencies": {
-    "@happeouikit/docs": "^3.0.1"
+    "@happeouikit/docs": "^1.0.0"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

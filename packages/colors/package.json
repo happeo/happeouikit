@@ -1,24 +1,23 @@
 {
   "name": "@happeouikit/colors",
-  "version": "3.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Base kit colors",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
     "dist",
-    "messages.json"
+    "docs"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://universe.jfrog.io/universe/api/npm/npm-local/"
-  },
   "public": true,
-  "author": "Universe Company Oy",
+  "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/docs": "^3.0.1",
     "polished": "^2.3.1"
+  },
+  "devDependencies": {
+    "@happeouikit/docs": "^1.0.0"
   }
 }
