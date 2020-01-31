@@ -42,7 +42,6 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@formatjs/cli": "^1.1.12",
-    "@happeo/docs-tools": "^1.0.0",
     "@svgr/cli": "^3.1.0",
     "@universe/react-intl-default-fixer": "^0.2.0",
     "babel-plugin-styled-components": "^1.8.0",
@@ -64,6 +63,7 @@
     "styled-components": "^4.4.1"
   },
   "dependencies": {
+    "@happeo/docs-tools": "^1.0.0",
     "@universe/analytics": "^0.0.3-8",
     "@universe/api-client": "^1.23.0",
     "@universe/frontend-utils": "^0.1.0",

@@ -4,13 +4,13 @@ menu: {{ categoryName }}
 ---
 
 import { Playground, Props } from 'docz';
-import { Metadata } from '@happeouikit/docs';
+import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
 import { {{ properCase name }} } from '../src/index';
 
 # {{ titletext name }}
 
-<Metadata pkg={pkg}/>
+<PackageMetadata pkg={pkg}/>
 
 {{ description }}
 
