@@ -12,12 +12,6 @@ const environments = {
       [
         "@babel/plugin-proposal-unicode-property-regex",
         { useUnicodeFlag: true }
-      ],
-      [
-        "react-intl",
-        {
-          messagesDir: `./.intl/`
-        }
       ]
     ]
   },

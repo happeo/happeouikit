@@ -2,7 +2,7 @@ const fontFamily = "IBM Plex Sans";
 export default {
   title: "Happeo Kit",
   description: "Happeo Kit - The Awesome React kit of Happeo",
-  files: "**/*.{mdx}",
+  files: "**/*.mdx",
   ignore: [
     "readme.md",
     "changelog.md",
