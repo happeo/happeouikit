@@ -22,7 +22,6 @@
     "showdown": "^1.9.0",
     "xss": "^1.0.6"
   },
-
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

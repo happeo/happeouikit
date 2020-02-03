@@ -14,7 +14,6 @@ import {
   gray06,
   gray08
 } from "@happeouikit/colors";
-import { trackEvent, events } from "@universe/analytics";
 import { shadow500 } from "@happeouikit/theme";
 import { IconButton } from "@happeouikit/buttons";
 import { sansFamily } from "@happeouikit/typography";
@@ -34,7 +33,6 @@ const EmojiPicker = ({ onSelected, pickerTitle, customEmojis = [] }) => {
 
   const selectEmoji = emoji => {
     setIsOpen(false);
-    trackEvent(events.EDITOR_SELECT_EMOJI_PICKER);
     onSelected && onSelected(emoji);
   };
 

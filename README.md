@@ -1,4 +1,4 @@
-# happeouikit
+# Happeo UI Kit
 
 Happeo component library for React Apps.
 
