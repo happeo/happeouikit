@@ -12,19 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "convert-svgs": "rm -rf src/icons && mkdir -p src/icons && svgr --icon svgs -d src/icons",
     "generate-index": "node ./scripts/generate-index.js",
-    "generate-docs": "yarn run convert-svgs && node ./scripts/generate-docs.js",
     "predocs": "yarn run prebuild",
-    "prebuild": "yarn run convert-svgs && yarn run generate-index && yarn run generate-docs"
+    "prebuild": "yarn run convert-svgs && yarn run generate-index"
   },
   "public": true,
   "author": "Happeo Oy",
   "license": "MIT",
-  "dependencies": {
-    "@happeouikit/colors": "^1.0.0"
-  },
-
+  "dependencies": {},
   "peerDependencies": {
-    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "styled-components": "^4.1.1"
   }
