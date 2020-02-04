@@ -11,15 +11,27 @@ import { ActionsMenu, FilterMenu } from '../src/index';
 import { actions } from './examples';
 import { IconChat } from "@happeouikit/icons";
 
-# Actions menu
+# Menus
 
 <PackageMetadata pkg={pkg}/>
 
 
+## Actions Menu
+
+<Props of={ActionsMenu} />
+
 ### Menu right (when the trigger button is on the left)
 <Playground>
     <div style={{width: '200px', display: 'flex', justifyContent: 'flex-start'}}>
-        <ActionsMenu actions={actions} menuPosition='right' />
+        <ActionsMenu actions={{
+            name: "Edit page",
+             callback: val => console.log("edited", val),
+            type: "edit"
+            },{
+                name: "Archive page",
+                callback: val => console.log("archived", val),
+                type: "archive"
+            }} menuPosition='right' />
     </div>
 </Playground>
 
@@ -31,7 +43,12 @@ import { IconChat } from "@happeouikit/icons";
     </div>
 </Playground>
 
-### Filter menu
+
+## Filter Menu
+
+
+<Props of={FilterMenu} />
+
 <Playground>
     <div style={{width: '100%', display: 'flex', justifyContent: 'flex-start'}}>
         <FilterMenu actions={actions} menuPosition='right' initialChecked/>
@@ -64,6 +81,3 @@ import { IconChat } from "@happeouikit/icons";
     </div>
 </Playground>
 
-
-### Props
-<Props of={ActionsMenu} />

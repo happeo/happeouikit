@@ -13,6 +13,10 @@ import { Spinner, Loader, LoadingContainer, LoadingModal } from '../src/index';
 
 <PackageMetadata pkg={pkg}/>
 
+## Loader
+
+<Props of={Loader} />
+
 ### Default
 <Playground>
     Small
@@ -25,7 +29,7 @@ import { Spinner, Loader, LoadingContainer, LoadingModal } from '../src/index';
     <Loader size='large'/>
 </Playground>
 
-### Light
+### Default
 <BackgroundBox>
        Small
        <Loader light/>
@@ -37,13 +41,15 @@ import { Spinner, Loader, LoadingContainer, LoadingModal } from '../src/index';
        <Loader light size='large'/>
 </BackgroundBox>
 
-## Props
-<Props of={Loader} />
 
-# Spinner
+## Spinner
+
 Spinner is meant to be used as a standalone spinner, with a loader content or with loader modal.
 It has three different states: "loading", "success", "error". The transition between this states
 are animated from "loading" > "success" and "loading" > "error". 
+
+<Props of={Spinner} />
+
 
 <Playground>
     {
@@ -66,21 +72,22 @@ are animated from "loading" > "success" and "loading" > "error".
     }
 </Playground>
 
-<Props of={Spinner} />
 
-# LoadingContainer
+## LoadingContainer
 LoadingContainer is meant to be used in modal actions or elsewhere where it makes more sense not to use
 LoadingModal. 
+
+<Props of={LoadingContainer} />
 
 <Playground>
     <LoadingContainer title={"So much title"} description={"This loader will load for ever and ever and ever..."}/>
 </Playground>
 
-<Props of={LoadingContainer} />
 
-# LoadingModal
+## LoadingModal
 LoadingModal is meant to be used when a full loader is needed and loading time is long.
 
+<Props of={LoadingModal} />
 
 <Playground>
     {
@@ -100,6 +107,3 @@ LoadingModal is meant to be used when a full loader is needed and loading time i
         }
     }
 </Playground>
-
-
-<Props of={LoadingModal} />

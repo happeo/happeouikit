@@ -16,7 +16,14 @@ import { sansFamily } from "@happeouikit/typography";
  */
 class FilterMenu extends PureComponent {
   static propTypes = {
-    actions: PropTypes.array.isRequired,
+    // TODO: add format of the aciton
+    actions: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        callback: PropTypes.func.isRequired,
+        type: PropTypes.string.isRequired
+      })
+    ).isRequired,
     menuPosition: PropTypes.string,
     initialChecked: PropTypes.bool,
     icon: PropTypes.func,
