@@ -19,15 +19,19 @@ import { success, navy, warn } from "@happeouikit/colors";
 #### Pass the `data-tip` property to the elements you want to show the tooltip.
 
 <Playground>
-<div><span data-tip>Hover me</span></div>
-<Tooltip content='This is a tooltip' />
+    <div>
+        <span data-tip>Hover me</span>
+    </div>
+    <Tooltip content='This is a tooltip' />
 </Playground>
 
 #### Use the `data-for` and `id` props to display the tooltips to only specific elements.
 
 <Playground>
-<div><span data-tip data-for='tooltip1'>This has a special tooltip</span></div>
-<Tooltip id='tooltip1' content='Tooltip with an id' />
+    <div>
+        <span data-tip data-for='tooltip1'>This has a special tooltip</span>
+    </div>
+    <Tooltip id='tooltip1' content='Tooltip with an id' />
 </Playground>
 
 ## Four ways to create the content of tooltips.
@@ -35,32 +39,42 @@ import { success, navy, warn } from "@happeouikit/colors";
 #### Use `content` props
 
 <Playground>
-<div><span data-tip data-for='tooltip2'>Hover me</span></div>
-<Tooltip id='tooltip2' content='I have content props' />
+    <div>
+        <span data-tip data-for='tooltip2'>Hover me</span>
+    </div>
+    <Tooltip id='tooltip2' content='I have content props' />
 </Playground>
 
 #### or pass the message to `data-tip`
 
 <Playground>
-<div><span data-tip='Message from data-tip' data-for='tooltip3'>Hover me</span></div>
-<Tooltip id='tooltip3'/>
+    <div>
+        <span data-tip='Message from data-tip' data-for='tooltip3'>Hover me</span>
+    </div>
+    <Tooltip id='tooltip3'/>
 </Playground>
 
 #### or wrap any components
 
 <Playground>
-<div><span data-tip data-for='tooltip4'>Hover me</span></div>
-<Tooltip id='tooltip4'><TextDelta bold color='#fff'>Custom component</TextDelta></Tooltip>
+    <div>
+        <span data-tip data-for='tooltip4'>Hover me</span>
+    </div>
+    <Tooltip id='tooltip4'>
+        <TextDelta bold color='#fff'>Custom component</TextDelta>
+    </Tooltip>
 </Playground>
 
 #### or use `getContent`. `getContent` receives the message from `data-tip` as the parameter.
 Return a component or string.
 
 <Playground>
-<div><span data-tip='extended' data-for='tooltip5'>Hover me</span></div>
-<Tooltip id='tooltip5' getContent={ dataTip => (
-    <BodyUI color='#fff'>This message is {dataTip}</BodyUI>
-)}/>
+    <div>
+        <span data-tip='extended' data-for='tooltip5'>Hover me</span>
+    </div>
+    <Tooltip id='tooltip5' getContent={ dataTip => (
+        <BodyUI color='#fff'>This message is {dataTip}</BodyUI>
+    )}/>
 </Playground>
 
 ## Advance features
@@ -68,15 +82,30 @@ Return a component or string.
 #### You can set the color of tooltips using `background` property, default is `gray01`. Text color can be set with `text` property, default is `white`. The `place` property is used to control the position of tooltips.
 
 <Playground>
-<div><span data-tip data-for='tooltip6' id='id1'>Hover me</span></div>
-<Tooltip id='tooltip6' content='Fancy tooltip' background={navy} text={warn} place='right' effect='float'></Tooltip>
+    <div>
+        <span data-tip data-for='tooltip6' id='id1'>Hover me</span>
+    </div>
+    <Tooltip 
+        id='tooltip6'
+        content='Fancy tooltip'
+        background={navy}
+        text={warn}
+        place='right'
+        effect='float' 
+    />
 </Playground>
 
 #### `delayShow` and `delayHide` props controls the display duration of tooltips.
 
 <Playground>
-<div><span data-tip data-for='tooltip7'>Hover</span></div>
-<Tooltip id='tooltip7' delayHide={1000} content='This tooltip will stay for 1 second' />
+    <div>
+        <span data-tip data-for='tooltip7'>Hover</span>
+    </div>
+    <Tooltip 
+        id='tooltip7'
+        delayHide={1000}
+        content='This tooltip will stay for 1 second' 
+    />
 </Playground>
 
 

@@ -1,1 +1,1 @@
-export { default as FileIcon } from "./FileIcon";
+export { default as FileIcon, supportedMimeTypes } from "./FileIcon";

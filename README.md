@@ -54,6 +54,33 @@ The documentation engine used is [Docz](https://www.docz.site/).
 - If another component is shown only in the documentation, like a button in a card. The other package needs to be included as a dependency of the package you are writing. So for example `@happeouikit/button` needs to be a dependency of `@happeouikit/card`.
 - Sometimes the page just doesn't refresh or shows old stuff. This is the time to start the `yarn run dev`.
 - If you get an error of a module cannot be found. Just stop the `dev` process and run `lerna bootstrap`. This will make sure all the dependencies are symlinked to the packages.
+- Try writing all the needed example code into the .mdx files, so the source code is easily seen from the built documentation. If really need then add a separate file for example configuration. But then add it to the package `docs` folder. Don't make the example components available in the published package, in other words, newer into the `src` folder.
+
+See the below example for using state inside the playground component
+
+```js
+        import { useState } from "react";
+        import { LoadingModal } from '../src/index';
+        <Playground>
+            {
+                () => {
+                    const [modalIsOpen, setModalIsOpen] = useState(false);
+                    return (
+                        <div style={{ padding: "32px" }}>
+                            <button onClick={() => setModalIsOpen(true)}>Open modal</button>
+                            <LoadingModal
+                                isOpen={modalIsOpen}
+                                title={"Hahaa! You cannot close me"}
+                                description={"You fool! You need to refresh this page now. Hahaha!"}
+                                state={"loading"}
+                            />
+                        </div>
+                    );
+                }
+            }
+        </Playground>
+```
+
 
 ## Publishing a package
 

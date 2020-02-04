@@ -17,12 +17,23 @@ pipelines:
             - lerna bootstrap
             - yarn run build:docs
             - yarn run docs:deploy:draft #to view changes introduced by this PR please inspect the generated <Live Draft URL>
+          artifacts:
+            - .docz
+      - step:
+          name: Deploy documentation
+          script:
+            - yarn run docs:deploy:draft #to view changes introduced by this PR please inspect the generated <Live Draft URL>
   branches:
     master:
       - step:
-          name: Build and deploy documentation
+          name: Build
           script:
             - setup-npm
             - lerna bootstrap
             - yarn run build:docs
+          artifacts:
+            - .docz
+      - step:
+          name: Deploy documentation
+          script:
             - yarn run docs:deploy

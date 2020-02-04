@@ -7,9 +7,9 @@ route: /packages/emojis
 import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
-import EmojiExample from '../src/EmojiExample';
 import { EmojiPickerExample } from '../src/EmojiPickerExample';
 import EmojiPicker from '../src/EmojiPicker';
+import { shortToUnicode, emojisToShort, removeEmojis } from "../src/index";
 
 # Emojis
 
@@ -34,7 +34,9 @@ const renderText3 = removeEmojis(text3);
 
 ```
 <Playground>
-    <EmojiExample />
+    <p>{shortToUnicode("This is emoji with short hand :smile: converted to unicode")}</p>
+    <p>{emojisToShort("This is unicode 😄 converted to short hand")}</p>
+    <p>{removeEmojis("This is 😄 has emojis 😄 and they will be removed 😄")}</p>
 </Playground>
 
 ## Emoji picker
@@ -43,7 +45,7 @@ Emoji picker has Tether automatically attached to it and is behind a button. The
 The picker also accepts custom emojis as an array. If no customEmojis is present, the custom emoji tab will disappear.
 
 ```js
-
+    
 <EmojiPicker
     onSelectedEmoji={emoji => setInputValue(emoji.native)}
     customEmojis={[
