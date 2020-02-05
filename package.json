@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "name": "happeouikit",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Happeo Component Kit for React, this package holds multiple published packages",
   "main": "index.js",
   "scripts": {
