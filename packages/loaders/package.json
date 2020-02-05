@@ -21,7 +21,6 @@
     "@happeouikit/modals": "^1.0.0",
     "@happeouikit/typography": "^1.0.0"
   },
-
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

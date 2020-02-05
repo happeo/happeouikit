@@ -14,7 +14,6 @@
   "public": true,
   "author": "Happeo Oy",
   "license": "MIT",
-
   "peerDependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
