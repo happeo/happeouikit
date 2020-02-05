@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/typography",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,7 +15,7 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^1.0.0"
+    "@happeouikit/colors": "^1.0.1"
   },
   "peerDependencies": {
     "styled-components": "^4.1.1"

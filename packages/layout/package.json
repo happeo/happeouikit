@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This guideline part has the core layout principles and values",
   "main": "dist/index.js",
   "module": "src/index.js",

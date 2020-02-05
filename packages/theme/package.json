@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,7 +15,7 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^1.0.0"
+    "@happeouikit/colors": "^1.0.1"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",

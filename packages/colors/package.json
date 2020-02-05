@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base kit colors",
   "main": "dist/index.js",
   "module": "src/index.js",

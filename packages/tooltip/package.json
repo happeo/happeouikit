@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom wrapper for React-tooltip",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,8 +15,8 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^1.0.0",
-    "@happeouikit/typography": "^1.0.0",
+    "@happeouikit/colors": "^1.0.1",
+    "@happeouikit/typography": "^1.0.3",
     "react-tooltip": "^3.11.0"
   },
   "peerDependencies": {

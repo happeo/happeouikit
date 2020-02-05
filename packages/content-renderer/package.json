@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/content-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rendering html and markdown content",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,9 +15,9 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/colors": "^1.0.0",
-    "@happeouikit/emojis": "^1.0.0",
-    "@happeouikit/typography": "^1.0.0",
+    "@happeouikit/colors": "^1.0.1",
+    "@happeouikit/emojis": "^1.0.1",
+    "@happeouikit/typography": "^1.0.3",
     "linkifyjs": "^2.1.8",
     "showdown": "^1.9.0",
     "xss": "^1.0.6"

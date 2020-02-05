@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/emojis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Happeo emoji handling",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,10 +15,10 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/buttons": "^1.0.0",
-    "@happeouikit/colors": "^1.0.0",
-    "@happeouikit/icons": "^1.0.0",
-    "@happeouikit/theme": "^1.0.0",
+    "@happeouikit/buttons": "^1.0.1",
+    "@happeouikit/colors": "^1.0.1",
+    "@happeouikit/icons": "^1.0.1",
+    "@happeouikit/theme": "^1.0.1",
     "emoji-mart": "2.11.1",
     "emojione": "^4.5.0",
     "lodash.sortby": "^4.7.0",

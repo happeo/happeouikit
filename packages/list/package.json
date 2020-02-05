@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -15,12 +15,12 @@
   "author": "Happeo Oy",
   "license": "MIT",
   "dependencies": {
-    "@happeouikit/avatar": "^1.0.0",
-    "@happeouikit/colors": "^1.0.0",
-    "@happeouikit/icons": "^1.0.0",
-    "@happeouikit/loaders": "^1.0.0",
-    "@happeouikit/theme": "^1.0.0",
-    "@happeouikit/typography": "^1.0.0"
+    "@happeouikit/avatar": "^1.0.1",
+    "@happeouikit/colors": "^1.0.1",
+    "@happeouikit/icons": "^1.0.1",
+    "@happeouikit/loaders": "^1.0.1",
+    "@happeouikit/theme": "^1.0.1",
+    "@happeouikit/typography": "^1.0.3"
   },
   "peerDependencies": {
     "prop-types": "^15.6.2",
