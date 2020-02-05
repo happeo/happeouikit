@@ -4,25 +4,243 @@ menu: Packages
 route: /packages/modals
 ---
 
-import { Playground, Props} from 'docz';
+import { useState } from "react";
+import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
-import {ButtonPrimary, ButtonSecondary} from '@happeouikit/buttons';
+import { ButtonPrimary, ButtonSecondary } from '@happeouikit/buttons';
+import { BodyUI } from '@happeouikit/typography';
 import pkg from "../package.json";
-import {Modal, ModalExample} from '../src/index';
-import {ConfirmModalExample} from '../src/Examples';
+import { Modal, ConfirmModal } from '../src/index';
 
 # Modal
 
 <PackageMetadata pkg={pkg}/>
 
-<Playground>
-    <ModalExample/>
-</Playground>
-
-<Playground>
-  <ConfirmModalExample />
-</Playground>
-
-## Props
+## Modal
 
 <Props of={Modal} />
+
+## ConfirmModal
+
+<Props of={ConfirmModal} />
+
+
+
+
+## Examples
+
+### Success ConfirmationModal
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const close = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Confirmation modal"} />
+          <ConfirmModal
+            isOpen={isOpen} 
+            close={close}
+            header={"Accept the change"}
+            bodyText={"Your action will be approved"}
+            okCb={close}
+            okText={"Accept"}
+            state={"success"}/>
+        </>
+      );
+    }
+}
+</Playground>
+
+### Alert ConfirmationModal
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const close = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Confirmation modal"} />
+          <ConfirmModal
+            isOpen={isOpen} 
+            close={close}
+            header={"Dangerous action"}
+            bodyText={"Are you sure you want to demot the participants?"}
+            okCb={close}
+            okText={"Demote"}
+            state={"alert"}/>
+        </>
+      );
+    }
+}
+</Playground>
+
+### Delete ConfirmationModal
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const close = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Confirmation modal"} />
+          <ConfirmModal
+            isOpen={isOpen} 
+            close={close}
+            header={"Deleting files"}
+            bodyText={"Are you sure you want to delete the files?"}
+            okCb={close}
+            okText={"Delete"}
+            state={"alert"}/>
+        </>
+      );
+    }
+}
+</Playground>
+
+### Modal with long tect and header
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const confirm = () => setIsOpen(false);
+      const cancel = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Modal"} />
+          <Modal
+            isOpen={isOpen}
+            close={cancel}
+            headerText={"Header Text"}
+            width={"300px"}
+            okCallback={confirm}
+            cancelText={"Cancel"}
+          >
+            <BodyUI>
+              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+              vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum
+              nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum
+              nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum
+              nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum
+              nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum
+              nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla.
+            </BodyUI>
+          </Modal>
+        </>
+      );
+    }
+}
+</Playground>
+
+### Modal with Close icon
+
+Make sure to provide both `close` function and `iconClose={true}`
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const confirm = () => setIsOpen(false);
+      const close = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Modal with custom footer"} />
+          <Modal footer={false} headerText={"Information"} isOpen={isOpen} width={"30%"} close={close} iconClose={true}>
+            <BodyUI>
+              Lorem ipsum dolor sit amet, sonet everti mei in, at his amet simul
+              fabellas. Amet platonem et eos. Pri viris oportere in. Ad per sale
+              paulo fabulas, mel iriure albucius atomorum ex. At simul aliquando
+              sit, mel putent praesent salutatus id.
+            </BodyUI>
+          </Modal>
+        </>
+      );
+    }
+}
+</Playground>
+
+
+### Modal with custom footer and no header
+
+Customize modal with anything inside. Here's an example to have a custom footer.
+
+
+<Playground>
+{
+    () => {
+      const [isOpen, setIsOpen] = useState(false);
+      const confirm = () => setIsOpen(false);
+      const cancel = () => setIsOpen(false);
+      const open = () => setIsOpen(true);
+      return (
+        <>
+          <ButtonPrimary onClick={open} text={"Show Modal with custom footer"} />
+          <Modal footer={false} isOpen={isOpen} width={"30%"}>
+            <BodyUI>
+              Lorem ipsum dolor sit amet, sonet everti mei in, at his amet simul
+              fabellas. Amet platonem et eos. Pri viris oportere in. Ad per sale
+              paulo fabulas, mel iriure albucius atomorum ex. At simul aliquando
+              sit, mel putent praesent salutatus id.
+            </BodyUI>
+            <div style={{marginTop: "32px", textAlign: "center"}}>
+              <ButtonSecondary text="Cancel" onClick={cancel} />
+              <ButtonPrimary text="OK" onClick={confirm} />
+            </div>
+          </Modal>
+        </>
+      );
+    }
+}
+</Playground>
+
+

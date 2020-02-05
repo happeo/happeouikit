@@ -83,8 +83,10 @@ ConfirmModal.propTypes = {
   header: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   okCb: PropTypes.func,
   hideCancel: PropTypes.bool,
-  state: PropTypes.string,
+  /* Defines the icon and color scheme of the confirmation modal.*/
+  state: PropTypes.oneOf(["alert", "delete", "success"]),
   btnDisabled: PropTypes.bool,
+  /* Make sure to use clear text. Sometimes OK and Cancel are really confusing. */
   okText: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   cancelText: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
 };
