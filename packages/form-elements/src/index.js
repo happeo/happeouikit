@@ -1,5 +1,5 @@
 export * from "./Input";
-export { default as Dropdown } from "./Dropdown";
+export { default as Dropdown, dropdownStyles } from "./Dropdown";
 export * from "./Link";
 export { default as Switch } from "./Switch";
 export { default as Checkbox } from "./Checkbox";
