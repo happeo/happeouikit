@@ -7,8 +7,28 @@ route: /packages/toast
 import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
-import {ButtonPrimary} from '@happeouikit/buttons';
+import { ToastContainer, toast } from '../src';
 
 # Toast
 
 <PackageMetadata pkg={pkg}/>
+
+
+## Usage
+
+Place the `<ToastContainer/>` in the app so it is always available. For example in the same stack as the top most `<Router/>`.
+
+Make sure there is **only one ToastContainer in the app**!
+
+Wherever you need to show a toast message, use the `toast` to trigger message.
+
+<Playground>
+    <button onClick={() => toast.success({ message: "Hello Hello!" })}>Show Success Toast</button>
+    <button onClick={() => toast.error({message: "Error Error!" })}>Show Error Toast</button>
+    <ToastContainer position="center" delay={5000}/>
+</Playground>
+
+
+## ToastContainer
+
+<Props of={ToastContainer} />
