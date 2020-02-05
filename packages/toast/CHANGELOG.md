@@ -1,12 +1,8 @@
 # Changelog
 
-## 1.0.10
+## 1.0.1
 
-- [Fixed] Z-index
-
-## 1.0.8
-
-- [Fixed] Icons package version
+- [Added] new component
 
 ## 1.0.0
 
