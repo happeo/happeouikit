@@ -1,7 +1,7 @@
 ---
-name: Form-Elements
+name: Form Elements
 menu: Packages
-
+route: /packages/form-elements
 ---
 
 import { Playground, Props } from 'docz';
@@ -163,7 +163,9 @@ import { BodyUI } from "../../typography/src";
 </Playground>
 
 #### Props
-##### `loadOptions` - async function that returns an array of hashtags in format `[{hashtag: 'test', count: 33}]`
-##### `callback` - a function called when new hashtag is added/created. Returns an array of currently selected hashtags: `[{hashtag: 'test'}]`
-##### `defaultValue` - pre-selected values for the input in format `[{hashtag: 'test'}]`
+
+- `loadOptions` - async function that returns an array of hashtags in format `[{hashtag: 'test', count: 33}]`
+- `callback` - a function called when new hashtag is added/created. Returns an array of currently selected hashtags: `[{hashtag: 'test'}]`
+- `defaultValue` - pre-selected values for the input in format `[{hashtag: 'test'}]`
+
 <Props of={TagInput} />

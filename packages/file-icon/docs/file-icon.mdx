@@ -1,13 +1,14 @@
 ---
-name: File-icon
+name: File Icon
 menu: Packages
+route: /packages/file-icon
 ---
 
 import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
 import { FileIcon } from '../src/index';
-import {IconList} from '../src/IconList';
+import { supportedMimeTypes } from '../src/FileIcon';
 
 # File Icon
 
@@ -17,8 +18,27 @@ Icon for mimeTypes
 
 Following list is generated from different mimeTypes that we support. This is why there are duplicates.
 
+<ul style={{ listStyle: "none" }}>
+    {
+        supportedMimeTypes.map(key => 
+            ( 
+                <li key={key}>
+                    <FileIcon mimeType={key} />
+                    <span style={{ marginLeft: "40px" }}>{key}</span>
+                </li>
+            )
+        )
+    }
+</ul>
+
+
+## Example
+
 <Playground>
-    <IconList/>
+    <FileIcon mimeType={"application/x-adobe-indesign"} />
 </Playground>
 
 
+## Properties
+
+<Props of={FileIcon} />

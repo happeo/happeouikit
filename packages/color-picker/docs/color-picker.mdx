@@ -1,8 +1,10 @@
 ---
 name: Color-picker
 menu: Packages
+route: /packages/color-picker
 ---
 
+import { useState } from "react";
 import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
@@ -10,14 +12,30 @@ import { ColorPicker } from '../src/index';
 
 # Colorpicker
 
+Useless happeokit element component...
 
 <PackageMetadata pkg={pkg}/>
 
 <Playground>
-<div style={{position: 'relative', height: '300px'}}>
-<ColorPicker show={true} color='#ccc' handleClose={() => ''}
-handleChange={(color) => console.log('c', color) }/>
-</div>
+    {
+        () => {
+            const [color, setColor] = useState("#ccc");
+            return (
+              <>
+                  
+                  <ColorPicker 
+                    show={true} 
+                    color={color}
+                    handleClose={() => {}}
+                    handleChange={(color) => setColor(color)}
+                    disableAlpha={true}
+                    
+                  />
+                  <p><code>{JSON.stringify(color)}</code></p>
+              </>
+            );
+        }
+    }
 </Playground>
 
 <Props of={ColorPicker}/>

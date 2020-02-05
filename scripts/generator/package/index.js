@@ -8,21 +8,6 @@ module.exports = {
   description: "Add an a package into the library",
   prompts: [
     {
-      type: "list",
-      name: "categoryName",
-      message: "Select the category",
-      choices: () => [
-        {
-          name: "Components (usually this one for react stuff)",
-          value: "Components"
-        },
-        {
-          name: "Guidelines",
-          value: "Guidelines"
-        }
-      ]
-    },
-    {
       type: "input",
       name: "name",
       message: "Package name:",

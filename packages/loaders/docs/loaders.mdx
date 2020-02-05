@@ -1,18 +1,21 @@
 ---
 name: Loaders
 menu: Packages
+route: /packages/loaders
 ---
-
+import { useState, useEffect } from "react";
 import { Playground, Props } from 'docz';
 import { PackageMetadata, BackgroundBox } from '@happeo/docs-tools';
 import pkg from "../package.json";
 import { Spinner, Loader, LoadingContainer, LoadingModal } from '../src/index';
-import SpinnerExample from "../src/SpinnerExample";
-import LoadingModalExample from "../src/LoadingModalExample";
 
 # Loaders
 
 <PackageMetadata pkg={pkg}/>
+
+## Loader
+
+<Props of={Loader} />
 
 ### Default
 <Playground>
@@ -26,7 +29,7 @@ import LoadingModalExample from "../src/LoadingModalExample";
     <Loader size='large'/>
 </Playground>
 
-### Light
+### Default
 <BackgroundBox>
        Small
        <Loader light/>
@@ -38,44 +41,69 @@ import LoadingModalExample from "../src/LoadingModalExample";
        <Loader light size='large'/>
 </BackgroundBox>
 
-## Props
-<Props of={Loader} />
 
-# Spinner
+## Spinner
+
 Spinner is meant to be used as a standalone spinner, with a loader content or with loader modal.
 It has three different states: "loading", "success", "error". The transition between this states
 are animated from "loading" > "success" and "loading" > "error". 
 
-<Playground>
-    <SpinnerExample />
-</Playground>
-
 <Props of={Spinner} />
 
-# LoadingContainer
+
+<Playground>
+    {
+        () => {
+            const [loadingState, setLoadingState] = useState("loading");
+            useEffect(() => {
+                function changeStateRandomly() {
+                    if(loadingState === "loading") setLoadingState(Math.random() > 0.5 ? "success" : "error")
+                    else setLoadingState("loading")
+                }
+                const interval = setInterval(changeStateRandomly, 3000);
+                return () => clearInterval(interval);
+            }, [loadingState]);
+            return (
+                <>
+                    <Spinner state={loadingState} />
+                </>
+            );
+        }
+    }
+</Playground>
+
+
+## LoadingContainer
 LoadingContainer is meant to be used in modal actions or elsewhere where it makes more sense not to use
 LoadingModal. 
+
+<Props of={LoadingContainer} />
 
 <Playground>
     <LoadingContainer title={"So much title"} description={"This loader will load for ever and ever and ever..."}/>
 </Playground>
 
-<Props of={LoadingContainer} />
 
-# LoadingModal
+## LoadingModal
 LoadingModal is meant to be used when a full loader is needed and loading time is long.
 
-<Playground>
-    <LoadingModalExample />
-</Playground>
-
-```js
-    <LoadingModal
-        isOpen={modalIsOpen}
-        title={"Such title"}
-        description={"Such description that contains more info"}
-        state={"loading"}
-        />
-```
-
 <Props of={LoadingModal} />
+
+<Playground>
+    {
+        () => {
+            const [modalIsOpen, setModalIsOpen] = useState(false);
+            return (
+                <div style={{ padding: "32px" }}>
+                    <button onClick={() => setModalIsOpen(true)}>Open modal</button>
+                    <LoadingModal
+                        isOpen={modalIsOpen}
+                        title={"Hahaa! You cannot close me"}
+                        description={"You fool! You need to refresh this page now. Hahaha!"}
+                        state={"loading"}
+                    />
+                </div>
+            );
+        }
+    }
+</Playground>

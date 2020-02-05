@@ -12,7 +12,14 @@ import { Container, Wrapper, ActionRow } from "./styles";
  */
 class ActionsMenu extends Component {
   static propTypes = {
-    actions: PropTypes.array.isRequired,
+    // TODO: Add format of the action
+    actions: PropTypes.arrayOf(
+      PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        callback: PropTypes.func.isRequired,
+        type: PropTypes.string.isRequired
+      })
+    ).isRequired,
     menuPosition: PropTypes.string
   };
 

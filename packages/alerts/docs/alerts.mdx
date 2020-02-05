@@ -1,6 +1,7 @@
 ---
 name: Alerts
 menu: Packages
+route: /packages/alerts
 ---
 
 import { Playground, Props } from 'docz';
@@ -14,14 +15,16 @@ import { InfoText, ErrorMessage } from '../src/index';
 
 ## Info text
 <Playground>
-<InfoText state='success' text='Success!'/>
-<div style={{height: '16px', width: '100%'}} />
-<InfoText state='error' text='Error'/>
+  <InfoText state='success' text='Success!'/>
+  <div style={{height: '16px', width: '100%'}} />
+  <InfoText state='error' text='Error'/>
 </Playground>
 
 ## Error message
 <Playground>
-<ErrorMessage/>
+    <ErrorMessage/>
+    <br />
+    <ErrorMessage text="Error happened. This is a custom message"/>
 </Playground>
 
 ### Props

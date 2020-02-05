@@ -94,6 +94,8 @@ export const MAP_MIME_TYPES_TO_ICONS = {
   article: () => <IconImageOverflowLeft fill={alert} />
 };
 
+export const supportedMimeTypes = Object.keys(MAP_MIME_TYPES_TO_ICONS);
+
 const FileIcon = ({ mimeType, className }) => {
   const Icon = MAP_MIME_TYPES_TO_ICONS[mimeType] || IconFileGeneralFile;
   return <Icon className={className} />;
