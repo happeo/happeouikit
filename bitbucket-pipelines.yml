@@ -18,7 +18,7 @@ pipelines:
             - yarn run build:docs
             - yarn run docs:deploy:draft #to view changes introduced by this PR please inspect the generated <Live Draft URL>
           artifacts:
-            - .docz
+            - docz
       - step:
           name: Deploy documentation
           script:
@@ -32,7 +32,7 @@ pipelines:
             - lerna bootstrap
             - yarn run build:docs
           artifacts:
-            - .docz
+            - docz
       - step:
           name: Deploy documentation
           script:
