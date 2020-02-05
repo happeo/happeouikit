@@ -8,8 +8,7 @@ import { Playground, Props } from 'docz';
 import { PackageMetadata } from '@happeo/docs-tools';
 import pkg from "../package.json";
 import { IconSearch } from  '@happeouikit/icons';
-import { Dropdown, Input, InputNumber, Switch, Link, Checkbox, RadioButton, Tag, Badge, Textarea, TagInput, DatePicker, DateTimePicker } from '../src/index';
-import { loadOptions, selectCallback, promiseOptions, InjectableTagInput } from '../src/Example'
+import { Dropdown, Input, InputNumber, Switch, Link, Checkbox, RadioButton, Tag, Badge, Textarea, DatePicker, DateTimePicker } from '../src/index';
 import { BodyUI } from "../../typography/src";
 
 # Form-elements
@@ -130,42 +129,3 @@ import { BodyUI } from "../../typography/src";
 
 #### Props
 <Props of={Link} />
-
-### Tag Input for article
-<Playground>
-    <TagInput
-        loadOptions={promiseOptions}
-        callback={selectCallback}
-        placeholder={'Add hashtags'}
-        maxOptions={3}
-        label={'some label'}
-        targetElement="article"
-        warningThreshold={2}
-        warningMessage="We recommend using at most 2 tags"/>
-</Playground>
-
-### Tag Input for page
-<Playground>
-    <TagInput
-        loadOptions={promiseOptions}
-        callback={selectCallback}
-        placeholder={'Add hashtags'}
-        maxOptions={3}
-        label={'some label'}
-        targetElement="pages"
-        warningThreshold={2}
-        warningMessage="We recommend using at most 2 tags"/>
-</Playground>
-
-### Tag Input with button to inject tags from outside.
-<Playground>
-        <InjectableTagInput />
-</Playground>
-
-#### Props
-
-- `loadOptions` - async function that returns an array of hashtags in format `[{hashtag: 'test', count: 33}]`
-- `callback` - a function called when new hashtag is added/created. Returns an array of currently selected hashtags: `[{hashtag: 'test'}]`
-- `defaultValue` - pre-selected values for the input in format `[{hashtag: 'test'}]`
-
-<Props of={TagInput} />
