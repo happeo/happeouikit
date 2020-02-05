@@ -12,6 +12,7 @@ export default {
     "node_modules/*"
   ],
   themeConfig: {
+    showPlaygroundEditor: false,
     colors: {
       primary: "#29C4A9",
       secondary: "#2A3443",
