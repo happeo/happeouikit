@@ -1,6 +1,6 @@
 {
   "name": "@happeouikit/layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This guideline part has the core layout principles and values",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -18,5 +18,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "styled-components": "^4.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,5 +1,5 @@
 # Changelog
 
-## 1.0.0
+## 1.0.2
 
-- Initial copy from the private kit
+- Initial version
