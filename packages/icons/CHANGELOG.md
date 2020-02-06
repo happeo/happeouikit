@@ -2,4 +2,4 @@
 
 ## 1.0.0
 
-- Initial version
+- Initial copy from the private kit
