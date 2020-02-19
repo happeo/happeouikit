@@ -9,9 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Build & deploy
-      run: |
-        setup-npm
-        lerna bootstrap
-        yarn run build:docs
-        yarn run docs:deploy
+      - uses: eu.gcr.io/spacegapps/frontend-tools:2.0.0
+      - name: Build & deploy
+        run: |
+          setup-npm
+          lerna bootstrap
+          yarn run build:docs
+          yarn run docs:deploy
