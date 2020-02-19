@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: eu.gcr.io/spacegapps/frontend-tools:2.0.0
+    runs-on: ubuntu-latest
     steps:
     - name: Build & deploy
       run: |
