@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: eu.gcr.io/spacegapps/frontend-tools:2.0.0
     steps:
-      - uses: eu.gcr.io/spacegapps/frontend-tools:2.0.0
       - name: Build & deploy
         run: |
           setup-npm
